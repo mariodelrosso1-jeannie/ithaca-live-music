@@ -54,8 +54,17 @@ pulled from each wine trail's or winery's own event listings as of September 17,
 - [The Oasis at Hazlitt 1852 Vineyards](https://hazlitt1852.com/events/) — Friday and Sunday music
 - [Wagner Vineyards](https://wagnervineyards.com/events-calendar/upcoming-events-list/) — Summer Sundays Music Series
 
-Facebook event pages couldn't be scraped directly (they require a login), so official
-winery/wine-trail websites were used instead — same information, more reliable.
+**Breweries** (all three are on Seneca Lake, in Burdett/Hector, NY — not Cayuga Lake):
+- [Grist Iron Brewing Company](https://www.gristironbrewing.com/events-live-music) — own site, full weekly schedule
+- [Two Goats Brewing](https://twogoatsbrewing.com/music-events) — own site, full weekly schedule
+- Scale House Brewery — their own site (scalehousebrews.com/events) didn't return
+  readable event listings, so only one date could be confirmed, sourced from
+  [a local concert-calendar column](https://jimcat.substack.com/p/cny-concert-calendar-sept-17-22)
+  instead of the venue directly. Check their site or Facebook page for anything beyond that.
+
+Facebook event pages generally couldn't be scraped directly (they require a login), so
+official winery/brewery/wine-trail websites were used instead wherever possible — same
+information, more reliable.
 
 A few entries use a series name (e.g. "Tunes and Tots (rotating artists)", "Oasis Sunday
 Music") instead of a specific band — that's because the venue's own listing doesn't name

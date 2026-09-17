@@ -349,5 +349,284 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Frank Raponi & Peter Glanville",
+    "venue": "Scale House Brewery",
+    "date": "2026-09-17",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://jimcat.substack.com/p/cny-concert-calendar-sept-17-22"
+  },
+  {
+    "band": "Benny and the Mix",
+    "venue": "Two Goats Brewing",
+    "date": "2026-09-17",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Evan Dillon",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-09-18",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music"
+  },
+  {
+    "band": "The Analogue Sons",
+    "venue": "Two Goats Brewing",
+    "date": "2026-09-18",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "The Sweats",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-09-19",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music"
+  },
+  {
+    "band": "Far Trio",
+    "venue": "Two Goats Brewing",
+    "date": "2026-09-19",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Terrapin Station",
+    "venue": "Two Goats Brewing",
+    "date": "2026-09-20",
+    "time": "4:00 PM",
+    "genre": "Grateful Dead Tribute",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Gerard Burke",
+    "venue": "Two Goats Brewing",
+    "date": "2026-09-24",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Whiskey Brave",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-09-25",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music"
+  },
+  {
+    "band": "Michael Ciccone & Company",
+    "venue": "Two Goats Brewing",
+    "date": "2026-09-25",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Stereopticon",
+    "venue": "Two Goats Brewing",
+    "date": "2026-09-26",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "CC-13",
+    "venue": "Two Goats Brewing",
+    "date": "2026-09-27",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Tate Williams",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-01",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Stratcat Willie and the Strays",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-02",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Erin & the Backwoods Blues Project",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-03",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Sing Trece Band",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-04",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Meg Williams",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-10-09",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music"
+  },
+  {
+    "band": "JP Williams Blues Duo",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-09",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Betty's Ghost",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-10-10",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music"
+  },
+  {
+    "band": "Terrapin Station",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-10",
+    "time": "6:00 PM",
+    "genre": "Grateful Dead Tribute",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Meg Williams",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-11",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Stacey and the Copycats",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-16",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "The Sweats",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-10-17",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music"
+  },
+  {
+    "band": "Notorious Stringbusters",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-17",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Kate Hinote Trio",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-18",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "The Bard Brothers",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-23",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Miller and The Other Sinners",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-10-24",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music"
+  },
+  {
+    "band": "Mystic Twangers",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-24",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Cisco PL Duo",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-25",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Barrel Aged Band",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "2 Horse Johnson",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-31",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
   }
 ]
