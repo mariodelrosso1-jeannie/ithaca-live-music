@@ -6,7 +6,8 @@
     "time": "8:00 PM",
     "genre": "Rock",
     "price": "$15",
-    "link": "https://thehaunt.com"
+    "link": "https://thehaunt.com",
+    "note": "Placeholder example - not a verified real show"
   },
   {
     "band": "Cayuga Sound Collective",
@@ -15,7 +16,8 @@
     "time": "9:00 PM",
     "genre": "Indie",
     "price": "$10",
-    "link": "https://argoswarehouse.com"
+    "link": "https://argoswarehouse.com",
+    "note": "Placeholder example - not a verified real show"
   },
   {
     "band": "Finger Lakes Fiddlers",
@@ -24,7 +26,8 @@
     "time": "7:30 PM",
     "genre": "Folk/Bluegrass",
     "price": "Free",
-    "link": ""
+    "link": "",
+    "note": "Placeholder example - not a verified real show"
   },
   {
     "band": "Static Overture",
@@ -33,7 +36,8 @@
     "time": "8:00 PM",
     "genre": "Alt Rock",
     "price": "$25",
-    "link": "https://stateofithaca.com"
+    "link": "https://stateofithaca.com",
+    "note": "Placeholder example - not a verified real show"
   },
   {
     "band": "Commons Jazz Trio",
@@ -42,6 +46,196 @@
     "time": "6:30 PM",
     "genre": "Jazz",
     "price": "$5 cover",
-    "link": ""
+    "link": "",
+    "note": "Placeholder example - not a verified real show"
+  },
+  {
+    "band": "Sunset Music Series",
+    "venue": "Six Mile Creek Vineyard",
+    "date": "2026-09-17",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free (wine/food for purchase)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Sunset Music Series",
+    "venue": "Six Mile Creek Vineyard",
+    "date": "2026-09-24",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free (wine/food for purchase)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Off the Rails Blues",
+    "venue": "Six Mile Creek Vineyard",
+    "date": "2026-10-01",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "Free (wine/food for purchase)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Rachel Beverly",
+    "venue": "Buttonwood Grove Winery",
+    "date": "2026-09-19",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://www.buttonwoodgrove.com/events"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-09-18",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Music and Mimosas (rotating artist)",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-09-20",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Tru Bleu",
+    "venue": "Buttonwood Grove Winery",
+    "date": "2026-09-26",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://www.buttonwoodgrove.com/events"
+  },
+  {
+    "band": "Music and Mimosas (rotating artist)",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-09-27",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-09-25",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Petty Thieves CNY Duo",
+    "venue": "Buttonwood Grove Winery",
+    "date": "2026-10-03",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://www.buttonwoodgrove.com/events"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-10-02",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Music and Mimosas (rotating artist)",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-10-04",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Kenny Ende (Ende Brothers) - Season Finale",
+    "venue": "Buttonwood Grove Winery",
+    "date": "2026-10-10",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://www.buttonwoodgrove.com/events"
+  },
+  {
+    "band": "Ghost Train (Harvest Fest)",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-10-10",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Betty's Ghost (Witches, Women, & Wine)",
+    "venue": "Lucas Vineyards",
+    "date": "2026-10-11",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Music and Mimosas (rotating artist)",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-10-11",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-10-09",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-10-16",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-10-30",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-11-06",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Donna Colton (Bon Vivant)",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-11-07",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
   }
 ]
