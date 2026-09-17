@@ -1,55 +1,5 @@
 [
   {
-    "band": "The Whiskey Ramblers",
-    "venue": "The Haunt",
-    "date": "2026-09-25",
-    "time": "8:00 PM",
-    "genre": "Rock",
-    "price": "$15",
-    "link": "https://thehaunt.com",
-    "note": "Placeholder example - not a verified real show"
-  },
-  {
-    "band": "Cayuga Sound Collective",
-    "venue": "Argos Warehouse",
-    "date": "2026-09-27",
-    "time": "9:00 PM",
-    "genre": "Indie",
-    "price": "$10",
-    "link": "https://argoswarehouse.com",
-    "note": "Placeholder example - not a verified real show"
-  },
-  {
-    "band": "Finger Lakes Fiddlers",
-    "venue": "The Range",
-    "date": "2026-10-02",
-    "time": "7:30 PM",
-    "genre": "Folk/Bluegrass",
-    "price": "Free",
-    "link": "",
-    "note": "Placeholder example - not a verified real show"
-  },
-  {
-    "band": "Static Overture",
-    "venue": "State Theatre of Ithaca",
-    "date": "2026-10-10",
-    "time": "8:00 PM",
-    "genre": "Alt Rock",
-    "price": "$25",
-    "link": "https://stateofithaca.com",
-    "note": "Placeholder example - not a verified real show"
-  },
-  {
-    "band": "Commons Jazz Trio",
-    "venue": "Coltivare",
-    "date": "2026-10-15",
-    "time": "6:30 PM",
-    "genre": "Jazz",
-    "price": "$5 cover",
-    "link": "",
-    "note": "Placeholder example - not a verified real show"
-  },
-  {
     "band": "Sunset Music Series",
     "venue": "Six Mile Creek Vineyard",
     "date": "2026-09-17",
@@ -59,21 +9,21 @@
     "link": "https://cayugawinetrail.com/events/winery"
   },
   {
-    "band": "Sunset Music Series",
-    "venue": "Six Mile Creek Vineyard",
-    "date": "2026-09-24",
-    "time": "6:00 PM",
+    "band": "Delta Mike Shaw Band",
+    "venue": "The Oasis at Hazlitt 1852 Vineyards",
+    "date": "2026-09-18",
+    "time": "5:30 PM",
     "genre": "Live Music",
-    "price": "Free (wine/food for purchase)",
-    "link": "https://cayugawinetrail.com/events/winery"
+    "price": "Free",
+    "link": "https://hazlitt1852.com/events/"
   },
   {
-    "band": "Off the Rails Blues",
-    "venue": "Six Mile Creek Vineyard",
-    "date": "2026-10-01",
-    "time": "6:00 PM",
-    "genre": "Blues",
-    "price": "Free (wine/food for purchase)",
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-09-18",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
     "link": "https://cayugawinetrail.com/events/winery"
   },
   {
@@ -86,21 +36,39 @@
     "link": "https://www.buttonwoodgrove.com/events"
   },
   {
-    "band": "Tunes and Tots (rotating artists)",
-    "venue": "Montezuma Winery",
-    "date": "2026-09-18",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free (tastings extra)",
-    "link": "https://cayugawinetrail.com/events/winery"
-  },
-  {
     "band": "Music and Mimosas (rotating artist)",
     "venue": "Hosmer Estate Winery",
     "date": "2026-09-20",
     "time": "1:00 PM",
     "genre": "Live Music",
     "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Oasis Sunday Music",
+    "venue": "The Oasis at Hazlitt 1852 Vineyards",
+    "date": "2026-09-20",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hazlitt1852.com/events/"
+  },
+  {
+    "band": "Logan Route",
+    "venue": "Wagner Vineyards",
+    "date": "2026-09-20",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://wagnervineyards.com/events-calendar/upcoming-events-list/"
+  },
+  {
+    "band": "Sunset Music Series",
+    "venue": "Six Mile Creek Vineyard",
+    "date": "2026-09-24",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free (wine/food for purchase)",
     "link": "https://cayugawinetrail.com/events/winery"
   },
   {
@@ -113,6 +81,24 @@
     "link": "https://www.buttonwoodgrove.com/events"
   },
   {
+    "band": "YETSU",
+    "venue": "The Oasis at Hazlitt 1852 Vineyards",
+    "date": "2026-09-25",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hazlitt1852.com/events/"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-09-25",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
     "band": "Music and Mimosas (rotating artist)",
     "venue": "Hosmer Estate Winery",
     "date": "2026-09-27",
@@ -122,12 +108,39 @@
     "link": "https://cayugawinetrail.com/events/winery"
   },
   {
-    "band": "Tunes and Tots (rotating artists)",
-    "venue": "Montezuma Winery",
-    "date": "2026-09-25",
-    "time": "5:00 PM",
+    "band": "Oasis Sunday Music",
+    "venue": "The Oasis at Hazlitt 1852 Vineyards",
+    "date": "2026-09-27",
+    "time": "2:00 PM",
     "genre": "Live Music",
-    "price": "Free (tastings extra)",
+    "price": "Free",
+    "link": "https://hazlitt1852.com/events/"
+  },
+  {
+    "band": "Just Joe",
+    "venue": "Wagner Vineyards",
+    "date": "2026-09-27",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://wagnervineyards.com/events-calendar/upcoming-events-list/"
+  },
+  {
+    "band": "Rosewood Station",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-09-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Off the Rails Blues",
+    "venue": "Six Mile Creek Vineyard",
+    "date": "2026-10-01",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "Free (wine/food for purchase)",
     "link": "https://cayugawinetrail.com/events/winery"
   },
   {
@@ -140,19 +153,37 @@
     "link": "https://www.buttonwoodgrove.com/events"
   },
   {
-    "band": "Tunes and Tots (rotating artists)",
-    "venue": "Montezuma Winery",
-    "date": "2026-10-02",
-    "time": "5:00 PM",
+    "band": "Music and Mimosas (rotating artist)",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-10-04",
+    "time": "1:00 PM",
     "genre": "Live Music",
     "price": "Free (tastings extra)",
     "link": "https://cayugawinetrail.com/events/winery"
   },
   {
-    "band": "Music and Mimosas (rotating artist)",
-    "venue": "Hosmer Estate Winery",
+    "band": "FOMO",
+    "venue": "Wagner Vineyards",
     "date": "2026-10-04",
     "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://wagnervineyards.com/events-calendar/upcoming-events-list/"
+  },
+  {
+    "band": "Jon Lamanna",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-10-07",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Tunes and Tots (rotating artists)",
+    "venue": "Montezuma Winery",
+    "date": "2026-10-02",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free (tastings extra)",
     "link": "https://cayugawinetrail.com/events/winery"
@@ -194,6 +225,33 @@
     "link": "https://cayugawinetrail.com/events/winery"
   },
   {
+    "band": "Virgil Cain",
+    "venue": "The Oasis at Hazlitt 1852 Vineyards",
+    "date": "2026-10-11",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hazlitt1852.com/events/"
+  },
+  {
+    "band": "Brian Hughes",
+    "venue": "Wagner Vineyards",
+    "date": "2026-10-11",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://wagnervineyards.com/events-calendar/upcoming-events-list/"
+  },
+  {
+    "band": "Just Joe",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-10-14",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
     "band": "Tunes and Tots (rotating artists)",
     "venue": "Montezuma Winery",
     "date": "2026-10-09",
@@ -201,6 +259,15 @@
     "genre": "Live Music",
     "price": "Free (tastings extra)",
     "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "The Ende Brothers",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-10-21",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
   },
   {
     "band": "Tunes and Tots (rotating artists)",
@@ -212,6 +279,15 @@
     "link": "https://cayugawinetrail.com/events/winery"
   },
   {
+    "band": "The Other Side of Normal",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-10-28",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
     "band": "Tunes and Tots (rotating artists)",
     "venue": "Montezuma Winery",
     "date": "2026-10-30",
@@ -219,6 +295,15 @@
     "genre": "Live Music",
     "price": "Free (tastings extra)",
     "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Major Keys",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-11-04",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
   },
   {
     "band": "Tunes and Tots (rotating artists)",
@@ -237,5 +322,32 @@
     "genre": "Live Music",
     "price": "Free (tastings extra)",
     "link": "https://cayugawinetrail.com/events/winery"
+  },
+  {
+    "band": "Nate Michaels",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-11-11",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Eric Scott (of Dirt Road Ruckus)",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-11-18",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Mark Nanni",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-11-25",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
   }
 ]
