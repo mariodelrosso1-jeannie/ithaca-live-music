@@ -24,6 +24,19 @@
       </div>
     </div>
 
+    <div class="controls secondary-controls">
+      <div class="quick-filters">
+        <button id="quickFilterAll" class="active">All Upcoming</button>
+        <button id="quickFilterNext3">Next 3 Days</button>
+      </div>
+      <select id="sortBy">
+        <option value="date">Sort: Date</option>
+        <option value="distance">Sort: Distance (nearest first)</option>
+      </select>
+      <button id="locateBtn">📍 Use My Location</button>
+      <span id="locationStatus" class="location-status"></span>
+    </div>
+
     <section id="listView" class="view"></section>
 
     <section id="calendarView" class="view hidden">

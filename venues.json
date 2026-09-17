@@ -1,0 +1,57 @@
+{
+  "Six Mile Creek Vineyard": {
+    "address": "1551 Slaterville Rd, Ithaca, NY 14850",
+    "lat": 42.4177569,
+    "lng": -76.4546175
+  },
+  "Scale House Brewery": {
+    "address": "5930 State Route 414, Hector, NY 14841",
+    "lat": 42.5205722,
+    "lng": -76.8728683
+  },
+  "Two Goats Brewing": {
+    "address": "5027 State Route 414, Burdett, NY 14818",
+    "lat": 42.4767089,
+    "lng": -76.869776
+  },
+  "The Oasis at Hazlitt 1852 Vineyards": {
+    "address": "5712 State Route 414, Hector, NY 14841",
+    "lat": 42.5106365,
+    "lng": -76.8757755
+  },
+  "Montezuma Winery": {
+    "address": "2981 US Route 20, Seneca Falls, NY 13148",
+    "lat": 42.9496176,
+    "lng": -76.7673549
+  },
+  "Buttonwood Grove Winery": {
+    "address": "5986 NY-89, Romulus, NY 14541",
+    "lat": 42.628826,
+    "lng": -76.7103437
+  },
+  "Hosmer Estate Winery": {
+    "address": "7020 State Route 89, Ovid, NY 14521",
+    "lat": 42.6849488,
+    "lng": -76.7450713
+  },
+  "Wagner Vineyards": {
+    "address": "9322 NY-414, Lodi, NY 14860",
+    "lat": 42.57198,
+    "lng": -76.8595308
+  },
+  "Ventosa Vineyards": {
+    "address": "3440 Route 96A, Geneva, NY 14456",
+    "lat": 42.8571229,
+    "lng": -76.936183
+  },
+  "Lucas Vineyards": {
+    "address": "3862 County Road 150, Interlaken, NY 14847",
+    "lat": 42.6339,
+    "lng": -76.7013
+  },
+  "Grist Iron Brewing Company": {
+    "address": "4880 NY-414, Burdett, NY 14818",
+    "lat": 42.4709309,
+    "lng": -76.8655978
+  }
+}

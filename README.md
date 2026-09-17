@@ -40,6 +40,33 @@ All show and venue data lives in [`shows.json`](shows.json). Each entry looks li
 
 Add, remove, or edit entries in that file and refresh the page — no code changes needed.
 
+Venue locations (for the distance feature below) live in [`venues.json`](venues.json),
+keyed by the exact venue name used in `shows.json`:
+
+```json
+{
+  "Venue Name": {
+    "address": "123 Main St, Town, NY 12345",
+    "lat": 42.1234,
+    "lng": -76.5678
+  }
+}
+```
+
+If you add a show at a venue that isn't in `venues.json` yet, distance sorting will just
+skip it (it'll still show up in the list, just without a distance badge).
+
+## Filtering and distance
+
+- **Next 3 Days** — quick filter button that shows only shows happening between today and
+  3 days from now.
+- **Sort: Distance (nearest first)** — click "Use My Location" first (this asks your
+  browser for location permission — nothing is sent to a server, the distance math all
+  happens in your browser using the coordinates in `venues.json`). Once it has your
+  location, every show gets a distance badge and this sort option ranks the nearest first.
+- These combine with the search box and venue dropdown, so you can e.g. search "blues",
+  filter to next 3 days, and sort by distance all at once.
+
 ## Data sources
 
 Every entry in `shows.json` is a real, researched show (no placeholder or made-up data),

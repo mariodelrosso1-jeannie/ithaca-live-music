@@ -1,5 +1,9 @@
 let allShows = [];
+let venues = {};
 let currentMonth = new Date();
+let userLocation = null;
+let quickFilter = "all";
+let sortBy = "date";
 
 const listView = document.getElementById("listView");
 const calendarView = document.getElementById("calendarView");
@@ -9,22 +13,30 @@ const searchInput = document.getElementById("search");
 const venueFilter = document.getElementById("venueFilter");
 const calendarGrid = document.getElementById("calendarGrid");
 const calendarMonthLabel = document.getElementById("calendarMonthLabel");
+const quickFilterAllBtn = document.getElementById("quickFilterAll");
+const quickFilterNext3Btn = document.getElementById("quickFilterNext3");
+const sortBySelect = document.getElementById("sortBy");
+const locateBtn = document.getElementById("locateBtn");
+const locationStatus = document.getElementById("locationStatus");
 
-fetch("shows.json")
-  .then((res) => res.json())
-  .then((data) => {
-    allShows = data.sort((a, b) => new Date(a.date) - new Date(b.date));
+Promise.all([
+  fetch("shows.json").then((res) => res.json()),
+  fetch("venues.json").then((res) => res.json()),
+])
+  .then(([showsData, venuesData]) => {
+    allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
+    venues = venuesData;
     populateVenueFilter();
     renderList();
     renderCalendar();
   })
   .catch((err) => {
-    listView.innerHTML = `<p class="empty-state">Couldn't load shows.json (${err.message})</p>`;
+    listView.innerHTML = `<p class="empty-state">Couldn't load show data (${err.message})</p>`;
   });
 
 function populateVenueFilter() {
-  const venues = [...new Set(allShows.map((s) => s.venue))].sort();
-  for (const venue of venues) {
+  const venueNames = [...new Set(allShows.map((s) => s.venue))].sort();
+  for (const venue of venueNames) {
     const option = document.createElement("option");
     option.value = venue;
     option.textContent = venue;
@@ -32,23 +44,70 @@ function populateVenueFilter() {
   }
 }
 
+function toRad(deg) {
+  return (deg * Math.PI) / 180;
+}
+
+function milesBetween(lat1, lng1, lat2, lng2) {
+  const R = 3958.8;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function distanceToShow(show) {
+  if (!userLocation) return null;
+  const venue = venues[show.venue];
+  if (!venue) return null;
+  return milesBetween(userLocation.lat, userLocation.lng, venue.lat, venue.lng);
+}
+
 function getFilteredShows() {
   const query = searchInput.value.trim().toLowerCase();
   const venue = venueFilter.value;
-  return allShows.filter((show) => {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const next3 = new Date(today);
+  next3.setDate(next3.getDate() + 3);
+
+  let shows = allShows.filter((show) => {
     const matchesQuery =
       !query ||
       show.band.toLowerCase().includes(query) ||
       show.venue.toLowerCase().includes(query);
     const matchesVenue = !venue || show.venue === venue;
-    return matchesQuery && matchesVenue;
+
+    if (!matchesQuery || !matchesVenue) return false;
+
+    if (quickFilter === "next3") {
+      const showDate = new Date(show.date + "T00:00:00");
+      if (showDate < today || showDate > next3) return false;
+    }
+
+    return true;
   });
+
+  if (sortBy === "distance" && userLocation) {
+    shows = shows
+      .map((show) => ({ show, dist: distanceToShow(show) }))
+      .sort((a, b) => {
+        if (a.dist === null) return 1;
+        if (b.dist === null) return -1;
+        return a.dist - b.dist;
+      })
+      .map((entry) => entry.show);
+  }
+
+  return shows;
 }
 
 function renderList() {
   const shows = getFilteredShows();
   if (shows.length === 0) {
-    listView.innerHTML = `<p class="empty-state">No shows match your search.</p>`;
+    listView.innerHTML = `<p class="empty-state">No shows match your filters.</p>`;
     return;
   }
 
@@ -60,6 +119,8 @@ function renderList() {
       const linkHtml = show.link
         ? `<a href="${show.link}" target="_blank" rel="noopener">Details</a>`
         : "";
+      const dist = distanceToShow(show);
+      const distHtml = dist !== null ? `<span class="distance-badge">${dist.toFixed(1)} mi</span>` : "";
 
       return `
         <article class="show-card">
@@ -69,7 +130,7 @@ function renderList() {
           </div>
           <div class="show-info">
             <h3>${show.band}</h3>
-            <div class="venue">${show.venue}</div>
+            <div class="venue">${show.venue} ${distHtml}</div>
             <div class="meta">${show.time} &middot; ${show.genre} &middot; ${show.price} ${linkHtml ? "&middot; " + linkHtml : ""}</div>
           </div>
         </article>
@@ -121,15 +182,13 @@ function renderCalendar() {
   calendarGrid.innerHTML = cellsHtml;
 }
 
-searchInput.addEventListener("input", () => {
+function refresh() {
   renderList();
   renderCalendar();
-});
+}
 
-venueFilter.addEventListener("change", () => {
-  renderList();
-  renderCalendar();
-});
+searchInput.addEventListener("input", refresh);
+venueFilter.addEventListener("change", refresh);
 
 listViewBtn.addEventListener("click", () => {
   listViewBtn.classList.add("active");
@@ -153,4 +212,45 @@ document.getElementById("prevMonth").addEventListener("click", () => {
 document.getElementById("nextMonth").addEventListener("click", () => {
   currentMonth.setMonth(currentMonth.getMonth() + 1);
   renderCalendar();
+});
+
+quickFilterAllBtn.addEventListener("click", () => {
+  quickFilter = "all";
+  quickFilterAllBtn.classList.add("active");
+  quickFilterNext3Btn.classList.remove("active");
+  refresh();
+});
+
+quickFilterNext3Btn.addEventListener("click", () => {
+  quickFilter = "next3";
+  quickFilterNext3Btn.classList.add("active");
+  quickFilterAllBtn.classList.remove("active");
+  listViewBtn.click();
+  refresh();
+});
+
+sortBySelect.addEventListener("change", () => {
+  sortBy = sortBySelect.value;
+  if (sortBy === "distance" && !userLocation) {
+    locationStatus.textContent = "Click \"Use My Location\" first to sort by distance.";
+  }
+  refresh();
+});
+
+locateBtn.addEventListener("click", () => {
+  if (!navigator.geolocation) {
+    locationStatus.textContent = "Geolocation isn't supported by your browser.";
+    return;
+  }
+  locationStatus.textContent = "Locating...";
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      userLocation = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+      locationStatus.textContent = "Location found. Distances now shown.";
+      refresh();
+    },
+    (err) => {
+      locationStatus.textContent = `Couldn't get your location (${err.message}).`;
+    }
+  );
 });
