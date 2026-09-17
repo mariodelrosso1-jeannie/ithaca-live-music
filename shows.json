@@ -1,0 +1,47 @@
+[
+  {
+    "band": "The Whiskey Ramblers",
+    "venue": "The Haunt",
+    "date": "2026-09-25",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "$15",
+    "link": "https://thehaunt.com"
+  },
+  {
+    "band": "Cayuga Sound Collective",
+    "venue": "Argos Warehouse",
+    "date": "2026-09-27",
+    "time": "9:00 PM",
+    "genre": "Indie",
+    "price": "$10",
+    "link": "https://argoswarehouse.com"
+  },
+  {
+    "band": "Finger Lakes Fiddlers",
+    "venue": "The Range",
+    "date": "2026-10-02",
+    "time": "7:30 PM",
+    "genre": "Folk/Bluegrass",
+    "price": "Free",
+    "link": ""
+  },
+  {
+    "band": "Static Overture",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-10-10",
+    "time": "8:00 PM",
+    "genre": "Alt Rock",
+    "price": "$25",
+    "link": "https://stateofithaca.com"
+  },
+  {
+    "band": "Commons Jazz Trio",
+    "venue": "Coltivare",
+    "date": "2026-10-15",
+    "time": "6:30 PM",
+    "genre": "Jazz",
+    "price": "$5 cover",
+    "link": ""
+  }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ithaca Band Shows</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎸 Ithaca Band Shows</h1>
+    <p class="subtitle">Upcoming live music around Ithaca, NY</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input id="search" type="text" placeholder="Search band or venue...">
+      <select id="venueFilter">
+        <option value="">All venues</option>
+      </select>
+      <div class="view-toggle">
+        <button id="listViewBtn" class="active">List</button>
+        <button id="calendarViewBtn">Calendar</button>
+      </div>
+    </div>
+
+    <section id="listView" class="view"></section>
+
+    <section id="calendarView" class="view hidden">
+      <div class="calendar-nav">
+        <button id="prevMonth">&larr;</button>
+        <h2 id="calendarMonthLabel"></h2>
+        <button id="nextMonth">&rarr;</button>
+      </div>
+      <div class="calendar-grid" id="calendarGrid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Show data lives in <code>shows.json</code> — edit that file to add or update shows and venues.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
