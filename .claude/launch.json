@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "ithaca-band-shows",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8000"],
-      "port": 8000
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ".claude/serve.ps1"],
+      "port": 5500
     }
   ]
 }

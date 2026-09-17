@@ -19,7 +19,8 @@ PowerShell server instead:
 powershell -ExecutionPolicy Bypass -File .claude/serve.ps1
 ```
 
-Then open `http://localhost:8000` in your browser.
+Then open `http://localhost:5500` in your browser. (Port 8000 is blocked by Windows on
+some machines as a reserved/excluded port — 5500 avoids that.)
 
 ## Editing shows
 
@@ -44,7 +45,8 @@ Add, remove, or edit entries in that file and refresh the page — no code chang
 Every entry in `shows.json` is a real, researched show (no placeholder or made-up data),
 pulled from each wine trail's or winery's own event listings as of September 17, 2026:
 
-**Cayuga Lake Wine Trail** — [cayugawinetrail.com/events/winery](https://cayugawinetrail.com/events/winery)
+**Cayuga Lake Wine Trail** — each show links to its own specific event page on
+[cayugawinetrail.com](https://cayugawinetrail.com/events/winery), not the general list
 - Six Mile Creek Vineyard, Montezuma Winery, Hosmer Estate Winery, Lucas Vineyards
 
 **Buttonwood Grove Winery** — [buttonwoodgrove.com/events](https://www.buttonwoodgrove.com/events)
@@ -66,9 +68,11 @@ Facebook event pages generally couldn't be scraped directly (they require a logi
 official winery/brewery/wine-trail websites were used instead wherever possible — same
 information, more reliable.
 
-A few entries use a series name (e.g. "Tunes and Tots (rotating artists)", "Oasis Sunday
-Music") instead of a specific band — that's because the venue's own listing doesn't name
-a performer for that date, not a placeholder.
+A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
+Mimosas)") because that's how the venue itself labels the event alongside the performer.
+Two Six Mile Creek Vineyard dates (Sep 17, Sep 24) list "artist TBA" because the venue's
+own event page hadn't announced a performer yet at research time — that's the venue's
+wording, not a filler value.
 
 Two more Finger Lakes wineries host live music but didn't have confirmed upcoming dates
 at research time:

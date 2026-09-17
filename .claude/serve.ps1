@@ -1,8 +1,8 @@
 $root = "C:\Users\mdelr\COding CLaude"
 $listener = New-Object System.Net.HttpListener
-$listener.Prefixes.Add("http://localhost:8000/")
+$listener.Prefixes.Add("http://localhost:5500/")
 $listener.Start()
-Write-Host "Serving $root on http://localhost:8000/"
+Write-Host "Serving $root on http://localhost:5500/"
 
 $mimeTypes = @{
   ".html" = "text/html"
