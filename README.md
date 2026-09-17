@@ -45,9 +45,12 @@ Add, remove, or edit entries in that file and refresh the page — no code chang
 Every entry in `shows.json` is a real, researched show (no placeholder or made-up data),
 pulled from each wine trail's or winery's own event listings as of September 17, 2026:
 
+**Six Mile Creek Vineyard** — [its own live music calendar](https://sixmilecreek.com/live-music-%26-events),
+which is more current than the wine trail aggregator and names a specific act each week
+
 **Cayuga Lake Wine Trail** — each show links to its own specific event page on
 [cayugawinetrail.com](https://cayugawinetrail.com/events/winery), not the general list
-- Six Mile Creek Vineyard, Montezuma Winery, Hosmer Estate Winery, Lucas Vineyards
+- Montezuma Winery, Hosmer Estate Winery, Lucas Vineyards
 
 **Buttonwood Grove Winery** — [buttonwoodgrove.com/events](https://www.buttonwoodgrove.com/events)
 
@@ -70,9 +73,6 @@ information, more reliable.
 
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.
-Two Six Mile Creek Vineyard dates (Sep 17, Sep 24) list "artist TBA" because the venue's
-own event page hadn't announced a performer yet at research time — that's the venue's
-wording, not a filler value.
 
 Two more Finger Lakes wineries host live music but didn't have confirmed upcoming dates
 at research time:
