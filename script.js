@@ -36,6 +36,7 @@ const addBandStatus = document.getElementById("addBandStatus");
 
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
 const FOLLOWED_BANDS_KEY = "ithacaBandShows.followedBands";
+const FAVORITE_BANDS_KEY = "ithacaBandShows.favoriteBands";
 
 function loadCustomVenues() {
   try {
@@ -74,6 +75,37 @@ function saveFollowedBand(name) {
   }
 }
 
+let favoriteBands = new Set();
+
+function loadFavoriteBands() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(FAVORITE_BANDS_KEY)) || []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveFavoriteBands() {
+  try {
+    localStorage.setItem(FAVORITE_BANDS_KEY, JSON.stringify([...favoriteBands]));
+  } catch {
+    // localStorage unavailable (private browsing, etc.) - favorites still work for this session
+  }
+}
+
+function toggleFavoriteBand(name) {
+  if (favoriteBands.has(name)) {
+    favoriteBands.delete(name);
+  } else {
+    favoriteBands.add(name);
+  }
+  saveFavoriteBands();
+}
+
+function escapeAttr(str) {
+  return str.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+}
+
 Promise.all([
   fetch("shows.json").then((res) => res.json()),
   fetch("venues.json").then((res) => res.json()),
@@ -82,6 +114,7 @@ Promise.all([
     allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
     venues = { ...venuesData, ...loadCustomVenues() };
     followedBands = loadFollowedBands();
+    favoriteBands = loadFavoriteBands();
     populateVenueFilter();
     populateBandFilter();
     renderList();
@@ -125,12 +158,16 @@ function populateVenueFilter() {
 function populateBandFilter() {
   const currentValue = bandFilter.value;
   const bandNames = getAllBandNames();
+  const sortedBandNames = [
+    ...bandNames.filter((b) => favoriteBands.has(b)),
+    ...bandNames.filter((b) => !favoriteBands.has(b)),
+  ];
 
   bandFilter.innerHTML = '<option value="">All bands/artists</option>';
-  for (const band of bandNames) {
+  for (const band of sortedBandNames) {
     const option = document.createElement("option");
     option.value = band;
-    option.textContent = band;
+    option.textContent = favoriteBands.has(band) ? `★ ${band}` : band;
     bandFilter.appendChild(option);
   }
   if (bandNames.includes(currentValue)) {
@@ -200,6 +237,16 @@ function getFilteredShows() {
       .map((entry) => entry.show);
   }
 
+  shows = shows
+    .map((show, index) => ({ show, index }))
+    .sort((a, b) => {
+      const aFav = favoriteBands.has(a.show.band) ? 0 : 1;
+      const bFav = favoriteBands.has(b.show.band) ? 0 : 1;
+      if (aFav !== bFav) return aFav - bFav;
+      return a.index - b.index;
+    })
+    .map((entry) => entry.show);
+
   return shows;
 }
 
@@ -220,15 +267,22 @@ function renderList() {
         : "";
       const dist = distanceToShow(show);
       const distHtml = dist !== null ? `<span class="distance-badge">${dist.toFixed(1)} mi</span>` : "";
+      const isFavorite = favoriteBands.has(show.band);
 
       return `
-        <article class="show-card">
+        <article class="show-card ${isFavorite ? "favorite" : ""}">
           <div class="show-date">
             <div class="day">${day}</div>
             <div class="month">${month}</div>
           </div>
           <div class="show-info">
-            <h3>${show.band}</h3>
+            <h3>
+              <label class="favorite-toggle" title="Mark ${escapeAttr(show.band)} as a favorite">
+                <input type="checkbox" class="favorite-checkbox" data-band="${escapeAttr(show.band)}" ${isFavorite ? "checked" : ""}>
+                <span aria-hidden="true">${isFavorite ? "★" : "☆"}</span>
+              </label>
+              ${show.band}
+            </h3>
             <div class="venue">${show.venue} ${distHtml}</div>
             <div class="meta">${show.time} &middot; ${show.genre} &middot; ${show.price} ${linkHtml ? "&middot; " + linkHtml : ""}</div>
           </div>
@@ -289,6 +343,14 @@ function refresh() {
 searchInput.addEventListener("input", refresh);
 venueFilter.addEventListener("change", refresh);
 bandFilter.addEventListener("change", refresh);
+
+listView.addEventListener("change", (e) => {
+  if (e.target.classList.contains("favorite-checkbox")) {
+    toggleFavoriteBand(e.target.dataset.band);
+    populateBandFilter();
+    refresh();
+  }
+});
 
 listViewBtn.addEventListener("click", () => {
   listViewBtn.classList.add("active");

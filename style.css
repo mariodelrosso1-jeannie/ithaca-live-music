@@ -178,6 +178,34 @@ main {
   margin-left: 0.4rem;
 }
 
+.show-card.favorite {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.favorite-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: var(--muted);
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+
+.favorite-toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  cursor: pointer;
+}
+
+.favorite-toggle input:checked + span {
+  color: var(--accent);
+}
+
 .view-toggle button {
   padding: 0.6rem 1rem;
   border: 1px solid var(--border);
