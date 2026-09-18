@@ -25,6 +25,7 @@ const newVenueAddress = document.getElementById("newVenueAddress");
 const saveVenueBtn = document.getElementById("saveVenueBtn");
 const cancelVenueBtn = document.getElementById("cancelVenueBtn");
 const addVenueStatus = document.getElementById("addVenueStatus");
+const venueSuggestions = document.getElementById("venueSuggestions");
 
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
 
@@ -61,9 +62,13 @@ Promise.all([
     listView.innerHTML = `<p class="empty-state">Couldn't load show data (${err.message})</p>`;
   });
 
+function getAllVenueNames() {
+  return [...new Set([...allShows.map((s) => s.venue), ...Object.keys(venues)])].sort();
+}
+
 function populateVenueFilter() {
   const currentValue = venueFilter.value;
-  const venueNames = [...new Set([...allShows.map((s) => s.venue), ...Object.keys(venues)])].sort();
+  const venueNames = getAllVenueNames();
 
   venueFilter.innerHTML = '<option value="">All venues</option>';
   for (const venue of venueNames) {
@@ -75,6 +80,10 @@ function populateVenueFilter() {
   if (venueNames.includes(currentValue)) {
     venueFilter.value = currentValue;
   }
+
+  venueSuggestions.innerHTML = venueNames
+    .map((venue) => `<option value="${venue}"></option>`)
+    .join("");
 }
 
 function toRad(deg) {
