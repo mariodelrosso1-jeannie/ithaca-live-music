@@ -25,24 +25,22 @@
     </div>
 
     <div class="controls secondary-controls">
-      <div class="quick-filters">
-        <button id="quickFilterAll" class="active">All Upcoming</button>
-        <select id="daysFilter">
-          <option value="">Upcoming within...</option>
-          <option value="1">Next 1 day</option>
-          <option value="2">Next 2 days</option>
-          <option value="3">Next 3 days</option>
-          <option value="4">Next 4 days</option>
-          <option value="5">Next 5 days</option>
-          <option value="6">Next 6 days</option>
-          <option value="7">Next 7 days</option>
-        </select>
-      </div>
+      <select id="daysFilter">
+        <option value="all">All Dates</option>
+        <option value="1">Next 1 day</option>
+        <option value="2">Next 2 days</option>
+        <option value="3">Next 3 days</option>
+        <option value="4">Next 4 days</option>
+        <option value="5">Next 5 days</option>
+        <option value="6">Next 6 days</option>
+        <option value="7">Next 7 days</option>
+      </select>
       <select id="sortBy">
         <option value="date">Sort: Date</option>
         <option value="distance">Sort: Distance (nearest first)</option>
       </select>
-      <button id="locateBtn">📍 Use My Location</button>
+      <input id="locationInput" type="text" placeholder="Zip code, town, or address">
+      <button id="setLocationBtn">📍 Set Location</button>
       <span id="locationStatus" class="location-status"></span>
     </div>
 

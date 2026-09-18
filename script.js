@@ -13,10 +13,10 @@ const searchInput = document.getElementById("search");
 const venueFilter = document.getElementById("venueFilter");
 const calendarGrid = document.getElementById("calendarGrid");
 const calendarMonthLabel = document.getElementById("calendarMonthLabel");
-const quickFilterAllBtn = document.getElementById("quickFilterAll");
 const daysFilterSelect = document.getElementById("daysFilter");
 const sortBySelect = document.getElementById("sortBy");
-const locateBtn = document.getElementById("locateBtn");
+const locationInput = document.getElementById("locationInput");
+const setLocationBtn = document.getElementById("setLocationBtn");
 const locationStatus = document.getElementById("locationStatus");
 
 Promise.all([
@@ -216,48 +216,51 @@ document.getElementById("nextMonth").addEventListener("click", () => {
   renderCalendar();
 });
 
-quickFilterAllBtn.addEventListener("click", () => {
-  quickFilterDays = null;
-  daysFilterSelect.value = "";
-  quickFilterAllBtn.classList.add("active");
-  refresh();
-});
-
 daysFilterSelect.addEventListener("change", () => {
-  if (!daysFilterSelect.value) {
-    quickFilterDays = null;
-    quickFilterAllBtn.classList.add("active");
-    refresh();
-    return;
+  quickFilterDays = daysFilterSelect.value === "all" ? null : parseInt(daysFilterSelect.value, 10);
+  if (quickFilterDays !== null) {
+    listViewBtn.click();
   }
-  quickFilterDays = parseInt(daysFilterSelect.value, 10);
-  quickFilterAllBtn.classList.remove("active");
-  listViewBtn.click();
   refresh();
 });
 
 sortBySelect.addEventListener("change", () => {
   sortBy = sortBySelect.value;
   if (sortBy === "distance" && !userLocation) {
-    locationStatus.textContent = "Click \"Use My Location\" first to sort by distance.";
+    locationStatus.textContent = "Enter a zip code, town, or address first to sort by distance.";
   }
   refresh();
 });
 
-locateBtn.addEventListener("click", () => {
-  if (!navigator.geolocation) {
-    locationStatus.textContent = "Geolocation isn't supported by your browser.";
+async function setLocationFromInput() {
+  const query = locationInput.value.trim();
+  if (!query) {
+    locationStatus.textContent = "Type a zip code, town, or address first.";
     return;
   }
-  locationStatus.textContent = "Locating...";
-  navigator.geolocation.getCurrentPosition(
-    (pos) => {
-      userLocation = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-      locationStatus.textContent = "Location found. Distances now shown.";
-      refresh();
-    },
-    (err) => {
-      locationStatus.textContent = `Couldn't get your location (${err.message}).`;
+
+  locationStatus.textContent = "Looking up that location...";
+  try {
+    const url =
+      "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q=" +
+      encodeURIComponent(query);
+    const res = await fetch(url);
+    const results = await res.json();
+
+    if (!results.length) {
+      locationStatus.textContent = `Couldn't find "${query}". Try a more specific town, zip code, or address.`;
+      return;
     }
-  );
+
+    userLocation = { lat: parseFloat(results[0].lat), lng: parseFloat(results[0].lon) };
+    locationStatus.textContent = `Location set to ${results[0].display_name}.`;
+    refresh();
+  } catch (err) {
+    locationStatus.textContent = `Couldn't look up that location (${err.message}).`;
+  }
+}
+
+setLocationBtn.addEventListener("click", setLocationFromInput);
+locationInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") setLocationFromInput();
 });

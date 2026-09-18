@@ -71,27 +71,6 @@ main {
   align-items: center;
 }
 
-.quick-filters {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.quick-filters button {
-  padding: 0.5rem 0.9rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--panel);
-  color: var(--muted);
-  cursor: pointer;
-  font-size: 0.85rem;
-}
-
-.quick-filters button.active {
-  background: var(--accent);
-  color: white;
-  border-color: var(--accent);
-}
-
 #daysFilter {
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
@@ -102,7 +81,17 @@ main {
   font-size: 0.85rem;
 }
 
-#locateBtn {
+#locationInput {
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  font-size: 0.85rem;
+  min-width: 200px;
+}
+
+#setLocationBtn {
   padding: 0.5rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
