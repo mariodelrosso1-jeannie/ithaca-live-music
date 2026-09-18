@@ -168,5 +168,10 @@
     "address": "525 Taughannock Blvd, Ithaca, NY 14850",
     "lat": 42.4458669,
     "lng": -76.5125127
+  },
+  "Hopshire Farm and Brewery": {
+    "address": "1771 Dryden Rd, Freeville, NY 13068",
+    "lat": 42.4806541,
+    "lng": -76.3681748
   }
 }

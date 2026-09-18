@@ -1141,5 +1141,104 @@
     "genre": "Rock",
     "price": "Ticketed - see Details",
     "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
+  },
+  {
+    "band": "Bad Alibi",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-09-18",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "Driftwood",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-09-19",
+    "time": "6:00 PM",
+    "genre": "Folk/Americana",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "Go Gone",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-09-25",
+    "time": "8:00 AM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "Terrapin Station",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-10-02",
+    "time": "6:00 PM",
+    "genre": "Grateful Dead Tribute",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "The Time Riders",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-10-09",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "Lil' Anne & Hot Cayenne",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-10-16",
+    "time": "6:00 PM",
+    "genre": "Zydeco",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "The Tarps",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-10-23",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "Motherwort (Halloween Party)",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-10-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "Off the Rails",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-11-06",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "The Soul Benders",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-11-13",
+    "time": "6:00 PM",
+    "genre": "Soul/R&B",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "Pocket Bandits",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-11-20",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hopshire.com/hopshire-events/"
   }
 ]

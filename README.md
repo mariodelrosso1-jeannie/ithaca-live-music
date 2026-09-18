@@ -180,6 +180,13 @@ All three also had imprecise saved locations (all three had defaulted to the sam
 — that's now fixed with their real addresses in `venues.json`. Re-check these periodically;
 if a real show gets announced, add it to `shows.json` the normal way.
 
+**Hopshire Farm and Brewery** (1771 Dryden Rd, Freeville, NY, about 15 min north of Ithaca)
+— another user-added venue, this one did have a real, current schedule: [its own events
+page](https://hopshire.com/hopshire-events/) lists a confirmed Thursday-night lineup through
+November. Added 11 shows (Sep 18 – Nov 20); a couple from earlier in September had already
+passed and were left out. Its saved location was also imprecise (village-level, not the
+actual farm address) and has been corrected in `venues.json`.
+
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.
 
