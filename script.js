@@ -182,10 +182,9 @@ function getFilteredShows() {
 
     if (!matchesQuery || !matchesVenue || !matchesBand) return false;
 
-    if (quickFilterDays !== null) {
-      const showDate = new Date(show.date + "T00:00:00");
-      if (showDate < today || showDate > rangeEnd) return false;
-    }
+    const showDate = new Date(show.date + "T00:00:00");
+    if (showDate < today) return false;
+    if (quickFilterDays !== null && showDate > rangeEnd) return false;
 
     return true;
   });
