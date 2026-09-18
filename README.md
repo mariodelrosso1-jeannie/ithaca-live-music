@@ -58,12 +58,15 @@ skip it (it'll still show up in the list, just without a distance badge).
 
 ## Filtering and distance
 
-- **Next 3 Days** — quick filter button that shows only shows happening between today and
-  3 days from now.
-- **Sort: Distance (nearest first)** — click "Use My Location" first (this asks your
-  browser for location permission — nothing is sent to a server, the distance math all
-  happens in your browser using the coordinates in `venues.json`). Once it has your
-  location, every show gets a distance badge and this sort option ranks the nearest first.
+- **Date dropdown** — "All Dates" (default) or "Next 1 day" through "Next 7 days," which
+  filters to shows happening between today and that many days out.
+- **Sort: Distance (nearest first)** — type a zip code, town, or address into the location
+  box and click "📍 Set Location" (or press Enter). This looks up that place using
+  [OpenStreetMap's free Nominatim geocoding service](https://nominatim.org/) to turn it
+  into coordinates, then does all the distance math in your browser using the venue
+  coordinates in `venues.json` — no location data is stored anywhere, it just lives in the
+  page until you reload. Once set, every show gets a distance badge and this sort option
+  ranks the nearest first.
 - These combine with the search box and venue dropdown, so you can e.g. search "blues",
   filter to next 3 days, and sort by distance all at once.
 
