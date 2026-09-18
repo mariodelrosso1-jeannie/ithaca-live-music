@@ -159,6 +159,23 @@ listings on Bandsintown (e.g. two acts both shown at 8 PM the same night) were m
 one entry where they looked like the same show described two ways, rather than assumed to
 be two simultaneous events.
 
+### Venue audit: three venues with no shows (checked, not overlooked)
+
+Three other user-added venues — **Americana Winery**, **La Tourelle**, and **The Boatyard
+Grill** — show up in the dropdown but have zero entries in `shows.json`. That's not an
+oversight; each was checked and none currently has a confirmed upcoming show:
+- **Americana Winery** (4367 East Covert Road, Interlaken) — under new ownership and
+  mid-remodel; no reliable current schedule
+- **La Tourelle** (1150 Danby Rd, Ithaca) — its own listing says "no upcoming events scheduled"
+- **The Boatyard Grill** (525 Taughannock Blvd, Ithaca) — runs a real "Summer Music Series"
+  (confirmed lineup of ~13 bands), but the 2026 season already ended Sept 4; nothing
+  scheduled again until presumably next summer
+
+All three also had imprecise saved locations (all three had defaulted to the same generic
+"Town of Ithaca" point because whatever was typed when adding them didn't geocode cleanly)
+— that's now fixed with their real addresses in `venues.json`. Re-check these periodically;
+if a real show gets announced, add it to `shows.json` the normal way.
+
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.
 

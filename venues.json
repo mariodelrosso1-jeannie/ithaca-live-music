@@ -153,5 +153,20 @@
     "address": "72 South Main Street, Homer, NY 13077",
     "lat": 42.6341558,
     "lng": -76.179499
+  },
+  "Americana Winery": {
+    "address": "4367 East Covert Road, Interlaken, NY 14847",
+    "lat": 42.5754856,
+    "lng": -76.6773303
+  },
+  "La Tourelle": {
+    "address": "1150 Danby Rd, Ithaca, NY 14850",
+    "lat": 42.4018411,
+    "lng": -76.5029169
+  },
+  "The Boatyard Grill": {
+    "address": "525 Taughannock Blvd, Ithaca, NY 14850",
+    "lat": 42.4458669,
+    "lng": -76.5125127
   }
 }
