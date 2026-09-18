@@ -92,6 +92,16 @@ main {
   border-color: var(--accent);
 }
 
+#daysFilter {
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
 #locateBtn {
   padding: 0.5rem 0.9rem;
   border-radius: 8px;

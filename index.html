@@ -27,7 +27,16 @@
     <div class="controls secondary-controls">
       <div class="quick-filters">
         <button id="quickFilterAll" class="active">All Upcoming</button>
-        <button id="quickFilterNext3">Next 3 Days</button>
+        <select id="daysFilter">
+          <option value="">Upcoming within...</option>
+          <option value="1">Next 1 day</option>
+          <option value="2">Next 2 days</option>
+          <option value="3">Next 3 days</option>
+          <option value="4">Next 4 days</option>
+          <option value="5">Next 5 days</option>
+          <option value="6">Next 6 days</option>
+          <option value="7">Next 7 days</option>
+        </select>
       </div>
       <select id="sortBy">
         <option value="date">Sort: Date</option>

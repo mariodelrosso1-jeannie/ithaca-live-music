@@ -2,7 +2,7 @@ let allShows = [];
 let venues = {};
 let currentMonth = new Date();
 let userLocation = null;
-let quickFilter = "all";
+let quickFilterDays = null;
 let sortBy = "date";
 
 const listView = document.getElementById("listView");
@@ -14,7 +14,7 @@ const venueFilter = document.getElementById("venueFilter");
 const calendarGrid = document.getElementById("calendarGrid");
 const calendarMonthLabel = document.getElementById("calendarMonthLabel");
 const quickFilterAllBtn = document.getElementById("quickFilterAll");
-const quickFilterNext3Btn = document.getElementById("quickFilterNext3");
+const daysFilterSelect = document.getElementById("daysFilter");
 const sortBySelect = document.getElementById("sortBy");
 const locateBtn = document.getElementById("locateBtn");
 const locationStatus = document.getElementById("locationStatus");
@@ -70,8 +70,10 @@ function getFilteredShows() {
   const venue = venueFilter.value;
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-  const next3 = new Date(today);
-  next3.setDate(next3.getDate() + 3);
+  const rangeEnd = new Date(today);
+  if (quickFilterDays !== null) {
+    rangeEnd.setDate(rangeEnd.getDate() + quickFilterDays);
+  }
 
   let shows = allShows.filter((show) => {
     const matchesQuery =
@@ -82,9 +84,9 @@ function getFilteredShows() {
 
     if (!matchesQuery || !matchesVenue) return false;
 
-    if (quickFilter === "next3") {
+    if (quickFilterDays !== null) {
       const showDate = new Date(show.date + "T00:00:00");
-      if (showDate < today || showDate > next3) return false;
+      if (showDate < today || showDate > rangeEnd) return false;
     }
 
     return true;
@@ -215,15 +217,20 @@ document.getElementById("nextMonth").addEventListener("click", () => {
 });
 
 quickFilterAllBtn.addEventListener("click", () => {
-  quickFilter = "all";
+  quickFilterDays = null;
+  daysFilterSelect.value = "";
   quickFilterAllBtn.classList.add("active");
-  quickFilterNext3Btn.classList.remove("active");
   refresh();
 });
 
-quickFilterNext3Btn.addEventListener("click", () => {
-  quickFilter = "next3";
-  quickFilterNext3Btn.classList.add("active");
+daysFilterSelect.addEventListener("change", () => {
+  if (!daysFilterSelect.value) {
+    quickFilterDays = null;
+    quickFilterAllBtn.classList.add("active");
+    refresh();
+    return;
+  }
+  quickFilterDays = parseInt(daysFilterSelect.value, 10);
   quickFilterAllBtn.classList.remove("active");
   listViewBtn.click();
   refresh();
