@@ -409,7 +409,6 @@ async function saveNewVenue() {
     venues[name] = venue;
     saveCustomVenue(name, venue);
     populateVenueFilter();
-    venueFilter.value = name;
 
     newVenueName.value = "";
     newVenueAddress.value = "";
@@ -451,7 +450,6 @@ function saveNewBand() {
 
   saveFollowedBand(name);
   populateBandFilter();
-  bandFilter.value = name;
 
   newBandName.value = "";
   addBandForm.classList.add("hidden");
