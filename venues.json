@@ -123,5 +123,35 @@
     "address": "4204 Krums Corners Road, Trumansburg, NY 14886",
     "lat": 42.5019633,
     "lng": -76.5741299
+  },
+  "Angry Mom Records": {
+    "address": "115 The Commons, Ithaca, NY 14850",
+    "lat": 42.4395734,
+    "lng": -76.4979288
+  },
+  "The North Farm": {
+    "address": "4988 West Lake Road, Geneva, NY 14456",
+    "lat": 42.8381354,
+    "lng": -76.9787419
+  },
+  "Smith Opera House": {
+    "address": "82 Seneca Street, Geneva, NY 14456",
+    "lat": 42.8669882,
+    "lng": -76.9840784
+  },
+  "Geneva On The Lake": {
+    "address": "1001 Lochland Rd, Geneva, NY 14456",
+    "lat": 42.8484835,
+    "lng": -76.9794471
+  },
+  "Quarry Ridge Winery": {
+    "address": "4242 State Route 90, Union Springs, NY 13160",
+    "lat": 42.8397906,
+    "lng": -76.6932818
+  },
+  "Ithaca Porchfest (Fall Creek & Northside)": {
+    "address": "Fall Creek & Northside neighborhoods, Ithaca, NY 14850",
+    "lat": 42.4460978,
+    "lng": -76.4979288
   }
 }

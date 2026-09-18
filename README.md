@@ -128,9 +128,25 @@ farther-out cities were skipped as outside this app's "around Ithaca" scope. Thi
   Temperance FLX
 - Keuka Lake (a third Finger Lake, newly added — roughly 35-45 min from Ithaca): Keuka
   Spring Vineyards, Keuka Brewing Co., Point of the Bluff Vineyards, Laurentide Beer Company
+- More Ithaca/Geneva venues added on a second, deeper pass: Angry Mom Records (Ithaca),
+  The North Farm, Smith Opera House, and Geneva On The Lake (all Geneva, on Seneca Lake's
+  north end), and Quarry Ridge Winery (Union Springs, on Cayuga Lake's east shore)
+- **Ithaca Porchfest** — added as a single consolidated entry rather than per-band, since
+  it's [174 performers across 109 porches](https://www.porchfest.org/) in the Fall Creek and
+  Northside neighborhoods on one day (Sep 20). Its "venue" coordinates are an approximate
+  center of that area, not any single address. If you want specific porches/acts, check
+  porchfest.org directly.
 
-Only a snapshot of what was listed for the next couple of months was pulled — this source
-adds new events constantly, so it's worth re-checking periodically for more.
+Five entries (Sugar Bomb, Lotus Land - A Tribute to Rush, Mark Nanni Music at Geneva On The
+Lake, and Just Joe at Quarry Ridge Winery) link to the general Live Music search page rather
+than their own event page — the site's search widget became unresponsive while trying to
+grab their specific links. The band, venue, date, and time are still confirmed accurate,
+just the link is one step less precise for those four.
+
+Only a snapshot of what was listed for the next couple of weeks was pulled — this source
+adds new events constantly, so it's worth re-checking periodically for more. Its own
+calendar also has date-range filters (This Weekend, Next Week, etc.) if you want to pull
+further out yourself.
 
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.

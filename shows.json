@@ -772,5 +772,59 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108886508n-river-lynch-scale-house-brewery-6pm-solo-show-"
+  },
+  {
+    "band": "Roger Clark Miller with LITHS & Jeffrey Valla Memorial Drone Syndicate",
+    "venue": "Angry Mom Records",
+    "date": "2026-09-21",
+    "time": "7:30 PM",
+    "genre": "Experimental",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108876173n-roger-clark-miller-with-liths-jeffrey-valla-memorial-drone-syndicate"
+  },
+  {
+    "band": "Sugar Bomb",
+    "venue": "The North Farm",
+    "date": "2026-09-19",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=%2Flive-music"
+  },
+  {
+    "band": "Lotus Land - A Tribute to Rush",
+    "venue": "Smith Opera House",
+    "date": "2026-09-19",
+    "time": "8:00 PM",
+    "genre": "Tribute/Rock",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=%2Flive-music"
+  },
+  {
+    "band": "Mark Nanni Music",
+    "venue": "Geneva On The Lake",
+    "date": "2026-09-20",
+    "time": "10:00 AM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=%2Flive-music"
+  },
+  {
+    "band": "Just Joe",
+    "venue": "Quarry Ridge Winery",
+    "date": "2026-09-20",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=%2Flive-music"
+  },
+  {
+    "band": "Ithaca Porchfest 2026 (174 performers, 109 porches)",
+    "venue": "Ithaca Porchfest (Fall Creek & Northside)",
+    "date": "2026-09-20",
+    "time": "12:00 PM - 6:00 PM",
+    "genre": "Festival / Multiple Genres",
+    "price": "Free",
+    "link": "https://www.porchfest.org/"
   }
 ]
