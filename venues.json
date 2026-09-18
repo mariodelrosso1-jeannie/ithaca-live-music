@@ -178,5 +178,10 @@
     "address": "2030 Gorge Rd, Trumansburg, NY 14886",
     "lat": 42.5444224,
     "lng": -76.5983153
+  },
+  "Trumansburg Farmers Market": {
+    "address": "Trumansburg Village Park, Corner of Route 227 & 96, Trumansburg, NY 14886 (village-level coordinates, exact park location not separately geocoded)",
+    "lat": 42.5422939,
+    "lng": -76.6660589
   }
 }

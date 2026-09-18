@@ -1240,5 +1240,95 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://hopshire.com/hopshire-events/"
+  },
+  {
+    "band": "Son Henry Band",
+    "venue": "The Inn at Taughannock",
+    "date": "2026-09-22",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "$25 (includes burger and beer or wine)",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Gerard Burke",
+    "venue": "Trumansburg Farmers Market",
+    "date": "2026-09-23",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cisco & The Soul Benders",
+    "venue": "O'Malley's Lakeside Tavern",
+    "date": "2026-09-26",
+    "time": "4:00 PM",
+    "genre": "Blues",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Mike & Angie (Hot Air Balloon Weekend)",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-09-26",
+    "time": "12:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "ROC Street (Hot Air Balloon Weekend)",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-09-26",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Scratched Vinyl",
+    "venue": "The Inn at Taughannock",
+    "date": "2026-09-29",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "$25 (includes burger and beer or wine)",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Jim Kerins",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-10-02",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Pat Carlineo & Friends",
+    "venue": "The Inn at Taughannock",
+    "date": "2026-10-06",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "$25 (includes burger and beer or wine)",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Shin Hollow",
+    "venue": "Trumansburg Farmers Market",
+    "date": "2026-10-07",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "River Lynch",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-10-09",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
   }
 ]

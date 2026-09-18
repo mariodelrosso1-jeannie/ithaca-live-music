@@ -192,15 +192,32 @@ passed and were left out. Its saved location was also imprecise (village-level, 
 actual farm address) and has been corrected in `venues.json`.
 
 **The Inn at Taughannock** (2030 Gorge Rd, Trumansburg, on Cayuga Lake near Taughannock Falls)
-— a real venue with a real recurring series, "Tuesdays at Taughannock" (live music, $25
-burger-and-a-drink, 5-8 PM in their Enchantment Garden, now in its 4th season). No show was
-added for it, though: every specific date found (via [inntfalls.com](https://www.inntfalls.com/happenings),
-Tompkins Weekly, and Downtown Ithaca listings) was already in the past (June-early September),
-and nothing confirms the series is still running this deep into fall or names a performer for
-any date past Sept 1. Since this is a paid event, guessing felt riskier than usual — better to
-leave it blank than send someone to a show that isn't happening. Its location has still been
-corrected to the real address. Call ahead (607-387-7711) or check their site directly if you
-want to confirm and add a specific date.
+— a real venue running "Tuesdays at Taughannock" (live music, $25 burger-and-a-drink, 5-8 PM
+in their Enchantment Garden, now in its 4th season). This was initially left with no shows
+added — every date found via inntfalls.com, Tompkins Weekly, and Downtown Ithaca listings was
+already in the past, and none of those sources named a performer past Sept 1. It was
+[flxmusic247.com](https://flxmusic247.com/) that finally confirmed the series is still
+running: 3 shows added (Sep 22, Sep 29, Oct 6) with named performers, time inferred as 5:00 PM
+to match the series' own stated start time since flxmusic247's calendar view didn't repeat the
+time for each date.
+
+**[flxmusic247.com](https://flxmusic247.com/)** — a calendar aggregator covering the *entire*
+Finger Lakes region (it explicitly includes Canandaigua, Honeoye, and Skaneateles Lakes, plus
+Lake Ontario and Wayne County — all well outside this app's scope). Only entries clearly
+within Cayuga/Seneca/Keuka Lake country or already-covered venues were pulled in. Added, besides
+the Inn at Taughannock shows above:
+- Gerard Burke and Shin Hollow at the **Trumansburg Farmers Market** (new venue — Wednesdays
+  4-7 PM in season at Trumansburg Village Park; exact park coordinates weren't separately
+  geocoded, so its location is village-level)
+- Cisco & The Soul Benders at O'Malley's Lakeside Tavern
+- Jim Kerins and River Lynch at Idol Ridge Winery & Alder Creek Distillery (time inferred from
+  that venue's other listed shows, since flxmusic247's calendar cell didn't repeat it)
+- Mike & Angie and ROC Street, both part of an "Idol Ridge Hot Air Balloon Weekend" event
+
+This aggregator's calendar view also cross-confirmed several existing entries as accurate
+(Tate Williams, Liam Lawson, Major Keys Trio, the Hosmer Harvest Fest show), and listed several
+more bands without naming a venue clearly enough to add confidently — those were left out
+rather than guessed.
 
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.
