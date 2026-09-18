@@ -619,5 +619,158 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Marye Lobb",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-09-18",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108773253n-marye-lobb"
+  },
+  {
+    "band": "Maddy Walsh & The Blind Spots",
+    "venue": "Finger Lakes Cider House",
+    "date": "2026-09-18",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108445737n-maddy-walsh-the-blind-spots-at-finger-lakes-cider-house"
+  },
+  {
+    "band": "Caleb Liber",
+    "venue": "F2T Kitchen & Bar",
+    "date": "2026-09-18",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108204531n-caleb-liber-at-f2t-kitchen-bar-inside-41-lakefront-hotel"
+  },
+  {
+    "band": "Raven & Goose (Cornell Contra Dance)",
+    "venue": "Cornell University",
+    "date": "2026-09-18",
+    "time": "7:00 PM",
+    "genre": "Contra Dance / Folk",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108778131n-raven-goose-cornell-contra-dance"
+  },
+  {
+    "band": "Ordinary Elephant",
+    "venue": "Night Eagle Cafe",
+    "date": "2026-09-18",
+    "time": "8:00 PM",
+    "genre": "Folk/Americana",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108519162n-ordinary-elephant"
+  },
+  {
+    "band": "Garrison Keillor",
+    "venue": "Hangar Theatre",
+    "date": "2026-09-18",
+    "time": "8:00 PM",
+    "genre": "Variety/Spoken Word",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/1039310591n-garrison-keillor"
+  },
+  {
+    "band": "The Endless Mountain Derelicts (Keuka Springs Harvest Fest)",
+    "venue": "Keuka Spring Vineyards",
+    "date": "2026-09-19",
+    "time": "12:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108393864n-keuka-springs-harvest-fest-the-endless-mountain-derelicts"
+  },
+  {
+    "band": "Public Water Supply (Duo)",
+    "venue": "Keuka Brewing Co.",
+    "date": "2026-09-19",
+    "time": "3:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108880914n-public-water-supply-duo-live-keuka-brewing"
+  },
+  {
+    "band": "Old Crow Medicine Show with Special Guest Palmyra",
+    "venue": "Point of the Bluff Vineyards",
+    "date": "2026-09-19",
+    "time": "3:30 PM",
+    "genre": "Americana/Bluegrass",
+    "price": "Ticketed - see Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/1413667s-old-crow-medicine-show-with-special-guest-palmyra"
+  },
+  {
+    "band": "Caleb Liber's Debut (Harvest Festival)",
+    "venue": "Bright Leaf Vineyard",
+    "date": "2026-09-19",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108204554n-caleb-liber-s-debut-at-bright-leaf-vineyard-for-their-harvest-festival"
+  },
+  {
+    "band": "Porch Couch",
+    "venue": "O'Malley's Lakeside Tavern",
+    "date": "2026-09-19",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108801157n-porch-couch-o-malley-s"
+  },
+  {
+    "band": "Jeremiah Craig (Folk Singer/Songwriter)",
+    "venue": "Laurentide Beer Company",
+    "date": "2026-09-19",
+    "time": "5:00 PM",
+    "genre": "Folk",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108682632n-folk-singer-songwriter-jeremiah-craig-live-at-laurentide-beer-company"
+  },
+  {
+    "band": "River Lynch (Solo Show)",
+    "venue": "Temperance FLX",
+    "date": "2026-09-19",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108672930n-river-lynch-temperance-flx-5-30pm-solo-show-"
+  },
+  {
+    "band": "Cuchulain",
+    "venue": "Bet the Farm Winery",
+    "date": "2026-09-25",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108910781n-cuchulain"
+  },
+  {
+    "band": "Jeremiah Craig",
+    "venue": "Bet the Farm Winery",
+    "date": "2026-10-23",
+    "time": "5:00 PM",
+    "genre": "Folk",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108314801n-jeremiah-craig-live-at-bet-the-farm-winery"
+  },
+  {
+    "band": "Caleb Liber (Hosmer Winery's Haunted Wine Walk)",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-10-25",
+    "time": "11:00 AM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/107953920n-caleb-liber-at-hosmer-winery-s-haunted-wine-walk"
+  },
+  {
+    "band": "River Lynch (Solo Show)",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-11",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108886508n-river-lynch-scale-house-brewery-6pm-solo-show-"
   }
 ]

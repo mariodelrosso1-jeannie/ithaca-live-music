@@ -53,5 +53,75 @@
     "address": "4880 NY-414, Burdett, NY 14818",
     "lat": 42.4709309,
     "lng": -76.8655978
+  },
+  "Night Eagle Cafe": {
+    "address": "1004 Auburn Rd, North Lansing, NY 13073",
+    "lat": 42.5994845,
+    "lng": -76.496879
+  },
+  "Hangar Theatre": {
+    "address": "801 Taughannock Blvd, Ithaca, NY 14850",
+    "lat": 42.4553364,
+    "lng": -76.5173424
+  },
+  "Finger Lakes Cider House": {
+    "address": "4017 Hickok Rd, Interlaken, NY 14847",
+    "lat": 42.6082281,
+    "lng": -76.6990834
+  },
+  "F2T Kitchen & Bar": {
+    "address": "41 Lake Front Dr, Geneva, NY 14456",
+    "lat": 42.861529,
+    "lng": -76.9824691
+  },
+  "Idol Ridge Winery & Alder Creek Distillery": {
+    "address": "9059 State Route 414, Lodi, NY 14860",
+    "lat": 42.5843314,
+    "lng": -76.8536999
+  },
+  "Bright Leaf Vineyard": {
+    "address": "1250 Clearview Road, King Ferry, NY 13081",
+    "lat": 42.6582594,
+    "lng": -76.6535796
+  },
+  "O'Malley's Lakeside Tavern": {
+    "address": "7938 County Road 153, Interlaken, NY 14847",
+    "lat": 42.639635,
+    "lng": -76.6930559
+  },
+  "Temperance FLX": {
+    "address": "31 Fall St, Seneca Falls, NY 13148",
+    "lat": 42.91006,
+    "lng": -76.7950887
+  },
+  "Keuka Spring Vineyards": {
+    "address": "243 East Lake Road, Penn Yan, NY 14527",
+    "lat": 42.6481844,
+    "lng": -77.061889
+  },
+  "Keuka Brewing Co.": {
+    "address": "8572 Briglin Rd, Hammondsport, NY 14840",
+    "lat": 42.4856505,
+    "lng": -77.1916844
+  },
+  "Point of the Bluff Vineyards": {
+    "address": "10489 County Route 76, Hammondsport, NY 14840",
+    "lat": 42.4998053,
+    "lng": -77.1882442
+  },
+  "Laurentide Beer Company": {
+    "address": "12 Maiden Lane, Penn Yan, NY 14527",
+    "lat": 42.6618366,
+    "lng": -77.055174
+  },
+  "Cornell University": {
+    "address": "Ithaca, NY 14853",
+    "lat": 42.452916,
+    "lng": -76.4800635
+  },
+  "Bet the Farm Winery": {
+    "address": "4204 Krums Corners Road, Trumansburg, NY 14886",
+    "lat": 42.5019633,
+    "lng": -76.5741299
   }
 }

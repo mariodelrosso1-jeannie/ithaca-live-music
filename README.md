@@ -114,6 +114,24 @@ Facebook event pages generally couldn't be scraped directly (they require a logi
 official winery/brewery/wine-trail websites were used instead wherever possible — same
 information, more reliable.
 
+**Ithaca Times / ithaca.com Live Music calendar** — [ithaca.com/local-events (Live Music filter)](https://www.ithaca.com/local-events/?_evDiscoveryPath=%2Flive-music).
+Each show links to its own specific event page on that site. This source covers a much
+wider area than just Ithaca (it stretches into Syracuse, Binghamton, and Owego), so only
+shows within Tompkins County and the Cayuga/Seneca/Keuka Lake wine country were pulled in —
+farther-out cities were skipped as outside this app's "around Ithaca" scope. This added:
+- Ithaca venues: Hangar Theatre, Night Eagle Cafe (actually now hosted at the Lansing
+  Performing Arts Center, not in Ithaca proper), Cornell University (a contra dance, not a
+  band, but tagged as Live Music by the source)
+- Cayuga Lake area: Bright Leaf Vineyard, O'Malley's Lakeside Tavern, Finger Lakes Cider
+  House, Bet the Farm Winery
+- Seneca Lake area: F2T Kitchen & Bar, Idol Ridge Winery & Alder Creek Distillery,
+  Temperance FLX
+- Keuka Lake (a third Finger Lake, newly added — roughly 35-45 min from Ithaca): Keuka
+  Spring Vineyards, Keuka Brewing Co., Point of the Bluff Vineyards, Laurentide Beer Company
+
+Only a snapshot of what was listed for the next couple of months was pulled — this source
+adds new events constantly, so it's worth re-checking periodically for more.
+
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.
 
