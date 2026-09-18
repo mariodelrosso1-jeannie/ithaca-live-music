@@ -1,4 +1,4 @@
-# Ithaca Band Shows
+# Ithaca Live Music
 
 A simple web calendar of upcoming live music shows and venue info around Ithaca, NY.
 
