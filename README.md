@@ -82,6 +82,10 @@ for any actual show at that venue — adding the venue alone doesn't create a sh
   ranks the nearest first.
 - These combine with the search box and venue dropdown, so you can e.g. search "blues",
   filter to next 3 days, and sort by distance all at once.
+- **Favorites (★)** — click the star next to any band/artist name to mark them a favorite
+  (saved in your browser). Favorited-band shows always float to the top of the list, ahead
+  of everything else, regardless of the current sort or filters, and get a highlighted
+  border. They're also starred and moved to the top of the band/artist dropdown.
 
 ## Data sources
 
