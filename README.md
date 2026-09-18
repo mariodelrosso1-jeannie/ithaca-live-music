@@ -56,6 +56,19 @@ keyed by the exact venue name used in `shows.json`:
 If you add a show at a venue that isn't in `venues.json` yet, distance sorting will just
 skip it (it'll still show up in the list, just without a distance badge).
 
+### Adding a venue from the page itself
+
+Click **"+ Add Venue"** next to the venue dropdown, enter a venue name and an address, town,
+or zip code, and click "Save Venue" (or press Enter). It geocodes the address the same way
+the location search does, then adds the venue to the dropdown so you can filter by it.
+
+This is meant for registering a venue's location quickly — it does **not** save to
+`venues.json` in the repo. It's stored in your browser's `localStorage`, so it sticks
+around on reloads but only on that one browser/device, and won't show up for anyone else
+who opens the site. To make a venue permanent for everyone, add it to `venues.json` by hand
+(or ask whoever maintains the site to). You'll still need to add an entry in `shows.json`
+for any actual show at that venue — adding the venue alone doesn't create a show.
+
 ## Filtering and distance
 
 - **Date dropdown** — "All Dates" (default) or "Next 1 day" through "Next 7 days," which

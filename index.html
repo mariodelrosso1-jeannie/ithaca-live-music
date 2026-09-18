@@ -18,10 +18,19 @@
       <select id="venueFilter">
         <option value="">All venues</option>
       </select>
+      <button id="addVenueToggleBtn">+ Add Venue</button>
       <div class="view-toggle">
         <button id="listViewBtn" class="active">List</button>
         <button id="calendarViewBtn">Calendar</button>
       </div>
+    </div>
+
+    <div id="addVenueForm" class="controls add-venue-form hidden">
+      <input id="newVenueName" type="text" placeholder="Venue name">
+      <input id="newVenueAddress" type="text" placeholder="Address, town, or zip code">
+      <button id="saveVenueBtn">Save Venue</button>
+      <button id="cancelVenueBtn">Cancel</button>
+      <span id="addVenueStatus" class="location-status"></span>
     </div>
 
     <div class="controls secondary-controls">
@@ -57,7 +66,8 @@
   </main>
 
   <footer>
-    <p>Show data lives in <code>shows.json</code> — edit that file to add or update shows and venues.</p>
+    <p>Show data lives in <code>shows.json</code> — edit that file to add or update shows. Venues added
+    with the "+ Add Venue" button are saved in this browser only (not shared with other devices).</p>
   </footer>
 
   <script src="script.js"></script>

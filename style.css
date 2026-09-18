@@ -67,8 +67,60 @@ main {
   color: var(--text);
 }
 
-.secondary-controls {
+#addVenueToggleBtn {
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.secondary-controls,
+.add-venue-form {
   align-items: center;
+}
+
+.add-venue-form {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+#newVenueName,
+#newVenueAddress {
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+#newVenueName {
+  min-width: 160px;
+}
+
+#newVenueAddress {
+  min-width: 220px;
+}
+
+#saveVenueBtn,
+#cancelVenueBtn {
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+#saveVenueBtn {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: white;
 }
 
 #daysFilter {

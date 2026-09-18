@@ -18,6 +18,33 @@ const sortBySelect = document.getElementById("sortBy");
 const locationInput = document.getElementById("locationInput");
 const setLocationBtn = document.getElementById("setLocationBtn");
 const locationStatus = document.getElementById("locationStatus");
+const addVenueToggleBtn = document.getElementById("addVenueToggleBtn");
+const addVenueForm = document.getElementById("addVenueForm");
+const newVenueName = document.getElementById("newVenueName");
+const newVenueAddress = document.getElementById("newVenueAddress");
+const saveVenueBtn = document.getElementById("saveVenueBtn");
+const cancelVenueBtn = document.getElementById("cancelVenueBtn");
+const addVenueStatus = document.getElementById("addVenueStatus");
+
+const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
+
+function loadCustomVenues() {
+  try {
+    return JSON.parse(localStorage.getItem(CUSTOM_VENUES_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveCustomVenue(name, venue) {
+  const customVenues = loadCustomVenues();
+  customVenues[name] = venue;
+  try {
+    localStorage.setItem(CUSTOM_VENUES_KEY, JSON.stringify(customVenues));
+  } catch {
+    // localStorage unavailable (private browsing, etc.) - venue still works for this session
+  }
+}
 
 Promise.all([
   fetch("shows.json").then((res) => res.json()),
@@ -25,7 +52,7 @@ Promise.all([
 ])
   .then(([showsData, venuesData]) => {
     allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
-    venues = venuesData;
+    venues = { ...venuesData, ...loadCustomVenues() };
     populateVenueFilter();
     renderList();
     renderCalendar();
@@ -35,12 +62,18 @@ Promise.all([
   });
 
 function populateVenueFilter() {
-  const venueNames = [...new Set(allShows.map((s) => s.venue))].sort();
+  const currentValue = venueFilter.value;
+  const venueNames = [...new Set([...allShows.map((s) => s.venue), ...Object.keys(venues)])].sort();
+
+  venueFilter.innerHTML = '<option value="">All venues</option>';
   for (const venue of venueNames) {
     const option = document.createElement("option");
     option.value = venue;
     option.textContent = venue;
     venueFilter.appendChild(option);
+  }
+  if (venueNames.includes(currentValue)) {
+    venueFilter.value = currentValue;
   }
 }
 
@@ -232,6 +265,20 @@ sortBySelect.addEventListener("change", () => {
   refresh();
 });
 
+async function geocode(query) {
+  const url =
+    "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q=" +
+    encodeURIComponent(query);
+  const res = await fetch(url);
+  const results = await res.json();
+  if (!results.length) return null;
+  return {
+    lat: parseFloat(results[0].lat),
+    lng: parseFloat(results[0].lon),
+    displayName: results[0].display_name,
+  };
+}
+
 async function setLocationFromInput() {
   const query = locationInput.value.trim();
   if (!query) {
@@ -241,19 +288,14 @@ async function setLocationFromInput() {
 
   locationStatus.textContent = "Looking up that location...";
   try {
-    const url =
-      "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q=" +
-      encodeURIComponent(query);
-    const res = await fetch(url);
-    const results = await res.json();
-
-    if (!results.length) {
+    const result = await geocode(query);
+    if (!result) {
       locationStatus.textContent = `Couldn't find "${query}". Try a more specific town, zip code, or address.`;
       return;
     }
 
-    userLocation = { lat: parseFloat(results[0].lat), lng: parseFloat(results[0].lon) };
-    locationStatus.textContent = `Location set to ${results[0].display_name}.`;
+    userLocation = { lat: result.lat, lng: result.lng };
+    locationStatus.textContent = `Location set to ${result.displayName}.`;
     refresh();
   } catch (err) {
     locationStatus.textContent = `Couldn't look up that location (${err.message}).`;
@@ -263,4 +305,58 @@ async function setLocationFromInput() {
 setLocationBtn.addEventListener("click", setLocationFromInput);
 locationInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") setLocationFromInput();
+});
+
+addVenueToggleBtn.addEventListener("click", () => {
+  addVenueForm.classList.toggle("hidden");
+  addVenueStatus.textContent = "";
+});
+
+cancelVenueBtn.addEventListener("click", () => {
+  addVenueForm.classList.add("hidden");
+  newVenueName.value = "";
+  newVenueAddress.value = "";
+  addVenueStatus.textContent = "";
+});
+
+async function saveNewVenue() {
+  const name = newVenueName.value.trim();
+  const address = newVenueAddress.value.trim();
+
+  if (!name || !address) {
+    addVenueStatus.textContent = "Enter both a venue name and an address, town, or zip code.";
+    return;
+  }
+  if (venues[name]) {
+    addVenueStatus.textContent = `"${name}" is already in the venue list.`;
+    return;
+  }
+
+  addVenueStatus.textContent = "Looking up that address...";
+  try {
+    const result = await geocode(address);
+    if (!result) {
+      addVenueStatus.textContent = `Couldn't find "${address}". Try a more specific address.`;
+      return;
+    }
+
+    const venue = { address: result.displayName, lat: result.lat, lng: result.lng };
+    venues[name] = venue;
+    saveCustomVenue(name, venue);
+    populateVenueFilter();
+    venueFilter.value = name;
+
+    newVenueName.value = "";
+    newVenueAddress.value = "";
+    addVenueForm.classList.add("hidden");
+    addVenueStatus.textContent = "";
+    refresh();
+  } catch (err) {
+    addVenueStatus.textContent = `Couldn't look up that address (${err.message}).`;
+  }
+}
+
+saveVenueBtn.addEventListener("click", saveNewVenue);
+newVenueAddress.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") saveNewVenue();
 });
