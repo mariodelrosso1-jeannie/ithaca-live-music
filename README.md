@@ -131,11 +131,10 @@ farther-out cities were skipped as outside this app's "around Ithaca" scope. Thi
 - More Ithaca/Geneva venues added on a second, deeper pass: Angry Mom Records (Ithaca),
   The North Farm, Smith Opera House, and Geneva On The Lake (all Geneva, on Seneca Lake's
   north end), and Quarry Ridge Winery (Union Springs, on Cayuga Lake's east shore)
-- **Ithaca Porchfest** — added as a single consolidated entry rather than per-band, since
-  it's [174 performers across 109 porches](https://www.porchfest.org/) in the Fall Creek and
-  Northside neighborhoods on one day (Sep 20). Its "venue" coordinates are an approximate
-  center of that area, not any single address. If you want specific porches/acts, check
-  porchfest.org directly.
+
+(Ithaca Porchfest was considered but left out — it's 174 performers across 109 porches in
+one afternoon, which doesn't fit this app's one-band-per-show model well. Check
+[porchfest.org](https://www.porchfest.org/) directly if you want that lineup.)
 
 Five entries (Sugar Bomb, Lotus Land - A Tribute to Rush, Mark Nanni Music at Geneva On The
 Lake, and Just Joe at Quarry Ridge Winery) link to the general Live Music search page rather
