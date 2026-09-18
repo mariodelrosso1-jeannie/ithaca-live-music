@@ -191,6 +191,17 @@ November. Added 11 shows (Sep 18 – Nov 20); a couple from earlier in September
 passed and were left out. Its saved location was also imprecise (village-level, not the
 actual farm address) and has been corrected in `venues.json`.
 
+**The Inn at Taughannock** (2030 Gorge Rd, Trumansburg, on Cayuga Lake near Taughannock Falls)
+— a real venue with a real recurring series, "Tuesdays at Taughannock" (live music, $25
+burger-and-a-drink, 5-8 PM in their Enchantment Garden, now in its 4th season). No show was
+added for it, though: every specific date found (via [inntfalls.com](https://www.inntfalls.com/happenings),
+Tompkins Weekly, and Downtown Ithaca listings) was already in the past (June-early September),
+and nothing confirms the series is still running this deep into fall or names a performer for
+any date past Sept 1. Since this is a paid event, guessing felt riskier than usual — better to
+leave it blank than send someone to a show that isn't happening. Its location has still been
+corrected to the real address. Call ahead (607-387-7711) or check their site directly if you
+want to confirm and add a specific date.
+
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.
 
