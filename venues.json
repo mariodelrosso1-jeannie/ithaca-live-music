@@ -148,5 +148,10 @@
     "address": "4242 State Route 90, Union Springs, NY 13160",
     "lat": 42.8397906,
     "lng": -76.6932818
+  },
+  "Homer Center for the Arts": {
+    "address": "72 South Main Street, Homer, NY 13077",
+    "lat": 42.6341558,
+    "lng": -76.179499
   }
 }

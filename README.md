@@ -147,6 +147,18 @@ adds new events constantly, so it's worth re-checking periodically for more. Its
 calendar also has date-range filters (This Weekend, Next Week, etc.) if you want to pull
 further out yourself.
 
+**Homer Center for the Arts** — [its Bandsintown venue page](https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer),
+which listed its full confirmed schedule (36 shows, Sep 2026 through Apr 2027) in one
+place. This venue (72 South Main Street, Homer, NY, about 25 min northeast of Ithaca near
+Cortland) is a bit farther out than this app's usual Cayuga/Seneca/Keuka Lake scope, but it
+was added because a user specifically registered it with the "+ Add Venue" button — a
+reminder that adding a venue there only saves its name and location for filtering/distance,
+it does **not** automatically pull in shows; those still have to be researched and added to
+`shows.json` by hand (or asked for), which is what happened here. A couple of same-time
+listings on Bandsintown (e.g. two acts both shown at 8 PM the same night) were merged into
+one entry where they looked like the same show described two ways, rather than assumed to
+be two simultaneous events.
+
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.
 
