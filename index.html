@@ -20,6 +20,10 @@
         <option value="">All venues</option>
       </select>
       <button id="addVenueToggleBtn">+ Add Venue</button>
+      <select id="bandFilter">
+        <option value="">All bands/artists</option>
+      </select>
+      <button id="addBandToggleBtn">+ Add Band</button>
       <div class="view-toggle">
         <button id="listViewBtn" class="active">List</button>
         <button id="calendarViewBtn">Calendar</button>
@@ -32,6 +36,13 @@
       <button id="saveVenueBtn">Save Venue</button>
       <button id="cancelVenueBtn">Cancel</button>
       <span id="addVenueStatus" class="location-status"></span>
+    </div>
+
+    <div id="addBandForm" class="controls add-venue-form hidden">
+      <input id="newBandName" type="text" placeholder="Band/artist name to follow">
+      <button id="saveBandBtn">Follow Band</button>
+      <button id="cancelBandBtn">Cancel</button>
+      <span id="addBandStatus" class="location-status"></span>
     </div>
 
     <div class="controls secondary-controls">
@@ -67,8 +78,9 @@
   </main>
 
   <footer>
-    <p>Show data lives in <code>shows.json</code> — edit that file to add or update shows. Venues added
-    with the "+ Add Venue" button are saved in this browser only (not shared with other devices).</p>
+    <p>Show data lives in <code>shows.json</code> — edit that file to add or update shows. Venues and
+    bands added with the "+ Add Venue" / "+ Add Band" buttons are saved in this browser only (not shared
+    with other devices).</p>
   </footer>
 
   <script src="script.js"></script>

@@ -26,8 +26,16 @@ const saveVenueBtn = document.getElementById("saveVenueBtn");
 const cancelVenueBtn = document.getElementById("cancelVenueBtn");
 const addVenueStatus = document.getElementById("addVenueStatus");
 const venueSuggestions = document.getElementById("venueSuggestions");
+const bandFilter = document.getElementById("bandFilter");
+const addBandToggleBtn = document.getElementById("addBandToggleBtn");
+const addBandForm = document.getElementById("addBandForm");
+const newBandName = document.getElementById("newBandName");
+const saveBandBtn = document.getElementById("saveBandBtn");
+const cancelBandBtn = document.getElementById("cancelBandBtn");
+const addBandStatus = document.getElementById("addBandStatus");
 
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
+const FOLLOWED_BANDS_KEY = "ithacaBandShows.followedBands";
 
 function loadCustomVenues() {
   try {
@@ -47,6 +55,25 @@ function saveCustomVenue(name, venue) {
   }
 }
 
+let followedBands = [];
+
+function loadFollowedBands() {
+  try {
+    return JSON.parse(localStorage.getItem(FOLLOWED_BANDS_KEY)) || [];
+  } catch {
+    return [];
+  }
+}
+
+function saveFollowedBand(name) {
+  followedBands.push(name);
+  try {
+    localStorage.setItem(FOLLOWED_BANDS_KEY, JSON.stringify(followedBands));
+  } catch {
+    // localStorage unavailable (private browsing, etc.) - band still works for this session
+  }
+}
+
 Promise.all([
   fetch("shows.json").then((res) => res.json()),
   fetch("venues.json").then((res) => res.json()),
@@ -54,7 +81,9 @@ Promise.all([
   .then(([showsData, venuesData]) => {
     allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
     venues = { ...venuesData, ...loadCustomVenues() };
+    followedBands = loadFollowedBands();
     populateVenueFilter();
+    populateBandFilter();
     renderList();
     renderCalendar();
   })
@@ -64,6 +93,15 @@ Promise.all([
 
 function getAllVenueNames() {
   return [...new Set([...allShows.map((s) => s.venue), ...Object.keys(venues)])].sort();
+}
+
+function getAllBandNames() {
+  return [...new Set([...allShows.map((s) => s.band), ...followedBands])].sort();
+}
+
+function populateSearchSuggestions() {
+  const names = [...new Set([...getAllVenueNames(), ...getAllBandNames()])].sort();
+  venueSuggestions.innerHTML = names.map((name) => `<option value="${name}"></option>`).join("");
 }
 
 function populateVenueFilter() {
@@ -81,9 +119,25 @@ function populateVenueFilter() {
     venueFilter.value = currentValue;
   }
 
-  venueSuggestions.innerHTML = venueNames
-    .map((venue) => `<option value="${venue}"></option>`)
-    .join("");
+  populateSearchSuggestions();
+}
+
+function populateBandFilter() {
+  const currentValue = bandFilter.value;
+  const bandNames = getAllBandNames();
+
+  bandFilter.innerHTML = '<option value="">All bands/artists</option>';
+  for (const band of bandNames) {
+    const option = document.createElement("option");
+    option.value = band;
+    option.textContent = band;
+    bandFilter.appendChild(option);
+  }
+  if (bandNames.includes(currentValue)) {
+    bandFilter.value = currentValue;
+  }
+
+  populateSearchSuggestions();
 }
 
 function toRad(deg) {
@@ -110,6 +164,7 @@ function distanceToShow(show) {
 function getFilteredShows() {
   const query = searchInput.value.trim().toLowerCase();
   const venue = venueFilter.value;
+  const band = bandFilter.value;
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   const rangeEnd = new Date(today);
@@ -123,8 +178,9 @@ function getFilteredShows() {
       show.band.toLowerCase().includes(query) ||
       show.venue.toLowerCase().includes(query);
     const matchesVenue = !venue || show.venue === venue;
+    const matchesBand = !band || show.band === band;
 
-    if (!matchesQuery || !matchesVenue) return false;
+    if (!matchesQuery || !matchesVenue || !matchesBand) return false;
 
     if (quickFilterDays !== null) {
       const showDate = new Date(show.date + "T00:00:00");
@@ -233,6 +289,7 @@ function refresh() {
 
 searchInput.addEventListener("input", refresh);
 venueFilter.addEventListener("change", refresh);
+bandFilter.addEventListener("change", refresh);
 
 listViewBtn.addEventListener("click", () => {
   listViewBtn.classList.add("active");
@@ -368,4 +425,42 @@ async function saveNewVenue() {
 saveVenueBtn.addEventListener("click", saveNewVenue);
 newVenueAddress.addEventListener("keydown", (e) => {
   if (e.key === "Enter") saveNewVenue();
+});
+
+addBandToggleBtn.addEventListener("click", () => {
+  addBandForm.classList.toggle("hidden");
+  addBandStatus.textContent = "";
+});
+
+cancelBandBtn.addEventListener("click", () => {
+  addBandForm.classList.add("hidden");
+  newBandName.value = "";
+  addBandStatus.textContent = "";
+});
+
+function saveNewBand() {
+  const name = newBandName.value.trim();
+
+  if (!name) {
+    addBandStatus.textContent = "Enter a band or artist name.";
+    return;
+  }
+  if (getAllBandNames().includes(name)) {
+    addBandStatus.textContent = `"${name}" is already in the band list.`;
+    return;
+  }
+
+  saveFollowedBand(name);
+  populateBandFilter();
+  bandFilter.value = name;
+
+  newBandName.value = "";
+  addBandForm.classList.add("hidden");
+  addBandStatus.textContent = "";
+  refresh();
+}
+
+saveBandBtn.addEventListener("click", saveNewBand);
+newBandName.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") saveNewBand();
 });

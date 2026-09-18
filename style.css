@@ -59,6 +59,7 @@ main {
 }
 
 #venueFilter,
+#bandFilter,
 #sortBy {
   padding: 0.6rem 0.9rem;
   border-radius: 8px;
@@ -67,7 +68,8 @@ main {
   color: var(--text);
 }
 
-#addVenueToggleBtn {
+#addVenueToggleBtn,
+#addBandToggleBtn {
   padding: 0.6rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
@@ -89,7 +91,8 @@ main {
 }
 
 #newVenueName,
-#newVenueAddress {
+#newVenueAddress,
+#newBandName {
   padding: 0.5rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
@@ -106,8 +109,14 @@ main {
   min-width: 220px;
 }
 
+#newBandName {
+  min-width: 220px;
+}
+
 #saveVenueBtn,
-#cancelVenueBtn {
+#cancelVenueBtn,
+#saveBandBtn,
+#cancelBandBtn {
   padding: 0.5rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
@@ -117,7 +126,8 @@ main {
   font-size: 0.85rem;
 }
 
-#saveVenueBtn {
+#saveVenueBtn,
+#saveBandBtn {
   background: var(--accent-2);
   border-color: var(--accent-2);
   color: white;
