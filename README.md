@@ -86,6 +86,10 @@ for any actual show at that venue — adding the venue alone doesn't create a sh
   (saved in your browser). Favorited-band shows always float to the top of the list, ahead
   of everything else, regardless of the current sort or filters, and get a highlighted
   border. They're also starred and moved to the top of the band/artist dropdown.
+- **🔄 Refresh** — re-loads `shows.json` and `venues.json` from disk without a full page
+  reload, so your search text, filters, sort, and location stay put. Useful after
+  `shows.json` gets updated (by hand or by Claude) while the page is already open — a plain
+  browser reload works too, but this keeps your current view intact.
 
 ## Data sources
 

@@ -33,6 +33,8 @@ const newBandName = document.getElementById("newBandName");
 const saveBandBtn = document.getElementById("saveBandBtn");
 const cancelBandBtn = document.getElementById("cancelBandBtn");
 const addBandStatus = document.getElementById("addBandStatus");
+const refreshBtn = document.getElementById("refreshBtn");
+const refreshStatus = document.getElementById("refreshStatus");
 
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
 const FOLLOWED_BANDS_KEY = "ithacaBandShows.followedBands";
@@ -106,23 +108,38 @@ function escapeAttr(str) {
   return str.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
 }
 
-Promise.all([
-  fetch("shows.json").then((res) => res.json()),
-  fetch("venues.json").then((res) => res.json()),
-])
-  .then(([showsData, venuesData]) => {
-    allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
-    venues = { ...venuesData, ...loadCustomVenues() };
-    followedBands = loadFollowedBands();
-    favoriteBands = loadFavoriteBands();
-    populateVenueFilter();
-    populateBandFilter();
-    renderList();
-    renderCalendar();
-  })
-  .catch((err) => {
-    listView.innerHTML = `<p class="empty-state">Couldn't load show data (${err.message})</p>`;
-  });
+async function loadData() {
+  const [showsData, venuesData] = await Promise.all([
+    fetch("shows.json", { cache: "no-store" }).then((res) => res.json()),
+    fetch("venues.json", { cache: "no-store" }).then((res) => res.json()),
+  ]);
+  allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
+  venues = { ...venuesData, ...loadCustomVenues() };
+  followedBands = loadFollowedBands();
+  favoriteBands = loadFavoriteBands();
+  populateVenueFilter();
+  populateBandFilter();
+  renderList();
+  renderCalendar();
+}
+
+loadData().catch((err) => {
+  listView.innerHTML = `<p class="empty-state">Couldn't load show data (${err.message})</p>`;
+});
+
+refreshBtn.addEventListener("click", async () => {
+  refreshBtn.disabled = true;
+  refreshStatus.textContent = "Refreshing...";
+  try {
+    await loadData();
+    const now = new Date().toLocaleTimeString();
+    refreshStatus.textContent = `Updated as of ${now}.`;
+  } catch (err) {
+    refreshStatus.textContent = `Couldn't refresh (${err.message}).`;
+  } finally {
+    refreshBtn.disabled = false;
+  }
+});
 
 function getAllVenueNames() {
   return [...new Set([...allShows.map((s) => s.venue), ...Object.keys(venues)])].sort();
