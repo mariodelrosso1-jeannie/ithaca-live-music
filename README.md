@@ -73,6 +73,7 @@ for any actual show at that venue — adding the venue alone doesn't create a sh
 
 - **Date dropdown** — "All Dates" (default) or "Next 1 day" through "Next 7 days," which
   filters to shows happening between today and that many days out.
+- **Sort: Performer/Artist (A-Z)** — alphabetical by band/artist name.
 - **Sort: Distance (nearest first)** — type a zip code, town, or address into the location
   box and click "📍 Set Location" (or press Enter). This looks up that place using
   [OpenStreetMap's free Nominatim geocoding service](https://nominatim.org/) to turn it

@@ -252,6 +252,10 @@ function getFilteredShows() {
         return a.dist - b.dist;
       })
       .map((entry) => entry.show);
+  } else if (sortBy === "band") {
+    shows = shows
+      .slice()
+      .sort((a, b) => a.band.toLowerCase().localeCompare(b.band.toLowerCase()));
   }
 
   shows = shows
