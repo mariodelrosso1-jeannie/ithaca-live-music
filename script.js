@@ -35,6 +35,12 @@ const cancelBandBtn = document.getElementById("cancelBandBtn");
 const addBandStatus = document.getElementById("addBandStatus");
 const refreshBtn = document.getElementById("refreshBtn");
 const refreshStatus = document.getElementById("refreshStatus");
+const manageToggleBtn = document.getElementById("manageToggleBtn");
+const manageForm = document.getElementById("manageForm");
+const manageVenuesList = document.getElementById("manageVenuesList");
+const manageBandsList = document.getElementById("manageBandsList");
+const closeManageBtn = document.getElementById("closeManageBtn");
+const manageStatus = document.getElementById("manageStatus");
 
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
 const FOLLOWED_BANDS_KEY = "ithacaBandShows.followedBands";
@@ -58,6 +64,29 @@ function saveCustomVenue(name, venue) {
   }
 }
 
+function deleteCustomVenue(name) {
+  const customVenues = loadCustomVenues();
+  delete customVenues[name];
+  try {
+    localStorage.setItem(CUSTOM_VENUES_KEY, JSON.stringify(customVenues));
+  } catch {
+    // localStorage unavailable
+  }
+  if (venueFilter.value === name) venueFilter.value = "";
+}
+
+function renameCustomVenue(oldName, newName, venueData) {
+  const customVenues = loadCustomVenues();
+  delete customVenues[oldName];
+  customVenues[newName] = venueData;
+  try {
+    localStorage.setItem(CUSTOM_VENUES_KEY, JSON.stringify(customVenues));
+  } catch {
+    // localStorage unavailable
+  }
+  if (venueFilter.value === oldName) venueFilter.value = "";
+}
+
 let followedBands = [];
 
 function loadFollowedBands() {
@@ -75,6 +104,33 @@ function saveFollowedBand(name) {
   } catch {
     // localStorage unavailable (private browsing, etc.) - band still works for this session
   }
+}
+
+function deleteFollowedBand(name) {
+  followedBands = followedBands.filter((b) => b !== name);
+  try {
+    localStorage.setItem(FOLLOWED_BANDS_KEY, JSON.stringify(followedBands));
+  } catch {
+    // localStorage unavailable
+  }
+  favoriteBands.delete(name);
+  saveFavoriteBands();
+  if (bandFilter.value === name) bandFilter.value = "";
+}
+
+function renameFollowedBand(oldName, newName) {
+  followedBands = followedBands.map((b) => (b === oldName ? newName : b));
+  try {
+    localStorage.setItem(FOLLOWED_BANDS_KEY, JSON.stringify(followedBands));
+  } catch {
+    // localStorage unavailable
+  }
+  if (favoriteBands.has(oldName)) {
+    favoriteBands.delete(oldName);
+    favoriteBands.add(newName);
+    saveFavoriteBands();
+  }
+  if (bandFilter.value === oldName) bandFilter.value = "";
 }
 
 let favoriteBands = new Set();
@@ -543,4 +599,213 @@ function saveNewBand() {
 saveBandBtn.addEventListener("click", saveNewBand);
 newBandName.addEventListener("keydown", (e) => {
   if (e.key === "Enter") saveNewBand();
+});
+
+let manageVenueMode = {}; // name -> "editing" | "confirmDelete"
+let manageBandMode = {};
+
+function renderManagePanel() {
+  const customVenues = loadCustomVenues();
+  const venueNames = Object.keys(customVenues).sort();
+
+  manageVenuesList.innerHTML = venueNames.length
+    ? venueNames
+        .map((name) => {
+          const v = customVenues[name];
+          const mode = manageVenueMode[name];
+
+          if (mode === "editing") {
+            return `
+              <div class="manage-row manage-row-editing" data-name="${escapeAttr(name)}">
+                <div class="manage-edit-fields">
+                  <input type="text" class="manage-edit-name" value="${escapeAttr(name)}" placeholder="Venue name">
+                  <input type="text" class="manage-edit-address" value="${escapeAttr(v.address)}" placeholder="Address, town, or zip code">
+                </div>
+                <div class="manage-row-actions">
+                  <button class="manage-save-edit-btn">Save</button>
+                  <button class="manage-cancel-edit-btn">Cancel</button>
+                </div>
+              </div>
+            `;
+          }
+          if (mode === "confirmDelete") {
+            return `
+              <div class="manage-row manage-row-confirm" data-name="${escapeAttr(name)}">
+                <div class="manage-row-info"><strong>Delete "${name}"?</strong></div>
+                <div class="manage-row-actions">
+                  <button class="manage-confirm-delete-btn">Yes, Delete</button>
+                  <button class="manage-cancel-delete-btn">Cancel</button>
+                </div>
+              </div>
+            `;
+          }
+          return `
+            <div class="manage-row" data-name="${escapeAttr(name)}">
+              <div class="manage-row-info">
+                <strong>${name}</strong>
+                <span class="manage-row-address">${v.address}</span>
+              </div>
+              <div class="manage-row-actions">
+                <button class="manage-rename-btn">Rename / Fix Address</button>
+                <button class="manage-delete-btn">Delete</button>
+              </div>
+            </div>
+          `;
+        })
+        .join("")
+    : '<p class="empty-state">No custom venues added yet.</p>';
+
+  const bandNames = [...followedBands].sort();
+  manageBandsList.innerHTML = bandNames.length
+    ? bandNames
+        .map((name) => {
+          const mode = manageBandMode[name];
+
+          if (mode === "editing") {
+            return `
+              <div class="manage-row manage-row-editing" data-name="${escapeAttr(name)}">
+                <div class="manage-edit-fields">
+                  <input type="text" class="manage-edit-name" value="${escapeAttr(name)}" placeholder="Band/artist name">
+                </div>
+                <div class="manage-row-actions">
+                  <button class="manage-save-edit-btn">Save</button>
+                  <button class="manage-cancel-edit-btn">Cancel</button>
+                </div>
+              </div>
+            `;
+          }
+          if (mode === "confirmDelete") {
+            return `
+              <div class="manage-row manage-row-confirm" data-name="${escapeAttr(name)}">
+                <div class="manage-row-info"><strong>Stop following "${name}"?</strong></div>
+                <div class="manage-row-actions">
+                  <button class="manage-confirm-delete-btn">Yes, Delete</button>
+                  <button class="manage-cancel-delete-btn">Cancel</button>
+                </div>
+              </div>
+            `;
+          }
+          return `
+            <div class="manage-row" data-name="${escapeAttr(name)}">
+              <div class="manage-row-info"><strong>${name}</strong></div>
+              <div class="manage-row-actions">
+                <button class="manage-rename-btn">Rename</button>
+                <button class="manage-delete-btn">Delete</button>
+              </div>
+            </div>
+          `;
+        })
+        .join("")
+    : '<p class="empty-state">No followed bands added yet.</p>';
+}
+
+manageToggleBtn.addEventListener("click", () => {
+  manageForm.classList.toggle("hidden");
+  if (!manageForm.classList.contains("hidden")) {
+    manageVenueMode = {};
+    manageBandMode = {};
+    manageStatus.textContent = "";
+    renderManagePanel();
+  }
+});
+
+closeManageBtn.addEventListener("click", () => {
+  manageForm.classList.add("hidden");
+});
+
+manageVenuesList.addEventListener("click", async (e) => {
+  const row = e.target.closest(".manage-row");
+  if (!row) return;
+  const name = row.dataset.name;
+
+  if (e.target.classList.contains("manage-delete-btn")) {
+    manageVenueMode = { [name]: "confirmDelete" };
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-cancel-delete-btn")) {
+    delete manageVenueMode[name];
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-confirm-delete-btn")) {
+    delete manageVenueMode[name];
+    deleteCustomVenue(name);
+    manageStatus.textContent = `Deleted "${name}".`;
+    await loadData();
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-rename-btn")) {
+    manageVenueMode = { [name]: "editing" };
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-cancel-edit-btn")) {
+    delete manageVenueMode[name];
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-save-edit-btn")) {
+    const newName = row.querySelector(".manage-edit-name").value.trim();
+    const newAddress = row.querySelector(".manage-edit-address").value.trim();
+    if (!newName || !newAddress) {
+      manageStatus.textContent = "Enter both a venue name and an address, town, or zip code.";
+      return;
+    }
+
+    const customVenues = loadCustomVenues();
+    const current = customVenues[name];
+    let venueData = current;
+    if (newAddress !== current.address) {
+      e.target.disabled = true;
+      e.target.textContent = "Looking up...";
+      const result = await geocode(newAddress);
+      if (!result) {
+        manageStatus.textContent = `Couldn't find "${newAddress}". Kept the previous location for now - try again with a more specific address.`;
+        e.target.disabled = false;
+        e.target.textContent = "Save";
+        return;
+      }
+      venueData = { address: result.displayName, lat: result.lat, lng: result.lng };
+    }
+
+    delete manageVenueMode[name];
+    renameCustomVenue(name, newName, venueData);
+    manageStatus.textContent = newName === name ? `Updated "${name}".` : `Renamed "${name}" to "${newName}".`;
+    await loadData();
+    renderManagePanel();
+  }
+});
+
+manageBandsList.addEventListener("click", async (e) => {
+  const row = e.target.closest(".manage-row");
+  if (!row) return;
+  const name = row.dataset.name;
+
+  if (e.target.classList.contains("manage-delete-btn")) {
+    manageBandMode = { [name]: "confirmDelete" };
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-cancel-delete-btn")) {
+    delete manageBandMode[name];
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-confirm-delete-btn")) {
+    delete manageBandMode[name];
+    deleteFollowedBand(name);
+    manageStatus.textContent = `Stopped following "${name}".`;
+    await loadData();
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-rename-btn")) {
+    manageBandMode = { [name]: "editing" };
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-cancel-edit-btn")) {
+    delete manageBandMode[name];
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-save-edit-btn")) {
+    const newName = row.querySelector(".manage-edit-name").value.trim();
+    if (!newName) {
+      manageStatus.textContent = "Enter a band or artist name.";
+      return;
+    }
+
+    delete manageBandMode[name];
+    if (newName !== name) {
+      renameFollowedBand(name, newName);
+      manageStatus.textContent = `Renamed "${name}" to "${newName}".`;
+    } else {
+      manageStatus.textContent = "";
+    }
+    await loadData();
+    renderManagePanel();
+  }
 });

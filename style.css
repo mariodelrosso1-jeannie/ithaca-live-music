@@ -69,13 +69,137 @@ main {
 }
 
 #addVenueToggleBtn,
-#addBandToggleBtn {
+#addBandToggleBtn,
+#manageToggleBtn {
   padding: 0.6rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--panel);
   color: var(--muted);
   cursor: pointer;
+}
+
+.manage-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.manage-panel h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.manage-panel h3:first-of-type {
+  margin-top: 0.5rem;
+}
+
+.manage-note {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.manage-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.manage-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  flex-wrap: wrap;
+}
+
+.manage-row-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-size: 0.9rem;
+}
+
+.manage-row-address {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.manage-row-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.manage-row-actions button {
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.78rem;
+}
+
+.manage-delete-btn {
+  color: var(--accent) !important;
+}
+
+.manage-row-confirm {
+  border-color: var(--accent);
+}
+
+.manage-confirm-delete-btn {
+  background: var(--accent) !important;
+  border-color: var(--accent) !important;
+  color: white !important;
+}
+
+.manage-row-editing {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.manage-edit-fields {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.manage-edit-fields input {
+  flex: 1;
+  min-width: 160px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.manage-save-edit-btn {
+  background: var(--accent-2) !important;
+  border-color: var(--accent-2) !important;
+  color: white !important;
+}
+
+#closeManageBtn {
+  margin-top: 1rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.85rem;
 }
 
 .secondary-controls,

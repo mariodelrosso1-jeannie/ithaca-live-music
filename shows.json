@@ -1330,5 +1330,23 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cielle",
+    "venue": "Airy Acres Vineyard",
+    "date": "2026-09-19",
+    "time": "2:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://airyacresvineyard.com/upcoming-events/"
+  },
+  {
+    "band": "The Deneckes",
+    "venue": "Airy Acres Vineyard",
+    "date": "2026-09-26",
+    "time": "2:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://airyacresvineyard.com/upcoming-events/"
   }
 ]

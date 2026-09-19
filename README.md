@@ -69,6 +69,20 @@ who opens the site. To make a venue permanent for everyone, add it to `venues.js
 (or ask whoever maintains the site to). You'll still need to add an entry in `shows.json`
 for any actual show at that venue — adding the venue alone doesn't create a show.
 
+### Managing what you've added
+
+Click **"⚙ Manage"** to see everything you've added yourself (venues and followed bands) in
+one place, with **Rename** and **Delete** for each. Renaming a venue lets you fix its address
+too (it re-geocodes if you change it) without losing or re-typing anything.
+
+This only lists your own local additions — not the shared data in `shows.json`/`venues.json`.
+If something there is wrong, ask to have it corrected instead of trying to edit it here.
+
+(Note for anyone extending this app: the management UI intentionally avoids `prompt()`,
+`confirm()`, and `alert()` — in at least this app's own testing environment they either threw
+an error or silently returned `false`/did nothing, so they can't be relied on. Everything uses
+inline HTML forms instead.)
+
 ## Filtering and distance
 
 - **Date dropdown** — "All Dates" (default) or "Next 1 day" through "Next 7 days," which
@@ -219,6 +233,13 @@ This aggregator's calendar view also cross-confirmed several existing entries as
 (Tate Williams, Liam Lawson, Major Keys Trio, the Hosmer Harvest Fest show), and listed several
 more bands without naming a venue clearly enough to add confidently — those were left out
 rather than guessed.
+
+**Airy Acres Vineyard** (8011 Footes Corners Rd, Interlaken, on Cayuga Lake) — another
+user-added venue with a real, complete schedule on [its own site](https://airyacresvineyard.com/upcoming-events/):
+a Saturday-afternoon music series running June through September. Only the two dates still
+upcoming (Sep 19, Sep 26) were added; everything from June through mid-September had already
+passed. Its saved location was also imprecise and has been corrected via the new "⚙ Manage"
+rename tool (see below) instead of by hand — a good real-world test of that feature.
 
 A few entries note the recurring series name in parentheses (e.g. "Bobby Rowe (Music and
 Mimosas)") because that's how the venue itself labels the event alongside the performer.
