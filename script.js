@@ -495,8 +495,8 @@ async function saveNewVenue() {
 
     newVenueName.value = "";
     newVenueAddress.value = "";
-    addVenueForm.classList.add("hidden");
-    addVenueStatus.textContent = "";
+    addVenueStatus.textContent = `Added "${name}". Add another, or click Cancel when done.`;
+    newVenueName.focus();
     refresh();
   } catch (err) {
     addVenueStatus.textContent = `Couldn't look up that address (${err.message}).`;
@@ -535,8 +535,8 @@ function saveNewBand() {
   populateBandFilter();
 
   newBandName.value = "";
-  addBandForm.classList.add("hidden");
-  addBandStatus.textContent = "";
+  addBandStatus.textContent = `Added "${name}". Add another, or click Cancel when done.`;
+  newBandName.focus();
   refresh();
 }
 
