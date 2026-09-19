@@ -1546,5 +1546,14 @@
     "genre": "Electronic/Alternative",
     "price": "Ticketed - see Details",
     "link": "https://www.bandsintown.com/c/ithaca-ny"
+  },
+  {
+    "band": "The Yardvarks (Meandering Yardvarks, Porchfest)",
+    "venue": "Ithaca Porchfest - 917 N Cayuga St",
+    "date": "2026-09-20",
+    "time": "3:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "http://www.johnsimonmusic.com/gig/"
   }
 ]

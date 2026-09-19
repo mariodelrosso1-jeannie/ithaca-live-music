@@ -285,3 +285,26 @@ This same check also surfaced touring acts at venues already in the list: **Anbe
 **Gregory Alan Isakov** at Point of the Bluff Vineyards, **Lettuce** at Smith Opera House, and
 **Rituals of Mine** at Homer Center for the Arts — all confirmed via their own ticketing pages,
 not just the aggregator listing.
+
+### Followed-band audit
+
+Checked every band followed via "+ Add Band" for real upcoming shows. One found a real date:
+**The Yardvarks** are playing Ithaca Porchfest tomorrow (Sep 20) at a specific porch — 917 N
+Cayuga Street, 3:00 PM — confirmed via [John Simon's own gig calendar](http://www.johnsimonmusic.com/gig/).
+This is an exception to skipping Porchfest as a whole: unlike the festival's 174 other acts,
+this one has a specific address, time, and was directly relevant to a followed band, so it got
+its own venue entry rather than being lumped into the festival-wide exclusion.
+
+Two follow-ups worth knowing about:
+- The followed entry is spelled **"The Yaardvarks"** (extra "a"), but the real band's name is
+  **"The Yardvarks"** — that's how it's spelled in `shows.json` now, so the follow won't match
+  this show until the followed entry is corrected. Use "⚙ Manage" → Rename to fix it.
+- **John Simon** is also a real, followed band with zero *directly* matching shows — but he's
+  the same performer already appearing as "John Simon, Dee Specker & Friends (Sunset Music
+  Series)" at Six Mile Creek Vineyard (Sep 24). Local Finger Lakes musicians often play under
+  several rotating group names (John Simon also plays in Radio London), so an exact-name match
+  can miss real overlap like this.
+
+No confirmed upcoming date was found for **The Dart Brothers** or **Radio London** — both are
+real, active local bands, but nothing dated could be confirmed from their own channels or
+listings at research time.

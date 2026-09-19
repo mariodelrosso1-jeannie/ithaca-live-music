@@ -193,5 +193,10 @@
     "address": "107 West State Street, Ithaca, NY 14850",
     "lat": 42.4392404,
     "lng": -76.499566
+  },
+  "Ithaca Porchfest - 917 N Cayuga St": {
+    "address": "917 N Cayuga Street, Ithaca, NY 14850",
+    "lat": 42.4505404,
+    "lng": -76.4993623
   }
 }
