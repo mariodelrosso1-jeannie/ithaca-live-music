@@ -253,3 +253,18 @@ at research time:
 
 Show schedules change and venues sometimes list acts as "tentative." Re-check these
 sources periodically and update `shows.json` by hand.
+
+### Refresh pass (September 19, 2026)
+
+Re-checked every venue's original source for anything newer than what was already listed.
+Most had nothing new (their schedules simply hadn't been updated since the last check) —
+two genuinely had more:
+- **Montezuma Winery** — one more "Tunes and Tots" date, Nov 13 (Major Keys Trio)
+- **Two Goats Brewing** — 12 more shows running Nov 6 through Dec 18, extending its schedule
+  well into December
+
+One near-miss worth noting: Ventosa Vineyards' page appeared to show a December schedule
+extending to Dec 30, but on closer inspection those specific dates were leftover from
+**December 2024**, not 2026 — the page hadn't been updated for this year that far out. Nothing
+was added from that; a source showing a date range isn't the same as it being confirmed for
+the current year, so it's always worth checking the year explicitly, not just the month/day.

@@ -306,6 +306,15 @@
     "link": "https://cayugawinetrail.com/events/winery-events/11-06-2026"
   },
   {
+    "band": "Major Keys Trio (Tunes and Tots)",
+    "venue": "Montezuma Winery",
+    "date": "2026-11-13",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery-events/11-13-2026"
+  },
+  {
     "band": "Donna Colton (Bon Vivant)",
     "venue": "Hosmer Estate Winery",
     "date": "2026-11-07",
@@ -615,6 +624,114 @@
     "band": "2 Horse Johnson",
     "venue": "Two Goats Brewing",
     "date": "2026-10-31",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "David Graybeard Band",
+    "venue": "Two Goats Brewing",
+    "date": "2026-11-06",
+    "time": "5:00 PM",
+    "genre": "Americana",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Stereopticon Trio",
+    "venue": "Two Goats Brewing",
+    "date": "2026-11-07",
+    "time": "5:00 PM",
+    "genre": "Rock/Jam",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Rena Guinn and Joe Lule",
+    "venue": "Two Goats Brewing",
+    "date": "2026-11-13",
+    "time": "5:00 PM",
+    "genre": "Folk",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Terrapin Station Acoustic",
+    "venue": "Two Goats Brewing",
+    "date": "2026-11-14",
+    "time": "5:00 PM",
+    "genre": "Grateful Dead Tribute",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Mathis Haug",
+    "venue": "Two Goats Brewing",
+    "date": "2026-11-20",
+    "time": "5:00 PM",
+    "genre": "Blues/Folk/Country",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Stratcat Willie and the Strays",
+    "venue": "Two Goats Brewing",
+    "date": "2026-11-21",
+    "time": "5:00 PM",
+    "genre": "Blues",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Technicolor Trailer Park",
+    "venue": "Two Goats Brewing",
+    "date": "2026-11-27",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Doc Possum Duo",
+    "venue": "Two Goats Brewing",
+    "date": "2026-11-28",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Cisco PL Duo",
+    "venue": "Two Goats Brewing",
+    "date": "2026-12-04",
+    "time": "5:00 PM",
+    "genre": "Soul/Blues/Rock",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Oliver Burdo",
+    "venue": "Two Goats Brewing",
+    "date": "2026-12-11",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Terrapin Station Acoustic",
+    "venue": "Two Goats Brewing",
+    "date": "2026-12-12",
+    "time": "5:00 PM",
+    "genre": "Grateful Dead Tribute",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Brett Beardslee",
+    "venue": "Two Goats Brewing",
+    "date": "2026-12-18",
     "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
