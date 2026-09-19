@@ -188,5 +188,10 @@
     "address": "8011 Footes Corners Rd, Interlaken, NY 14847",
     "lat": 42.6363265,
     "lng": -76.725481
+  },
+  "State Theatre of Ithaca": {
+    "address": "107 West State Street, Ithaca, NY 14850",
+    "lat": 42.4392404,
+    "lng": -76.499566
   }
 }

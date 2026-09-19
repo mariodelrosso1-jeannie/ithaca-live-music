@@ -268,3 +268,20 @@ extending to Dec 30, but on closer inspection those specific dates were leftover
 **December 2024**, not 2026 — the page hadn't been updated for this year that far out. Nothing
 was added from that; a source showing a date range isn't the same as it being confirmed for
 the current year, so it's always worth checking the year explicitly, not just the month/day.
+
+**[Bandsintown's Ithaca city page](https://www.bandsintown.com/c/ithaca-ny)** — checked for
+the first time this pass (previously only individual venue pages on Bandsintown had been used,
+never this broader city view). Like flxmusic247, its "Ithaca" radius pulls in Syracuse,
+Auburn, and other clearly-too-far cities, so only in-scope venues were pulled from it. This
+revealed a real gap: **State Theatre of Ithaca** (107 West State Street, downtown Ithaca) — a
+real, sizable venue this app had somehow never included. Added 5 shows there, mixing music and
+music-adjacent events consistent with how Homer Center for the Arts already handles it
+(Of Monsters and Men, The Beatlemaniacs, Judy Collins, and — following the same judgment call
+as Garrison Keillor and Welcome to Night Vale at Homer — Ira Glass and Fred Armisen's
+music-themed show). Two pure stand-up sets (Brad Williams, Aziz Ansari) and two Ithaca Ballet
+dance performances were left out as outside a live-*music* app's scope.
+
+This same check also surfaced touring acts at venues already in the list: **Anberlin** and
+**Gregory Alan Isakov** at Point of the Bluff Vineyards, **Lettuce** at Smith Opera House, and
+**Rituals of Mine** at Homer Center for the Arts — all confirmed via their own ticketing pages,
+not just the aggregator listing.

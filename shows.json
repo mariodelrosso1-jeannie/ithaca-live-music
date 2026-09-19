@@ -1465,5 +1465,86 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://airyacresvineyard.com/upcoming-events/"
+  },
+  {
+    "band": "Ira Glass: Stories for a Saturday Night",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-09-19",
+    "time": "8:00 PM",
+    "genre": "Spoken Word",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/"
+  },
+  {
+    "band": "Of Monsters and Men (The Mouse Parade Tour, w/ August Ponthier)",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-09-22",
+    "time": "8:00 PM",
+    "genre": "Indie Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/"
+  },
+  {
+    "band": "Anberlin",
+    "venue": "Point of the Bluff Vineyards",
+    "date": "2026-09-27",
+    "time": "8:00 PM",
+    "genre": "Alternative Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://www.bandsintown.com/c/ithaca-ny"
+  },
+  {
+    "band": "The Beatlemaniacs",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-10-03",
+    "time": "7:30 PM",
+    "genre": "Tribute/Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/"
+  },
+  {
+    "band": "Gregory Alan Isakov",
+    "venue": "Point of the Bluff Vineyards",
+    "date": "2026-10-04",
+    "time": "7:00 PM",
+    "genre": "Folk/Indie",
+    "price": "Ticketed - see Details",
+    "link": "https://www.bandsintown.com/c/ithaca-ny"
+  },
+  {
+    "band": "Judy Collins: Sweet Judy Blue Eyes Farewell Tour (w/ Oakland Rain)",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-10-09",
+    "time": "8:00 PM",
+    "genre": "Folk",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/"
+  },
+  {
+    "band": "Lettuce",
+    "venue": "Smith Opera House",
+    "date": "2026-10-10",
+    "time": "8:00 PM",
+    "genre": "Funk/Jam",
+    "price": "Ticketed - see Details",
+    "link": "https://www.bandsintown.com/c/ithaca-ny"
+  },
+  {
+    "band": "Fred Armisen: Comedy for Musicians But Everyone is Welcome",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-10-11",
+    "time": "7:00 PM",
+    "genre": "Comedy/Music",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/"
+  },
+  {
+    "band": "Rituals of Mine",
+    "venue": "Homer Center for the Arts",
+    "date": "2026-11-14",
+    "time": "8:00 PM",
+    "genre": "Electronic/Alternative",
+    "price": "Ticketed - see Details",
+    "link": "https://www.bandsintown.com/c/ithaca-ny"
   }
 ]
