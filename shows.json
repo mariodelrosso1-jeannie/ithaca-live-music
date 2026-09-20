@@ -99,7 +99,7 @@
     "link": "https://cayugawinetrail.com/events/winery-events/09-27-2026"
   },
   {
-    "band": "Oasis Sunday Music",
+    "band": "Tink Bennett (Oasis Sunday Music)",
     "venue": "The Oasis at Hazlitt 1852 Vineyards",
     "date": "2026-09-27",
     "time": "2:00 PM",
@@ -1555,5 +1555,23 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "http://www.johnsimonmusic.com/gig/"
+  },
+  {
+    "band": "Yayle Hues",
+    "venue": "Landon's Pub & Pizza",
+    "date": "2026-10-03",
+    "time": "8:00 PM",
+    "genre": "Classic Rock",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Bad Bear",
+    "venue": "Landon's Pub & Pizza",
+    "date": "2026-10-10",
+    "time": "8:00 PM",
+    "genre": "Classic Rock",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
   }
 ]

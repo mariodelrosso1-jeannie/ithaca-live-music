@@ -308,3 +308,34 @@ Two follow-ups worth knowing about:
 No confirmed upcoming date was found for **The Dart Brothers** or **Radio London** — both are
 real, active local bands, but nothing dated could be confirmed from their own channels or
 listings at research time.
+
+### Refresh pass (September 20, 2026)
+
+Re-checked every venue's own source (Six Mile Creek, Buttonwood Grove, Ventosa, Wagner, Grist
+Iron, Two Goats, Hazlitt, cayugawinetrail wineries, State Theatre of Ithaca, Hopshire) plus the
+flxmusic247 aggregator, one day after the previous refresh. Nearly everything matched exactly
+what was already listed — expected, given how recent the last pass was — but two things were
+worth acting on:
+
+- **Landon's Pub & Pizza** (110 W 4th St, Watkins Glen, NY — south end of Seneca Lake, well
+  within this app's existing wine-country coverage) is a new venue, found via flxmusic247: 2
+  confirmed shows, **Yayle Hues** (Oct 3) and **Bad Bear** (Oct 10), both 8:00 PM. Its exact
+  street address didn't geocode cleanly, so it uses village-level coordinates for Watkins Glen
+  instead (same fallback used for Trumansburg Farmers Market).
+- The Sep 27 "Oasis Sunday Music" slot at The Oasis at Hazlitt 1852 Vineyards was confirmed by
+  flxmusic247 to have a named performer, **Tink Bennett**, that Hazlitt's own site didn't spell
+  out — updated in `shows.json` to "Tink Bennett (Oasis Sunday Music)" to match how other
+  recurring-series entries in this file already name the actual performer.
+
+Three other flxmusic247 leads were checked and left out as out of scope, consistent with this
+app's existing radius: **ONCO Fermentations** (Tully, NY — near Syracuse, not Finger Lakes wine
+country), **Smokin' Tails Distillery** (Phelps, NY — Canandaigua-area, already an excluded
+region), and **The Trestle** (Sodus Point, NY — Lake Ontario, already an excluded region).
+
+State Theatre of Ithaca's own calendar added two new dates since the last check — **Brad
+Williams** (Oct 8) and **Chris Fleming** (Oct 23) — but both are stand-up comedy, not music, so
+they were left out for the same reason Aziz Ansari's set there already was.
+
+Bandsintown's Ithaca city page and ithaca.com's live-music listing didn't return usable event
+details this pass (both returned only page chrome, no event data, to the fetch tool used) —
+worth trying again manually next time if a fuller check is needed.
