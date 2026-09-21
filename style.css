@@ -486,3 +486,77 @@ footer code {
   padding: 0.1rem 0.4rem;
   border-radius: 4px;
 }
+
+@media print {
+  html {
+    font-size: 55%;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  .controls,
+  .add-venue-form,
+  .manage-panel,
+  .calendar-nav,
+  #calendarView,
+  footer,
+  .location-status {
+    display: none !important;
+  }
+
+  header {
+    padding: 0 0 1rem;
+  }
+
+  .subtitle {
+    color: #444;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+  }
+
+  .show-card {
+    background: white;
+    border: 1px solid #999;
+    color: black;
+    break-inside: avoid;
+    box-shadow: none;
+  }
+
+  .show-card.favorite {
+    box-shadow: none;
+    border-color: #333;
+  }
+
+  .show-date {
+    background: #eee;
+  }
+
+  .show-date .day {
+    color: black;
+  }
+
+  .show-date .month,
+  .show-info .meta,
+  .distance-badge {
+    color: #444;
+  }
+
+  .show-info .venue {
+    color: #222;
+  }
+
+  .show-info a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .favorite-toggle {
+    display: none;
+  }
+}

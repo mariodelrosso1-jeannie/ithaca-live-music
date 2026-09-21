@@ -34,6 +34,7 @@ const saveBandBtn = document.getElementById("saveBandBtn");
 const cancelBandBtn = document.getElementById("cancelBandBtn");
 const addBandStatus = document.getElementById("addBandStatus");
 const refreshBtn = document.getElementById("refreshBtn");
+const printBtn = document.getElementById("printBtn");
 const refreshStatus = document.getElementById("refreshStatus");
 const manageToggleBtn = document.getElementById("manageToggleBtn");
 const manageForm = document.getElementById("manageForm");
@@ -194,6 +195,15 @@ refreshBtn.addEventListener("click", async () => {
     refreshStatus.textContent = `Couldn't refresh (${err.message}).`;
   } finally {
     refreshBtn.disabled = false;
+  }
+});
+
+printBtn.addEventListener("click", () => {
+  if (calendarView.classList.contains("hidden")) {
+    window.print();
+  } else {
+    listViewBtn.click();
+    window.print();
   }
 });
 
