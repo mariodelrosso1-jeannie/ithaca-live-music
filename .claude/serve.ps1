@@ -26,6 +26,7 @@ while ($listener.IsListening) {
     if (-not $contentType) { $contentType = "application/octet-stream" }
     $bytes = [System.IO.File]::ReadAllBytes($filePath)
     $response.ContentType = $contentType
+    $response.Headers.Add("Cache-Control", "no-cache, no-store, must-revalidate")
     $response.ContentLength64 = $bytes.Length
     $response.OutputStream.Write($bytes, 0, $bytes.Length)
   } else {
