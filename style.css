@@ -35,6 +35,12 @@ header h1 {
   margin: 0.3rem 0 0;
 }
 
+.last-updated {
+  color: var(--muted);
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
+}
+
 main {
   max-width: 900px;
   margin: 0 auto;
@@ -511,7 +517,8 @@ footer code {
     padding: 0 0 1rem;
   }
 
-  .subtitle {
+  .subtitle,
+  .last-updated {
     color: #444;
   }
 
