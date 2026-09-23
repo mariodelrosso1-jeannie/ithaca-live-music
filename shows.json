@@ -2266,5 +2266,257 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Chris & Korie",
+    "venue": "Point of the Bluff Vineyards",
+    "date": "2026-10-11",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Jackson Cavalier",
+    "venue": "Living Roots Wine & Co.",
+    "date": "2026-10-11",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "The Dean's List",
+    "venue": "Muranda Barn",
+    "date": "2026-10-11",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Radio London",
+    "venue": "The Inn at Taughannock",
+    "date": "2026-10-13",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "$25 (includes burger and beer or wine)",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cayuga Blue Notes",
+    "venue": "Trumansburg Farmers Market",
+    "date": "2026-10-14",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cooper Scotti",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-10-16",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Mike Lucey",
+    "venue": "Solera Tap House",
+    "date": "2026-10-16",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "The Fun Bunch (Seneca Stag Halloween Party)",
+    "venue": "Seneca Stag Brewing Co.",
+    "date": "2026-10-17",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cam Caruso (Temperance FLX Speakeasy)",
+    "venue": "Temperance FLX",
+    "date": "2026-10-17",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Ric Robertson Trio + Calya & The Coy Dogs",
+    "venue": "The North Farm",
+    "date": "2026-10-17",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Evan Dillon",
+    "venue": "Landon's Pub & Pizza",
+    "date": "2026-10-17",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Larry Campanelli & Mike Doyle (Sunday Jazz Brunch)",
+    "venue": "Geneva On The Lake",
+    "date": "2026-10-18",
+    "time": "10:00 AM",
+    "genre": "Jazz",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Brad Ordway",
+    "venue": "Ryan Vineyards",
+    "date": "2026-10-18",
+    "time": "3:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Annie Ol' Thyme",
+    "venue": "Trumansburg Farmers Market",
+    "date": "2026-10-21",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Chris Mahan",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-10-23",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Virgil Cain",
+    "venue": "Landon's Pub & Pizza",
+    "date": "2026-10-23",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Better Halves",
+    "venue": "Ryan Vineyards",
+    "date": "2026-10-24",
+    "time": "3:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Dave Richman Duo (Sunday Jazz Brunch)",
+    "venue": "Geneva On The Lake",
+    "date": "2026-10-25",
+    "time": "10:00 AM",
+    "genre": "Jazz",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Evan Dillon Band",
+    "venue": "Ryan Vineyards",
+    "date": "2026-10-25",
+    "time": "3:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Tim Braley",
+    "venue": "Abandon Brewing Company",
+    "date": "2026-09-28",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Nate Marshall",
+    "venue": "Trumansburg Farmers Market",
+    "date": "2026-10-28",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "High Divin' Act",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-10-30",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Road Less Traveled",
+    "venue": "Solera Tap House",
+    "date": "2026-10-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Rick Testa",
+    "venue": "Seneca Stag Brewing Co.",
+    "date": "2026-10-31",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "States Apart",
+    "venue": "Ryan Vineyards",
+    "date": "2026-11-07",
+    "time": "3:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Bendher",
+    "venue": "Landon's Pub & Pizza",
+    "date": "2026-11-07",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Darkwine",
+    "venue": "Hosmer Estate Winery",
+    "date": "2026-11-08",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Tony Serdula",
+    "venue": "Ryan Vineyards",
+    "date": "2026-11-21",
+    "time": "3:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
   }
 ]

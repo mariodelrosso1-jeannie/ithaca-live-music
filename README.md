@@ -477,3 +477,35 @@ This audit covered Sep 21 – Oct 10 in full calendar detail. flxmusic247's cale
 further out than that with similar density — a future pass should continue the same day-by-day
 click-through for the rest of October and into November before the outdoor wine-country season
 winds down.
+
+### flxmusic247 audit, continued to 60 days out (through November 21, 2026)
+
+Picked up exactly where the previous pass left off and clicked through every remaining day from
+**Oct 11 through Nov 21, 2026** (60 days from this audit's start date), completing the same
+day-by-day calendar read for the full window. Event density drops off noticeably past
+mid-November as the outdoor wine-country season winds down — many days in that stretch had no
+events at all, which is expected, not a sign anything was missed.
+
+This pass added **1 new venue** and **28 new shows**:
+
+- **Ryan Vineyards** (8990 Boyd Hill Rd, Pulteney, NY — Keuka Lake area, a fourth-generation
+  grape farm that only opened its winery in 2025) turned up repeatedly under the odd address
+  label "Ryan Vineyards Rd" on flxmusic247, which made it look like an ambiguous or
+  unverifiable location at first. A web search confirmed it's a real, named venue, not a
+  formatting glitch — it now has 7 shows across the audited window (Ed Sawester, Frank Madonia,
+  Jim E Leggs Trio, Brad Ordway, Better Halves, Evan Dillon Band, States Apart, Tony Serdula).
+  Its exact coordinates couldn't be geocoded (no street-level match), so it uses Town of
+  Pulteney's center point as a fallback, same as a couple of other entries already do.
+- One followed-band gap closed: **Radio London** — noted in an earlier pass as having "nothing
+  dated confirmed" — is playing Inn at Taughannock Oct 13, 5 PM.
+- The rest of the new shows are mostly single dates at venues already in this app (Idol Ridge,
+  Seneca Stag Brewing, Solera Tap House, Geneva On The Lake, Landon's Pub, Trumansburg Farmers
+  Market, Temperance FLX, The North Farm, Hosmer Estate Winery, Point of the Bluff Vineyards,
+  Living Roots Wine & Co., Muranda Barn).
+- One backfill: Sep 28's "Tim Braley" (previously skipped for lack of a location) turned out to
+  be at Abandon Brewing Company — added retroactively once the venue was confirmed.
+
+As before, generic listings without a named performer, and anything in Canandaigua/Honeoye/
+Skaneateles/Wayne County/Syracuse/Tully/Phelps, were skipped. With this pass, the flxmusic247
+calendar has now been read in full day-by-day detail from Sep 21 through Nov 21, 2026 — the
+entire 60-day window from this audit's start date.

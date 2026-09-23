@@ -328,5 +328,10 @@
     "address": "3434 N Plum Point Rd, Himrod, NY 14842",
     "lat": 42.5988469,
     "lng": -76.9213441
+  },
+  "Ryan Vineyards": {
+    "address": "8990 Boyd Hill Rd, Pulteney, NY 14874 (town-level coordinates, exact address not separately geocoded)",
+    "lat": 42.5250703,
+    "lng": -77.167196
   }
 }
