@@ -339,3 +339,31 @@ they were left out for the same reason Aziz Ansari's set there already was.
 Bandsintown's Ithaca city page and ithaca.com's live-music listing didn't return usable event
 details this pass (both returned only page chrome, no event data, to the fetch tool used) —
 worth trying again manually next time if a fuller check is needed.
+
+### Refresh pass (September 22, 2026)
+
+Re-checked the venues most likely to have updated on a short, 2-day cycle: Six Mile Creek,
+Buttonwood Grove, Ventosa, Wagner, Grist Iron, Two Goats, Hazlitt, Hopshire, the
+cayugawinetrail wineries (Montezuma, Hosmer, Lucas), flxmusic247, State Theatre of Ithaca, and
+Airy Acres. Most matched what was already listed — two real additions:
+
+- **Ventosa Vineyards** — its lineup page now runs a confirmed December schedule (previously,
+  the Sep 20 refresh found what looked like December dates but were suspected leftovers from
+  2024). This time the December dates were verified by checking the page directly in a browser:
+  they continue the same unbroken weekly-Wednesday sequence as the already-confirmed
+  September–November dates (each entry exactly 7 days after the last, correct for Wednesdays),
+  so they're a real 2026 schedule, not stale data. Added 5 shows, Dec 2 – Dec 30: Jon Lamanna,
+  Just Joe, Mr. Monkey Band, Cami Clune (a Voice contestant and the Buffalo Sabres' anthem
+  singer), and The Other Side of Normal.
+- **Montezuma Winery** — one more Cayuga Wine Trail date beyond what was listed, Nov 20 (John
+  Lamanna), confirmed via its own event page on cayugawinetrail.com.
+
+flxmusic247 also surfaced a few leads outside this app's scope and were left out: ONCO
+Fermentations (Tully, near Syracuse), Smokin' Tails Distillery (Phelps, Canandaigua area), The
+Trestle (Sodus Point, Lake Ontario), and Birdhouse Brewing (Honeoye, Honeoye Lake — one of the
+regions flxmusic247 itself says is outside Cayuga/Seneca/Keuka wine country).
+
+Bandsintown (both the Ithaca city page and the Homer Center for the Arts venue page) returned
+HTTP 403 to the fetch tool this pass — it's started blocking the automated fetcher outright,
+not just returning empty chrome like before. ithaca.com's live-music listing again returned
+only page chrome, no event data. Both are worth checking manually or via a browser next time.

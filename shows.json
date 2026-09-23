@@ -1573,5 +1573,59 @@
     "genre": "Classic Rock",
     "price": "See Details",
     "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "John Lamanna",
+    "venue": "Montezuma Winery",
+    "date": "2026-11-20",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free (tastings extra)",
+    "link": "https://cayugawinetrail.com/events/winery-events/11-20-2026"
+  },
+  {
+    "band": "Jon Lamanna",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-12-02",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Just Joe",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-12-09",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Mr. Monkey Band",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-12-16",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Cami Clune (The Voice contestant & Buffalo Sabres anthem singer)",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-12-23",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "The Other Side of Normal",
+    "venue": "Ventosa Vineyards",
+    "date": "2026-12-30",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
   }
 ]
