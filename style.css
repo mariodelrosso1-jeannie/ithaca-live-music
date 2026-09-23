@@ -263,8 +263,7 @@ main {
   color: white;
 }
 
-#daysFilter,
-#distanceFilter {
+#daysFilter {
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
   border: 1px solid var(--border);
@@ -285,7 +284,9 @@ main {
 }
 
 #setLocationBtn,
-#refreshBtn {
+#refreshBtn,
+#printBtn,
+#distanceFilter {
   padding: 0.5rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
