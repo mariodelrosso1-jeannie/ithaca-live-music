@@ -4,6 +4,7 @@ let currentMonth = new Date();
 let userLocation = null;
 let quickFilterDays = null;
 let sortBy = "date";
+let distanceFilterMiles = null;
 
 const listView = document.getElementById("listView");
 const calendarView = document.getElementById("calendarView");
@@ -15,6 +16,7 @@ const calendarGrid = document.getElementById("calendarGrid");
 const calendarMonthLabel = document.getElementById("calendarMonthLabel");
 const daysFilterSelect = document.getElementById("daysFilter");
 const sortBySelect = document.getElementById("sortBy");
+const distanceFilterSelect = document.getElementById("distanceFilter");
 const locationInput = document.getElementById("locationInput");
 const setLocationBtn = document.getElementById("setLocationBtn");
 const locationStatus = document.getElementById("locationStatus");
@@ -306,19 +308,15 @@ function getFilteredShows() {
     if (showDate < today) return false;
     if (quickFilterDays !== null && showDate > rangeEnd) return false;
 
+    if (distanceFilterMiles !== null) {
+      const dist = distanceToShow(show);
+      if (dist === null || dist > distanceFilterMiles) return false;
+    }
+
     return true;
   });
 
-  if (sortBy === "distance" && userLocation) {
-    shows = shows
-      .map((show) => ({ show, dist: distanceToShow(show) }))
-      .sort((a, b) => {
-        if (a.dist === null) return 1;
-        if (b.dist === null) return -1;
-        return a.dist - b.dist;
-      })
-      .map((entry) => entry.show);
-  } else if (sortBy === "band") {
+  if (sortBy === "band") {
     shows = shows
       .slice()
       .sort((a, b) => a.band.toLowerCase().localeCompare(b.band.toLowerCase()));
@@ -473,8 +471,14 @@ daysFilterSelect.addEventListener("change", () => {
 
 sortBySelect.addEventListener("change", () => {
   sortBy = sortBySelect.value;
-  if (sortBy === "distance" && !userLocation) {
-    locationStatus.textContent = "Enter a zip code, town, or address first to sort by distance.";
+  refresh();
+});
+
+distanceFilterSelect.addEventListener("change", () => {
+  distanceFilterMiles =
+    distanceFilterSelect.value === "any" ? null : parseInt(distanceFilterSelect.value, 10);
+  if (distanceFilterMiles !== null && !userLocation) {
+    locationStatus.textContent = "Enter a zip code, town, or address first to filter by distance.";
   }
   refresh();
 });
