@@ -44,6 +44,7 @@ const manageVenuesList = document.getElementById("manageVenuesList");
 const manageBandsList = document.getElementById("manageBandsList");
 const closeManageBtn = document.getElementById("closeManageBtn");
 const manageStatus = document.getElementById("manageStatus");
+const showCount = document.getElementById("showCount");
 
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
 const FOLLOWED_BANDS_KEY = "ithacaBandShows.followedBands";
@@ -344,6 +345,7 @@ function getFilteredShows() {
 
 function renderList() {
   const shows = getFilteredShows();
+  showCount.textContent = `Showing ${shows.length} of ${allShows.length} shows`;
   if (shows.length === 0) {
     listView.innerHTML = `<p class="empty-state">No shows match your filters.</p>`;
     return;

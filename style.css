@@ -306,6 +306,12 @@ main {
   font-size: 0.8rem;
 }
 
+.show-count {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+
 .distance-badge {
   display: inline-block;
   background: var(--panel-2);
@@ -520,7 +526,8 @@ footer code {
   }
 
   .subtitle,
-  .last-updated {
+  .last-updated,
+  .show-count {
     color: #444;
   }
 
