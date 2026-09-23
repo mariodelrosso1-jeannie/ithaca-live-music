@@ -182,9 +182,16 @@ async function loadData() {
   renderCalendar();
 }
 
-loadData().catch((err) => {
-  listView.innerHTML = `<p class="empty-state">Couldn't load show data (${err.message})</p>`;
-});
+const DEFAULT_LOCATION_QUERY = "14850";
+
+loadData()
+  .then(() => {
+    locationInput.value = DEFAULT_LOCATION_QUERY;
+    return setLocationFromInput();
+  })
+  .catch((err) => {
+    listView.innerHTML = `<p class="empty-state">Couldn't load show data (${err.message})</p>`;
+  });
 
 refreshBtn.addEventListener("click", async () => {
   refreshBtn.disabled = true;

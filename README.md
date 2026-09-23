@@ -88,13 +88,16 @@ inline HTML forms instead.)
 - **Date dropdown** — "All Dates" (default) or "Next 1 day" through "Next 7 days," which
   filters to shows happening between today and that many days out.
 - **Sort: Performer/Artist (A-Z)** — alphabetical by band/artist name.
-- **Distance filter** — type a zip code, town, or address into the location box and click
-  "📍 Set Location" (or press Enter). This looks up that place using
-  [OpenStreetMap's free Nominatim geocoding service](https://nominatim.org/) to turn it
-  into coordinates, then does all the distance math in your browser using the venue
+- **Distance filter** — the location box defaults to zip code 14850 (Ithaca) on page load, so
+  distance badges and the filter are ready immediately with no setup. Type a different zip
+  code, town, or address and click "📍 Set Location" (or press Enter) to change it. This looks
+  up that place using [OpenStreetMap's free Nominatim geocoding service](https://nominatim.org/)
+  to turn it into coordinates, then does all the distance math in your browser using the venue
   coordinates in `venues.json` — no location data is stored anywhere, it just lives in the
-  page until you reload. Once set, every show gets a distance badge, and the "Any Distance"
-  dropdown next to the location box narrows the list to shows within 5/10/15/20/30/50 miles.
+  page until you reload (at which point it resets back to the 14850 default). Once set, every
+  show gets a distance badge, and the "Any Distance" dropdown next to the location box narrows
+  the list to shows within 5/10/15/20/30/50 miles. Clicking "🔄 Refresh" reloads the show data
+  without resetting a location you've changed.
 - These combine with the search box and venue dropdown, so you can e.g. search "blues",
   filter to next 3 days, and narrow to shows within 15 miles all at once.
 - **Favorites (★)** — click the star next to any band/artist name to mark them a favorite
