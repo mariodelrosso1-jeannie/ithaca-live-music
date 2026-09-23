@@ -367,3 +367,45 @@ Bandsintown (both the Ithaca city page and the Homer Center for the Arts venue p
 HTTP 403 to the fetch tool this pass — it's started blocking the automated fetcher outright,
 not just returning empty chrome like before. ithaca.com's live-music listing again returned
 only page chrome, no event data. Both are worth checking manually or via a browser next time.
+
+### Bandsintown, signed in (September 22, 2026)
+
+Bandsintown's automated-fetch block above was worked around by signing into the site directly
+in a browser (with the site owner's own account, at their request) instead of the fetch tool,
+which unblocked the full Ithaca-area city page — a much richer source than the individual
+venue pages used previously, surfacing touring acts and local bookings this app's usual
+sources don't carry yet. Checked everything on the page dated through Sep 25, 2026 and kept
+only what's confirmed with a real date, performer, and venue address, and falls within the
+existing Cayuga/Seneca/Keuka Lake scope:
+
+- **Graham Nash** at Smith Opera House (listed on Bandsintown as "Smith Center for the Arts,"
+  same address, 82 Seneca St, Geneva) — Sep 23
+- **River Lynch** at Ventosa Vineyards, Sep 23, 6 PM — this resolves what Ventosa's own site
+  still lists as a "TBD" slot for that date; Bandsintown's own listing names the performer and
+  matches the venue's address and time exactly, so it's added as confirmed
+- **River Lynch** (solo) at Point of the Bluff Vineyards, Sep 24, 5 PM — for their Farmers
+  Market
+- **River Lynch** (solo) at a new venue, **Keuka Lake Vineyards** (8872 County Route 76,
+  Hammondsport — a short distance from the already-listed Point of the Bluff Vineyards, same
+  road), Sep 25, 5 PM
+- **Caleb Liber** at a new venue, **Glenora Wine Cellars** (5435 NY-14, Dundee — a well-known
+  Seneca Lake Wine Trail winery this app had never included), Sep 23, 5 PM
+- **Marye Lobb** at a new venue, **Tabora Farm & Winery** (4978 Lakemont-Himrod Rd, Dundee, on
+  Seneca Lake's west side), Sep 24, 5:30 PM
+- **Nate Michaels Music** at two new venues: **Lake Life Brewery** (Penn Yan, on Keuka Lake)
+  Sep 23, 6 PM, and **Watershed Brewing Company** (Geneva, on Seneca Lake) Sep 25, 5 PM
+
+A handful of other Bandsintown leads from the same date range were checked and left out as
+out of scope, consistent with this app's existing radius: The Cider Mill (Syracuse, despite
+the name sounding like a Finger Lakes spot), The Neat Whiskey Bar (Jamesville, Syracuse area),
+JD at Danzer's Pizza Pub (Syracuse), and Clifton Springs Country Club (Canandaigua area).
+Parker's 129 (Auburn, north end of Cayuga Lake) was also left out — plausibly close enough to
+belong, but farther out than this app has gone without a specific reason to include it, so it
+was treated as a judgment call to skip rather than guess.
+
+The rest of the page's touring-act promotions (Gregory Alan Isakov, Of Monsters and Men,
+Anberlin at Point of the Bluff) already matched existing entries — good cross-confirmation that
+those dates are accurate. Everything else on the page (Empower Federal Credit Union
+Amphitheater, The Song & Dance, The 443 Social Club, del Lago Resort & Casino, Funk 'n Waffles,
+etc.) is Syracuse-area or otherwise outside this app's wine-country/Ithaca scope and was
+skipped, same as prior passes.

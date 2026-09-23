@@ -203,5 +203,30 @@
     "address": "917 N Cayuga Street, Ithaca, NY 14850",
     "lat": 42.4505404,
     "lng": -76.4993623
+  },
+  "Keuka Lake Vineyards": {
+    "address": "8872 County Route 76, Hammondsport, NY 14840",
+    "lat": 42.4309175,
+    "lng": -77.200721
+  },
+  "Tabora Farm & Winery": {
+    "address": "4978 Lakemont-Himrod Rd, Dundee, NY 14837",
+    "lat": 42.5234915,
+    "lng": -76.929727
+  },
+  "Lake Life Brewery": {
+    "address": "111 Liberty St, Penn Yan, NY 14527",
+    "lat": 42.6584198,
+    "lng": -77.0553256
+  },
+  "Watershed Brewing Company": {
+    "address": "3543 E Lake Rd, Geneva, NY 14456",
+    "lat": 42.8547345,
+    "lng": -76.9332229
+  },
+  "Glenora Wine Cellars": {
+    "address": "5435 NY Route 14, Dundee, NY 14527",
+    "lat": 42.5002192,
+    "lng": -76.9240342
   }
 }
