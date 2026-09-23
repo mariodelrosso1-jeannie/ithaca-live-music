@@ -399,9 +399,6 @@ A handful of other Bandsintown leads from the same date range were checked and l
 out of scope, consistent with this app's existing radius: The Cider Mill (Syracuse, despite
 the name sounding like a Finger Lakes spot), The Neat Whiskey Bar (Jamesville, Syracuse area),
 JD at Danzer's Pizza Pub (Syracuse), and Clifton Springs Country Club (Canandaigua area).
-Parker's 129 (Auburn, north end of Cayuga Lake) was also left out — plausibly close enough to
-belong, but farther out than this app has gone without a specific reason to include it, so it
-was treated as a judgment call to skip rather than guess.
 
 The rest of the page's touring-act promotions (Gregory Alan Isakov, Of Monsters and Men,
 Anberlin at Point of the Bluff) already matched existing entries — good cross-confirmation that
@@ -409,3 +406,74 @@ those dates are accurate. Everything else on the page (Empower Federal Credit Un
 Amphitheater, The Song & Dance, The 443 Social Club, del Lago Resort & Casino, Funk 'n Waffles,
 etc.) is Syracuse-area or otherwise outside this app's wine-country/Ithaca scope and was
 skipped, same as prior passes.
+
+One correction from this pass: Bandsintown's own event page for Anberlin at Point of the Bluff
+Vineyards (Sep 27) also names **Switchfoot** as a co-headliner — `shows.json` now lists that
+entry as "Switchfoot & Anberlin" instead of Anberlin alone.
+
+### Deep flxmusic247 calendar audit (September 22, 2026)
+
+Asked directly whether this app had *all* the local info flxmusic247.com carries, and the
+honest answer was no: earlier passes only fetched the site's homepage highlight boxes (a
+handful of genre-sorted teasers), never its actual interactive event calendar, which only
+renders its full day-by-day contents in the browser (a WordPress "Stachethemes Event
+Calendar" widget) — a plain fetch tool can't see it. Opened it in a real browser instead and
+clicked into every day with hidden "+N more" events from **Sep 21 through Oct 10, 2026**,
+reading each event's real venue name, street address, and time directly from the calendar's
+own data (not just the homepage teasers).
+
+This also prompted a scope cleanup: flxmusic247 organizes its coverage into 9 color-coded
+sub-regions. This app had already been including 7 of them (Ithaca, Cayuga Lake, Between the
+Lakes, Seneca Lake-Geneva, Keuka Lake, Watkins Glen) plus Homer/Cortland as a one-off precedent,
+while excluding only 2 as genuinely different lake regions (Canandaigua Lake area and Wayne
+County/Lake Ontario) alongside Skaneateles Lake, Syracuse proper, Tully, and Phelps. The
+remaining sub-region, "Top of the Lakes" (Seneca Falls/Waterloo/Auburn — the north end of
+Cayuga Lake), had been treated inconsistently in earlier passes (Parker's 129 in Auburn was
+skipped as "too far" even though Quarry Ridge Winery, a similar distance away on Cayuga's east
+shore, was already included). That inconsistency is now resolved: Waterloo and Auburn are
+in-scope like the rest of Cayuga Lake, since they're the same lake and the same general
+distance as venues already covered. Canandaigua/Honeoye/Skaneateles/Wayne County/Syracuse
+remain excluded as genuinely different lakes/areas outside this app's Finger Lakes wine-country
+triangle.
+
+This pass added by far the most in a single session: **20 new venues** and roughly **60 new
+shows**. New venues, all confirmed in-scope by address:
+
+- **Ithaca proper**: Liquid State Brewing Company, South Hill Cider, 5 & Dime, Danby Food &
+  Drink (this resolves a real gap — Ithaca's own city venues were thin in this app before)
+- **Brooktondale** (just south of Ithaca): Brookton's Market
+- **Burdett/Hector** (already-covered Seneca Lake brewery cluster): Atwater Winery, Solera Tap
+  House, Either Oar Wine, Whiskey, & Cheese Bar, Keg & Barrel Brewing Co. (Dundee)
+- **Hammondsport/Keuka Lake**: Weis Winery, Steuben Brewing Company, Domaine Leseurre Winery,
+  Bully Hill Winery, Living Roots Wine & Co.
+- **Penn Yan/Keuka Lake**: Abandon Brewing Company, Seneca Stag Brewing Co.
+- **Geneva/Seneca Lake**: WeBe Brewing Company
+- **Himrod/Seneca Lake**: Showboat Motel, Restaurant & Bar
+- **Watkins Glen**: Kookalaroc's Bar and Grill
+- **Waterloo** (Cayuga Lake, newly in-scope): Muranda Barn
+- **King Ferry** (Cayuga Lake, near already-covered Bright Leaf Vineyard): Aurora Brewing Co.
+- **Cortland/Homer** (same precedent as Homer Center for the Arts): Homer Hops
+
+A few notable single shows surfaced along the way: **Samara Joy and her Septet** (a
+Grammy-winning jazz vocalist) at Smith Opera House Oct 7, and the **Rochester Metropolitan
+Jazz Orchestra** at Domaine Leseurre Winery Oct 3. Also, La Tourelle — previously audited as
+having "no upcoming events scheduled" per its own site — turns out to have a regular live-music
+series (billed as "Firelight Camps + La Tourelle Hotel, Bistro + Spa") that just wasn't on its
+own website; flxmusic247 had it. Two shows there were added (10 Square Miles Sep 22, Carl &
+Jack Sep 29).
+
+One conflict surfaced and was resolved conservatively: flxmusic247 listed "Quona Hudson" playing
+Ventosa Vineyards on Sep 23, 6 PM — the exact same date/time/venue Bandsintown had just listed
+for "River Lynch" (added earlier this same session). Two different named performers for one
+slot is a real contradiction, not a rounding error, and Ventosa's own site still marks that date
+"TBD." Rather than guess which aggregator is right, the River Lynch/Ventosa entry was removed;
+that date is left unconfirmed until Ventosa's own site names someone.
+
+Generic listings without a named performer (recurring "Open Mic" nights, unnamed "Live Music"
+placeholders, "Jazz Night!") were skipped throughout, per this app's standing rule against
+placeholder entries.
+
+This audit covered Sep 21 – Oct 10 in full calendar detail. flxmusic247's calendar runs weeks
+further out than that with similar density — a future pass should continue the same day-by-day
+click-through for the rest of October and into November before the outdoor wine-country season
+winds down.

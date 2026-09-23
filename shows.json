@@ -1485,7 +1485,7 @@
     "link": "https://stateofithaca.org/"
   },
   {
-    "band": "Anberlin",
+    "band": "Switchfoot & Anberlin",
     "venue": "Point of the Bluff Vineyards",
     "date": "2026-09-27",
     "time": "8:00 PM",
@@ -1638,15 +1638,6 @@
     "link": "https://www.bandsintown.com/e/108332623-graham-nash-at-smith-center-for-the-arts"
   },
   {
-    "band": "River Lynch",
-    "venue": "Ventosa Vineyards",
-    "date": "2026-09-23",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.bandsintown.com/e/108927746-river-lynch-at-ventosa-vineyards"
-  },
-  {
     "band": "Caleb Liber",
     "venue": "Glenora Wine Cellars",
     "date": "2026-09-23",
@@ -1699,5 +1690,581 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.bandsintown.com/c/ithaca-ny"
+  },
+  {
+    "band": "Marcie Beaton with Jorge Cuevas",
+    "venue": "Geneva On The Lake",
+    "date": "2026-09-22",
+    "time": "5:30 PM",
+    "genre": "Jazz",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "10 Square Miles",
+    "venue": "La Tourelle",
+    "date": "2026-09-22",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Jerry Smith + Open Mic",
+    "venue": "Keg & Barrel Brewing Co.",
+    "date": "2026-09-23",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cap Cooke + Pete Thompson",
+    "venue": "South Hill Cider",
+    "date": "2026-09-24",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Dylan & JoJo",
+    "venue": "Brookton's Market",
+    "date": "2026-09-24",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Liam Lawson (Singer-Songwriter Series)",
+    "venue": "Atwater Winery",
+    "date": "2026-09-24",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Louiston",
+    "venue": "Danby Food & Drink",
+    "date": "2026-09-24",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "London McDaniel & Lava (Jazz & Blues Night)",
+    "venue": "5 & Dime",
+    "date": "2026-09-24",
+    "time": "7:00 PM",
+    "genre": "Jazz/Blues",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cooper Scotti",
+    "venue": "Weis Winery",
+    "date": "2026-09-25",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Alex Myth",
+    "venue": "Abandon Brewing Company",
+    "date": "2026-09-25",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Mystic Twangers",
+    "venue": "Steuben Brewing Company",
+    "date": "2026-09-25",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Richie Stearns & Rosie Newton",
+    "venue": "South Hill Cider",
+    "date": "2026-09-25",
+    "time": "5:30 PM",
+    "genre": "Folk",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Old World Warblers (Idol Ridge Hot Air Balloon Weekend)",
+    "venue": "Idol Ridge Winery & Alder Creek Distillery",
+    "date": "2026-09-25",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Brian Hughes",
+    "venue": "Kookalaroc's Bar and Grill",
+    "date": "2026-09-25",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Dave Richman",
+    "venue": "Brookton's Market",
+    "date": "2026-09-25",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Bob Keefe & The Surf Renegades",
+    "venue": "Keuka Spring Vineyards",
+    "date": "2026-09-25",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cisco PL & The Soul Benders",
+    "venue": "Finger Lakes Cider House",
+    "date": "2026-09-25",
+    "time": "6:00 PM",
+    "genre": "Soul/Blues",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Mystic Stew",
+    "venue": "Point of the Bluff Vineyards",
+    "date": "2026-09-26",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Rich Hancy",
+    "venue": "Either Oar Wine, Whiskey, & Cheese Bar",
+    "date": "2026-09-26",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "The Real News Duo",
+    "venue": "Watershed Brewing Company",
+    "date": "2026-09-26",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Unreal Village",
+    "venue": "Bright Leaf Vineyard",
+    "date": "2026-09-26",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Zinology",
+    "venue": "Brookton's Market",
+    "date": "2026-09-26",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Rocco Sole",
+    "venue": "Keuka Spring Vineyards",
+    "date": "2026-09-26",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Pat Harrington + Owen Eichensehr",
+    "venue": "Steuben Brewing Company",
+    "date": "2026-09-26",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Honker",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-09-26",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Still Kickin'",
+    "venue": "Landon's Pub & Pizza",
+    "date": "2026-09-26",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Night Train",
+    "venue": "WeBe Brewing Company",
+    "date": "2026-09-26",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Swagger",
+    "venue": "Showboat Motel, Restaurant & Bar",
+    "date": "2026-09-26",
+    "time": "7:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Annie & Marley (Sunday Jazz Brunch)",
+    "venue": "Geneva On The Lake",
+    "date": "2026-09-27",
+    "time": "10:00 AM",
+    "genre": "Jazz",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Jason on Guitar",
+    "venue": "O'Malley's Lakeside Tavern",
+    "date": "2026-09-27",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Tom Chamberlain",
+    "venue": "Abandon Brewing Company",
+    "date": "2026-09-27",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Lone Gonzo",
+    "venue": "Geneva On The Lake",
+    "date": "2026-09-29",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Carl & Jack",
+    "venue": "La Tourelle",
+    "date": "2026-09-29",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Logan Route",
+    "venue": "Glenora Wine Cellars",
+    "date": "2026-09-30",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Jerry Smith + Open Mic",
+    "venue": "Keg & Barrel Brewing Co.",
+    "date": "2026-09-30",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Louiston + Laura Holmes",
+    "venue": "Trumansburg Farmers Market",
+    "date": "2026-09-30",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Mike Lucey",
+    "venue": "Lake Life Brewery",
+    "date": "2026-09-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Livers",
+    "venue": "South Hill Cider",
+    "date": "2026-10-01",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Cielle On Solid Ground",
+    "venue": "Brookton's Market",
+    "date": "2026-10-01",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Better Halves",
+    "venue": "Weis Winery",
+    "date": "2026-10-02",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Hank Roberts",
+    "venue": "South Hill Cider",
+    "date": "2026-10-02",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Venissa Santi Trio",
+    "venue": "Finger Lakes Cider House",
+    "date": "2026-10-02",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Gerard Burke",
+    "venue": "Solera Tap House",
+    "date": "2026-10-02",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Rockin' Boots",
+    "venue": "Muranda Barn",
+    "date": "2026-10-03",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Rochester Metropolitan Jazz Orchestra",
+    "venue": "Domaine Leseurre Winery",
+    "date": "2026-10-03",
+    "time": "4:30 PM",
+    "genre": "Jazz",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Take 2",
+    "venue": "Aurora Brewing Co.",
+    "date": "2026-10-03",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Ken Campbell",
+    "venue": "Seneca Stag Brewing Co.",
+    "date": "2026-10-03",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "John Dember",
+    "venue": "Brookton's Market",
+    "date": "2026-10-03",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "NEO Project",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-03",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Sydney Irving",
+    "venue": "Homer Hops",
+    "date": "2026-10-03",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Dino Losito Duo (Sunday Jazz Brunch)",
+    "venue": "Geneva On The Lake",
+    "date": "2026-10-04",
+    "time": "10:00 AM",
+    "genre": "Jazz",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Laura West",
+    "venue": "Living Roots Wine & Co.",
+    "date": "2026-10-04",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Diana Jacobs Band",
+    "venue": "Muranda Barn",
+    "date": "2026-10-04",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Nate Michaels",
+    "venue": "WeBe Brewing Company",
+    "date": "2026-10-07",
+    "time": "6:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Samara Joy and her Septet",
+    "venue": "Smith Opera House",
+    "date": "2026-10-07",
+    "time": "7:30 PM",
+    "genre": "Jazz",
+    "price": "Ticketed - see Details",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Pat Harrington + Owen Eichensehr",
+    "venue": "Weis Winery",
+    "date": "2026-10-09",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Bob Roberts Calamity",
+    "venue": "Finger Lakes Cider House",
+    "date": "2026-10-09",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Kris Day",
+    "venue": "Solera Tap House",
+    "date": "2026-10-09",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "PJ Elliott",
+    "venue": "Bully Hill Winery",
+    "date": "2026-10-10",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Dallas Louis",
+    "venue": "Point of the Bluff Vineyards",
+    "date": "2026-10-10",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "8 Traxx",
+    "venue": "Muranda Barn",
+    "date": "2026-10-10",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Ric Robertson",
+    "venue": "Weis Winery",
+    "date": "2026-10-10",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Billy & The Therapists",
+    "venue": "Aurora Brewing Co.",
+    "date": "2026-10-10",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Jon Lamanna",
+    "venue": "Seneca Stag Brewing Co.",
+    "date": "2026-10-10",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
   }
 ]

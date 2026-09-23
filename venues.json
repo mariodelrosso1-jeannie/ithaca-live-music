@@ -228,5 +228,105 @@
     "address": "5435 NY Route 14, Dundee, NY 14527",
     "lat": 42.5002192,
     "lng": -76.9240342
+  },
+  "Keg & Barrel Brewing Co.": {
+    "address": "14720 NY-54, Dundee, NY 14837",
+    "lat": 42.526522,
+    "lng": -76.977293
+  },
+  "South Hill Cider": {
+    "address": "550 Sandbank Rd, Ithaca, NY 14850",
+    "lat": 42.3941628,
+    "lng": -76.5251965
+  },
+  "Brookton's Market": {
+    "address": "491 Brooktondale Rd, Brooktondale, NY 14817",
+    "lat": 42.3817356,
+    "lng": -76.3966829
+  },
+  "Atwater Winery": {
+    "address": "5055 NY-414, Hector, NY 14818",
+    "lat": 42.4782305,
+    "lng": -76.8697547
+  },
+  "Danby Food & Drink": {
+    "address": "1843 Danby Rd, Ithaca, NY 14850 (road-level coordinates, exact address not separately geocoded)",
+    "lat": 42.427344,
+    "lng": -76.4987903
+  },
+  "5 & Dime": {
+    "address": "619 W State St, Ithaca, NY 14850",
+    "lat": 42.438828,
+    "lng": -76.5097233
+  },
+  "Weis Winery": {
+    "address": "10014 Day Rd, Hammondsport, NY 14840",
+    "lat": 42.4849715,
+    "lng": -77.1373923
+  },
+  "Abandon Brewing Company": {
+    "address": "2994 Merritt Hill Rd, Penn Yan, NY 14527",
+    "lat": 42.6318615,
+    "lng": -77.105194
+  },
+  "Steuben Brewing Company": {
+    "address": "10286 Judson Rd, Hammondsport, NY 14840",
+    "lat": 42.5015308,
+    "lng": -77.1870816
+  },
+  "Kookalaroc's Bar and Grill": {
+    "address": "107 11th St, Watkins Glen, NY 14891 (village-level coordinates, exact street address not separately geocoded)",
+    "lat": 42.3810555,
+    "lng": -76.8705777
+  },
+  "Liquid State Brewing Company": {
+    "address": "620 W Green St, Ithaca, NY 14850",
+    "lat": 42.4389797,
+    "lng": -76.5075529
+  },
+  "Muranda Barn": {
+    "address": "3075 State Route 96, Waterloo, NY 13165",
+    "lat": 42.8759475,
+    "lng": -76.853745
+  },
+  "Domaine Leseurre Winery": {
+    "address": "13920 NY-54, Hammondsport, NY 14840",
+    "lat": 42.4845292,
+    "lng": -77.1388623
+  },
+  "Aurora Brewing Co.": {
+    "address": "1891 NY-90, King Ferry, NY 13081",
+    "lat": 42.709827,
+    "lng": -76.6829321
+  },
+  "Seneca Stag Brewing Co.": {
+    "address": "1720 NY-14, Penn Yan, NY 14527",
+    "lat": 42.681425,
+    "lng": -76.964255
+  },
+  "Homer Hops": {
+    "address": "700 NY-90, Cortland, NY 13045",
+    "lat": 42.6402125,
+    "lng": -76.2279679
+  },
+  "Living Roots Wine & Co.": {
+    "address": "8560 County Road 87, Hammondsport, NY 14840 (village-level coordinates, exact address not separately geocoded)",
+    "lat": 42.4079347,
+    "lng": -77.2236302
+  },
+  "WeBe Brewing Company": {
+    "address": "796 Pre Emption Rd, Geneva, NY 14456",
+    "lat": 42.862892,
+    "lng": -77.0114561
+  },
+  "Bully Hill Winery": {
+    "address": "8843 Greyton H Taylor Memorial Dr, Hammondsport, NY 14840",
+    "lat": 42.429299,
+    "lng": -77.2092425
+  },
+  "Showboat Motel, Restaurant & Bar": {
+    "address": "3434 N Plum Point Rd, Himrod, NY 14842",
+    "lat": 42.5988469,
+    "lng": -76.9213441
   }
 }
