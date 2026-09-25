@@ -2572,5 +2572,122 @@
     "genre": "Live Music",
     "price": "Free (benefit for Food Bank of the Southern Tier)",
     "link": "https://johnsimonmusic.com/calendar"
+  },
+  {
+    "band": "Joe Hayward and Friends",
+    "venue": "Bike Bar",
+    "date": "2026-09-29",
+    "time": "7:00 PM",
+    "genre": "Old-Time",
+    "price": "Free",
+    "link": "https://jimcat.substack.com/p/cny-concert-calendar-sept-24-30"
+  },
+  {
+    "band": "FLX Squares (Community Square Dance)",
+    "venue": "Stone Bend Farm",
+    "date": "2026-09-25",
+    "time": "6:00 PM",
+    "genre": "Dance",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "Freight, Wise Bones & Radio Saints",
+    "venue": "Stone Bend Farm",
+    "date": "2026-10-02",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "The Timeriders",
+    "venue": "Stone Bend Farm",
+    "date": "2026-10-03",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "Cielle on Solid Ground",
+    "venue": "Stone Bend Farm",
+    "date": "2026-10-16",
+    "time": "6:00 PM",
+    "genre": "Blues/Rock",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "Vicious Fishes & Friends (Benefit Show)",
+    "venue": "Stone Bend Farm",
+    "date": "2026-10-17",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "FLX Squares (Community Square Dance)",
+    "venue": "Stone Bend Farm",
+    "date": "2026-10-30",
+    "time": "6:00 PM",
+    "genre": "Dance",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "Skeleton Hands & Practice At (Halloween Show)",
+    "venue": "Stone Bend Farm",
+    "date": "2026-10-31",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "Bluegrass Alley",
+    "venue": "Stone Bend Farm",
+    "date": "2026-11-13",
+    "time": "6:00 PM",
+    "genre": "Bluegrass",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "The Small Kings w/ Ded Ballz",
+    "venue": "Stone Bend Farm",
+    "date": "2026-12-04",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "Louiston",
+    "venue": "Stone Bend Farm",
+    "date": "2026-12-11",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "$15 (+ service fee)",
+    "link": "https://www.stonebend.com/event-details/louiston-live-at-stone-bend-farm"
+  },
+  {
+    "band": "FLX Squares (Community Square Dance)",
+    "venue": "Stone Bend Farm",
+    "date": "2026-12-18",
+    "time": "6:00 PM",
+    "genre": "Dance",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "Practice At (4/20 Event)",
+    "venue": "Stone Bend Farm",
+    "date": "2027-04-17",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/about-3-1"
   }
 ]

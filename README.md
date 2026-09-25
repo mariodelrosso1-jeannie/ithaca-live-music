@@ -572,3 +572,24 @@ As before, generic listings without a named performer, and anything in Canandaig
 Skaneateles/Wayne County/Syracuse/Tully/Phelps, were skipped. With this pass, the flxmusic247
 calendar has now been read in full day-by-day detail from Sep 21 through Nov 21, 2026 — the
 entire 60-day window from this audit's start date.
+
+### Two new venues: Bike Bar and Stone Bend Farm (September 24, 2026)
+
+User asked to add both by name. Neither was in the app yet; both turned out to be real,
+active live-music venues.
+
+- **Bike Bar** (314 E State St Ste 100, Ithaca) — a bicycle-themed taproom in downtown Ithaca.
+  Its own site has no calendar, but Jim Catalano's syndicated CNY concert calendar confirmed
+  **Joe Hayward and Friends** (old-time tunes), Sep 29, 7 PM.
+- **Stone Bend Farm** (196 Porter Hill Rd, Newfield) — a small farm-to-table venue in a
+  geothermal greenhouse just outside Ithaca that books live music weekly, Fri-Sun. Its own site
+  (stonebend.com) has a full events calendar; clicked into each individual event page rather
+  than trusting the summary list, since an earlier pass (Timeriders) showed the same event title
+  can be reused across different dates/years — the summary card's date doesn't always match the
+  linked page without checking. Added 11 confirmed shows through Dec 18, plus one out in
+  April 2027: FLX Squares (Community Square Dance, recurring monthly), Freight/Wise Bones/Radio
+  Saints, The Timeriders, Cielle on Solid Ground, Vicious Fishes & Friends, Skeleton Hands &
+  Practice At (Halloween), Bluegrass Alley, The Small Kings w/ Ded Ballz, Louiston (ticketed,
+  $15), and Practice At again for a 4/20 event. Two listed events were skipped: "Halloween Gala
+  w/ Suicide Prevention Services" names no performer, and "Protest Show featuring tbd" explicitly
+  has no confirmed act yet.

@@ -358,5 +358,15 @@
     "address": "306 N Aurora St, Ithaca, NY 14850",
     "lat": 42.4417381,
     "lng": -76.4960295
+  },
+  "Bike Bar": {
+    "address": "314 E State St Ste 100, Ithaca, NY 14850",
+    "lat": 42.4396888,
+    "lng": -76.4949871
+  },
+  "Stone Bend Farm": {
+    "address": "196 Porter Hill Rd, Newfield, NY 14867 (town-level coordinates, exact address not separately geocoded)",
+    "lat": 42.3621811,
+    "lng": -76.5905632
   }
 }
