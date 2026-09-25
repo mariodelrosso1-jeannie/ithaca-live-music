@@ -169,13 +169,16 @@ function escapeAttr(str) {
 }
 
 async function loadData() {
-  const [showsData, venuesData] = await Promise.all([
+  const [showsData, venuesData, sharedFollowedBands] = await Promise.all([
     fetch("shows.json", { cache: "no-store" }).then((res) => res.json()),
     fetch("venues.json", { cache: "no-store" }).then((res) => res.json()),
+    fetch("followed-bands.json", { cache: "no-store" })
+      .then((res) => res.json())
+      .catch(() => []),
   ]);
   allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
   venues = { ...venuesData, ...loadCustomVenues() };
-  followedBands = loadFollowedBands();
+  followedBands = [...new Set([...sharedFollowedBands, ...loadFollowedBands()])];
   favoriteBands = loadFavoriteBands();
   populateVenueFilter();
   populateBandFilter();
@@ -678,7 +681,7 @@ function renderManagePanel() {
         .join("")
     : '<p class="empty-state">No custom venues added yet.</p>';
 
-  const bandNames = [...followedBands].sort();
+  const bandNames = [...loadFollowedBands()].sort();
   manageBandsList.innerHTML = bandNames.length
     ? bandNames
         .map((name) => {

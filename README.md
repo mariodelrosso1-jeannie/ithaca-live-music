@@ -448,6 +448,31 @@ User reported following "John Simon" but not seeing some of his dates. Root caus
    case-insensitive substring match, same as the search box already did. This should also help
    other followed acts that play under rotating group names (The Yardvarks, Radio London, etc.).
 
+### Shared automatic band tracking (September 24, 2026)
+
+Previously, bands followed via "+ Add Band" were saved only in the browser's `localStorage`,
+which meant the scheduled every-3-days refresh task couldn't see them and never searched for
+their shows automatically — it only re-checked venues already in `venues.json`. Added a new
+shared file, `followed-bands.json` (a flat JSON array of names), which the app now fetches
+alongside `shows.json`/`venues.json` and merges into the followed-bands list on every page load.
+The scheduled task's instructions were also updated to search each name in this file for new
+confirmed shows every run, the same way it already does for venues.
+
+This does **not** make "+ Add Band" itself trigger a search — that's still impossible from a
+static site's client-side JS (confirmed earlier via a real CORS error testing Bandsintown's
+API). A band added through the button is still local-only and dropdown-visible, but won't be
+covered by the automatic refresh until it's added to `followed-bands.json` — currently done by
+asking for it directly, same as how new venues get promoted into `venues.json`. Seeded the file
+with the four bands already established as followed in this app: John Simon, The Yardvarks, The
+Dart Brothers, and Radio London.
+
+The "⚙ Manage" panel's band list was also scoped to only show bands from `localStorage` (not the
+merged shared list), since renaming/deleting a shared, automatically-tracked band there wouldn't
+actually update `followed-bands.json` and would just cause it to reappear duplicated on the next
+refresh.
+   case-insensitive substring match, same as the search box already did. This should also help
+   other followed acts that play under rotating group names (The Yardvarks, Radio London, etc.).
+
 This also prompted a scope cleanup: flxmusic247 organizes its coverage into 9 color-coded
 sub-regions. This app had already been including 7 of them (Ithaca, Cayuga Lake, Between the
 Lakes, Seneca Lake-Geneva, Keuka Lake, Watkins Glen) plus Homer/Cortland as a one-off precedent,
