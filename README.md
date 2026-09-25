@@ -593,3 +593,13 @@ active live-music venues.
   $15), and Practice At again for a 4/20 event. Two listed events were skipped: "Halloween Gala
   w/ Suicide Prevention Services" names no performer, and "Protest Show featuring tbd" explicitly
   has no confirmed act yet.
+
+### Dynamic "last updated" date (September 24, 2026)
+
+The header's "Events last updated" line was previously a hardcoded string in `index.html` that
+had to be manually edited (and had already gone stale — it said Sep 22 while data had since
+changed). Replaced it with a real data file, `last-updated.json` (`{"date": "YYYY-MM-DD"}`),
+which the app now fetches and formats on every load. This file's date gets bumped to the current
+date any time a real new show, venue, or followed band is added — whether by a manual request
+in a chat session or by the scheduled refresh task, whose instructions were also updated to bump
+it after any run that actually finds something new (a no-op run leaves it untouched).

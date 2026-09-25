@@ -45,6 +45,7 @@ const manageBandsList = document.getElementById("manageBandsList");
 const closeManageBtn = document.getElementById("closeManageBtn");
 const manageStatus = document.getElementById("manageStatus");
 const showCount = document.getElementById("showCount");
+const lastUpdated = document.getElementById("lastUpdated");
 
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
 const FOLLOWED_BANDS_KEY = "ithacaBandShows.followedBands";
@@ -169,17 +170,28 @@ function escapeAttr(str) {
 }
 
 async function loadData() {
-  const [showsData, venuesData, sharedFollowedBands] = await Promise.all([
+  const [showsData, venuesData, sharedFollowedBands, lastUpdatedData] = await Promise.all([
     fetch("shows.json", { cache: "no-store" }).then((res) => res.json()),
     fetch("venues.json", { cache: "no-store" }).then((res) => res.json()),
     fetch("followed-bands.json", { cache: "no-store" })
       .then((res) => res.json())
       .catch(() => []),
+    fetch("last-updated.json", { cache: "no-store" })
+      .then((res) => res.json())
+      .catch(() => null),
   ]);
   allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
   venues = { ...venuesData, ...loadCustomVenues() };
   followedBands = [...new Set([...sharedFollowedBands, ...loadFollowedBands()])];
   favoriteBands = loadFavoriteBands();
+  if (lastUpdatedData && lastUpdatedData.date) {
+    const formatted = new Date(lastUpdatedData.date + "T00:00:00").toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+    lastUpdated.textContent = `Events last updated: ${formatted}`;
+  }
   populateVenueFilter();
   populateBandFilter();
   renderList();
