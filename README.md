@@ -470,8 +470,20 @@ The "⚙ Manage" panel's band list was also scoped to only show bands from `loca
 merged shared list), since renaming/deleting a shared, automatically-tracked band there wouldn't
 actually update `followed-bands.json` and would just cause it to reappear duplicated on the next
 refresh.
-   case-insensitive substring match, same as the search box already did. This should also help
-   other followed acts that play under rotating group names (The Yardvarks, Radio London, etc.).
+
+### Venue check: 5 & Dime and Americana Winery (September 24, 2026)
+
+User asked to add both — both were already in the app. Checked each for anything not yet listed:
+
+- **5 & Dime** (619 W State St, Ithaca) already had one show (London McDaniel & Lava, Sep 24).
+  Found one more real, dated show via Jim Catalano's syndicated CNY concert calendar:
+  **Mosaic Foundation**, Sep 25, 9-11 PM.
+- **Americana Winery** (Interlaken) still has zero confirmed shows. Checked its own site
+  (americanavineyards.com/events.html — no events listed), its booking agency's page
+  (Kevin Black Presents, which only confirms they book the venue generally, no dates), and its
+  Facebook page (Events tab requires login to view, so nothing could be confirmed from it).
+  Same result as the original audit — this venue's music calendar isn't published anywhere
+  publicly accessible right now.
 
 This also prompted a scope cleanup: flxmusic247 organizes its coverage into 9 color-coded
 sub-regions. This app had already been including 7 of them (Ithaca, Cayuga Lake, Between the
