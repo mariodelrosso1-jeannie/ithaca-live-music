@@ -425,6 +425,29 @@ clicked into every day with hidden "+N more" events from **Sep 21 through Oct 10
 reading each event's real venue name, street address, and time directly from the calendar's
 own data (not just the homepage teasers).
 
+### John Simon follow-up: full calendar check (September 24, 2026)
+
+User reported following "John Simon" but not seeing some of his dates. Root cause was two-fold:
+
+1. **Missing data** — earlier passes only spot-checked johnsimonmusic.com's gig page rather than
+   paging through its full calendar. Went through all four calendar pages this time and found
+   several real, confirmed dates not yet in `shows.json`: John Simon & Der Walters at the
+   **Ithaca Farmers' Market** (Oct 7, Green Star Co-op's annual meeting), **Radio London** at
+   **The Inn at Taughannock** (Oct 13 — this also resolves the earlier "no confirmed date found
+   for Radio London" gap from the Sep 19 audit), **The Yardvarks** at a new venue **Kendal at
+   Ithaca** (Oct 22), John Simon & Der Walters again at **Homer Phillips Free Library** in Homer
+   (Nov 20), a Busking For Justice benefit at **Cafe DeWitt in the DeWitt Mall** (Dec 4), and a
+   holiday benefit concert with Dee Specker, Mark Rust, and Russ Posegate at **First Unitarian
+   Church Society** (Dec 19). One entry, "The Band Called Revival" (Oct 31, Trumansburg American
+   Legion), was left out — nothing on the page or elsewhere confirms it's actually a John Simon
+   project, and "Immigrant Solidarity Benefit" (Oct 16, CSMA) was also skipped since it lists
+   "multiple acts" with no specific performer named.
+2. **A real bug** — the band filter dropdown only matched shows by *exact* name equality, so
+   following "John Simon" could never match variant billings like "John Simon & Der Walters" or
+   "John Simon, Dee Specker & Friends...". Fixed in `script.js` so the band filter now does a
+   case-insensitive substring match, same as the search box already did. This should also help
+   other followed acts that play under rotating group names (The Yardvarks, Radio London, etc.).
+
 This also prompted a scope cleanup: flxmusic247 organizes its coverage into 9 color-coded
 sub-regions. This app had already been including 7 of them (Ithaca, Cayuga Lake, Between the
 Lakes, Seneca Lake-Geneva, Keuka Lake, Watkins Glen) plus Homer/Cortland as a one-off precedent,

@@ -308,7 +308,7 @@ function getFilteredShows() {
       show.band.toLowerCase().includes(query) ||
       show.venue.toLowerCase().includes(query);
     const matchesVenue = !venue || show.venue === venue;
-    const matchesBand = !band || show.band === band;
+    const matchesBand = !band || show.band.toLowerCase().includes(band.toLowerCase());
 
     if (!matchesQuery || !matchesVenue || !matchesBand) return false;
 

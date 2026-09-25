@@ -333,5 +333,30 @@
     "address": "8990 Boyd Hill Rd, Pulteney, NY 14874 (town-level coordinates, exact address not separately geocoded)",
     "lat": 42.5250703,
     "lng": -77.167196
+  },
+  "Ithaca Farmers' Market": {
+    "address": "545 Third Street, Ithaca, NY 14850",
+    "lat": 42.4507093,
+    "lng": -76.5096178
+  },
+  "Kendal at Ithaca": {
+    "address": "2230 N Triphammer Rd, Ithaca, NY 14850",
+    "lat": 42.4751288,
+    "lng": -76.4861281
+  },
+  "Homer Phillips Free Library": {
+    "address": "37 South Main Street, Homer, NY 13077",
+    "lat": 42.6356907,
+    "lng": -76.1783119
+  },
+  "Cafe DeWitt (DeWitt Mall)": {
+    "address": "215 N Cayuga Street, Ithaca, NY 14850",
+    "lat": 42.4409405,
+    "lng": -76.4986663
+  },
+  "First Unitarian Church Society": {
+    "address": "306 N Aurora St, Ithaca, NY 14850",
+    "lat": 42.4417381,
+    "lng": -76.4960295
   }
 }
