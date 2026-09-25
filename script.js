@@ -191,6 +191,8 @@ async function loadData() {
       day: "numeric",
     });
     lastUpdated.textContent = `Events last updated: ${formatted}`;
+  } else if (!lastUpdated.textContent) {
+    lastUpdated.textContent = "Events last updated: unknown";
   }
   populateVenueFilter();
   populateBandFilter();
