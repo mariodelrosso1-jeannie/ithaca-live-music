@@ -590,8 +590,14 @@ function refresh() {
 }
 
 searchInput.addEventListener("input", refresh);
-venueFilter.addEventListener("change", refresh);
-bandFilter.addEventListener("change", refresh);
+venueFilter.addEventListener("change", () => {
+  if (venueFilter.value === "") searchInput.value = "";
+  refresh();
+});
+bandFilter.addEventListener("change", () => {
+  if (bandFilter.value === "") searchInput.value = "";
+  refresh();
+});
 
 listView.addEventListener("change", (e) => {
   if (e.target.classList.contains("favorite-checkbox")) {
