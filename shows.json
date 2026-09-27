@@ -2689,5 +2689,41 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.stonebend.com/about-3-1"
+  },
+  {
+    "band": "Peregrine",
+    "venue": "Garrett's Brewing Company",
+    "date": "2026-10-02",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://garrettsbrewing.com/events"
+  },
+  {
+    "band": "Working Folks String Band",
+    "venue": "Garrett's Brewing Company",
+    "date": "2026-10-09",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://garrettsbrewing.com/events"
+  },
+  {
+    "band": "Cast Iron Quartet",
+    "venue": "Garrett's Brewing Company",
+    "date": "2026-10-16",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://garrettsbrewing.com/events"
+  },
+  {
+    "band": "TOiVO (Sock Hop Sunday)",
+    "venue": "Garrett's Brewing Company",
+    "date": "2026-10-18",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://garrettsbrewing.com/events"
   }
 ]

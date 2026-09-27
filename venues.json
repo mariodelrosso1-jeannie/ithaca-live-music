@@ -368,5 +368,10 @@
     "address": "196 Porter Hill Rd, Newfield, NY 14867 (town-level coordinates, exact address not separately geocoded)",
     "lat": 42.3621811,
     "lng": -76.5905632
+  },
+  "Garrett's Brewing Company": {
+    "address": "1 W Main St, Trumansburg, NY 14886",
+    "lat": 42.541921,
+    "lng": -76.6625974
   }
 }

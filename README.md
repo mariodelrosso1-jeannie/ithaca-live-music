@@ -603,3 +603,12 @@ which the app now fetches and formats on every load. This file's date gets bumpe
 date any time a real new show, venue, or followed band is added — whether by a manual request
 in a chat session or by the scheduled refresh task, whose instructions were also updated to bump
 it after any run that actually finds something new (a no-op run leaves it untouched).
+
+### New venue: Garrett's Brewing Company (September 27, 2026)
+
+User asked to add this by name. Real venue at 1 W Main St, Trumansburg — a microbrewery open
+since 2019. Its own site (garrettsbrewing.com/events) has a full dated calendar; added 4
+confirmed shows with named performers: Peregrine (Oct 2), Working Folks String Band (Oct 9),
+Cast Iron Quartet (Oct 16), and TOiVO for a "Sock Hop Sunday" (Oct 18). Skipped the recurring
+weekly open mic (no specific performer), a "Songwriter's Workshop" (a class, not a performance),
+and a Halloween costume party (no band named).
