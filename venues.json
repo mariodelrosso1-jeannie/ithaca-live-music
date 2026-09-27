@@ -373,5 +373,45 @@
     "address": "1 W Main St, Trumansburg, NY 14886",
     "lat": 42.541921,
     "lng": -76.6625974
+  },
+  "Solera Tap House": {
+    "address": "4393 NY-414, Burdett, NY 14818",
+    "lat": 42.445824,
+    "lng": -76.8642055
+  },
+  "Either Oar Wine, Whiskey, & Cheese Bar": {
+    "address": "6075 NY-414, Hector, NY 14841",
+    "lat": 42.528292,
+    "lng": -76.8759995
+  },
+  "Auburn Public Theater": {
+    "address": "8 Exchange Street, Auburn, NY 13021",
+    "lat": 42.9307701,
+    "lng": -76.5667976
+  },
+  "del Lago Resort & Casino": {
+    "address": "1133 NY-414, Waterloo, NY 13165",
+    "lat": 42.9692015,
+    "lng": -76.8462349
+  },
+  "The Cherry Arts": {
+    "address": "102 Cherry Street, Ithaca, NY 14850",
+    "lat": 42.438632,
+    "lng": -76.5155171
+  },
+  "The Watering Hole": {
+    "address": "1307 E Lake Rd, Cortland, NY 13045",
+    "lat": 42.680947,
+    "lng": -76.3035497
+  },
+  "Prison City North Street Brewery": {
+    "address": "251 North Street, Auburn, NY 13021",
+    "lat": 42.9495454,
+    "lng": -76.567974
+  },
+  "Prison City Pub & Brewery": {
+    "address": "28 State St, Auburn, NY 13021",
+    "lat": 42.9318016,
+    "lng": -76.5682503
   }
 }

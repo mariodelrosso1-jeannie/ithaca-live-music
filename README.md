@@ -612,3 +612,98 @@ confirmed shows with named performers: Peregrine (Oct 2), Working Folks String B
 Cast Iron Quartet (Oct 16), and TOiVO for a "Sock Hop Sunday" (Oct 18). Skipped the recurring
 weekly open mic (no specific performer), a "Songwriter's Workshop" (a class, not a performance),
 and a Halloween costume party (no band named).
+
+### Completeness audit: scanning for entirely missing venues/bands (September 27, 2026)
+
+Asked to scan the whole Finger Lakes region (not just refresh dates at venues already known)
+for real venues or acts missing from the app entirely. This pass prioritized breadth over
+re-confirming what prior passes already covered.
+
+**Two pre-existing data bugs fixed first:** `shows.json` already had 4 real shows at **Solera
+Tap House** and 1 at **Either Oar Wine, Whiskey, & Cheese Bar** (both added to the Burdett/Hector
+brewery cluster in an earlier pass), but neither venue actually existed in `venues.json` — a
+copy/paste gap that silently broke their distance badges ever since. Both addresses were
+found (4393 NY-414, Burdett and 6075 NY-414, Hector) and geocoded; they're now in `venues.json`
+correctly.
+
+**New venues found and added, each with at least one real, named, dated show confirmed from
+the venue's own site or ticketing page:**
+
+- **Auburn Public Theater** (8 Exchange Street, Auburn, NY — Cayuga Lake, "Top of the Lakes"
+  area) — a real, active performing-arts venue this app had never included, despite Auburn
+  being in-scope since the Sep 24 scope cleanup. Its own events page lists a mix of theater,
+  cinema, and music; pulled 5 confirmed music dates (skipping the theater/cinema/class listings
+  and a generic "Hamilton Karaoke and Sing Along"): Ethan Setiawan & Fine Ground (Oct 9, a
+  Boston bluegrass quintet), tribute act Tony Kishman performing "Live and Let Die: The Music
+  of Paul McCartney" (Oct 15), Mark Doyle and the Maniacs performing a Rolling Stones tribute
+  set (Oct 18), and two "Sunday Music Series" installments naming specific local acts, Lake
+  Affect (Oct 25) and Because Dinosaurs (Nov 22). Times/dates cross-confirmed via the venue's
+  own SeatFun ticketing pages, not just its event-listing page.
+- **del Lago Resort & Casino** (1133 NY-414, Waterloo, NY — same "Top of the Lakes" area as the
+  already-listed Muranda Barn) — a large casino venue with a full confirmed touring-act
+  schedule on its own site (dellagoresort.com/entertainment), missed entirely until now despite
+  Waterloo being explicitly in-scope. Added 17 shows running Oct 3, 2026 through Mar 13, 2027,
+  all in "The Vine Showroom": Dokken w/ Lynch Mob, Daughtry, 2 Chainz, Night Ranger, Kansas,
+  Three Dog Night, and several named tribute acts (a Neil Diamond experience, Bad Sneakers/
+  Steely Dan, ZOSO/Led Zeppelin, Almost Queen, Thunderstruck/AC-DC, Tusk/Fleetwood Mac, The
+  Simon & Garfunkel Story), among others. This is by far the biggest single venue this app has
+  added — skipped one non-music listing on the same page (RuPaul's Drag Race Werq the World
+  tour).
+- **The Cherry Arts** (102 Cherry Street, Ithaca) — a real Ithaca performing-arts venue; one
+  confirmed show, Tom Jolu (Oct 2), found via Bandsintown's Ithaca city page and cross-confirmed
+  by a second independent search.
+- **The Watering Hole** (1307 E Lake Rd, Cortland, NY — Homer/Cortland precedent) — a real bar;
+  one confirmed show, MODAFFERI (Oct 17).
+- **Prison City North Street Brewery** and **Prison City Pub & Brewery** (251 North Street and
+  28 State St, Auburn — the same brewery company operates two separate addresses, confirmed as
+  genuinely different locations, so both were added) — found via the brewery's own detailed
+  events calendar. Added Shawn Halloran's "Summer Music at the Farm" set (Sep 27, North Street
+  location) and Mojo Combo at "The Armory," a speakeasy under the State St. location, as part of
+  a Halloween "Spookeasy" event (Oct 30). Skipped an "Allman Brothers Tribute Night" at the same
+  venue — the listing names the tribute theme but never names the actual performing band, so it
+  didn't clear this app's no-generic-listings bar.
+
+**Two bonus shows found at already-listed venues** while cross-referencing Bandsintown's Ithaca
+city page (left in since they were already found, though this app's separate 3-day refresh task
+normally handles this): Brian Lindsay Band at Muranda Barn (Sep 27 — Bandsintown lists this
+address under "Muranda Cheese Company," the shop next door on the same property, but it's the
+same venue already in `venues.json`), and a second, later-dated Lone Gonzo show at Geneva On The
+Lake (Nov 25, "Thanksgiving Eve" — the existing Sep 29 Lone Gonzo entry there is a different date,
+not a duplicate).
+
+**Checked and deliberately excluded:**
+- **Cortland Beer Company** (16 Court Street, Cortland) — a real, active venue with live music
+  most Fridays (confirmed named acts throughout September: In Too Deep, 4 Fellas & A 5th, Aiken
+  Nadge, Crystal Vision, Modafferi, etc., all via its own site), but every one of those confirmed
+  dates had already passed by Sep 27, and its interactive events calendar only shows dots for
+  October with no way to see performer names without a booking/API access this session didn't
+  have. Not added — per this app's zero-fabrication rule, a real venue isn't enough without a
+  confirmed upcoming named act. Worth a follow-up check once its October flyers post to Facebook.
+- **Outlet 111** (Penn Yan) — real bar with a "summer music series," but that season had ended
+  and nothing dated/named was posted for fall.
+- **Buried Acorn FLX Taproom** — turned out to be the same physical address (196 Porter Hill Rd,
+  Newfield) as the already-listed Stone Bend Farm, just a different name Bandsintown uses for
+  it; confirmed by the fact that its one listed show (Freight the Band, Oct 2) is the exact show
+  already in `shows.json` under "Freight, Wise Bones & Radio Saints" at Stone Bend Farm. Not a
+  new venue.
+- **The Song & Dance**, despite showing up repeatedly on Bandsintown's "Ithaca, NY" city page
+  with many confirmed acts, is actually located in Syracuse — same false-radius issue this app
+  has run into before with that source. Also skipped from the same page for being Syracuse/
+  Buffalo-area, not Finger Lakes: The 443 Social Club & Lounge, Funk 'n Waffles, Sharkey's Event
+  Center, The Oncenter Crouse Hinds Theater, Kegs Canalside, Landmark Theatre.
+- Also confirmed out of this app's established scope (Canandaigua/Naples area, already
+  excluded): Levi Gangi and The Buddhahood, both playing the Naples Grape Festival; and 1911
+  Tasting Room, which is actually in LaFayette, NY, near Syracuse, not the Finger Lakes.
+- A "Calvary's Love" listing at a "First Baptist Church" was skipped — several churches with
+  that name exist across this app's coverage area and the specific one couldn't be confirmed
+  confidently, plus it reads more like a church choir program than a band booking.
+- flxmusic247's calendar was spot-checked from where the last full day-by-day pass left off
+  (Nov 22, 2026) through mid-December: event density has dropped sharply for the winter
+  off-season, and everything found in that window (Ventosa Vineyards, Geneva On The Lake) was
+  already confirmed in `shows.json` from earlier passes. No need for another full day-by-day
+  read this cycle.
+
+This pass added **6 new venues** (Auburn Public Theater, del Lago Resort & Casino, The Cherry
+Arts, The Watering Hole, Prison City North Street Brewery, Prison City Pub & Brewery) plus fixed
+2 pre-existing venues that were missing geocoding (Solera Tap House, Either Oar), and **29 new
+shows** in total.

@@ -2725,5 +2725,266 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://garrettsbrewing.com/events"
+  },
+  {
+    "band": "Ethan Setiawan & Fine Ground",
+    "venue": "Auburn Public Theater",
+    "date": "2026-10-09",
+    "time": "8:00 PM",
+    "genre": "Bluegrass",
+    "price": "Ticketed",
+    "link": "https://www.auburnpublictheater.org/events/ethan-setiawan-fine-ground"
+  },
+  {
+    "band": "Tony Kishman's Live and Let Die (The Music of Paul McCartney)",
+    "venue": "Auburn Public Theater",
+    "date": "2026-10-15",
+    "time": "7:00 PM",
+    "genre": "Tribute/Rock",
+    "price": "Ticketed ($60+)",
+    "link": "https://www.auburnpublictheater.org/events/live-and-let-die-the-music-of-paul-mccartney"
+  },
+  {
+    "band": "Mark Doyle and the Maniacs (Stoned and Lonesome - A Celebration of The Rolling Stones)",
+    "venue": "Auburn Public Theater",
+    "date": "2026-10-18",
+    "time": "3:00 PM",
+    "genre": "Tribute/Rock",
+    "price": "Ticketed ($25)",
+    "link": "https://www.auburnpublictheater.org/events/stoned-and-lonesome--a-celebration-of-the-rolling-stones--the-early-years"
+  },
+  {
+    "band": "Lake Affect (Rich Del Favero and Bob Foresman) (Sunday Music Series)",
+    "venue": "Auburn Public Theater",
+    "date": "2026-10-25",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Ticketed",
+    "link": "https://www.auburnpublictheater.org/events/sunday-music-series-lake-affect"
+  },
+  {
+    "band": "Because Dinosaurs (Alex Forbes, Ted Williams, Carey Eidel) (Sunday Music Series)",
+    "venue": "Auburn Public Theater",
+    "date": "2026-11-22",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Ticketed",
+    "link": "https://www.auburnpublictheater.org/events/sunday-music-series-because-dinosaurs"
+  },
+  {
+    "band": "So Good! The Neil Diamond Experience",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-10-03",
+    "time": "8:00 PM",
+    "genre": "Tribute",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Dokken with Special Guest Lynch Mob",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-10-10",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Daughtry - 20 Years Unplugged",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-10-16",
+    "time": "7:30 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Emo Night with When We Were Thirty",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-10-23",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "2 Chainz",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-10-31",
+    "time": "8:00 PM",
+    "genre": "Hip Hop",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Night Ranger",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-11-07",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "The Amish Outlaws",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-11-13",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Custom Taylor Band - 25 Year Anniversary",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-11-14",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Kansas",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-11-21",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Terri Clark: It's Christmas... Cheers!",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-12-04",
+    "time": "8:00 PM",
+    "genre": "Country",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "FireHouse",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-12-05",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Bad Sneakers - The Music Of Steely Dan & Donald Fagen",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-12-12",
+    "time": "8:00 PM",
+    "genre": "Tribute",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "ZOSO: The Ultimate Led Zeppelin Experience",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-12-19",
+    "time": "8:00 PM",
+    "genre": "Tribute",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Almost Queen",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-12-31",
+    "time": "8:00 PM",
+    "genre": "Tribute",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Thunderstruck: America's AC/DC",
+    "venue": "del Lago Resort & Casino",
+    "date": "2027-01-16",
+    "time": "8:00 PM",
+    "genre": "Tribute",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Three Dog Night",
+    "venue": "del Lago Resort & Casino",
+    "date": "2027-02-13",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Tusk - The Classic Fleetwood Mac Tribute",
+    "venue": "del Lago Resort & Casino",
+    "date": "2027-02-26",
+    "time": "8:00 PM",
+    "genre": "Tribute",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "The Simon & Garfunkel Story",
+    "venue": "del Lago Resort & Casino",
+    "date": "2027-03-13",
+    "time": "8:00 PM",
+    "genre": "Tribute/Folk",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Tom Jolu",
+    "venue": "The Cherry Arts",
+    "date": "2026-10-02",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See listing",
+    "link": "https://www.bandsintown.com/c/ithaca-ny"
+  },
+  {
+    "band": "MODAFFERI",
+    "venue": "The Watering Hole",
+    "date": "2026-10-17",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.bandsintown.com/c/ithaca-ny"
+  },
+  {
+    "band": "Shawn Halloran (Summer Music at the Farm)",
+    "venue": "Prison City North Street Brewery",
+    "date": "2026-09-27",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.prisoncitybrewing.com/events-calendar-1"
+  },
+  {
+    "band": "Mojo Combo (Spookeasy)",
+    "venue": "Prison City Pub & Brewery",
+    "date": "2026-10-30",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "See listing",
+    "link": "https://www.prisoncitybrewing.com/events-calendar-1/2026/10/30/spookeasy-a-halloween-soiree-in-the-armory"
+  },
+  {
+    "band": "Brian Lindsay Band",
+    "venue": "Muranda Barn",
+    "date": "2026-09-27",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.bandsintown.com/c/ithaca-ny"
+  },
+  {
+    "band": "Lone Gonzo (Thanksgiving Eve)",
+    "venue": "Geneva On The Lake",
+    "date": "2026-11-25",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See listing",
+    "link": "https://flxmusic247.com/"
   }
 ]
