@@ -47,6 +47,15 @@ const manageStatus = document.getElementById("manageStatus");
 const showCount = document.getElementById("showCount");
 const lastUpdated = document.getElementById("lastUpdated");
 
+const IS_LOCAL_DEV = ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
+if (!IS_LOCAL_DEV) {
+  addVenueToggleBtn.classList.add("hidden");
+  addBandToggleBtn.classList.add("hidden");
+  manageToggleBtn.classList.add("hidden");
+  const adminFooterNote = document.getElementById("adminFooterNote");
+  if (adminFooterNote) adminFooterNote.classList.add("hidden");
+}
+
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
 const FOLLOWED_BANDS_KEY = "ithacaBandShows.followedBands";
 const FAVORITE_BANDS_KEY = "ithacaBandShows.favoriteBands";
