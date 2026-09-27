@@ -46,6 +46,10 @@ const closeManageBtn = document.getElementById("closeManageBtn");
 const manageStatus = document.getElementById("manageStatus");
 const showCount = document.getElementById("showCount");
 const lastUpdated = document.getElementById("lastUpdated");
+const genreLegendToggleBtn = document.getElementById("genreLegendToggleBtn");
+const genreLegendPanel = document.getElementById("genreLegendPanel");
+const genreLegendList = document.getElementById("genreLegendList");
+const closeGenreLegendBtn = document.getElementById("closeGenreLegendBtn");
 
 const IS_LOCAL_DEV = ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
 if (!IS_LOCAL_DEV) {
@@ -198,6 +202,33 @@ function getGenreCategory(genre) {
     if (pattern.test(lower)) return category;
   }
   return "other";
+}
+
+const GENRE_CATEGORY_LABELS = {
+  comedy: "Comedy/Spoken Word",
+  dance: "Dance",
+  jam: "Jam Band",
+  jazz: "Jazz",
+  blues: "Blues",
+  bluegrass: "Bluegrass",
+  soul: "Soul/Funk",
+  folk: "Folk/Americana",
+  indie: "Indie/Electronic",
+  pop: "Pop",
+  rock: "Rock",
+  other: "Live Music/Other",
+};
+
+function renderGenreLegend() {
+  const order = [...GENRE_CATEGORY_RULES.map(([, cat]) => cat), "other"];
+  const seen = new Set();
+  genreLegendList.innerHTML = order
+    .filter((cat) => (seen.has(cat) ? false : (seen.add(cat), true)))
+    .map(
+      (cat) =>
+        `<span class="genre-badge genre-${cat} legend-swatch">${GENRE_CATEGORY_LABELS[cat]}</span>`
+    )
+    .join("");
 }
 
 async function loadData() {
@@ -785,6 +816,17 @@ manageToggleBtn.addEventListener("click", () => {
 
 closeManageBtn.addEventListener("click", () => {
   manageForm.classList.add("hidden");
+});
+
+genreLegendToggleBtn.addEventListener("click", () => {
+  genreLegendPanel.classList.toggle("hidden");
+  if (!genreLegendPanel.classList.contains("hidden")) {
+    renderGenreLegend();
+  }
+});
+
+closeGenreLegendBtn.addEventListener("click", () => {
+  genreLegendPanel.classList.add("hidden");
 });
 
 manageVenuesList.addEventListener("click", async (e) => {

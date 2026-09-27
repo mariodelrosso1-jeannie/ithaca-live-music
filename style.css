@@ -93,6 +93,36 @@ main {
   margin-bottom: 1.5rem;
 }
 
+.genre-legend {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.genre-legend-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.legend-swatch {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.7rem;
+}
+
+#closeGenreLegendBtn {
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
 .manage-panel h3 {
   margin: 1rem 0 0.5rem;
   font-size: 0.95rem;
