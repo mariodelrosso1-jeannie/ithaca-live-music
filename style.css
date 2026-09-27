@@ -120,6 +120,12 @@ main {
   opacity: 1;
 }
 
+.legend-swatch-all {
+  background: var(--accent-2);
+  color: white;
+  font-weight: 600;
+}
+
 .legend-swatch-active {
   border-color: var(--text);
   opacity: 1;

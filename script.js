@@ -220,13 +220,15 @@ const GENRE_CATEGORY_LABELS = {
 function renderGenreLegend() {
   const order = [...GENRE_CATEGORY_RULES.map(([, cat]) => cat), "other"];
   const seen = new Set();
-  genreLegendList.innerHTML = order
+  const showAllBtn = `<button type="button" class="genre-badge legend-swatch legend-swatch-all ${genreFilterCategory === null ? "legend-swatch-active" : ""}" data-category="all">Show All</button>`;
+  const genreBtns = order
     .filter((cat) => (seen.has(cat) ? false : (seen.add(cat), true)))
     .map(
       (cat) =>
         `<button type="button" class="genre-badge genre-${cat} legend-swatch ${genreFilterCategory === cat ? "legend-swatch-active" : ""}" data-category="${cat}">${GENRE_CATEGORY_LABELS[cat]}</button>`
     )
     .join("");
+  genreLegendList.innerHTML = showAllBtn + genreBtns;
 }
 
 async function loadData() {
@@ -822,7 +824,8 @@ genreLegendList.addEventListener("click", (e) => {
   const swatch = e.target.closest(".legend-swatch");
   if (!swatch) return;
   const category = swatch.dataset.category;
-  genreFilterCategory = genreFilterCategory === category ? null : category;
+  genreFilterCategory =
+    category === "all" ? null : genreFilterCategory === category ? null : category;
   renderGenreLegend();
   renderList();
   renderCalendar();
