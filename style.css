@@ -327,6 +327,68 @@ main {
   box-shadow: 0 0 0 1px var(--accent);
 }
 
+.genre-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.genre-rock {
+  background: #c0392b;
+}
+
+.genre-blues {
+  background: #2e6da4;
+}
+
+.genre-jazz {
+  background: #b8860b;
+}
+
+.genre-bluegrass {
+  background: #4a7c3c;
+}
+
+.genre-folk {
+  background: #8e5b3f;
+}
+
+.genre-soul {
+  background: #c9761f;
+}
+
+.genre-jam {
+  background: #2f9e8f;
+}
+
+.genre-indie {
+  background: #7a5cc4;
+}
+
+.genre-pop {
+  background: #c94f7c;
+}
+
+.genre-dance {
+  background: #a8a13a;
+}
+
+.genre-comedy {
+  background: #6b6478;
+}
+
+.genre-other {
+  background: var(--panel-2);
+  color: var(--muted);
+}
+
+.calendar-cell .cell-show.genre-other {
+  background: var(--accent-2);
+  color: white;
+}
+
 .favorite-toggle {
   position: relative;
   display: inline-flex;
@@ -477,7 +539,6 @@ main {
 }
 
 .calendar-cell .cell-show {
-  background: var(--accent-2);
   color: white;
   border-radius: 4px;
   padding: 2px 4px;
@@ -574,5 +635,11 @@ footer code {
 
   .favorite-toggle {
     display: none;
+  }
+
+  .genre-badge {
+    background: none !important;
+    color: #444 !important;
+    padding: 0;
   }
 }

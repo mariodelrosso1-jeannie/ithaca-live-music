@@ -178,6 +178,28 @@ function escapeAttr(str) {
   return str.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
 }
 
+const GENRE_CATEGORY_RULES = [
+  [/spoken word|comedy/, "comedy"],
+  [/dance/, "dance"],
+  [/grateful dead|jam/, "jam"],
+  [/jazz/, "jazz"],
+  [/blues/, "blues"],
+  [/bluegrass/, "bluegrass"],
+  [/zydeco|soul|r&b|funk|hip.?hop/, "soul"],
+  [/folk|americana|celtic|contra|old-time|country/, "folk"],
+  [/electronic|experimental|indie/, "indie"],
+  [/pop/, "pop"],
+  [/rock/, "rock"],
+];
+
+function getGenreCategory(genre) {
+  const lower = (genre || "").toLowerCase();
+  for (const [pattern, category] of GENRE_CATEGORY_RULES) {
+    if (pattern.test(lower)) return category;
+  }
+  return "other";
+}
+
 async function loadData() {
   const [showsData, venuesData, sharedFollowedBands, lastUpdatedData] = await Promise.all([
     fetch("shows.json", { cache: "no-store" }).then((res) => res.json()),
@@ -404,7 +426,7 @@ function renderList() {
               ${show.band}
             </h3>
             <div class="venue">${show.venue} ${distHtml}</div>
-            <div class="meta">${show.time} &middot; ${show.genre} &middot; ${show.price} ${linkHtml ? "&middot; " + linkHtml : ""}</div>
+            <div class="meta">${show.time} &middot; <span class="genre-badge genre-${getGenreCategory(show.genre)}">${show.genre}</span> &middot; ${show.price} ${linkHtml ? "&middot; " + linkHtml : ""}</div>
           </div>
         </article>
       `;
@@ -442,7 +464,10 @@ function renderCalendar() {
   for (let day = 1; day <= daysInMonth; day++) {
     const dayShows = showsByDay[day] || [];
     const showsHtml = dayShows
-      .map((s) => `<div class="cell-show" title="${s.band} @ ${s.venue}">${s.band}</div>`)
+      .map(
+        (s) =>
+          `<div class="cell-show genre-${getGenreCategory(s.genre)}" title="${s.band} @ ${s.venue} (${s.genre})">${s.band}</div>`
+      )
       .join("");
     cellsHtml += `
       <div class="calendar-cell">
