@@ -218,11 +218,11 @@ const GENRE_CATEGORY_LABELS = {
 };
 
 function renderGenreLegend() {
-  const order = [...GENRE_CATEGORY_RULES.map(([, cat]) => cat), "other"];
-  const seen = new Set();
+  const order = [...new Set(GENRE_CATEGORY_RULES.map(([, cat]) => cat).concat("other"))].sort(
+    (a, b) => GENRE_CATEGORY_LABELS[a].localeCompare(GENRE_CATEGORY_LABELS[b])
+  );
   const showAllBtn = `<button type="button" class="genre-badge legend-swatch legend-swatch-all ${genreFilterCategory === null ? "legend-swatch-active" : ""}" data-category="all">Show All</button>`;
   const genreBtns = order
-    .filter((cat) => (seen.has(cat) ? false : (seen.add(cat), true)))
     .map(
       (cat) =>
         `<button type="button" class="genre-badge genre-${cat} legend-swatch ${genreFilterCategory === cat ? "legend-swatch-active" : ""}" data-category="${cat}">${GENRE_CATEGORY_LABELS[cat]}</button>`
