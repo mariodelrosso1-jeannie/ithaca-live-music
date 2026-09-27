@@ -65,8 +65,7 @@ main {
 }
 
 #venueFilter,
-#bandFilter,
-#sortBy {
+#bandFilter {
   padding: 0.6rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
@@ -322,16 +321,6 @@ main {
   color: white;
 }
 
-#daysFilter {
-  padding: 0.5rem 0.9rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--panel);
-  color: var(--muted);
-  cursor: pointer;
-  font-size: 0.85rem;
-}
-
 #locationInput {
   padding: 0.5rem 0.9rem;
   border-radius: 8px;
@@ -342,12 +331,14 @@ main {
   min-width: 200px;
 }
 
-#distanceFilter {
+#daysFilter,
+#distanceFilter,
+#sortBy {
   padding: 0.5rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--panel);
-  color: var(--text);
+  color: white;
   cursor: pointer;
   font-size: 0.85rem;
 }
