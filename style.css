@@ -229,6 +229,28 @@ main {
   font-size: 0.85rem;
 }
 
+.manage-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: 0.85rem;
+  margin: 0.3rem 0 0.6rem;
+}
+
+.manage-genre-select {
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: 0.8rem;
+  max-width: 170px;
+}
+
 .manage-save-edit-btn {
   background: var(--accent-2) !important;
   border-color: var(--accent-2) !important;

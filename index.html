@@ -56,14 +56,17 @@
     </div>
 
     <div id="manageForm" class="manage-panel hidden">
-      <p class="manage-note">Edit or delete venues and bands you've added yourself in this
-        browser. (Venues/bands that come from <code>shows.json</code>, plus bands automatically
-        tracked in <code>followed-bands.json</code>, aren't listed here — ask to have those
-        corrected instead.)</p>
+      <p class="manage-note">Venues and bands you've added yourself here can be renamed or
+        deleted outright. Any other venue or band/artist in the app can also have its address
+        (venues) or genre color (bands) fixed here — those changes are saved in this browser
+        only, not shared with other devices. To fully rename or remove a venue/band for everyone,
+        ask for that directly.</p>
       <p id="manageStatus" class="location-status"></p>
-      <h3>Your Venues</h3>
+      <h3>Venues</h3>
+      <input type="text" id="manageVenueSearch" class="manage-search" placeholder="Search venues...">
       <div id="manageVenuesList" class="manage-list"></div>
-      <h3>Your Followed Bands</h3>
+      <h3>Bands &amp; Artists</h3>
+      <input type="text" id="manageBandSearch" class="manage-search" placeholder="Search bands/artists...">
       <div id="manageBandsList" class="manage-list"></div>
       <button id="closeManageBtn">Close</button>
     </div>

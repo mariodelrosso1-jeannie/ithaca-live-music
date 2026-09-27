@@ -45,6 +45,8 @@ const manageVenuesList = document.getElementById("manageVenuesList");
 const manageBandsList = document.getElementById("manageBandsList");
 const closeManageBtn = document.getElementById("closeManageBtn");
 const manageStatus = document.getElementById("manageStatus");
+const manageVenueSearch = document.getElementById("manageVenueSearch");
+const manageBandSearch = document.getElementById("manageBandSearch");
 const showCount = document.getElementById("showCount");
 const lastUpdated = document.getElementById("lastUpdated");
 const genreLegendList = document.getElementById("genreLegendList");
@@ -61,6 +63,8 @@ if (!IS_LOCAL_DEV) {
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";
 const FOLLOWED_BANDS_KEY = "ithacaBandShows.followedBands";
 const FAVORITE_BANDS_KEY = "ithacaBandShows.favoriteBands";
+const BAND_GENRE_OVERRIDES_KEY = "ithacaBandShows.bandGenreOverrides";
+const VENUE_ADDRESS_OVERRIDES_KEY = "ithacaBandShows.venueAddressOverrides";
 
 function loadCustomVenues() {
   try {
@@ -131,6 +135,7 @@ function deleteFollowedBand(name) {
   }
   favoriteBands.delete(name);
   saveFavoriteBands();
+  setBandGenreOverride(name, null);
   if (bandFilter.value === name) bandFilter.value = "";
 }
 
@@ -146,7 +151,71 @@ function renameFollowedBand(oldName, newName) {
     favoriteBands.add(newName);
     saveFavoriteBands();
   }
+  if (bandGenreOverrides[oldName]) {
+    bandGenreOverrides[newName] = bandGenreOverrides[oldName];
+    delete bandGenreOverrides[oldName];
+    saveBandGenreOverrides();
+  }
   if (bandFilter.value === oldName) bandFilter.value = "";
+}
+
+let bandGenreOverrides = {};
+
+function loadBandGenreOverrides() {
+  try {
+    return JSON.parse(localStorage.getItem(BAND_GENRE_OVERRIDES_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveBandGenreOverrides() {
+  try {
+    localStorage.setItem(BAND_GENRE_OVERRIDES_KEY, JSON.stringify(bandGenreOverrides));
+  } catch {
+    // localStorage unavailable (private browsing, etc.) - override still works for this session
+  }
+}
+
+function setBandGenreOverride(name, category) {
+  if (category) {
+    bandGenreOverrides[name] = category;
+  } else {
+    delete bandGenreOverrides[name];
+  }
+  saveBandGenreOverrides();
+}
+
+function getEffectiveGenreCategory(show) {
+  return bandGenreOverrides[show.band] || getGenreCategory(show.genre);
+}
+
+function getEffectiveGenreLabel(show) {
+  const override = bandGenreOverrides[show.band];
+  return override ? GENRE_CATEGORY_LABELS[override] : show.genre;
+}
+
+let venueAddressOverrides = {};
+
+function loadVenueAddressOverrides() {
+  try {
+    return JSON.parse(localStorage.getItem(VENUE_ADDRESS_OVERRIDES_KEY)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveVenueAddressOverrides() {
+  try {
+    localStorage.setItem(VENUE_ADDRESS_OVERRIDES_KEY, JSON.stringify(venueAddressOverrides));
+  } catch {
+    // localStorage unavailable (private browsing, etc.) - override still works for this session
+  }
+}
+
+function setVenueAddressOverride(name, venueData) {
+  venueAddressOverrides[name] = venueData;
+  saveVenueAddressOverrides();
 }
 
 let favoriteBands = new Set();
@@ -243,9 +312,11 @@ async function loadData() {
       .catch(() => null),
   ]);
   allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
-  venues = { ...venuesData, ...loadCustomVenues() };
+  venueAddressOverrides = loadVenueAddressOverrides();
+  venues = { ...venuesData, ...venueAddressOverrides, ...loadCustomVenues() };
   followedBands = [...new Set([...sharedFollowedBands, ...loadFollowedBands()])];
   favoriteBands = loadFavoriteBands();
+  bandGenreOverrides = loadBandGenreOverrides();
   if (lastUpdatedData && lastUpdatedData.date) {
     const formatted = new Date(lastUpdatedData.date + "T00:00:00").toLocaleDateString("en-US", {
       year: "numeric",
@@ -389,7 +460,7 @@ function getFilteredShows() {
       show.venue.toLowerCase().includes(query);
     const matchesVenue = !venue || show.venue === venue;
     const matchesBand = !band || show.band.toLowerCase().includes(band.toLowerCase());
-    const matchesGenre = !genreFilterCategory || getGenreCategory(show.genre) === genreFilterCategory;
+    const matchesGenre = !genreFilterCategory || getEffectiveGenreCategory(show) === genreFilterCategory;
 
     if (!matchesQuery || !matchesVenue || !matchesBand || !matchesGenre) return false;
 
@@ -459,7 +530,7 @@ function renderList() {
               ${show.band}
             </h3>
             <div class="venue">${show.venue} ${distHtml}</div>
-            <div class="meta">${show.time} &middot; <span class="genre-badge genre-${getGenreCategory(show.genre)}">${show.genre}</span> &middot; ${show.price} ${linkHtml ? "&middot; " + linkHtml : ""}</div>
+            <div class="meta">${show.time} &middot; <span class="genre-badge genre-${getEffectiveGenreCategory(show)}">${getEffectiveGenreLabel(show)}</span> &middot; ${show.price} ${linkHtml ? "&middot; " + linkHtml : ""}</div>
           </div>
         </article>
       `;
@@ -499,7 +570,7 @@ function renderCalendar() {
     const showsHtml = dayShows
       .map(
         (s) =>
-          `<div class="cell-show genre-${getGenreCategory(s.genre)}" title="${s.band} @ ${s.venue} (${s.genre})">${s.band}</div>`
+          `<div class="cell-show genre-${getEffectiveGenreCategory(s)}" title="${s.band} @ ${s.venue} (${getEffectiveGenreLabel(s)})">${s.band}</div>`
       )
       .join("");
     cellsHtml += `
@@ -708,17 +779,40 @@ newBandName.addEventListener("keydown", (e) => {
   if (e.key === "Enter") saveNewBand();
 });
 
-let manageVenueMode = {}; // name -> "editing" | "confirmDelete"
+let manageVenueMode = {}; // name -> "editing" | "editingAddress" | "confirmDelete"
 let manageBandMode = {};
+let manageVenueFilterText = "";
+let manageBandFilterText = "";
+
+function genreSelectOptionsHtml(selectedCategory) {
+  const categories = Object.keys(GENRE_CATEGORY_LABELS).sort((a, b) =>
+    GENRE_CATEGORY_LABELS[a].localeCompare(GENRE_CATEGORY_LABELS[b])
+  );
+  const defaultOption = `<option value=""${selectedCategory ? "" : " selected"}>— Use show's genre —</option>`;
+  const categoryOptions = categories
+    .map(
+      (cat) =>
+        `<option value="${cat}"${selectedCategory === cat ? " selected" : ""}>${GENRE_CATEGORY_LABELS[cat]}</option>`
+    )
+    .join("");
+  return defaultOption + categoryOptions;
+}
 
 function renderManagePanel() {
   const customVenues = loadCustomVenues();
-  const venueNames = Object.keys(customVenues).sort();
+  const allVenueNames = Object.keys(venues)
+    .filter((name) => name.toLowerCase().includes(manageVenueFilterText.toLowerCase()))
+    .sort();
 
-  manageVenuesList.innerHTML = venueNames.length
-    ? venueNames
+  manageVenuesList.innerHTML = allVenueNames.length
+    ? allVenueNames
         .map((name) => {
-          const v = customVenues[name];
+          const v = venues[name];
+          const isCustom = Object.prototype.hasOwnProperty.call(customVenues, name);
+          const hasAddressOverride = Object.prototype.hasOwnProperty.call(
+            venueAddressOverrides,
+            name
+          );
           const mode = manageVenueMode[name];
 
           if (mode === "editing") {
@@ -730,6 +824,20 @@ function renderManagePanel() {
                 </div>
                 <div class="manage-row-actions">
                   <button class="manage-save-edit-btn">Save</button>
+                  <button class="manage-cancel-edit-btn">Cancel</button>
+                </div>
+              </div>
+            `;
+          }
+          if (mode === "editingAddress") {
+            return `
+              <div class="manage-row manage-row-editing" data-name="${escapeAttr(name)}">
+                <strong>${name}</strong>
+                <div class="manage-edit-fields">
+                  <input type="text" class="manage-edit-address" value="${escapeAttr(v.address)}" placeholder="Address, town, or zip code">
+                </div>
+                <div class="manage-row-actions">
+                  <button class="manage-save-address-btn">Save</button>
                   <button class="manage-cancel-edit-btn">Cancel</button>
                 </div>
               </div>
@@ -753,19 +861,29 @@ function renderManagePanel() {
                 <span class="manage-row-address">${v.address}</span>
               </div>
               <div class="manage-row-actions">
-                <button class="manage-rename-btn">Rename / Fix Address</button>
-                <button class="manage-delete-btn">Delete</button>
+                ${
+                  isCustom
+                    ? `<button class="manage-rename-btn">Rename / Fix Address</button>
+                       <button class="manage-delete-btn">Delete</button>`
+                    : `<button class="manage-fix-address-btn">Fix Address</button>
+                       ${hasAddressOverride ? '<button class="manage-reset-address-btn">Reset Address</button>' : ""}`
+                }
               </div>
             </div>
           `;
         })
         .join("")
-    : '<p class="empty-state">No custom venues added yet.</p>';
+    : '<p class="empty-state">No venues match that search.</p>';
 
-  const bandNames = [...loadFollowedBands()].sort();
-  manageBandsList.innerHTML = bandNames.length
-    ? bandNames
+  const localFollowed = loadFollowedBands();
+  const allBandNames = getAllBandNames()
+    .filter((name) => name.toLowerCase().includes(manageBandFilterText.toLowerCase()))
+    .sort();
+
+  manageBandsList.innerHTML = allBandNames.length
+    ? allBandNames
         .map((name) => {
+          const isFollowedLocal = localFollowed.includes(name);
           const mode = manageBandMode[name];
 
           if (mode === "editing") {
@@ -795,15 +913,22 @@ function renderManagePanel() {
           return `
             <div class="manage-row" data-name="${escapeAttr(name)}">
               <div class="manage-row-info"><strong>${name}</strong></div>
+              <select class="manage-genre-select" data-name="${escapeAttr(name)}">
+                ${genreSelectOptionsHtml(bandGenreOverrides[name])}
+              </select>
               <div class="manage-row-actions">
-                <button class="manage-rename-btn">Rename</button>
-                <button class="manage-delete-btn">Delete</button>
+                ${
+                  isFollowedLocal
+                    ? `<button class="manage-rename-btn">Rename</button>
+                       <button class="manage-delete-btn">Delete</button>`
+                    : ""
+                }
               </div>
             </div>
           `;
         })
         .join("")
-    : '<p class="empty-state">No followed bands added yet.</p>';
+    : '<p class="empty-state">No bands match that search.</p>';
 }
 
 manageToggleBtn.addEventListener("click", () => {
@@ -811,9 +936,23 @@ manageToggleBtn.addEventListener("click", () => {
   if (!manageForm.classList.contains("hidden")) {
     manageVenueMode = {};
     manageBandMode = {};
+    manageVenueFilterText = "";
+    manageBandFilterText = "";
+    manageVenueSearch.value = "";
+    manageBandSearch.value = "";
     manageStatus.textContent = "";
     renderManagePanel();
   }
+});
+
+manageVenueSearch.addEventListener("input", () => {
+  manageVenueFilterText = manageVenueSearch.value.trim();
+  renderManagePanel();
+});
+
+manageBandSearch.addEventListener("input", () => {
+  manageBandFilterText = manageBandSearch.value.trim();
+  renderManagePanel();
 });
 
 closeManageBtn.addEventListener("click", () => {
@@ -883,7 +1022,47 @@ manageVenuesList.addEventListener("click", async (e) => {
     manageStatus.textContent = newName === name ? `Updated "${name}".` : `Renamed "${name}" to "${newName}".`;
     await loadData();
     renderManagePanel();
+  } else if (e.target.classList.contains("manage-fix-address-btn")) {
+    manageVenueMode = { [name]: "editingAddress" };
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-reset-address-btn")) {
+    delete venueAddressOverrides[name];
+    saveVenueAddressOverrides();
+    manageStatus.textContent = `Reset "${name}" back to its original address.`;
+    await loadData();
+    renderManagePanel();
+  } else if (e.target.classList.contains("manage-save-address-btn")) {
+    const newAddress = row.querySelector(".manage-edit-address").value.trim();
+    if (!newAddress) {
+      manageStatus.textContent = "Enter an address, town, or zip code.";
+      return;
+    }
+    e.target.disabled = true;
+    e.target.textContent = "Looking up...";
+    const result = await geocode(newAddress);
+    if (!result) {
+      manageStatus.textContent = `Couldn't find "${newAddress}". Try a more specific address.`;
+      e.target.disabled = false;
+      e.target.textContent = "Save";
+      return;
+    }
+    setVenueAddressOverride(name, { address: result.displayName, lat: result.lat, lng: result.lng });
+    delete manageVenueMode[name];
+    manageStatus.textContent = `Updated the address for "${name}" (this browser only).`;
+    await loadData();
+    renderManagePanel();
   }
+});
+
+manageBandsList.addEventListener("change", (e) => {
+  if (!e.target.classList.contains("manage-genre-select")) return;
+  const name = e.target.dataset.name;
+  setBandGenreOverride(name, e.target.value || null);
+  renderList();
+  renderCalendar();
+  manageStatus.textContent = e.target.value
+    ? `"${name}" will now show as ${GENRE_CATEGORY_LABELS[e.target.value]} (this browser only).`
+    : `"${name}" will use each show's own genre again.`;
 });
 
 manageBandsList.addEventListener("click", async (e) => {
