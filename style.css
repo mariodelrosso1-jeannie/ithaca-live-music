@@ -105,22 +105,24 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1rem;
 }
 
 .legend-swatch {
   font-size: 0.85rem;
   padding: 0.3rem 0.7rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  opacity: 0.85;
 }
 
-#closeGenreLegendBtn {
-  padding: 0.5rem 0.9rem;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: var(--panel-2);
-  color: var(--text);
-  cursor: pointer;
-  font-size: 0.85rem;
+.legend-swatch:hover {
+  opacity: 1;
+}
+
+.legend-swatch-active {
+  border-color: var(--text);
+  opacity: 1;
 }
 
 .manage-panel h3 {
@@ -605,6 +607,7 @@ footer code {
   .controls,
   .add-venue-form,
   .manage-panel,
+  .genre-legend,
   .calendar-nav,
   #calendarView,
   footer,

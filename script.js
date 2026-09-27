@@ -5,6 +5,7 @@ let userLocation = null;
 let quickFilterDays = null;
 let sortBy = "date";
 let distanceFilterMiles = null;
+let genreFilterCategory = null;
 
 const listView = document.getElementById("listView");
 const calendarView = document.getElementById("calendarView");
@@ -46,10 +47,7 @@ const closeManageBtn = document.getElementById("closeManageBtn");
 const manageStatus = document.getElementById("manageStatus");
 const showCount = document.getElementById("showCount");
 const lastUpdated = document.getElementById("lastUpdated");
-const genreLegendToggleBtn = document.getElementById("genreLegendToggleBtn");
-const genreLegendPanel = document.getElementById("genreLegendPanel");
 const genreLegendList = document.getElementById("genreLegendList");
-const closeGenreLegendBtn = document.getElementById("closeGenreLegendBtn");
 
 const IS_LOCAL_DEV = ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
 if (!IS_LOCAL_DEV) {
@@ -226,7 +224,7 @@ function renderGenreLegend() {
     .filter((cat) => (seen.has(cat) ? false : (seen.add(cat), true)))
     .map(
       (cat) =>
-        `<span class="genre-badge genre-${cat} legend-swatch">${GENRE_CATEGORY_LABELS[cat]}</span>`
+        `<button type="button" class="genre-badge genre-${cat} legend-swatch ${genreFilterCategory === cat ? "legend-swatch-active" : ""}" data-category="${cat}">${GENRE_CATEGORY_LABELS[cat]}</button>`
     )
     .join("");
 }
@@ -258,6 +256,7 @@ async function loadData() {
   }
   populateVenueFilter();
   populateBandFilter();
+  renderGenreLegend();
   renderList();
   renderCalendar();
 }
@@ -388,8 +387,9 @@ function getFilteredShows() {
       show.venue.toLowerCase().includes(query);
     const matchesVenue = !venue || show.venue === venue;
     const matchesBand = !band || show.band.toLowerCase().includes(band.toLowerCase());
+    const matchesGenre = !genreFilterCategory || getGenreCategory(show.genre) === genreFilterCategory;
 
-    if (!matchesQuery || !matchesVenue || !matchesBand) return false;
+    if (!matchesQuery || !matchesVenue || !matchesBand || !matchesGenre) return false;
 
     const showDate = new Date(show.date + "T00:00:00");
     if (showDate < today) return false;
@@ -818,15 +818,14 @@ closeManageBtn.addEventListener("click", () => {
   manageForm.classList.add("hidden");
 });
 
-genreLegendToggleBtn.addEventListener("click", () => {
-  genreLegendPanel.classList.toggle("hidden");
-  if (!genreLegendPanel.classList.contains("hidden")) {
-    renderGenreLegend();
-  }
-});
-
-closeGenreLegendBtn.addEventListener("click", () => {
-  genreLegendPanel.classList.add("hidden");
+genreLegendList.addEventListener("click", (e) => {
+  const swatch = e.target.closest(".legend-swatch");
+  if (!swatch) return;
+  const category = swatch.dataset.category;
+  genreFilterCategory = genreFilterCategory === category ? null : category;
+  renderGenreLegend();
+  renderList();
+  renderCalendar();
 });
 
 manageVenuesList.addEventListener("click", async (e) => {
