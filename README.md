@@ -707,3 +707,20 @@ This pass added **6 new venues** (Auburn Public Theater, del Lago Resort & Casin
 Arts, The Watering Hole, Prison City North Street Brewery, Prison City Pub & Brewery) plus fixed
 2 pre-existing venues that were missing geocoding (Solera Tap House, Either Oar), and **29 new
 shows** in total.
+
+### New followed band: Bob Keefe and the Surf Renegades (September 28, 2026)
+
+User asked to follow "Surf Renegades" and find their dates. The real band is **Bob Keefe and
+the Surf Renegades**, a Finger Lakes-based surf rock act active since 2010. Their own site
+(surf-renegades.com/where-we-re-playing) publishes a full year-by-year, hand-maintained tour
+history going back to 2017 — an authoritative source that isn't on any aggregator this app has
+checked (flxmusic247, Bandsintown, the CNY concert calendar). Added 4 confirmed upcoming shows:
+Oct 2 at a new venue, **Iron Flamingo Barrel House** (Corning), Oct 10 at a new venue, **Knapp
+Winery** (Romulus, Seneca Lake), Oct 17 at the already-listed Abandon Brewing Company, and Oct 24
+at a new venue, **K-House Karaoke and Arts Hub** (Ithaca, a recently reopened downtown venue).
+Skipped one listing, a private recording session with no public audience, dated "TBD."
+
+Worth noting for future passes: this is a real gap-closing pattern, not a one-off. Small/local
+acts that maintain their own detailed tour page rather than relying on aggregators are
+effectively invisible to venue- or aggregator-based searches, however thorough — they can only
+be found by searching for that act by name once someone names it.

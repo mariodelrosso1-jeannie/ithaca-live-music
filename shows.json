@@ -2140,5 +2140,41 @@
     "genre": "Live Music",
     "price": "See listing",
     "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Bob Keefe and the Surf Renegades",
+    "venue": "Iron Flamingo Barrel House",
+    "date": "2026-10-02",
+    "time": "7:00 PM",
+    "genre": "Surf Rock",
+    "price": "Free",
+    "link": "https://www.surf-renegades.com/where-we-re-playing/"
+  },
+  {
+    "band": "Bob Keefe and the Surf Renegades",
+    "venue": "Knapp Winery",
+    "date": "2026-10-10",
+    "time": "2:00 PM",
+    "genre": "Surf Rock",
+    "price": "Free",
+    "link": "https://www.surf-renegades.com/where-we-re-playing/"
+  },
+  {
+    "band": "Bob Keefe and the Surf Renegades",
+    "venue": "Abandon Brewing Company",
+    "date": "2026-10-17",
+    "time": "3:00 PM",
+    "genre": "Surf Rock",
+    "price": "Free",
+    "link": "https://www.surf-renegades.com/where-we-re-playing/"
+  },
+  {
+    "band": "Bob Keefe and the Surf Renegades",
+    "venue": "K-House Karaoke and Arts Hub",
+    "date": "2026-10-24",
+    "time": "7:00 PM",
+    "genre": "Surf Rock",
+    "price": "Free",
+    "link": "https://www.surf-renegades.com/where-we-re-playing/"
   }
 ]

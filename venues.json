@@ -413,5 +413,20 @@
     "address": "28 State St, Auburn, NY 13021",
     "lat": 42.9318016,
     "lng": -76.5682503
+  },
+  "Knapp Winery": {
+    "address": "2770 Ernsberger Road, Romulus, NY 14541",
+    "lat": 42.765533,
+    "lng": -76.782812
+  },
+  "Iron Flamingo Barrel House": {
+    "address": "54 W Market St, Corning, NY 14830",
+    "lat": 42.1437077,
+    "lng": -77.0567986
+  },
+  "K-House Karaoke and Arts Hub": {
+    "address": "121 W State St, Ithaca, NY 14850",
+    "lat": 42.439379,
+    "lng": -76.4998068
   }
 }
