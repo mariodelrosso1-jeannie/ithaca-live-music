@@ -724,3 +724,17 @@ Worth noting for future passes: this is a real gap-closing pattern, not a one-of
 acts that maintain their own detailed tour page rather than relying on aggregators are
 effectively invisible to venue- or aggregator-based searches, however thorough — they can only
 be found by searching for that act by name once someone names it.
+
+### New followed band: 90 Proof (September 28, 2026)
+
+User asked to add "90 Proof." This is a real, very active classic rock cover band (60s-90s) that
+plays constantly around the southern Cayuga/Seneca Lake area — flxmusic247 alone turned up over
+a dozen past bookings at Grist Iron Brewing, Homer Hops, O'Malley's Lakeside Tavern, The Inn at
+Taughannock, The Boar's Nest 414, Tiki Bar North, Diamond on Seneca, Scale House Brewery, and
+several venues not yet in this app (Birdseye Hollow Farm and Distillery, Stivers Seneca Marine,
+Summerhill Brewing, Cedarwood, Lake Street Station). Despite that, **no confirmed upcoming date**
+could be found: every dated listing turned up (flxmusic247, a direct web search, Grist Iron's own
+current events page) was already in the past as of today. Their Facebook page's Events tab only
+shows past events without logging in — the same access limit hit before with other bands' pages.
+Added to `followed-bands.json` anyway so the scheduled refresh task keeps checking; no show added
+yet since nothing dated could be confirmed.
