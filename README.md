@@ -738,3 +738,17 @@ current events page) was already in the past as of today. Their Facebook page's 
 shows past events without logging in — the same access limit hit before with other bands' pages.
 Added to `followed-bands.json` anyway so the scheduled refresh task keeps checking; no show added
 yet since nothing dated could be confirmed.
+
+### Night Eagle Cafe had zero shows (September 29, 2026)
+
+User flagged that Night Eagle Cafe shows weren't appearing. Its only prior listings had been
+past-dated ones removed in the Sep 27 cleanup, and nothing new had been found since — a real gap,
+not a bug. The venue itself relaunched this year at a new location, the Lansing Area Performance
+Hall (same address already in `venues.json`), under new management ("Night Eagle Productions").
+Its own site (nighteaglecafe.org) publishes a full, dated 2026-2027 season with ticket links for
+every show. Added 7 confirmed upcoming shows: Reverie Road (Oct 5), Cantrip (Oct 11), Vance
+Gilbert (Oct 23), The Refugees (Nov 13), Connie Kaldor (Jan 30, 2027), and Garnet Rogers (Mar 5,
+2027), all at Night Eagle Cafe — plus one show, a Celtic Christmas concert with Doyle, Ryan &
+McAuley (Dec 10), that Night Eagle is producing at a different venue, the already-listed First
+Unitarian Church Society. One listed show, The Kennedys' CD release date, was explicitly marked
+"cancelled" on the site and skipped.

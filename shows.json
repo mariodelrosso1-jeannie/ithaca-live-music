@@ -2176,5 +2176,68 @@
     "genre": "Surf Rock",
     "price": "Free",
     "link": "https://www.surf-renegades.com/where-we-re-playing/"
+  },
+  {
+    "band": "Reverie Road",
+    "venue": "Night Eagle Cafe",
+    "date": "2026-10-05",
+    "time": "7:30 PM",
+    "genre": "Celtic",
+    "price": "Ticketed - see Details",
+    "link": "https://www.nighteaglecafe.org/"
+  },
+  {
+    "band": "Cantrip",
+    "venue": "Night Eagle Cafe",
+    "date": "2026-10-11",
+    "time": "7:00 PM",
+    "genre": "Celtic/Folk",
+    "price": "$20 advance / $25 door",
+    "link": "https://www.nighteaglecafe.org/"
+  },
+  {
+    "band": "Vance Gilbert",
+    "venue": "Night Eagle Cafe",
+    "date": "2026-10-23",
+    "time": "7:30 PM",
+    "genre": "Folk",
+    "price": "Ticketed - see Details",
+    "link": "https://www.nighteaglecafe.org/"
+  },
+  {
+    "band": "The Refugees",
+    "venue": "Night Eagle Cafe",
+    "date": "2026-11-13",
+    "time": "7:30 PM",
+    "genre": "Country/Rock/Folk/Blues/Americana",
+    "price": "$20 advance / $25 door",
+    "link": "https://www.nighteaglecafe.org/"
+  },
+  {
+    "band": "Doyle, Ryan & McAuley (A Celtic Christmas)",
+    "venue": "First Unitarian Church Society",
+    "date": "2026-12-10",
+    "time": "7:30 PM",
+    "genre": "Celtic",
+    "price": "$30 advance / $35 door",
+    "link": "https://www.nighteaglecafe.org/"
+  },
+  {
+    "band": "Connie Kaldor",
+    "venue": "Night Eagle Cafe",
+    "date": "2027-01-30",
+    "time": "7:00 PM",
+    "genre": "Folk",
+    "price": "$25 advance / $30 door",
+    "link": "https://www.nighteaglecafe.org/"
+  },
+  {
+    "band": "Garnet Rogers",
+    "venue": "Night Eagle Cafe",
+    "date": "2027-03-05",
+    "time": "7:30 PM",
+    "genre": "Folk",
+    "price": "$25 advance / $30 door",
+    "link": "https://www.nighteaglecafe.org/"
   }
 ]
