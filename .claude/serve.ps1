@@ -9,6 +9,7 @@ $mimeTypes = @{
   ".css"  = "text/css"
   ".js"   = "application/javascript"
   ".json" = "application/json"
+  ".png"  = "image/png"
 }
 
 while ($listener.IsListening) {

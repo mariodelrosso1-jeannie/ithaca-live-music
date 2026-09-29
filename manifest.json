@@ -1,0 +1,24 @@
+{
+  "name": "Ithaca Live Music",
+  "short_name": "Ithaca Live",
+  "description": "Live music shows around Ithaca, NY and the Finger Lakes wine region",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14121a",
+  "theme_color": "#14121a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
