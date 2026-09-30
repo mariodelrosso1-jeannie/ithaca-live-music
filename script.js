@@ -442,6 +442,12 @@ function distanceToShow(show) {
   return milesBetween(userLocation.lat, userLocation.lng, venue.lat, venue.lng);
 }
 
+function getUpcomingShowCount() {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return allShows.filter((show) => new Date(show.date + "T00:00:00") >= today).length;
+}
+
 function getFilteredShows() {
   const query = searchInput.value.trim().toLowerCase();
   const venue = venueFilter.value;
@@ -497,7 +503,7 @@ function getFilteredShows() {
 
 function renderList() {
   const shows = getFilteredShows();
-  showCount.textContent = `Showing ${shows.length} of ${allShows.length} shows`;
+  showCount.textContent = `Showing ${shows.length} of ${getUpcomingShowCount()} shows`;
   if (shows.length === 0) {
     listView.innerHTML = `<p class="empty-state">No shows match your filters.</p>`;
     return;
