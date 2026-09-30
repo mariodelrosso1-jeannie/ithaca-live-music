@@ -111,8 +111,21 @@ inline HTML forms instead.)
 
 ## Data sources
 
-Every entry in `shows.json` is a real, researched show (no placeholder or made-up data),
-pulled from each wine trail's or winery's own event listings as of September 17, 2026:
+Every entry in `shows.json` is a real, researched show (no placeholder or made-up data). Two
+standing rules for anyone (human or AI) adding to this file:
+
+- **Never fabricate a date, performer, or venue.** If a real source confirms the show but not a
+  specific time, use `"See Schedule"` (or similar) for `time` rather than guessing one.
+- **Don't trust a blank-looking page.** A plain text fetch of a venue's own site can come back
+  nearly empty for a JS-rendered site or one built on Google Sites/Wix/Squarespace — this has
+  caused a real miss (Sep 29, 2026: The Boar's Nest 414's own "MUSIC SCHEDULE" page returned
+  almost no text via a plain fetch and got wrongly logged as "no calendar found," when a full
+  month-by-month schedule was one click away in the nav menu). Before concluding a site has no
+  calendar, open it in a real browser, check a screenshot or the accessibility tree, and look
+  for a dedicated events/schedule/calendar nav link — schedules are very often on a separate
+  page, not the homepage.
+
+Pulled from each wine trail's or winery's own event listings as of September 17, 2026:
 
 **Six Mile Creek Vineyard** — [its own live music calendar](https://sixmilecreek.com/live-music-%26-events),
 which is more current than the wine trail aggregator and names a specific act each week
