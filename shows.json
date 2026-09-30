@@ -2248,5 +2248,32 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://jimcat.substack.com/p/cny-concert-calendar-sept-28-oct"
+  },
+  {
+    "band": "Dean Goble Band",
+    "venue": "The Boar's Nest 414",
+    "date": "2026-10-03",
+    "time": "See Schedule",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.theboarsnest414.com/music-schedule"
+  },
+  {
+    "band": "Heartstrings",
+    "venue": "The Boar's Nest 414",
+    "date": "2026-10-10",
+    "time": "See Schedule",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.theboarsnest414.com/music-schedule"
+  },
+  {
+    "band": "Bad Alibi (Halloween Party)",
+    "venue": "The Boar's Nest 414",
+    "date": "2026-10-31",
+    "time": "See Schedule",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.theboarsnest414.com/music-schedule"
   }
 ]

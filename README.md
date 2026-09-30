@@ -760,11 +760,24 @@ the "90 Proof" band search (Sep 28) as one of that band's regular stops, but onl
 angle was checked at the time — all its dates there were past, so the pass moved on without ever
 auditing the venue itself. That's a real methodology gap worth flagging: finding a venue while
 researching a specific band doesn't mean the venue's own full calendar gets checked. Added The
-Boar's Nest 414 (5806 NY-414, Hector) as a venue now — it's clearly real and very active (a
-flxmusic247 search alone turned up 6 pages of past bookings) — but despite checking flxmusic247,
-CNY Alive, the venue's own site (no calendar), Jim Catalano's current-week concert calendar, and
-Facebook (blocked without login), **no confirmed upcoming date** could be found this pass. Same
-treatment as 90 Proof: venue added, no show yet, revisit when a source publishes one.
+Boar's Nest 414 (5806 NY-414, Hector) as a venue.
+
+First pass at finding a current show also missed the mark: flxmusic247, CNY Alive, Jim Catalano's
+current-week calendar, and Facebook (blocked without login) all came up empty, and a first look
+at the venue's own site (theboarsnest414.com) seemed to show no calendar at all — its homepage
+barely renders any text on a plain fetch. That was wrong. The user pushed back, a second look with
+a screenshot (not just a text scrape) found a "MUSIC SCHEDULE" nav link leading to a full
+month-by-month calendar through November 2026, built as a Google Sites page whose content only
+shows up in the accessibility tree, not a plain text scrape — the same class of miss as
+flxmusic247's JS-rendered calendar documented earlier. Lesson: a page that looks empty on a first
+check needs a screenshot or accessibility-tree read before concluding there's nothing there.
+
+Added 3 confirmed October shows: **Dean Goble Band** (Oct 3), **Heartstrings** (Oct 10), and
+**Bad Alibi** for a Halloween party (Oct 31). Skipped recurring Karaoke nights (not live
+performers) and "The Dean's List," explicitly marked "CANCELLED" on the schedule. None of these
+three had a specific start time published anywhere found, so `time` is set to "See Schedule"
+rather than guessing — a first for this app, but consistent with never fabricating a specific
+detail that isn't actually confirmed.
 
 Bonus find while checking that week's Jim Catalano calendar: **Hillick & Hobbs Winery** (Burdett,
 Seneca Lake) was also missing despite being in an already-covered cluster. Added with one
