@@ -2239,5 +2239,14 @@
     "genre": "Folk",
     "price": "$25 advance / $30 door",
     "link": "https://www.nighteaglecafe.org/"
+  },
+  {
+    "band": "Fabi",
+    "venue": "Hillick & Hobbs Winery",
+    "date": "2026-10-01",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://jimcat.substack.com/p/cny-concert-calendar-sept-28-oct"
   }
 ]

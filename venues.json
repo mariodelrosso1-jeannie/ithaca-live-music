@@ -428,5 +428,15 @@
     "address": "121 W State St, Ithaca, NY 14850",
     "lat": 42.439379,
     "lng": -76.4998068
+  },
+  "The Boar's Nest 414": {
+    "address": "5806 NY-414, Hector, NY 14841",
+    "lat": 42.5147595,
+    "lng": -76.8748925
+  },
+  "Hillick & Hobbs Winery": {
+    "address": "3539 State Route 79, Burdett, NY 14818 (town-level coordinates, exact address not separately geocoded)",
+    "lat": 42.4200726,
+    "lng": -76.8488463
   }
 }

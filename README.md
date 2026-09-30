@@ -752,3 +752,21 @@ Gilbert (Oct 23), The Refugees (Nov 13), Connie Kaldor (Jan 30, 2027), and Garne
 McAuley (Dec 10), that Night Eagle is producing at a different venue, the already-listed First
 Unitarian Church Society. One listed show, The Kennedys' CD release date, was explicitly marked
 "cancelled" on the site and skipped.
+
+### The Boar's Nest 414 was missing entirely (September 29, 2026)
+
+User asked why Boar's Nest shows weren't appearing. Root cause: this venue first surfaced during
+the "90 Proof" band search (Sep 28) as one of that band's regular stops, but only that band's
+angle was checked at the time — all its dates there were past, so the pass moved on without ever
+auditing the venue itself. That's a real methodology gap worth flagging: finding a venue while
+researching a specific band doesn't mean the venue's own full calendar gets checked. Added The
+Boar's Nest 414 (5806 NY-414, Hector) as a venue now — it's clearly real and very active (a
+flxmusic247 search alone turned up 6 pages of past bookings) — but despite checking flxmusic247,
+CNY Alive, the venue's own site (no calendar), Jim Catalano's current-week concert calendar, and
+Facebook (blocked without login), **no confirmed upcoming date** could be found this pass. Same
+treatment as 90 Proof: venue added, no show yet, revisit when a source publishes one.
+
+Bonus find while checking that week's Jim Catalano calendar: **Hillick & Hobbs Winery** (Burdett,
+Seneca Lake) was also missing despite being in an already-covered cluster. Added with one
+confirmed show, Fabi (Oct 1, 5-8 PM). Its exact street address didn't geocode to a precise point,
+so it uses Burdett's town-level coordinates as a fallback, same as a few other entries already do.
