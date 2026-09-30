@@ -345,6 +345,13 @@ loadData()
     listView.innerHTML = `<p class="empty-state">Couldn't load show data (${err.message})</p>`;
   });
 
+// Records one hit per page load (not tied to loadData, so the Refresh button doesn't inflate
+// this). No count is shown on the page - it's a private running total, checked via the URL
+// documented in README.md.
+fetch("https://abacus.jasoncameron.dev/hit/ithaca-live-music-mdelrosso/visits").catch(() => {
+  // Visit counting is best-effort only; failures here should never affect the app itself.
+});
+
 refreshBtn.addEventListener("click", async () => {
   refreshBtn.disabled = true;
   refreshStatus.textContent = "Refreshing...";

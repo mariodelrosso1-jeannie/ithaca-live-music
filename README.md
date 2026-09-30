@@ -109,6 +109,22 @@ inline HTML forms instead.)
   `shows.json` gets updated (by hand or by Claude) while the page is already open — a plain
   browser reload works too, but this keeps your current view intact.
 
+## Visitor stats (private)
+
+Two ways to see how many people have visited the live site — neither is visible to visitors,
+both are only meaningful to you:
+
+- **GitHub's built-in traffic graph**: go to the repo on GitHub → **Insights** → **Traffic**.
+  Shows visits and unique visitors for the last 14 days, plus top referrers and paths. No setup,
+  only visible to you (or anyone else with access to the repo).
+- **Lifetime running total**: the page silently records one hit per page load (not tied to the
+  🔄 Refresh button, so re-checking the app yourself doesn't inflate it) via a free, no-account
+  counting service. Check the current total anytime by opening:
+  `https://abacus.jasoncameron.dev/get/ithaca-live-music-mdelrosso/visits`
+  That returns raw JSON like `{"value": 42}` — not a public page, just a URL only you know to
+  check. This depends on a third-party service staying online; GitHub's traffic graph above is
+  the more durable option if this one ever goes away.
+
 ## Data sources
 
 Every entry in `shows.json` is a real, researched show (no placeholder or made-up data). Two
