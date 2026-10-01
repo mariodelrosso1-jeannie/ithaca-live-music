@@ -140,6 +140,13 @@ standing rules for anyone (human or AI) adding to this file:
   calendar, open it in a real browser, check a screenshot or the accessibility tree, and look
   for a dedicated events/schedule/calendar nav link — schedules are very often on a separate
   page, not the homepage.
+- **Verify a recurring source's actual year before trusting it.** Weekly/annual sources (concert
+  newsletters, festival listings) often get reused across years with near-identical titles and
+  URLs — this has caused a real near-miss (Oct 1, 2026: a Jim Catalano newsletter titled "CNY
+  Concert Calendar: Oct. 10-14" looked current but was actually published Oct 10, **2025**; its
+  "Saturday, Oct 11" date didn't even match 2026's calendar, where Oct 11 is a Sunday). Before
+  trusting a date from this kind of source, confirm its actual publish date/byline, not just the
+  month/day in the title.
 
 Pulled from each wine trail's or winery's own event listings as of September 17, 2026:
 
@@ -875,3 +882,22 @@ says King Ferry. To make that unambiguous going forward (so a future pass never 
 with Rochester or Syracuse, and so it reads clearly in the app's venue list), renamed it from
 "Aurora Brewing Co." to **"Aurora Brewing Co. (King Ferry)"** in both `venues.json` and every
 `shows.json` entry that references it.
+
+### Ithaca Beer's Sunday series is "Jazz for Everyone" (October 1, 2026)
+
+User corrected the Oct 4 Ithaca Beer entry's name — the recurring Sunday series (2:30-5:30 PM,
+free) is officially called **"Jazz for Everyone,"** usually featuring the **McCalip-Collins
+Quartet**. Renamed the band field from a guessed "Jesse Collins Quartet (Sunday Jazz Jam)" to
+"McCalip-Collins Quartet (Jazz for Everyone)" to match.
+
+A near-miss while re-confirming this: a search for more Ithaca Beer/Aurora Brewing dates
+surfaced what looked like two more real confirmed shows (90 Proof at the Newfield Covered Bridge
+Fall Festival, and The Ambre Lynae Project at Aurora Brewing, both "Saturday, Oct 11") from a Jim
+Catalano newsletter titled "CNY Concert Calendar: Oct. 10-14." Checking the actual event listing
+caught the problem: Oct 11, 2026 is a Sunday, not a Saturday, and the festival's own event page
+showed it as already "EVENT ENDED." Fetching that newsletter's byline directly confirmed it was
+published **Oct 10, 2025** — a full year stale, found only because its URL/title format happened
+to match the current week's naming pattern. Neither show was added. **New standing rule**: when a
+source is reused across years with similar URLs/titles (recurring newsletters, annual festival
+listings), confirm the actual publish date or year before trusting a date from it, not just the
+article title's month/day.
