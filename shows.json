@@ -2284,5 +2284,14 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.theboarsnest414.com/music-schedule"
+  },
+  {
+    "band": "Jesse Collins Quartet (Sunday Jazz Jam)",
+    "venue": "Ithaca Beer Company",
+    "date": "2026-10-04",
+    "time": "2:30 PM",
+    "genre": "Jazz",
+    "price": "Free",
+    "link": "https://jimcat.substack.com/p/cny-concert-calendar-sept-28-oct"
   }
 ]

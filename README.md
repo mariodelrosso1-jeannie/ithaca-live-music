@@ -824,3 +824,13 @@ the real band name and its existing track record playing Ithaca (South Hill Cide
 Gallery). Everything else listed on the page (Sept 10-29) was already past. The site's list also
 hadn't been updated past Oct 1 — nothing further out was listed — so Bike Bar will need another
 check once their next batch of dates goes up.
+
+### New venue: Ithaca Beer Company (October 1, 2026)
+
+User asked to add this venue and its Sunday jam session. Ithaca Beer's own site
+(122 Ithaca Beer Dr) has no events/calendar page at all — checked the full nav menu directly,
+nothing there beyond a taproom food/drink menu. The recurring Sunday afternoon slot is real,
+though: flxmusic247 and Jim Catalano's current-week concert calendar both confirm a standing
+Sunday jazz gig at the Taproom, usually billed as the Jesse Collins Quartet (also seen as the
+McCallip-Collins Trio) — this is "the Sunday jam session." Added the next confirmed date, Oct 4,
+2:30 PM, via Jim Catalano's calendar.

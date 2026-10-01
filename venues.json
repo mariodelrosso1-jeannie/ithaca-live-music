@@ -438,5 +438,10 @@
     "address": "3539 State Route 79, Burdett, NY 14818 (town-level coordinates, exact address not separately geocoded)",
     "lat": 42.4200726,
     "lng": -76.8488463
+  },
+  "Ithaca Beer Company": {
+    "address": "122 Ithaca Beer Dr, Ithaca, NY 14850",
+    "lat": 42.4167271,
+    "lng": -76.5353522
   }
 }
