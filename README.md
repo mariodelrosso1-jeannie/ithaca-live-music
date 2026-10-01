@@ -911,3 +911,13 @@ page also lists events at "Bar Argos," a different room at the same inn, which w
 and wasn't added here. Most listed Argos Warehouse events (Yet to Be Gold, an open poetry mic
 night, a vinyl DJ night) were already past as of Oct 1. Added the one confirmed upcoming show:
 **"The Thing,"** a blacklight body dance party presented by BODYPAINT.ME, Oct 3, 9 PM.
+
+### New venue: Bar Argos (October 1, 2026)
+
+User asked to add this one too — same inn (408 E State St, Ithaca), different room from Argos
+Warehouse. Checked both `/public-events` and the dedicated `/bar` page: the one named performer
+listed there, Kyra Gordon (Sept 28), was already past. The only other listed Bar Argos item is a
+weekly "Jazz Trio Performance" (Wednesdays, 5:30-7:30 PM) with no specific group credited by
+name — skipped for the same reason Old Time Jam and Bluegrass Night were skipped at Liquid State:
+a generic recurring slot, not a named act. Added the venue with no shows for now; revisit once a
+named performer is confirmed there.
