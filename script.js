@@ -38,6 +38,8 @@ const cancelBandBtn = document.getElementById("cancelBandBtn");
 const addBandStatus = document.getElementById("addBandStatus");
 const refreshBtn = document.getElementById("refreshBtn");
 const printBtn = document.getElementById("printBtn");
+const shareBtn = document.getElementById("shareBtn");
+const shareStatus = document.getElementById("shareStatus");
 const refreshStatus = document.getElementById("refreshStatus");
 const manageToggleBtn = document.getElementById("manageToggleBtn");
 const manageForm = document.getElementById("manageForm");
@@ -375,6 +377,33 @@ printBtn.addEventListener("click", () => {
     listViewBtn.click();
     window.print();
   }
+});
+
+shareBtn.addEventListener("click", async () => {
+  const shareData = {
+    title: document.title,
+    text: "Check out upcoming live music shows around Ithaca and the Finger Lakes!",
+    url: window.location.href,
+  };
+
+  if (navigator.share) {
+    try {
+      await navigator.share(shareData);
+    } catch {
+      // User cancelled the share sheet or it failed silently - nothing to do.
+    }
+    return;
+  }
+
+  try {
+    await navigator.clipboard.writeText(shareData.url);
+    shareStatus.textContent = "Link copied to clipboard!";
+  } catch {
+    shareStatus.textContent = `Copy this link: ${shareData.url}`;
+  }
+  setTimeout(() => {
+    shareStatus.textContent = "";
+  }, 4000);
 });
 
 function getAllVenueNames() {
