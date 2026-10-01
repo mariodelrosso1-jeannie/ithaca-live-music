@@ -834,3 +834,26 @@ though: flxmusic247 and Jim Catalano's current-week concert calendar both confir
 Sunday jazz gig at the Taproom, usually billed as the Jesse Collins Quartet (also seen as the
 McCallip-Collins Trio) — this is "the Sunday jam session." Added the next confirmed date, Oct 4,
 2:30 PM, via Jim Catalano's calendar.
+
+### Liquid State Brewing Company was missing almost everything (October 1, 2026)
+
+User asked why Oct 1/Oct 2 weren't showing — this venue only had a single show (NEO Project,
+Oct 3) despite having a full, dedicated `/upcoming-events` page on its own site with a real
+calendar running through December. A plain fetch of the summary list gives dates and titles but
+no times, so each event's own page was opened individually (WebFetch worked fine here, unlike the
+Boar's Nest/Google-Sites case) to confirm exact times, genres, and prices.
+
+Added **16 confirmed shows** running Oct 1 through Nov 21: Veedabee, Honker, Cast Iron Cowboys w/
+Dirt Turtles and Bottle Shop Boys, Today Is The Day/Wandering Oak (a metal/hardcore quadruple
+bill), Irish Sessions with Six Mile Craic, Porch Couch & Alejandra Marie Diemecke, Rigometrics,
+Ruby, New Planets, Ragged Sole, The Amalgamators, Fall Creek Brass Band, a Halloween dance party
+with DJ Tuggle & DJ Logs, Posture w/ Timothy and Wise Bones, Eric Carlin's Half Dead (a Grateful
+Dead Cornell '77 tribute), and a benefit night with Metasequoia, The Notorious Stringbusters, Bob
+Roberts Calamity & Kitestring.
+
+Skipped as out of scope (real events, but not live music with a named performer): Books and
+Brews (a book fair), Old Time Jam and Bluegrass Night (open jams with no named performer, same
+treatment as recurring Open Mic nights elsewhere), Improv Night, Trivia Night, Astronomy on Tap,
+Comedy Open Mic, Comedy Flops, and Story House Ithaca's storytelling "Presentation Night" series.
+Also skipped Krampusnacht (Dec 5) — explicitly billed as a "save the date" with no confirmed
+lineup yet beyond one mentioned DJ.

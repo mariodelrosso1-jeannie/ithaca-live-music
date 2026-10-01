@@ -2293,5 +2293,149 @@
     "genre": "Jazz",
     "price": "Free",
     "link": "https://jimcat.substack.com/p/cny-concert-calendar-sept-28-oct"
+  },
+  {
+    "band": "Veedabee",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-01",
+    "time": "7:30 PM",
+    "genre": "Alternative Pop/Folk-Rock",
+    "price": "Free",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/veedabee"
+  },
+  {
+    "band": "Honker",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-02",
+    "time": "8:00 PM",
+    "genre": "Funk/Rock/Jam",
+    "price": "$10",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/honker"
+  },
+  {
+    "band": "Cast Iron Cowboys w/ Dirt Turtles and Bottle Shop Boys",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-09",
+    "time": "6:00 PM",
+    "genre": "Honky Tonk",
+    "price": "$10-$20 (Sliding Scale)",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/cast-iron-cowboys-w-dirt-turtles-and-bottle-shop-boys"
+  },
+  {
+    "band": "Today Is The Day / Wandering Oak (w/ No End, Who?)",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-10",
+    "time": "7:00 PM",
+    "genre": "Metal/Hardcore",
+    "price": "$10 ADV/$15 DOS",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/today-is-the-day-wandering-oak"
+  },
+  {
+    "band": "Irish Sessions with Six Mile Craic",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-11",
+    "time": "4:00 PM",
+    "genre": "Irish/Celtic Folk",
+    "price": "Free",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/irish-sessions-with-six-mile-craic-2026-10-11-16-00"
+  },
+  {
+    "band": "Porch Couch & Alejandra Marie Diemecke (Noon Fifteen)",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-16",
+    "time": "6:00 PM",
+    "genre": "Alternative/Experimental",
+    "price": "$10",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/noon-fifteen"
+  },
+  {
+    "band": "Rigometrics",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-17",
+    "time": "7:00 PM",
+    "genre": "Indie/Soul",
+    "price": "$15",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/rigometrics"
+  },
+  {
+    "band": "Ruby",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-22",
+    "time": "6:30 PM",
+    "genre": "Americana",
+    "price": "$5 ADV/$10 DOS",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/ruby"
+  },
+  {
+    "band": "New Planets",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-23",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "$15 ADV/$20 DOS",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/new-planets-1"
+  },
+  {
+    "band": "Ragged Sole",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-24",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "$5",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/ragged-sole"
+  },
+  {
+    "band": "The Amalgamators",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-29",
+    "time": "6:00 PM",
+    "genre": "Surf Rock",
+    "price": "$10 (Suggested)",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/the-amalgamators"
+  },
+  {
+    "band": "Fall Creek Brass Band",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-30",
+    "time": "8:30 PM",
+    "genre": "Brass/Funk",
+    "price": "$15",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/fall-creek-brass-band"
+  },
+  {
+    "band": "DJ Tuggle & DJ Logs (5th Annual Halloween Dance Party)",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-10-31",
+    "time": "9:00 PM",
+    "genre": "Dance",
+    "price": "$6",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/5th-annual-halloween-dance-party-1"
+  },
+  {
+    "band": "Posture w/ Timothy and Wise Bones",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-11-05",
+    "time": "7:00 PM",
+    "genre": "Pop",
+    "price": "$10",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/posture-w-s-g-timothy-and-wise-bones"
+  },
+  {
+    "band": "Eric Carlin's Half Dead (Cornell '77 Revisited)",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-11-14",
+    "time": "8:00 PM",
+    "genre": "Grateful Dead Tribute",
+    "price": "$15 ADV/$20 DOS",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/eric-carlins-half-dead-cornell-77-revisited"
+  },
+  {
+    "band": "Metasequoia, The Notorious Stringbusters, Bob Roberts Calamity & Kitestring (Benefit)",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-11-21",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/metasequoias-4th-annual-community-food-drive"
   }
 ]
