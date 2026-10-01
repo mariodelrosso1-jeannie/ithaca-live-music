@@ -58,6 +58,8 @@ if (!IS_LOCAL_DEV) {
   manageToggleBtn.classList.add("hidden");
   const adminFooterNote = document.getElementById("adminFooterNote");
   if (adminFooterNote) adminFooterNote.classList.add("hidden");
+  const pageHitsLink = document.getElementById("pageHitsLink");
+  if (pageHitsLink) pageHitsLink.classList.add("hidden");
 }
 
 const CUSTOM_VENUES_KEY = "ithacaBandShows.customVenues";

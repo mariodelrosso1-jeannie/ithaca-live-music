@@ -346,7 +346,8 @@ main {
 #setLocationBtn,
 #refreshBtn,
 #printBtn,
-#manageToggleBtn {
+#manageToggleBtn,
+#pageHitsLink {
   padding: 0.5rem 0.9rem;
   border-radius: 8px;
   border: 1px solid var(--border);
@@ -354,6 +355,11 @@ main {
   color: white;
   cursor: pointer;
   font-size: 0.85rem;
+}
+
+#pageHitsLink {
+  display: inline-block;
+  text-decoration: none;
 }
 
 #refreshBtn:disabled {
