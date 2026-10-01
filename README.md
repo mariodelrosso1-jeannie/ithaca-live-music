@@ -812,3 +812,15 @@ Bonus find while checking that week's Jim Catalano calendar: **Hillick & Hobbs W
 Seneca Lake) was also missing despite being in an already-covered cluster. Added with one
 confirmed show, Fabi (Oct 1, 5-8 PM). Its exact street address didn't geocode to a precise point,
 so it uses Burdett's town-level coordinates as a fallback, same as a few other entries already do.
+
+### Bike Bar was missing a real show (October 1, 2026)
+
+User flagged that Bike Bar's own site showed events not in the app. Applying the newly-documented
+rule paid off: the homepage's "Events/Info & Hours" section doesn't render via a plain text fetch
+(same JS-dependent-content issue as before, caught this time with a screenshot first instead of
+concluding there was nothing there). Found a real show: **Jesse Collins Quartet**, Oct 1 (today),
+7 PM — the site itself misspells it "Jesse Coliins," corrected here after independently confirming
+the real band name and its existing track record playing Ithaca (South Hill Cider, Mix Art
+Gallery). Everything else listed on the page (Sept 10-29) was already past. The site's list also
+hadn't been updated past Oct 1 — nothing further out was listed — so Bike Bar will need another
+check once their next batch of dates goes up.
