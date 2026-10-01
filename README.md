@@ -901,3 +901,13 @@ to match the current week's naming pattern. Neither show was added. **New standi
 source is reused across years with similar URLs/titles (recurring newsletters, annual festival
 listings), confirm the actual publish date or year before trusting a date from it, not just the
 article title's month/day.
+
+### New venue: Argos Warehouse (October 1, 2026)
+
+User asked to add this venue. It's the event space at The Argos Inn (408 E State St, Ithaca) —
+the inn's own site has a dedicated `/public-events` page with a real, dated, month-by-month
+calendar. Scoped strictly to events tagged **"Argos Warehouse"** specifically, since the same
+page also lists events at "Bar Argos," a different room at the same inn, which wasn't asked for
+and wasn't added here. Most listed Argos Warehouse events (Yet to Be Gold, an open poetry mic
+night, a vinyl DJ night) were already past as of Oct 1. Added the one confirmed upcoming show:
+**"The Thing,"** a blacklight body dance party presented by BODYPAINT.ME, Oct 3, 9 PM.

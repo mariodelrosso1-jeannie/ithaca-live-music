@@ -2446,5 +2446,14 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.brewaurora.com/events"
+  },
+  {
+    "band": "The Thing (Blacklight Body Dance Party, presented by BODYPAINT.ME)",
+    "venue": "Argos Warehouse",
+    "date": "2026-10-03",
+    "time": "9:00 PM",
+    "genre": "Dance",
+    "price": "Presale $15 / Day of Show $25",
+    "link": "https://www.argosinn.com/public-events"
   }
 ]

@@ -443,5 +443,10 @@
     "address": "122 Ithaca Beer Dr, Ithaca, NY 14850",
     "lat": 42.4167271,
     "lng": -76.5353522
+  },
+  "Argos Warehouse": {
+    "address": "408 E State St, Ithaca, NY 14850",
+    "lat": 42.4397028,
+    "lng": -76.4931655
   }
 }
