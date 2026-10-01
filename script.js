@@ -379,6 +379,18 @@ printBtn.addEventListener("click", () => {
   }
 });
 
+async function copyShareLink(url) {
+  try {
+    await navigator.clipboard.writeText(url);
+    shareStatus.textContent = "Link copied to clipboard!";
+  } catch {
+    shareStatus.textContent = `Copy this link: ${url}`;
+  }
+  setTimeout(() => {
+    shareStatus.textContent = "";
+  }, 4000);
+}
+
 shareBtn.addEventListener("click", async () => {
   const shareData = {
     title: document.title,
@@ -389,21 +401,15 @@ shareBtn.addEventListener("click", async () => {
   if (navigator.share) {
     try {
       await navigator.share(shareData);
-    } catch {
-      // User cancelled the share sheet or it failed silently - nothing to do.
+      return;
+    } catch (err) {
+      if (err.name === "AbortError") return; // user intentionally cancelled - do nothing
+      // navigator.share exists but failed (e.g. no share targets registered on this device) -
+      // fall through to the clipboard copy below instead of doing nothing.
     }
-    return;
   }
 
-  try {
-    await navigator.clipboard.writeText(shareData.url);
-    shareStatus.textContent = "Link copied to clipboard!";
-  } catch {
-    shareStatus.textContent = `Copy this link: ${shareData.url}`;
-  }
-  setTimeout(() => {
-    shareStatus.textContent = "";
-  }, 4000);
+  copyShareLink(shareData.url);
 });
 
 function getAllVenueNames() {
