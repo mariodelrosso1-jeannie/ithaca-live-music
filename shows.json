@@ -2482,5 +2482,32 @@
     "genre": "Classical",
     "price": "Free",
     "link": "https://events.cornell.edu/music"
+  },
+  {
+    "band": "Sarah Noell (Singer-Songwriter Series)",
+    "venue": "Atwater Winery",
+    "date": "2026-10-01",
+    "time": "6:00 PM",
+    "genre": "Folk/Singer-Songwriter",
+    "price": "Free",
+    "link": "https://atwatervineyards.com/events"
+  },
+  {
+    "band": "Robert Beck and Clara Virginia (Singer-Songwriter Series)",
+    "venue": "Atwater Winery",
+    "date": "2026-10-08",
+    "time": "6:00 PM",
+    "genre": "Folk/Singer-Songwriter",
+    "price": "Free",
+    "link": "https://atwatervineyards.com/events"
+  },
+  {
+    "band": "Louiston (Singer-Songwriter Series)",
+    "venue": "Atwater Winery",
+    "date": "2026-10-15",
+    "time": "6:00 PM",
+    "genre": "Folk/Singer-Songwriter",
+    "price": "Free",
+    "link": "https://atwatervineyards.com/events"
   }
 ]

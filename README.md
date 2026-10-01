@@ -934,3 +934,13 @@ for the actual buildings: **Lincoln Hall** and **Anabel Taylor Hall**, each geoc
 street address rather than a campus-wide point. Three confirmed shows: Stephen Prutsman
 (Oct 1, Lincoln Hall), David Yearsley on organ (Oct 7, Anabel Taylor Hall — a different sub-venue
 for the organ-specific installment of the series), and Linda Ruan (Oct 22, Lincoln Hall).
+
+### Atwater Winery was missing tonight's show (October 1, 2026)
+
+User flagged that tonight's event wasn't showing. Atwater Winery had zero shows in the data at
+all. Its own site's events page (atwatervineyards.com/events, reached via the `/events` nav link
+— a couple of guessed URLs like `/news` and `/Atwater-After-Hours` 404'd first) has a real,
+dated calendar. Added 3 confirmed shows from its Singer-Songwriter Series: **Sarah Noell**
+(Oct 1 — tonight), **Robert Beck and Clara Virginia** (Oct 8), and **Louiston** (Oct 15). Skipped
+several listed "Pub Night" themed events (BYOVinyl, Cork Ornaments, Spin and Sip, Hats or Wigs)
+and "Howl-O-Ween 2026" — real events, but none name a specific musical performer.
