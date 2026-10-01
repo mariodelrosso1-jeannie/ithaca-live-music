@@ -921,3 +921,16 @@ weekly "Jazz Trio Performance" (Wednesdays, 5:30-7:30 PM) with no specific group
 name — skipped for the same reason Old Time Jam and Bluegrass Night were skipped at Liquid State:
 a generic recurring slot, not a named act. Added the venue with no shows for now; revisit once a
 named performer is confirmed there.
+
+### New venue: Cornell's Midday Music series (October 1, 2026)
+
+User asked to add this. Cornell's own events calendar (events.cornell.edu/music) rendered fully
+via a plain fetch this time (no JS-rendering issue) and lists a real, dated schedule. Scoped
+strictly to shows explicitly branded **"Midday Music"**, not Cornell's broader music calendar
+(Composers' Forum talks, the Wind Symphony/Chorus/Symphony Orchestra concerts, etc. — real events,
+but a different series than what was asked for). The existing generic "Cornell University" venue
+entry wasn't used since it's centered on the whole campus; instead added two new precise venues
+for the actual buildings: **Lincoln Hall** and **Anabel Taylor Hall**, each geocoded to its real
+street address rather than a campus-wide point. Three confirmed shows: Stephen Prutsman
+(Oct 1, Lincoln Hall), David Yearsley on organ (Oct 7, Anabel Taylor Hall — a different sub-venue
+for the organ-specific installment of the series), and Linda Ruan (Oct 22, Lincoln Hall).

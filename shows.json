@@ -2455,5 +2455,32 @@
     "genre": "Dance",
     "price": "Presale $15 / Day of Show $25",
     "link": "https://www.argosinn.com/public-events"
+  },
+  {
+    "band": "Stephen Prutsman (Midday Music)",
+    "venue": "Lincoln Hall (Cornell University)",
+    "date": "2026-10-01",
+    "time": "12:30 PM",
+    "genre": "Classical",
+    "price": "Free",
+    "link": "https://events.cornell.edu/music"
+  },
+  {
+    "band": "David Yearsley (Midday Music for Organ)",
+    "venue": "Anabel Taylor Hall (Cornell University)",
+    "date": "2026-10-07",
+    "time": "12:30 PM",
+    "genre": "Classical",
+    "price": "Free",
+    "link": "https://events.cornell.edu/music"
+  },
+  {
+    "band": "Linda Ruan (Midday Music)",
+    "venue": "Lincoln Hall (Cornell University)",
+    "date": "2026-10-22",
+    "time": "12:30 PM",
+    "genre": "Classical",
+    "price": "Free",
+    "link": "https://events.cornell.edu/music"
   }
 ]

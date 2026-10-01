@@ -453,5 +453,15 @@
     "address": "408 E State St, Ithaca, NY 14850",
     "lat": 42.4396224,
     "lng": -76.4931921
+  },
+  "Lincoln Hall (Cornell University)": {
+    "address": "256 Feeney Way, Ithaca, NY 14853",
+    "lat": 42.4501677,
+    "lng": -76.4834744
+  },
+  "Anabel Taylor Hall (Cornell University)": {
+    "address": "548 College Ave, Ithaca, NY 14850",
+    "lat": 42.4448369,
+    "lng": -76.4859947
   }
 }
