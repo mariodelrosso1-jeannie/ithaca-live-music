@@ -857,3 +857,21 @@ treatment as recurring Open Mic nights elsewhere), Improv Night, Trivia Night, A
 Comedy Open Mic, Comedy Flops, and Story House Ithaca's storytelling "Presentation Night" series.
 Also skipped Krampusnacht (Dec 5) — explicitly billed as a "save the date" with no confirmed
 lineup yet beyond one mentioned DJ.
+
+### Aurora Brewing Co. renamed for clarity (October 1, 2026)
+
+User asked to confirm "Aurora Beer Company" was only the Aurora-area venue, not mixed up with
+another location. Real finding: **Aurora Brewing Co. operates three physical taprooms** —
+Aurora (whose actual mailing address is in the hamlet of King Ferry, just south of Aurora
+village, on Cayuga Lake), Rochester/Pittsford, and Syracuse — each with its own separate events
+calendar on the brewery's own site (brewaurora.com/events, /events-2, /syracuse-location-1).
+Checked both existing shows (Take 2, Billy & The Therapists) directly against the Aurora-specific
+calendar and confirmed both are correct. Found one more real show there: **Benny and the Mix**
+(Oct 24, 5 PM).
+
+"Aurora" and "King Ferry" are the same single venue, not two different ones — the brand calls it
+the "Aurora location" since it's the well-known landmark nearby, even though the postal address
+says King Ferry. To make that unambiguous going forward (so a future pass never confuses this
+with Rochester or Syracuse, and so it reads clearly in the app's venue list), renamed it from
+"Aurora Brewing Co." to **"Aurora Brewing Co. (King Ferry)"** in both `venues.json` and every
+`shows.json` entry that references it.

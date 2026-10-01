@@ -1270,7 +1270,7 @@
   },
   {
     "band": "Take 2",
-    "venue": "Aurora Brewing Co.",
+    "venue": "Aurora Brewing Co. (King Ferry)",
     "date": "2026-10-03",
     "time": "5:00 PM",
     "genre": "Live Music",
@@ -1423,7 +1423,7 @@
   },
   {
     "band": "Billy & The Therapists",
-    "venue": "Aurora Brewing Co.",
+    "venue": "Aurora Brewing Co. (King Ferry)",
     "date": "2026-10-10",
     "time": "5:00 PM",
     "genre": "Live Music",
@@ -2437,5 +2437,14 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.liquidstatebeer.com/event-details-registration/metasequoias-4th-annual-community-food-drive"
+  },
+  {
+    "band": "Benny and the Mix",
+    "venue": "Aurora Brewing Co. (King Ferry)",
+    "date": "2026-10-24",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brewaurora.com/events"
   }
 ]
