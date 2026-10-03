@@ -363,6 +363,10 @@ main {
   text-decoration: none;
 }
 
+#pageHitsLink.hidden {
+  display: none;
+}
+
 #refreshBtn:disabled {
   opacity: 0.6;
   cursor: default;
