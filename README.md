@@ -953,3 +953,14 @@ dated calendar. Added 3 confirmed shows from its Singer-Songwriter Series: **Sar
 (Oct 1 — tonight), **Robert Beck and Clara Virginia** (Oct 8), and **Louiston** (Oct 15). Skipped
 several listed "Pub Night" themed events (BYOVinyl, Cork Ornaments, Spin and Sip, Hats or Wigs)
 and "Howl-O-Ween 2026" — real events, but none name a specific musical performer.
+
+### Aged-out events now counted as deleted (October 3, 2026)
+
+User asked that the header's "deleted" number include events dropped because their dates passed.
+The rule was already in place (pruned shows count as `removed`), but no pruning had happened
+since the Sep 27 cleanup, so the header still read 0 deleted while `shows.json` held 42 past-dated
+leftovers (Sep 27 – Oct 2). Pruned all 42 now (text-preserving edit, only whole entries removed;
+279 → 237 shows) and set `last-updated.json` to `{"date": "2026-10-03", "added": 0, "removed": 42}`.
+Because a new date starts a fresh count, the Oct 1 figure of 26 added was replaced. The scheduled
+refresh already prunes first and counts those removals, so the header will keep reflecting
+aged-out events on every run.
