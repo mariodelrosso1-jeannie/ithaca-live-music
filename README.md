@@ -121,7 +121,8 @@ both are only meaningful to you:
   🔄 Refresh button, so re-checking the app yourself doesn't inflate it) via a free, no-account
   counting service. Check the current total anytime by opening:
   `https://abacus.jasoncameron.dev/get/ithaca-live-music-mdelrosso/visits`
-  That returns raw JSON like `{"value": 42}` — not a public page, just a URL only you know to
+  The local-only "📊 Page Hits" button opens `hits.html`, which fetches that URL and shows the
+  total as one large number. The raw URL returns JSON like `{"value": 42}` — not a public page, just a URL only you know to
   check. This depends on a third-party service staying online; GitHub's traffic graph above is
   the more durable option if this one ever goes away.
 

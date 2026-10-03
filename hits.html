@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Hits - Ithaca Live Music</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #14121a;
+      color: white;
+      font-family: system-ui, sans-serif;
+      text-align: center;
+    }
+    #count {
+      font-size: 10rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .label {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      color: #b8b2c8;
+    }
+    a {
+      margin-top: 2rem;
+      color: #b8b2c8;
+    }
+  </style>
+</head>
+<body>
+  <div id="count">&hellip;</div>
+  <div class="label">page hits</div>
+  <a href="index.html">&larr; Back to the app</a>
+  <script>
+    fetch("https://abacus.jasoncameron.dev/get/ithaca-live-music-mdelrosso/visits", { cache: "no-store" })
+      .then((res) => res.json())
+      .then((data) => {
+        document.getElementById("count").textContent = Number(data.value).toLocaleString();
+      })
+      .catch(() => {
+        document.getElementById("count").textContent = "?";
+        document.querySelector(".label").textContent = "couldn't load the count";
+      });
+  </script>
+</body>
+</html>
