@@ -347,6 +347,7 @@ main {
 #refreshBtn,
 #printBtn,
 #shareBtn,
+#checkNewShowsBtn,
 #manageToggleBtn,
 #pageHitsLink {
   padding: 0.5rem 0.9rem;
@@ -371,6 +372,7 @@ main {
    red outline marks what the live site doesn't have. */
 #addVenueToggleBtn,
 #addBandToggleBtn,
+#checkNewShowsBtn,
 #manageToggleBtn,
 #pageHitsLink {
   border-color: #e53935;

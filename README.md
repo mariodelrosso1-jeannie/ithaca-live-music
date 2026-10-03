@@ -965,3 +965,14 @@ leftovers (Sep 27 – Oct 2). Pruned all 42 now (text-preserving edit, only whol
 Because a new date starts a fresh count, the Oct 1 figure of 26 added was replaced. The scheduled
 refresh already prunes first and counts those removals, so the header will keep reflecting
 aged-out events on every run.
+
+### "Check for new shows" button (October 3, 2026)
+
+Added a local-only **🔎 Check for new shows** button (red-outlined and hidden on the live site, like
+the other admin controls). A web page can't search other websites, and a version that tried to
+launch a headless Claude from the local server was ruled out as an unsafe design, so the button
+just copies a ready-made request to the clipboard. Paste it into a Claude Code chat in this project
+and Claude runs the same routine as the 3-day scheduled task (reads the task's `SKILL.md`: prune
+past shows, check every venue and followed band, add new shows, register new venues/performers,
+update `last-updated.json` and this README, commit and push). Running it in a chat has the
+advantage that the browser pane is available for venue sites whose calendars only load via script.

@@ -38,6 +38,7 @@ const cancelBandBtn = document.getElementById("cancelBandBtn");
 const addBandStatus = document.getElementById("addBandStatus");
 const refreshBtn = document.getElementById("refreshBtn");
 const printBtn = document.getElementById("printBtn");
+const checkNewShowsBtn = document.getElementById("checkNewShowsBtn");
 const shareBtn = document.getElementById("shareBtn");
 const shareStatus = document.getElementById("shareStatus");
 const refreshStatus = document.getElementById("refreshStatus");
@@ -59,6 +60,7 @@ if (!IS_LOCAL_DEV) {
   addVenueToggleBtn.classList.add("hidden");
   addBandToggleBtn.classList.add("hidden");
   manageToggleBtn.classList.add("hidden");
+  document.getElementById("checkNewShowsBtn").classList.add("hidden");
   const adminFooterNote = document.getElementById("adminFooterNote");
   if (adminFooterNote) adminFooterNote.classList.add("hidden");
   const pageHitsLink = document.getElementById("pageHitsLink");
@@ -384,6 +386,39 @@ refreshBtn.addEventListener("click", async () => {
   } finally {
     refreshBtn.disabled = false;
   }
+});
+
+// A web page can't search the web by itself, so this just copies a ready-made request. Paste it
+// into a Claude Code chat in this project to run the same routine as the 3-day scheduled task
+// (in the chat, Claude can also use the browser pane for venue sites that only load via script).
+const CHECK_NEW_SHOWS_REQUEST =
+  "Check for new shows now: read C:\\Users\\mdelr\\.claude\\scheduled-tasks\\ithaca-live-music-refresh\\SKILL.md " +
+  "(ignore its YAML frontmatter) and carry out its instructions exactly for the Ithaca Live Music " +
+  "project in this folder - prune past shows, check every venue and every followed band/artist " +
+  "(use the browser for pages that look blank), add new shows, register any new venues/performers, " +
+  "update last-updated.json and the README, then commit and push.";
+
+checkNewShowsBtn.addEventListener("click", async () => {
+  let copied = false;
+  try {
+    await navigator.clipboard.writeText(CHECK_NEW_SHOWS_REQUEST);
+    copied = true;
+  } catch (err) {
+    const box = document.createElement("textarea");
+    box.value = CHECK_NEW_SHOWS_REQUEST;
+    document.body.appendChild(box);
+    box.select();
+    try {
+      copied = document.execCommand("copy");
+    } catch (err2) {
+      copied = false;
+    }
+    box.remove();
+  }
+  refreshStatus.textContent = copied
+    ? "Request copied - paste it into a Claude chat to search for new shows."
+    : "Couldn't copy automatically; see the request text in the browser console.";
+  if (!copied) console.log(CHECK_NEW_SHOWS_REQUEST);
 });
 
 printBtn.addEventListener("click", () => {
