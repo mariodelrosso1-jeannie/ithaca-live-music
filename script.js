@@ -54,8 +54,7 @@ const lastUpdated = document.getElementById("lastUpdated");
 const lastUpdatedChanges = document.getElementById("lastUpdatedChanges");
 const genreLegendList = document.getElementById("genreLegendList");
 
-const LIVE_SITE_URL = "https://mariodelrosso1-jeannie.github.io/ithaca-live-music/";
-const IS_LOCAL_DEV =["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
+const IS_LOCAL_DEV = ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
 if (!IS_LOCAL_DEV) {
   addVenueToggleBtn.classList.add("hidden");
   addBandToggleBtn.classList.add("hidden");
@@ -306,32 +305,8 @@ function renderGenreLegend() {
   genreLegendList.innerHTML = showAllBtn + genreBtns;
 }
 
-// Localhost only: the shows currently published on the live site, as a set of band|venue|date keys,
-// so shows that exist only on this machine can be outlined in red. null = unknown (not local, or
-// the live site could not be reached), in which case nothing is outlined.
-let liveShowKeys = null;
-
-function showKey(show) {
-  return `${show.band}|${show.venue}|${show.date}`;
-}
-
-function isLocalOnlyShow(show) {
-  return liveShowKeys !== null && !liveShowKeys.has(showKey(show));
-}
-
-async function loadLiveShowKeys() {
-  if (!IS_LOCAL_DEV) return null;
-  try {
-    const res = await fetch(LIVE_SITE_URL + "shows.json?nocache=" + Date.now(), { cache: "no-store" });
-    if (!res.ok) return null;
-    return new Set((await res.json()).map(showKey));
-  } catch (err) {
-    return null;
-  }
-}
-
 async function loadData() {
-  const [showsData, venuesData, sharedFollowedBands, lastUpdatedData, liveKeys] = await Promise.all([
+  const [showsData, venuesData, sharedFollowedBands, lastUpdatedData] = await Promise.all([
     fetch("shows.json", { cache: "no-store" }).then((res) => res.json()),
     fetch("venues.json", { cache: "no-store" }).then((res) => res.json()),
     fetch("followed-bands.json", { cache: "no-store" })
@@ -340,9 +315,7 @@ async function loadData() {
     fetch("last-updated.json", { cache: "no-store" })
       .then((res) => res.json())
       .catch(() => null),
-    loadLiveShowKeys(),
   ]);
-  liveShowKeys = liveKeys;
   allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
   venueAddressOverrides = loadVenueAddressOverrides();
   venues = { ...venuesData, ...venueAddressOverrides, ...loadCustomVenues() };
@@ -609,7 +582,7 @@ function renderList() {
       const isFavorite = favoriteBands.has(show.band);
 
       return `
-        <article class="show-card ${isFavorite ? "favorite" : ""} ${isLocalOnlyShow(show) ? "local-only" : ""}" ${isLocalOnlyShow(show) ? 'title="Not on the live site yet"' : ""}>
+        <article class="show-card ${isFavorite ? "favorite" : ""}">
           <div class="show-date">
             <div class="day">${day}</div>
             <div class="month">${month}</div>
@@ -663,7 +636,7 @@ function renderCalendar() {
     const showsHtml = dayShows
       .map(
         (s) =>
-          `<div class="cell-show genre-${getEffectiveGenreCategory(s)} ${isLocalOnlyShow(s) ? "local-only" : ""}" title="${s.band} @ ${s.venue} (${getEffectiveGenreLabel(s)})${isLocalOnlyShow(s) ? " - not on the live site yet" : ""}">${s.band}</div>`
+          `<div class="cell-show genre-${getEffectiveGenreCategory(s)}" title="${s.band} @ ${s.venue} (${getEffectiveGenreLabel(s)})">${s.band}</div>`
       )
       .join("");
     cellsHtml += `

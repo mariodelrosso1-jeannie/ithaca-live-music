@@ -964,13 +964,3 @@ leftovers (Sep 27 – Oct 2). Pruned all 42 now (text-preserving edit, only whol
 Because a new date starts a fresh count, the Oct 1 figure of 26 added was replaced. The scheduled
 refresh already prunes first and counts those removals, so the header will keep reflecting
 aged-out events on every run.
-
-### Local-only shows outlined in red (October 3, 2026)
-
-On localhost only, the app now fetches the live site's `shows.json` (cache-busted) and outlines
-in red any show — in the list view and the calendar view — that exists locally but isn't published
-on the live site yet (matched by band + venue + date). Hover a card to see "Not on the live site
-yet". It's a quick way to see what a push will add. Nothing is outlined on the live site itself,
-or if the live site can't be reached. Note GitHub Pages caches for a few minutes, so a show you
-just pushed can stay red briefly. Only shows are checked (venues/bands live in the same
-shared files, and per-browser custom venues/bands never reach a show list).
