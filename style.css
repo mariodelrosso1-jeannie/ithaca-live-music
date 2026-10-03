@@ -398,6 +398,17 @@ main {
   box-shadow: 0 0 0 1px var(--accent);
 }
 
+/* Localhost only: shows that exist here but not on the live site yet. */
+.show-card.local-only,
+.show-card.favorite.local-only {
+  border-color: #e53935;
+  box-shadow: 0 0 0 2px #e53935;
+}
+
+.calendar-cell .cell-show.local-only {
+  outline: 2px solid #e53935;
+}
+
 .genre-badge {
   display: inline-block;
   padding: 1px 7px;
