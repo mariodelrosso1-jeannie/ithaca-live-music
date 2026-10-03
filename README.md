@@ -640,6 +640,15 @@ date any time a real new show, venue, or followed band is added — whether by a
 in a chat session or by the scheduled refresh task, whose instructions were also updated to bump
 it after any run that actually finds something new (a no-op run leaves it untouched).
 
+**Added/deleted counts (October 3, 2026):** `last-updated.json` now also holds `added` and
+`removed` integers, shown on a second header line ("26 new events added, 0 events deleted in
+that update"). They're the net change in `shows.json` (matching shows by band + venue + date) for
+the day in `date`: any past shows pruned count as deleted, and a renamed venue is not counted as a
+delete-plus-add. If several updates land on the same date the counts accumulate; a new date starts
+a fresh count. The first values (26 added, 0 deleted for Oct 1) were computed by diffing
+`shows.json` from before Oct 1 against Oct 1's final state. The scheduled refresh task maintains
+these numbers itself; if the fields are missing the second line simply doesn't appear.
+
 ### New venue: Garrett's Brewing Company (September 27, 2026)
 
 User asked to add this by name. Real venue at 1 W Main St, Trumansburg — a microbrewery open

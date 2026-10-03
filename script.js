@@ -51,6 +51,7 @@ const manageVenueSearch = document.getElementById("manageVenueSearch");
 const manageBandSearch = document.getElementById("manageBandSearch");
 const showCount = document.getElementById("showCount");
 const lastUpdated = document.getElementById("lastUpdated");
+const lastUpdatedChanges = document.getElementById("lastUpdatedChanges");
 const genreLegendList = document.getElementById("genreLegendList");
 
 const IS_LOCAL_DEV = ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
@@ -330,6 +331,18 @@ async function loadData() {
     lastUpdated.textContent = `Events last updated: ${formatted}`;
   } else if (!lastUpdated.textContent) {
     lastUpdated.textContent = "Events last updated: unknown";
+  }
+  if (
+    lastUpdatedData &&
+    Number.isInteger(lastUpdatedData.added) &&
+    Number.isInteger(lastUpdatedData.removed)
+  ) {
+    const { added, removed } = lastUpdatedData;
+    lastUpdatedChanges.textContent =
+      `${added} new ${added === 1 ? "event" : "events"} added, ` +
+      `${removed} ${removed === 1 ? "event" : "events"} deleted in that update`;
+  } else {
+    lastUpdatedChanges.textContent = "";
   }
   populateVenueFilter();
   populateBandFilter();
