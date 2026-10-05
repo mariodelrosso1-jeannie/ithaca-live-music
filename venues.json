@@ -463,5 +463,10 @@
     "address": "548 College Ave, Ithaca, NY 14850",
     "lat": 42.4448369,
     "lng": -76.4859947
+  },
+  "Little Venice": {
+    "address": "49 E Main St, Trumansburg, NY 14886",
+    "lat": 42.5418384,
+    "lng": -76.6603291
   }
 }

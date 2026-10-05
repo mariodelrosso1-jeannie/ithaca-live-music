@@ -976,3 +976,24 @@ and Claude runs the same routine as the 3-day scheduled task (reads the task's `
 past shows, check every venue and followed band, add new shows, register new venues/performers,
 update `last-updated.json` and this README, commit and push). Running it in a chat has the
 advantage that the browser pane is available for venue sites whose calendars only load via script.
+
+### Why 90 Proof at Little Venice (Trumansburg) wasn't listed (October 5, 2026)
+
+User said 90 Proof has an upcoming date at Little Venice in Trumansburg. Two separate gaps:
+
+1. **Little Venice wasn't a venue in the app at all**, so nothing there was ever searched. Added it
+   to `venues.json` (49 E Main St, Trumansburg; coordinates geocoded from the address via
+   OpenStreetMap). Its own site (littlevenicetburg.com) is a restaurant/ordering site with no
+   music or events page, and its only social link is a Facebook page that needs a login, so the
+   venue's schedule can't be read directly. The one confirmed band listing found for the venue was
+   Peregrine, Saturday Oct 3 at 9 p.m., from Jim Catalano's "Weekend Tip Sheet: Oct. 3-4" (verified
+   as published Oct 3, 2026) — already past, so not added.
+2. **90 Proof still has zero dated shows**, same as the Sep 28 note above: every dated listing found
+   was already past. A search-engine summary claimed "90 Proof at Little Venice, Saturday Oct 10,
+   9 p.m.", but neither Catalano newsletter that was checked mentions 90 Proof, and the summary
+   named no verifiable source (it also mixed up several different bands called 90 Proof, including a
+   Vermont one), so it was **not** added. Needs a real source — the user's own sighting, or Little
+   Venice's/90 Proof's Facebook post — before the show goes in.
+
+Lesson for the refresh routine: a venue that only posts its music schedule on Facebook can't be
+checked headlessly; those need the user to relay dates, or a logged-in browser session.
