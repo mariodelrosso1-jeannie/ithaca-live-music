@@ -1141,3 +1141,15 @@ Browser-required, for the scheduled task: Muranda Cheese events page, Homer Hops
 Vineyards upcoming events, Aurora (King Ferry) events, Abandon events, Bright Leaf food-music page,
 Homer Center's public iCal feed, Hangar Theatre event pages (check each page's date — stale pages
 exist).
+
+### Header shows a rolling 7-day total (October 8, 2026)
+
+The second header line now shows the events added and deleted over the **last 7 days** (today and
+the 6 days before it), e.g. "62 new events added, 77 events deleted in the last 7 days", instead of
+the numbers for just the latest update. `last-updated.json` gained a `history` list with one
+`{date, added, removed}` entry per update day; the page sums the entries from the last 7 days when
+it loads, so the total rolls forward each day by itself. The top-level `date`/`added`/`removed`
+still hold the latest update. The scheduled refresh task now maintains `history` (one entry per
+update day, entries older than 14 days dropped). Seeded from the known updates: Oct 1 (26/0), Oct 3
+(0/42 — the aged-out cleanup), Oct 5 (0/0), Oct 8 (62/35). If `history` is missing the page falls
+back to the old "in that update" wording.

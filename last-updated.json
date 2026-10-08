@@ -1,5 +1,11 @@
 {
   "date": "2026-10-08",
   "added": 62,
-  "removed": 35
+  "removed": 35,
+  "history": [
+    { "date": "2026-10-01", "added": 26, "removed": 0 },
+    { "date": "2026-10-03", "added": 0, "removed": 42 },
+    { "date": "2026-10-05", "added": 0, "removed": 0 },
+    { "date": "2026-10-08", "added": 62, "removed": 35 }
+  ]
 }
