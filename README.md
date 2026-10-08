@@ -1072,3 +1072,17 @@ Richie Stearns (Oct 27), Taksim (Oct 28), The Medicinals (Oct 30), and **The Dar
 (Halloween, Oct 31 — a followed band). Skipped the "Sea Shanties" sing-along (Oct 21, no named
 act). 10/1 and 10/6 are past. No ticket prices on the page ("See Details"). Today's header counts
 were accumulated onto the earlier Oct 8 refresh: 36 added, 34 deleted.
+
+### Standing rule: browser-required sources (October 8, 2026)
+
+After Bike Bar's schedule was missed again, the scheduled refresh task now has an explicit list of
+sources it must open in the browser every run instead of trusting a plain fetch: Bike Bar (the
+"Shows & Events" text block, read from a screenshot), The Boar's Nest 414 (Google Sites month
+accordions), State Theatre of Ithaca, Liquid State (click "Load More"), John Simon's paginated
+calendar feed, Surf Renegades, Six Mile Creek and flxmusic247. Little Venice's schedule is
+Facebook-only and can't be read, so it's checked through performers' own calendars and flagged in
+each summary. The task also now (a) never adds a show just because a search-engine answer claimed
+it, (b) re-verifies existing entries against their sources (fixing wrong names/times, removing
+entries the source no longer lists), and (c) flags any newly found venue that hides its schedule
+as "browser-required" in the README so it can be added to that list. Manual "Check for new shows"
+runs read the same task file, so they follow these rules too.
