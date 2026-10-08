@@ -1058,3 +1058,17 @@ text; flxmusic247's full calendar is script-rendered and wouldn't load even in t
 Renegades — own calendars read; The Yardvarks, The Dart Brothers, Radio London (also on John
 Simon's calendar), 90 Proof — web search only, no new dates (Radio London's Oct 13 already listed).
 **90 Proof still has no confirmed upcoming date.**
+
+### Bike Bar's October schedule was missing (October 8, 2026)
+
+User flagged that Bike Bar's site (bikebarithaca.com) listed events not in the app. The previous
+check (Oct 1) found the page's event list wasn't posted past Oct 1; it now has a full October
+list under "Shows & Events" (a text block that doesn't come through a plain fetch — read from a
+browser screenshot; "Events start at 7 pm"). The page gives month/day only, no year, but it's
+clearly the current list (10/1 Jesse Collins matches the Oct 1 entry already confirmed, the page
+footer says 2026, and the weekday pattern fits Oct 2026). Added 8 shows: GoGone (Oct 8),
+Amalgamators (Oct 10), Public Water Supply (Oct 17), Small Kings (Oct 22), Joe Hayward &
+Richie Stearns (Oct 27), Taksim (Oct 28), The Medicinals (Oct 30), and **The Dart Brothers**
+(Halloween, Oct 31 — a followed band). Skipped the "Sea Shanties" sing-along (Oct 21, no named
+act). 10/1 and 10/6 are past. No ticket prices on the page ("See Details"). Today's header counts
+were accumulated onto the earlier Oct 8 refresh: 36 added, 34 deleted.

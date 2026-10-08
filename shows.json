@@ -2077,5 +2077,77 @@
     "genre": "Soul/R&B",
     "price": "See Details",
     "link": "https://johnsimonmusic.com/calendar"
+  },
+  {
+    "band": "GoGone (Americana & Blues)",
+    "venue": "Bike Bar",
+    "date": "2026-10-08",
+    "time": "7:00 PM",
+    "genre": "Americana",
+    "price": "See Details",
+    "link": "https://bikebarithaca.com/"
+  },
+  {
+    "band": "Amalgamators (Instrumental Surf Rock)",
+    "venue": "Bike Bar",
+    "date": "2026-10-10",
+    "time": "7:00 PM",
+    "genre": "Surf Rock",
+    "price": "See Details",
+    "link": "https://bikebarithaca.com/"
+  },
+  {
+    "band": "Public Water Supply (Rochester Indie)",
+    "venue": "Bike Bar",
+    "date": "2026-10-17",
+    "time": "7:00 PM",
+    "genre": "Indie",
+    "price": "See Details",
+    "link": "https://bikebarithaca.com/"
+  },
+  {
+    "band": "Small Kings (Ithaca Americana-Rock)",
+    "venue": "Bike Bar",
+    "date": "2026-10-22",
+    "time": "7:00 PM",
+    "genre": "Americana",
+    "price": "See Details",
+    "link": "https://bikebarithaca.com/"
+  },
+  {
+    "band": "Joe Hayward, Richie Stearns & Friends (Old-Time Fiddle Tunes)",
+    "venue": "Bike Bar",
+    "date": "2026-10-27",
+    "time": "7:00 PM",
+    "genre": "Folk",
+    "price": "See Details",
+    "link": "https://bikebarithaca.com/"
+  },
+  {
+    "band": "Taksim (World Music & Dance)",
+    "venue": "Bike Bar",
+    "date": "2026-10-28",
+    "time": "7:00 PM",
+    "genre": "World",
+    "price": "See Details",
+    "link": "https://bikebarithaca.com/"
+  },
+  {
+    "band": "The Medicinals (Rochester Reggae)",
+    "venue": "Bike Bar",
+    "date": "2026-10-30",
+    "time": "7:00 PM",
+    "genre": "Reggae",
+    "price": "See Details",
+    "link": "https://bikebarithaca.com/"
+  },
+  {
+    "band": "The Dart Brothers (Halloween)",
+    "venue": "Bike Bar",
+    "date": "2026-10-31",
+    "time": "7:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://bikebarithaca.com/"
   }
 ]
