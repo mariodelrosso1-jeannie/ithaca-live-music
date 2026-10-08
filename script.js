@@ -334,6 +334,9 @@ async function loadData() {
   } else if (!lastUpdated.textContent) {
     lastUpdated.textContent = "Events last updated: unknown";
   }
+  // Same count as the "of N" in "Showing X of N shows": every upcoming show in the data.
+  const totalEvents = getUpcomingShowCount();
+  const totalEventsText = `${totalEvents} ${totalEvents === 1 ? "event" : "events"} total`;
   if (lastUpdatedData && Array.isArray(lastUpdatedData.history)) {
     // Rolling total over the last 7 days (today and the 6 days before it), from the per-day
     // entries in last-updated.json's "history" list.
@@ -349,6 +352,7 @@ async function loadData() {
       }
     }
     lastUpdatedChanges.textContent =
+      `${totalEventsText}, ` +
       `${added} new ${added === 1 ? "event" : "events"} added, ` +
       `${removed} ${removed === 1 ? "event" : "events"} deleted in the last 7 days`;
   } else if (
@@ -358,10 +362,11 @@ async function loadData() {
   ) {
     const { added, removed } = lastUpdatedData;
     lastUpdatedChanges.textContent =
+      `${totalEventsText}, ` +
       `${added} new ${added === 1 ? "event" : "events"} added, ` +
       `${removed} ${removed === 1 ? "event" : "events"} deleted in that update`;
   } else {
-    lastUpdatedChanges.textContent = "";
+    lastUpdatedChanges.textContent = totalEventsText;
   }
   populateVenueFilter();
   populateBandFilter();

@@ -1153,3 +1153,7 @@ still hold the latest update. The scheduled refresh task now maintains `history`
 update day, entries older than 14 days dropped). Seeded from the known updates: Oct 1 (26/0), Oct 3
 (0/42 — the aged-out cleanup), Oct 5 (0/0), Oct 8 (62/35). If `history` is missing the page falls
 back to the old "in that update" wording.
+
+The same header line now starts with the **total number of events in the data** (the same count as
+the "of N" in "Showing X of N shows"), e.g. "264 events total, 62 new events added, 77 events
+deleted in the last 7 days" (October 8, 2026).
