@@ -398,7 +398,7 @@ const CHECK_NEW_SHOWS_REQUEST =
   "(use the browser for pages that look blank), add new shows, register any new venues/performers, " +
   "update last-updated.json and the README, then commit and push.";
 
-checkNewShowsBtn.addEventListener("click", async () => {
+async function copyCheckRequest(statusEl) {
   let copied = false;
   try {
     await navigator.clipboard.writeText(CHECK_NEW_SHOWS_REQUEST);
@@ -415,10 +415,43 @@ checkNewShowsBtn.addEventListener("click", async () => {
     }
     box.remove();
   }
-  refreshStatus.textContent = copied
+  statusEl.textContent = copied
     ? "Request copied - paste it into a Claude chat to search for new shows."
     : "Couldn't copy automatically; see the request text in the browser console.";
   if (!copied) console.log(CHECK_NEW_SHOWS_REQUEST);
+}
+
+checkNewShowsBtn.addEventListener("click", () => copyCheckRequest(refreshStatus));
+
+// Localhost only: on opening the app, offer to start a search for new shows. Dismissing hides it
+// for the rest of this browser session; it comes back the next time the app is opened.
+const searchBanner = document.getElementById("searchBanner");
+const searchBannerStatus = document.getElementById("searchBannerStatus");
+const SEARCH_BANNER_DISMISSED_KEY = "ithacaBandShows.searchBannerDismissed";
+
+function searchBannerDismissed() {
+  try {
+    return sessionStorage.getItem(SEARCH_BANNER_DISMISSED_KEY) === "1";
+  } catch (err) {
+    return false;
+  }
+}
+
+if (IS_LOCAL_DEV && !searchBannerDismissed()) {
+  searchBanner.classList.remove("hidden");
+}
+
+document.getElementById("searchBannerBtn").addEventListener("click", () => {
+  copyCheckRequest(searchBannerStatus);
+});
+
+document.getElementById("searchBannerDismiss").addEventListener("click", () => {
+  searchBanner.classList.add("hidden");
+  try {
+    sessionStorage.setItem(SEARCH_BANNER_DISMISSED_KEY, "1");
+  } catch (err) {
+    // Not remembering the dismissal is harmless; the banner just shows again next load.
+  }
 });
 
 printBtn.addEventListener("click", () => {

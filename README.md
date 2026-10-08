@@ -997,3 +997,11 @@ User said 90 Proof has an upcoming date at Little Venice in Trumansburg. Two sep
 
 Lesson for the refresh routine: a venue that only posts its music schedule on Facebook can't be
 checked headlessly; those need the user to relay dates, or a logged-in browser session.
+
+### Search prompt on opening the local app (October 8, 2026)
+
+Opening the app on localhost now shows a red-outlined banner, "Search for new shows now?", with a
+**🔎 Copy search request** button (same request as the "Check for new shows" button — paste it into
+a Claude chat to run the search) and a **Not now** button that hides it for the rest of that
+browser session. It never appears on the live site. The search itself still can't start from the
+page; the banner only makes launching it a one-click copy.

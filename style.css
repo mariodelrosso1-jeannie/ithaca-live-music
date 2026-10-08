@@ -54,6 +54,38 @@ main {
   margin-bottom: 1.5rem;
 }
 
+.search-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid #e53935;
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.search-banner.hidden {
+  display: none;
+}
+
+.search-banner button {
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: white;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+@media print {
+  .search-banner {
+    display: none;
+  }
+}
+
 #search {
   flex: 1;
   min-width: 180px;
