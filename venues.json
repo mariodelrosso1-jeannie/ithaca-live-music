@@ -468,5 +468,15 @@
     "address": "49 E Main St, Trumansburg, NY 14886",
     "lat": 42.5418384,
     "lng": -76.6603291
+  },
+  "Fall Street Brewing": {
+    "address": "106 Fall St, Seneca Falls, NY 13148",
+    "lat": 42.9106062,
+    "lng": -76.7985354
+  },
+  "Trumansburg American Legion": {
+    "address": "4431 E Seneca Rd, Trumansburg, NY 14886",
+    "lat": 42.5482,
+    "lng": -76.6724135
   }
 }

@@ -1005,3 +1005,56 @@ Opening the app on localhost now shows a red-outlined banner, "Search for new sh
 a Claude chat to run the search) and a **Not now** button that hides it for the rest of that
 browser session. It never appears on the live site. The search itself still can't start from the
 page; the banner only makes launching it a one-click copy.
+
+### Scheduled-style refresh via the "Check for new shows" request (October 8, 2026)
+
+Ran the full refresh routine from the app's copied request (in a chat, with the browser pane).
+
+**Pruned:** 32 past shows (Oct 3 – Oct 7). **Removed 2 more:** the Knapp Winery Oct 10 Surf Renegades
+entry (no longer on the band's own schedule at surf-renegades.com/where-we-re-playing/, and not on
+Knapp's own events page) and a wrong Grist Iron Oct 24 band name ("Miller and The Other Sinners" —
+the venue's own event page says **Miller's Garage**), which was re-added under the correct name.
+Net for `last-updated.json`: **28 added, 34 deleted** (counted by band + venue + date, so the
+Miller's Garage correction counts once on each side).
+
+**New shows (28):** State Theatre of Ithaca (stateofithaca.org/events/ — read in the browser, which
+was missing most of its music: Jeff Tweedy Oct 24, Sammy Rae & The Friends Nov 9, Punch Brothers
+Nov 14, The Wailin' Jennys Nov 20, Christmas With the Celts Dec 5, Béla Fleck Dec 6, Gillian Welch
+& David Rawlings Dec 17, The Machine Performs Pink Floyd Jan 22, The High Kings Mar 9, Kenny Wayne
+Shepherd Band Mar 29; comedy, dance and the unclear "Taste of Ireland"/"All Things Equal" skipped);
+Smith Opera House, Geneva (thesmith.org/event-calendar/: Dirty Dozen Brass Band Nov 5, Donna The
+Buffalo Nov 20, Squirrel Nut Zippers Dec 12, Lotus Land Rush tribute May 1 2027; orchestras
+skipped); Grist Iron Brewing (each date confirmed on its own event page: Stratcat Willie Oct 16,
+The Soul Benders Oct 23, Empty V Halloween Party Oct 30, Tremayne Harer Oct 31); Hazlitt/The Oasis
+(Telephone Party Halloween Party Oct 31, own event page); Two Goats (MSZN, today Oct 8 — had been
+missing); Either Oar (Nate Michaels at "Oars Up!" Oct 17, mfwineriesdistilleries.com/events);
+Keg & Barrel (Southern Exit Oct 10), Watershed (Rosewood Station Oct 10) and Steuben Brewing (The
+Ripcords Oct 11) — these three come only from the flxmusic247.com home-page listing, not
+confirmed on the venues' own pages; Surf Renegades at Little Venice Dec 12 ("Surfin' With Santa",
+9 pm — **the first real Little Venice show**) and Fall Street Brewing Nov 28; John Simon's calendar
+(johnsimonmusic.com/calendar, all 3 pages checked via its paginated feed) lists The Band Called
+Revival, Trumansburg American Legion, Oct 31 7 pm.
+
+**Other fixes:** Two Goats' own page now shows Friday/Saturday starts at 5:00 PM (some entries said
+6:00 PM); data now matches the venue's page.
+
+**New venues registered:** Fall Street Brewing (106 Fall St, Seneca Falls; its own site has no
+events page, relies on the band's/flxmusic247 listings) and Trumansburg American Legion (4431 E
+Seneca Rd, Trumansburg; no events page of its own, found via John Simon's calendar).
+
+**New followed performers** (each now appears at 2+ venues): Betty's Ghost, Donna the Buffalo,
+Jon Lamanna, Louiston, Meg Williams, Nate Michaels, River Lynch, The Soul Benders, Virgil Cain.
+
+**Checked, nothing new:** Two Goats (rest of schedule), Ventosa, Hopshire (only a blues jam extra),
+Liquid State (first page of its calendar; "Load More" not expanded), del Lago, Stone Bend,
+Night Eagle, Auburn Public Theater, Garrett's (open mic/workshop only), Atwater, Montezuma, Hosmer,
+Lucas (only a dance troupe), Wagner, Buttonwood, Airy Acres (no events listed), The Boar's Nest 414
+(schedule read in the browser — Google Sites accordion; Nov/Dec months empty), Six Mile Creek (page
+shows no schedule), Americana Vineyard (private events only), Cornell events (no music in feed).
+**Not reachable this run:** Bandsintown (403), senecalakewine.com (403), several wineries' own
+pages 404'd or had no usable text; the Ithaca.com and Visit Ithaca calendars returned no event
+text; flxmusic247's full calendar is script-rendered and wouldn't load even in the browser pane
+(only its home-page list through Oct 16 was readable). Followed bands: John Simon, Surf
+Renegades — own calendars read; The Yardvarks, The Dart Brothers, Radio London (also on John
+Simon's calendar), 90 Proof — web search only, no new dates (Radio London's Oct 13 already listed).
+**90 Proof still has no confirmed upcoming date.**

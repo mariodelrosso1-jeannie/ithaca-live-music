@@ -1,41 +1,5 @@
 [
   {
-    "band": "Petty Thieves CNY Duo",
-    "venue": "Buttonwood Grove Winery",
-    "date": "2026-10-03",
-    "time": "1:00 PM",
-    "genre": "Live Music",
-    "price": "Free (tastings extra)",
-    "link": "https://www.buttonwoodgrove.com/events"
-  },
-  {
-    "band": "Rachel Beverly (Music and Mimosas)",
-    "venue": "Hosmer Estate Winery",
-    "date": "2026-10-04",
-    "time": "1:00 PM",
-    "genre": "Live Music",
-    "price": "Free (tastings extra)",
-    "link": "https://cayugawinetrail.com/events/winery-events/10-04-2026"
-  },
-  {
-    "band": "FOMO",
-    "venue": "Wagner Vineyards",
-    "date": "2026-10-04",
-    "time": "1:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://wagnervineyards.com/events-calendar/upcoming-events-list/"
-  },
-  {
-    "band": "Jon Lamanna",
-    "venue": "Ventosa Vineyards",
-    "date": "2026-10-07",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.ventosavineyards.com/events"
-  },
-  {
     "band": "Kenny Ende (Ende Brothers) - Season Finale",
     "venue": "Buttonwood Grove Winery",
     "date": "2026-10-10",
@@ -207,24 +171,6 @@
     "link": "https://www.ventosavineyards.com/events"
   },
   {
-    "band": "Erin & the Backwoods Blues Project",
-    "venue": "Two Goats Brewing",
-    "date": "2026-10-03",
-    "time": "6:00 PM",
-    "genre": "Blues",
-    "price": "Free",
-    "link": "https://twogoatsbrewing.com/music-events"
-  },
-  {
-    "band": "Sing Trece Band",
-    "venue": "Two Goats Brewing",
-    "date": "2026-10-04",
-    "time": "4:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://twogoatsbrewing.com/music-events"
-  },
-  {
     "band": "Meg Williams",
     "venue": "Grist Iron Brewing Company",
     "date": "2026-10-09",
@@ -237,7 +183,7 @@
     "band": "JP Williams Blues Duo",
     "venue": "Two Goats Brewing",
     "date": "2026-10-09",
-    "time": "6:00 PM",
+    "time": "5:00 PM",
     "genre": "Blues",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
@@ -255,7 +201,7 @@
     "band": "Terrapin Station",
     "venue": "Two Goats Brewing",
     "date": "2026-10-10",
-    "time": "6:00 PM",
+    "time": "5:00 PM",
     "genre": "Grateful Dead Tribute",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
@@ -273,7 +219,7 @@
     "band": "Stacey and the Copycats",
     "venue": "Two Goats Brewing",
     "date": "2026-10-16",
-    "time": "6:00 PM",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
@@ -291,7 +237,7 @@
     "band": "Notorious Stringbusters",
     "venue": "Two Goats Brewing",
     "date": "2026-10-17",
-    "time": "6:00 PM",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
@@ -309,25 +255,25 @@
     "band": "The Bard Brothers",
     "venue": "Two Goats Brewing",
     "date": "2026-10-23",
-    "time": "6:00 PM",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
   },
   {
-    "band": "Miller and The Other Sinners",
+    "band": "Miller's Garage",
     "venue": "Grist Iron Brewing Company",
     "date": "2026-10-24",
     "time": "6:00 PM",
     "genre": "Live Music",
     "price": "Free",
-    "link": "https://www.gristironbrewing.com/events-live-music"
+    "link": "https://www.gristironbrewing.com/events-live-music/hj6sf43bg44ed569dbt9rj34fern32-blfae"
   },
   {
     "band": "Mystic Twangers",
     "venue": "Two Goats Brewing",
     "date": "2026-10-24",
-    "time": "6:00 PM",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
@@ -345,7 +291,7 @@
     "band": "Barrel Aged Band",
     "venue": "Two Goats Brewing",
     "date": "2026-10-30",
-    "time": "6:00 PM",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
@@ -493,15 +439,6 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108886508n-river-lynch-scale-house-brewery-6pm-solo-show-"
-  },
-  {
-    "band": "Sue Foley",
-    "venue": "Homer Center for the Arts",
-    "date": "2026-10-04",
-    "time": "8:00 PM",
-    "genre": "Blues",
-    "price": "Ticketed - see Details",
-    "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
   },
   {
     "band": "Karla Bonoff",
@@ -846,24 +783,6 @@
     "link": "https://hopshire.com/hopshire-events/"
   },
   {
-    "band": "Pat Carlineo & Friends",
-    "venue": "The Inn at Taughannock",
-    "date": "2026-10-06",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "$25 (includes burger and beer or wine)",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Shin Hollow",
-    "venue": "Trumansburg Farmers Market",
-    "date": "2026-10-07",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
     "band": "River Lynch",
     "venue": "Idol Ridge Winery & Alder Creek Distillery",
     "date": "2026-10-09",
@@ -871,24 +790,6 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "The Beatlemaniacs",
-    "venue": "State Theatre of Ithaca",
-    "date": "2026-10-03",
-    "time": "7:30 PM",
-    "genre": "Tribute/Rock",
-    "price": "Ticketed - see Details",
-    "link": "https://stateofithaca.org/"
-  },
-  {
-    "band": "Gregory Alan Isakov",
-    "venue": "Point of the Bluff Vineyards",
-    "date": "2026-10-04",
-    "time": "7:00 PM",
-    "genre": "Folk/Indie",
-    "price": "Ticketed - see Details",
-    "link": "https://www.bandsintown.com/c/ithaca-ny"
   },
   {
     "band": "Judy Collins: Sweet Judy Blue Eyes Farewell Tour (w/ Oakland Rain)",
@@ -925,15 +826,6 @@
     "genre": "Electronic/Alternative",
     "price": "Ticketed - see Details",
     "link": "https://www.bandsintown.com/c/ithaca-ny"
-  },
-  {
-    "band": "Yayle Hues",
-    "venue": "Landon's Pub & Pizza",
-    "date": "2026-10-03",
-    "time": "8:00 PM",
-    "genre": "Classic Rock",
-    "price": "See Details",
-    "link": "https://flxmusic247.com/"
   },
   {
     "band": "Bad Bear",
@@ -997,114 +889,6 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.ventosavineyards.com/events"
-  },
-  {
-    "band": "Rockin' Boots",
-    "venue": "Muranda Barn",
-    "date": "2026-10-03",
-    "time": "2:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Rochester Metropolitan Jazz Orchestra",
-    "venue": "Domaine Leseurre Winery",
-    "date": "2026-10-03",
-    "time": "4:30 PM",
-    "genre": "Jazz",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Take 2",
-    "venue": "Aurora Brewing Co. (King Ferry)",
-    "date": "2026-10-03",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Ken Campbell",
-    "venue": "Seneca Stag Brewing Co.",
-    "date": "2026-10-03",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "John Dember",
-    "venue": "Brookton's Market",
-    "date": "2026-10-03",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "NEO Project",
-    "venue": "Liquid State Brewing Company",
-    "date": "2026-10-03",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Sydney Irving",
-    "venue": "Homer Hops",
-    "date": "2026-10-03",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Dino Losito Duo (Sunday Jazz Brunch)",
-    "venue": "Geneva On The Lake",
-    "date": "2026-10-04",
-    "time": "10:00 AM",
-    "genre": "Jazz",
-    "price": "See Details",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Laura West",
-    "venue": "Living Roots Wine & Co.",
-    "date": "2026-10-04",
-    "time": "2:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Diana Jacobs Band",
-    "venue": "Muranda Barn",
-    "date": "2026-10-04",
-    "time": "2:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Nate Michaels",
-    "venue": "WeBe Brewing Company",
-    "date": "2026-10-07",
-    "time": "6:30 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Samara Joy and her Septet",
-    "venue": "Smith Opera House",
-    "date": "2026-10-07",
-    "time": "7:30 PM",
-    "genre": "Jazz",
-    "price": "Ticketed - see Details",
-    "link": "https://flxmusic247.com/"
   },
   {
     "band": "Pat Harrington + Owen Eichensehr",
@@ -1431,15 +1215,6 @@
     "link": "https://flxmusic247.com/"
   },
   {
-    "band": "John Simon & Der Walters",
-    "venue": "Ithaca Farmers' Market",
-    "date": "2026-10-07",
-    "time": "5:30 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://johnsimonmusic.com/calendar"
-  },
-  {
     "band": "The Yardvarks",
     "venue": "Kendal at Ithaca",
     "date": "2026-10-22",
@@ -1474,15 +1249,6 @@
     "genre": "Live Music",
     "price": "Free (benefit for Food Bank of the Southern Tier)",
     "link": "https://johnsimonmusic.com/calendar"
-  },
-  {
-    "band": "The Timeriders",
-    "venue": "Stone Bend Farm",
-    "date": "2026-10-03",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.stonebend.com/about-3-1"
   },
   {
     "band": "Cielle on Solid Ground",
@@ -1636,15 +1402,6 @@
     "genre": "Live Music",
     "price": "Ticketed",
     "link": "https://www.auburnpublictheater.org/events/sunday-music-series-because-dinosaurs"
-  },
-  {
-    "band": "So Good! The Neil Diamond Experience",
-    "venue": "del Lago Resort & Casino",
-    "date": "2026-10-03",
-    "time": "8:00 PM",
-    "genre": "Tribute",
-    "price": "Ticketed",
-    "link": "https://dellagoresort.com/entertainment/"
   },
   {
     "band": "Dokken with Special Guest Lynch Mob",
@@ -1828,15 +1585,6 @@
   },
   {
     "band": "Bob Keefe and the Surf Renegades",
-    "venue": "Knapp Winery",
-    "date": "2026-10-10",
-    "time": "2:00 PM",
-    "genre": "Surf Rock",
-    "price": "Free",
-    "link": "https://www.surf-renegades.com/where-we-re-playing/"
-  },
-  {
-    "band": "Bob Keefe and the Surf Renegades",
     "venue": "Abandon Brewing Company",
     "date": "2026-10-17",
     "time": "3:00 PM",
@@ -1852,15 +1600,6 @@
     "genre": "Surf Rock",
     "price": "Free",
     "link": "https://www.surf-renegades.com/where-we-re-playing/"
-  },
-  {
-    "band": "Reverie Road",
-    "venue": "Night Eagle Cafe",
-    "date": "2026-10-05",
-    "time": "7:30 PM",
-    "genre": "Celtic",
-    "price": "Ticketed - see Details",
-    "link": "https://www.nighteaglecafe.org/"
   },
   {
     "band": "Cantrip",
@@ -1917,15 +1656,6 @@
     "link": "https://www.nighteaglecafe.org/"
   },
   {
-    "band": "Dean Goble Band",
-    "venue": "The Boar's Nest 414",
-    "date": "2026-10-03",
-    "time": "See Schedule",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.theboarsnest414.com/music-schedule"
-  },
-  {
     "band": "Heartstrings",
     "venue": "The Boar's Nest 414",
     "date": "2026-10-10",
@@ -1942,15 +1672,6 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.theboarsnest414.com/music-schedule"
-  },
-  {
-    "band": "McCalip-Collins Quartet (Jazz for Everyone)",
-    "venue": "Ithaca Beer Company",
-    "date": "2026-10-04",
-    "time": "2:30 PM",
-    "genre": "Jazz",
-    "price": "Free",
-    "link": "https://jimcat.substack.com/p/cny-concert-calendar-sept-28-oct"
   },
   {
     "band": "Cast Iron Cowboys w/ Dirt Turtles and Bottle Shop Boys",
@@ -2088,24 +1809,6 @@
     "link": "https://www.brewaurora.com/events"
   },
   {
-    "band": "The Thing (Blacklight Body Dance Party, presented by BODYPAINT.ME)",
-    "venue": "Argos Warehouse",
-    "date": "2026-10-03",
-    "time": "9:00 PM",
-    "genre": "Dance",
-    "price": "Presale $15 / Day of Show $25",
-    "link": "https://www.argosinn.com/public-events"
-  },
-  {
-    "band": "David Yearsley (Midday Music for Organ)",
-    "venue": "Anabel Taylor Hall (Cornell University)",
-    "date": "2026-10-07",
-    "time": "12:30 PM",
-    "genre": "Classical",
-    "price": "Free",
-    "link": "https://events.cornell.edu/music"
-  },
-  {
     "band": "Linda Ruan (Midday Music)",
     "venue": "Lincoln Hall (Cornell University)",
     "date": "2026-10-22",
@@ -2131,5 +1834,248 @@
     "genre": "Folk/Singer-Songwriter",
     "price": "Free",
     "link": "https://atwatervineyards.com/events"
+  },
+  {
+    "band": "MSZN",
+    "venue": "Two Goats Brewing",
+    "date": "2026-10-08",
+    "time": "5:00 PM",
+    "genre": "Jazz",
+    "price": "Free",
+    "link": "https://twogoatsbrewing.com/music-events"
+  },
+  {
+    "band": "Stratcat Willie & The Strays",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-10-16",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music/d3mzwrk7ppcyph9ewj3ldfnr2f25ja"
+  },
+  {
+    "band": "The Soul Benders",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-10-23",
+    "time": "6:00 PM",
+    "genre": "Soul/R&B",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music/gdcscjbnzaenzld3a54ypslxca6aes"
+  },
+  {
+    "band": "Empty V (Annual GIB Halloween Party)",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-10-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music/swx35ca9swz87drj7m89kgxgfnbrl9"
+  },
+  {
+    "band": "Tremayne Harer",
+    "venue": "Grist Iron Brewing Company",
+    "date": "2026-10-31",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.gristironbrewing.com/events-live-music/6elsatxkg8bnlrh4j8kbrpxhewh8np"
+  },
+  {
+    "band": "Telephone Party (Halloween Party)",
+    "venue": "The Oasis at Hazlitt 1852 Vineyards",
+    "date": "2026-10-31",
+    "time": "6:00 PM",
+    "genre": "Pop",
+    "price": "Free",
+    "link": "https://hazlitt1852.com/event/halloween-party-at-the-oasis-2026/"
+  },
+  {
+    "band": "Jeff Tweedy Solo",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-10-24",
+    "time": "7:30 PM",
+    "genre": "Folk",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "Sammy Rae & The Friends - The GET DOWN! (w/ Melt)",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-11-09",
+    "time": "8:00 PM",
+    "genre": "Pop",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "Punch Brothers",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-11-14",
+    "time": "8:00 PM",
+    "genre": "Bluegrass",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "The Wailin' Jennys",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-11-20",
+    "time": "8:00 PM",
+    "genre": "Folk",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "Christmas With the Celts",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-12-05",
+    "time": "7:30 PM",
+    "genre": "Irish/Celtic Folk",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "Béla Fleck: My Bluegrass Heart",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-12-06",
+    "time": "7:30 PM",
+    "genre": "Bluegrass",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "Gillian Welch & David Rawlings Play Grateful Dead Acoustic Reckoning",
+    "venue": "State Theatre of Ithaca",
+    "date": "2026-12-17",
+    "time": "7:30 PM",
+    "genre": "Grateful Dead Tribute",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "The Machine Performs Pink Floyd",
+    "venue": "State Theatre of Ithaca",
+    "date": "2027-01-22",
+    "time": "8:00 PM",
+    "genre": "Tribute/Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "The High Kings - The Power of the People 2027 Tour",
+    "venue": "State Theatre of Ithaca",
+    "date": "2027-03-09",
+    "time": "7:30 PM",
+    "genre": "Irish/Celtic Folk",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "Kenny Wayne Shepherd Band - Ledbetter Heights 30th Anniversary Tour",
+    "venue": "State Theatre of Ithaca",
+    "date": "2027-03-29",
+    "time": "7:30 PM",
+    "genre": "Blues/Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "The Dirty Dozen Brass Band",
+    "venue": "Smith Opera House",
+    "date": "2026-11-05",
+    "time": "7:30 PM",
+    "genre": "Jazz",
+    "price": "Ticketed - see Details",
+    "link": "https://thesmith.org/event-calendar/"
+  },
+  {
+    "band": "Donna The Buffalo",
+    "venue": "Smith Opera House",
+    "date": "2026-11-20",
+    "time": "8:00 PM",
+    "genre": "Folk/Americana",
+    "price": "Ticketed - see Details",
+    "link": "https://thesmith.org/event-calendar/"
+  },
+  {
+    "band": "An Evening With Squirrel Nut Zippers - Christmas Caravan 2026",
+    "venue": "Smith Opera House",
+    "date": "2026-12-12",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "Ticketed - see Details",
+    "link": "https://thesmith.org/event-calendar/"
+  },
+  {
+    "band": "Lotus Land - The American Rush Tribute",
+    "venue": "Smith Opera House",
+    "date": "2027-05-01",
+    "time": "8:00 PM",
+    "genre": "Tribute/Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://thesmith.org/event-calendar/"
+  },
+  {
+    "band": "Nate Michaels (Oars Up!)",
+    "venue": "Either Oar Wine, Whiskey, & Cheese Bar",
+    "date": "2026-10-17",
+    "time": "10:00 AM - 5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://mfwineriesdistilleries.com/events"
+  },
+  {
+    "band": "Southern Exit",
+    "venue": "Keg & Barrel Brewing Co.",
+    "date": "2026-10-10",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Rosewood Station",
+    "venue": "Watershed Brewing Company",
+    "date": "2026-10-10",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "The Ripcords",
+    "venue": "Steuben Brewing Company",
+    "date": "2026-10-11",
+    "time": "3:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Bob Keefe and the Surf Renegades (Surfin' With Santa Show)",
+    "venue": "Little Venice",
+    "date": "2026-12-12",
+    "time": "9:00 PM",
+    "genre": "Surf Rock",
+    "price": "Free",
+    "link": "https://www.surf-renegades.com/where-we-re-playing/"
+  },
+  {
+    "band": "Bob Keefe and the Surf Renegades",
+    "venue": "Fall Street Brewing",
+    "date": "2026-11-28",
+    "time": "5:30 PM",
+    "genre": "Surf Rock",
+    "price": "Free",
+    "link": "https://www.surf-renegades.com/where-we-re-playing/"
+  },
+  {
+    "band": "The Band Called Revival (Halloween Dance Party)",
+    "venue": "Trumansburg American Legion",
+    "date": "2026-10-31",
+    "time": "7:00 PM",
+    "genre": "Soul/R&B",
+    "price": "See Details",
+    "link": "https://johnsimonmusic.com/calendar"
   }
 ]
