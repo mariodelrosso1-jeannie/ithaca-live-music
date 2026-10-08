@@ -1157,3 +1157,13 @@ back to the old "in that update" wording.
 The same header line now starts with the **total number of events in the data** (the same count as
 the "of N" in "Showing X of N shows"), e.g. "264 events total, 62 new events added, 77 events
 deleted in the last 7 days" (October 8, 2026).
+
+### Anti-scraping meta tags (October 8, 2026)
+
+Added `robots` / `googlebot` / `bingbot` meta tags (`noindex, nofollow, noarchive`, plus `noai,
+noimageai` on `robots`) to `index.html`, and a `robots` tag to `hits.html`. They ask search engines
+and well-behaved AI crawlers not to index, cache, follow or train on the site. Limits: they're a
+request, not a lock — a scraper that ignores them can still read `shows.json` — and **`noindex`
+also keeps the site out of Google results**, so people only find it via the link. To make the site
+searchable again, delete the `noindex` words (keep `noai, noimageai`). A real `robots.txt` needs a
+custom domain; for stronger protection put Cloudflare in front of one.
