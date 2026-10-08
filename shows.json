@@ -936,13 +936,13 @@
     "link": "https://flxmusic247.com/"
   },
   {
-    "band": "8 Traxx",
+    "band": "Still Kickin'",
     "venue": "Muranda Barn",
     "date": "2026-10-10",
     "time": "2:00 PM",
     "genre": "Live Music",
     "price": "Free",
-    "link": "https://flxmusic247.com/"
+    "link": "https://www.murandacheese.com/events"
   },
   {
     "band": "Ric Robertson",
@@ -996,7 +996,7 @@
     "time": "2:00 PM",
     "genre": "Live Music",
     "price": "Free",
-    "link": "https://flxmusic247.com/"
+    "link": "https://www.murandacheese.com/events"
   },
   {
     "band": "Radio London",
@@ -2149,5 +2149,230 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://bikebarithaca.com/"
+  },
+  {
+    "band": "Shawn Duchscherer",
+    "venue": "Abandon Brewing Company",
+    "date": "2026-10-16",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://abandonbrewing.com/events"
+  },
+  {
+    "band": "The Dirt Turtles (13th Anniversary Party)",
+    "venue": "Abandon Brewing Company",
+    "date": "2026-10-24",
+    "time": "12:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://abandonbrewing.com/events"
+  },
+  {
+    "band": "The John Payton Project (13th Anniversary Party)",
+    "venue": "Abandon Brewing Company",
+    "date": "2026-10-24",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://abandonbrewing.com/events"
+  },
+  {
+    "band": "Tinsley Ellis",
+    "venue": "Homer Center for the Arts",
+    "date": "2026-11-18",
+    "time": "8:00 PM",
+    "genre": "Blues",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/tinsley-ellis-207850"
+  },
+  {
+    "band": "Sons of Cream",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-04-15",
+    "time": "8:00 PM",
+    "genre": "Tribute/Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://center4art.org/concerts-events-calendar/"
+  },
+  {
+    "band": "The Seven Wonders (Fleetwood Mac & Stevie Nicks Tribute)",
+    "venue": "Hangar Theatre",
+    "date": "2026-10-23",
+    "time": "7:00 PM",
+    "genre": "Tribute/Rock",
+    "price": "$35-$45",
+    "link": "https://hangartheatre.org/event/the-seven-wonders/"
+  },
+  {
+    "band": "Charlie Sings Judy (Charlie High with Drew Wutke)",
+    "venue": "Hangar Theatre",
+    "date": "2026-11-07",
+    "time": "7:30 PM",
+    "genre": "Tribute",
+    "price": "$20-$25",
+    "link": "https://hangartheatre.org/event/charlie-sings-judy/"
+  },
+  {
+    "band": "Take Two",
+    "venue": "Bright Leaf Vineyard",
+    "date": "2026-10-09",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brightleafvineyard.com/food-music"
+  },
+  {
+    "band": "Cooper Scotti",
+    "venue": "Bright Leaf Vineyard",
+    "date": "2026-10-23",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brightleafvineyard.com/food-music"
+  },
+  {
+    "band": "River Lynch",
+    "venue": "Bright Leaf Vineyard",
+    "date": "2026-10-30",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brightleafvineyard.com/food-music"
+  },
+  {
+    "band": "Steve Romer",
+    "venue": "Homer Hops",
+    "date": "2026-10-09",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "Darkwine",
+    "venue": "Homer Hops",
+    "date": "2026-10-16",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "Port Yachtson",
+    "venue": "Homer Hops",
+    "date": "2026-10-17",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "Frank and Julie Duo",
+    "venue": "Homer Hops",
+    "date": "2026-10-23",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "Like a Hurricane",
+    "venue": "Homer Hops",
+    "date": "2026-10-24",
+    "time": "6:00 PM",
+    "genre": "Rock",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "Cam Caruso",
+    "venue": "Homer Hops",
+    "date": "2026-10-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "The Elderly Brothers",
+    "venue": "Homer Hops",
+    "date": "2026-11-06",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "The High Road",
+    "venue": "Homer Hops",
+    "date": "2026-11-07",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "Frank Madonia",
+    "venue": "Ryan Vineyards",
+    "date": "2026-10-11",
+    "time": "See Schedule",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ryanvineyards.com/upcoming-events"
+  },
+  {
+    "band": "Jim E Leggs Trio",
+    "venue": "Ryan Vineyards",
+    "date": "2026-10-17",
+    "time": "See Schedule",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ryanvineyards.com/upcoming-events"
+  },
+  {
+    "band": "Jim E Leggs Trio",
+    "venue": "Ryan Vineyards",
+    "date": "2026-12-05",
+    "time": "See Schedule",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ryanvineyards.com/upcoming-events"
+  },
+  {
+    "band": "Bluegrass Alley (Community Concert Series)",
+    "venue": "South Hill Cider",
+    "date": "2026-10-08",
+    "time": "5:30 PM",
+    "genre": "Bluegrass",
+    "price": "Donation suggested",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "FABI (Community Concert Series)",
+    "venue": "South Hill Cider",
+    "date": "2026-10-09",
+    "time": "5:30 PM",
+    "genre": "World",
+    "price": "Donation suggested",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "Tractor Family (Judy Hyman) (Community Concert Series)",
+    "venue": "South Hill Cider",
+    "date": "2026-10-15",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "Donation suggested",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "Crow Greenspun (Community Concert Series)",
+    "venue": "South Hill Cider",
+    "date": "2026-10-16",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "Donation suggested",
+    "link": "https://www.southhillcider.com/events"
   }
 ]

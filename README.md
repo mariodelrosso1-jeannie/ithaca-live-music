@@ -1086,3 +1086,58 @@ it, (b) re-verifies existing entries against their sources (fixing wrong names/t
 entries the source no longer lists), and (c) flags any newly found venue that hides its schedule
 as "browser-required" in the README so it can be added to that list. Manual "Check for new shows"
 runs read the same task file, so they follow these rules too.
+
+### Unconfirmed-venue sweep with the browser (October 8, 2026)
+
+User asked to go back through the venues that hadn't been confirmed directly, using the browser
+for sites that fail a plain fetch, and to add Muranda Cheese's events. Net: **26 shows added, 1
+removed** (added onto today's earlier counts: 62 added / 35 deleted for Oct 8).
+
+**Confirmed from the venue's own page (and what changed):**
+- **Muranda Cheese / Muranda Barn** (murandacheese.com/events — a marketing popup covers the page;
+  the event list loads in the page after it's closed): only two dated events are posted, Oct 10
+  *Still Kickin'* (2-5 PM) and Oct 11 The Dean's List. The Oct 10 entry had been "8 Traxx" from
+  flxmusic247; replaced with the venue's own name. Source links now point to the venue's page.
+- **Abandon Brewing** (abandonbrewing.com/events): Shawn Duchscherer Oct 16, The Dirt Turtles and The
+  John Payton Project at the Oct 24 13th Anniversary Party (Oct 31 "live music" has no named act).
+- **Homer Center for the Arts**: its calendar page is a Google Calendar embed; read the public iCal
+  feed behind it (calendar.google.com ... /public/basic.ics). Added Tinsley Ellis (Nov 18) and Sons
+  of Cream (Apr 15, 2027). Everything else already matched.
+- **Hangar Theatre** (hangartheatre.org, individual event pages): The Seven Wonders (Fleetwood Mac
+  tribute) Oct 23, Charlie Sings Judy Nov 7. Skipped: burlesque, spooky cabaret, kids/community
+  shows, Battle of the Dad Bands (no named band) and **Bennie and the Rest** — its listing says Oct
+  22 but its own event page still says Jan 24, 2026 (a reused stale page), so the date is unconfirmed.
+- **Bright Leaf Vineyard** (brightleafvineyard.com/food-music; King Ferry): Take Two Oct 9, Cooper
+  Scotti Oct 23, River Lynch Oct 30 (new venue to this app's data — it was already in
+  `venues.json` but had no shows).
+- **Homer Hops** (homerhops.com/calendar, read in the browser): 8 shows Oct 9 – Nov 7 (trivia,
+  karaoke and a book swap skipped).
+- **Ryan Vineyards** (ryanvineyards.com/upcoming-events): Frank Madonia Oct 11, Jim E Leggs Trio Oct
+  17 and Dec 5; the page posts no times, so "See Schedule". Others already listed.
+- **South Hill Cider** (southhillcider.com/events, Community Concert Series): Bluegrass Alley Oct 8,
+  FABI Oct 9, Tractor Family (Judy Hyman) Oct 15, Crow Greenspun Oct 16.
+- **Aurora Brewing, King Ferry** (brewaurora.com/events): lists Oct 10 as "Billy Golicki" where our
+  entry says "Billy & The Therapists" (from flxmusic247) — likely the same act but unconfirmed, left as is.
+
+**Own page read, nothing new / nothing usable:** Bully Hill (PJ Elliott Oct 10 already listed),
+Living Roots (Jackson Cavalier Oct 11 already listed), Keuka Spring (no music events), Domaine
+Leseurre (harvest experiences only), Quarry Ridge (winemaker dinner, yoga, parties), Laurentide (no
+list, points to Facebook), Glenora (page shows only a stale-looking Oct 1 listing), Geneva On The
+Lake (Tuesday series ended Sep 29; jazz brunch already tracked), The North Farm (address only),
+Tabora Farm (no events), Point of the Bluff (concerts site lists only Sep 27/Oct 4 big shows),
+Klvineyards/Keuka Lake Vineyards (a Friday concert series with no performers listed), Temperance
+FLX (page stale since 2024). **Facebook/Instagram only, can't be read:** WeBe Brewing, Prison City,
+Ithaca Beer (age gate, no events page), Little Venice.
+**Still not reached (domain unknown or site down):** Scale House, Weis, Steuben, Keuka Brewing,
+Landon's, Inn at Taughannock, Watershed, Keg & Barrel, Seneca Stag, Kookalaroc's, Showboat, The
+Cherry Arts, Ithaca Farmers' Market, Trumansburg Farmers Market, Cafe DeWitt, Kendal, K-House,
+Iron Flamingo, Argos/Bar Argos, Solera Tap House, Cornell venues, F2T, O'Malley's, 5 & Dime, Danby
+Food & Drink, Brookton's, The Watering Hole, Lake Life, La Tourelle, The Boatyard Grill.
+
+**New followed performers** (each now at 2+ venues): Bluegrass Alley, Cam Caruso, Cooper Scotti,
+Darkwine.
+
+Browser-required, for the scheduled task: Muranda Cheese events page, Homer Hops calendar, Ryan
+Vineyards upcoming events, Aurora (King Ferry) events, Abandon events, Bright Leaf food-music page,
+Homer Center's public iCal feed, Hangar Theatre event pages (check each page's date — stale pages
+exist).
