@@ -1167,3 +1167,21 @@ request, not a lock — a scraper that ignores them can still read `shows.json` 
 also keeps the site out of Google results**, so people only find it via the link. To make the site
 searchable again, delete the `noindex` words (keep `noai, noimageai`). A real `robots.txt` needs a
 custom domain; for stronger protection put Cloudflare in front of one.
+
+### Scale House Brewery's full schedule (October 9, 2026)
+
+User pointed to Scale House's events page (scalehousebrews.com/events — the earlier guessed domain
+scalehousebrewery.com didn't exist). The page is an Elfsight calendar widget loaded inside an
+iframe, so its text isn't readable from the page; it was read from browser screenshots, paging
+through "Next Events" to the end (Dec 31). An "Are you 21?" prompt covers the page; the user
+confirmed they are always over 21 and cleared it. Added **27 shows** (Oct 9 – Dec 30, 6 PM unless
+noted, free), e.g. David Graybeard Band, Gerard Burke, Technicolor Trailer Park, Miller & The Other
+Sinners, Ruby (Mountain Soul Music), Bob Roberts Calamity's Halloween Spooctacular (Oct 30, 8 PM),
+Dylan Doyle, Bluegrass Alley, FAR Trio, Meg Williams. Skipped: the weekly **Hector Open Mic**
+nights, "Rural Reflections: A Place Called Hector" (Nov 2, not clearly music), and a Jaimie Lee
+entry for Oct 21 listed with an overnight time range (6 PM – 8 AM), which looks like a data-entry
+quirk (her Dec 30 show is normal and was added). River Lynch (Nov 11) was already listed.
+Also pruned the 4 Oct 8 shows that had passed, and registered 4 new followed performers who now play
+2+ venues: Bob Roberts Calamity, David Graybeard Band, Oliver Burdo, Technicolor Trailer Park.
+Header history entry for Oct 9: 27 added, 4 deleted. **Browser-required** (widget in an iframe):
+Scale House's events page — read via screenshots, paging "Next Events" until it ends.

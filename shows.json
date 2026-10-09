@@ -1818,15 +1818,6 @@
     "link": "https://events.cornell.edu/music"
   },
   {
-    "band": "Robert Beck and Clara Virginia (Singer-Songwriter Series)",
-    "venue": "Atwater Winery",
-    "date": "2026-10-08",
-    "time": "6:00 PM",
-    "genre": "Folk/Singer-Songwriter",
-    "price": "Free",
-    "link": "https://atwatervineyards.com/events"
-  },
-  {
     "band": "Louiston (Singer-Songwriter Series)",
     "venue": "Atwater Winery",
     "date": "2026-10-15",
@@ -1834,15 +1825,6 @@
     "genre": "Folk/Singer-Songwriter",
     "price": "Free",
     "link": "https://atwatervineyards.com/events"
-  },
-  {
-    "band": "MSZN",
-    "venue": "Two Goats Brewing",
-    "date": "2026-10-08",
-    "time": "5:00 PM",
-    "genre": "Jazz",
-    "price": "Free",
-    "link": "https://twogoatsbrewing.com/music-events"
   },
   {
     "band": "Stratcat Willie & The Strays",
@@ -2077,15 +2059,6 @@
     "genre": "Soul/R&B",
     "price": "See Details",
     "link": "https://johnsimonmusic.com/calendar"
-  },
-  {
-    "band": "GoGone (Americana & Blues)",
-    "venue": "Bike Bar",
-    "date": "2026-10-08",
-    "time": "7:00 PM",
-    "genre": "Americana",
-    "price": "See Details",
-    "link": "https://bikebarithaca.com/"
   },
   {
     "band": "Amalgamators (Instrumental Surf Rock)",
@@ -2340,15 +2313,6 @@
     "link": "https://www.ryanvineyards.com/upcoming-events"
   },
   {
-    "band": "Bluegrass Alley (Community Concert Series)",
-    "venue": "South Hill Cider",
-    "date": "2026-10-08",
-    "time": "5:30 PM",
-    "genre": "Bluegrass",
-    "price": "Donation suggested",
-    "link": "https://www.southhillcider.com/events"
-  },
-  {
     "band": "FABI (Community Concert Series)",
     "venue": "South Hill Cider",
     "date": "2026-10-09",
@@ -2374,5 +2338,248 @@
     "genre": "Live Music",
     "price": "Donation suggested",
     "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "David Graybeard Band",
+    "venue": "Scale House Brewery",
+    "date": "2026-10-09",
+    "time": "6:00 PM",
+    "genre": "Americana",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Gerard Burke",
+    "venue": "Scale House Brewery",
+    "date": "2026-10-14",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Technicolor Trailer Park",
+    "venue": "Scale House Brewery",
+    "date": "2026-10-16",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Miller & The Other Sinners",
+    "venue": "Scale House Brewery",
+    "date": "2026-10-17",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Ruby - Mountain Soul Music",
+    "venue": "Scale House Brewery",
+    "date": "2026-10-23",
+    "time": "6:00 PM",
+    "genre": "Soul/R&B",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Oliver Burdo",
+    "venue": "Scale House Brewery",
+    "date": "2026-10-28",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Bob Roberts Calamity (Halloween Spooctacular)",
+    "venue": "Scale House Brewery",
+    "date": "2026-10-30",
+    "time": "8:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Rick Iacovelli",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-04",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "One Eyed Cat",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-06",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Dylan Doyle",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-13",
+    "time": "6:00 PM",
+    "genre": "Blues/Rock",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Little Baby Jerry Bond Junior",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-18",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Vinyl Roots",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-20",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "The Grooves!",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-21",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Bobby Rowe",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-25",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Jon Lamanna",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-27",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "The Sorters",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-28",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Sam Nitsch",
+    "venue": "Scale House Brewery",
+    "date": "2026-11-29",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Greg Neff",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-02",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Miller & The Other Sinners",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-04",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Gillmuir Girls",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-09",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Unparallel Duo",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-11",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Bluegrass Alley",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-12",
+    "time": "6:00 PM",
+    "genre": "Bluegrass",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Logan Route",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-16",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "FAR Trio",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-18",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Meg Williams",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-23",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Sam Nitsch",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-27",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
+  },
+  {
+    "band": "Jaimie Lee",
+    "venue": "Scale House Brewery",
+    "date": "2026-12-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.scalehousebrews.com/events"
   }
 ]
