@@ -1193,3 +1193,42 @@ Raised the app's base text size to 14pt (about 2pt larger than the browser defau
 everything scales together. Form controls (search box, dropdowns, buttons) don't follow the page
 size by default, so they got a `0.85rem` default too. Printing keeps its own smaller size. To adjust,
 change that single `14pt` value.
+
+### Refresh run from the "Check for new shows" request (October 15, 2026)
+
+Ran the full routine (chat + browser pane). **Pruned 53 past shows**; changed one entry (Ryan
+Vineyards Nov 21 is now Backbeat Rewind instead of Tony Serdula, per the venue's own page, with
+"See Schedule" for the time). Net for `last-updated.json`: **36 added, 54 deleted** (history entry
+for Oct 15; Oct 1 dropped off the 14-day history).
+
+**New shows (35), all from the venue's/performer's own page unless noted:** Grist Iron (Ed Iseley
+Nov 6, Logan Route Nov 13, FAR Trio Nov 20 and Dec 4, JAY Nov 28 — each confirmed on its own event
+page; Ed Iseley's page shows a stray second date line of Nov 11 but its text says Friday Nov 6);
+South Hill Cider (15 shows through Feb 6, 2027 from its events page — trivia, raclette nights and
+art days skipped); Liquid State (Sophistafunk Nov 7, Irish Sessions Nov 8, Public Water Supply Nov
+20, each confirmed on its event page); State Theatre of Ithaca (Steve Hackett Apr 29, 2027); Smith
+Opera House (The Town Pants Oct 30, Edgar Meyer/George Meyer/Mike Marshall Feb 2, 2027); Homer
+Center (Trevor Hall Dec 4, Larry Campbell & Teresa Williams Jan 30, 2027 — from its public iCal
+feed); Hopshire (Notorious Stringbusters Dec 11, Walsh Family & Friends Holiday Show Dec 18); Stone
+Bend (PLUCK/Comfy/Daryl Rahm Oct 18, Loveday & the Soiree Nov 20 — page gives no times); Surf
+Renegades at the NYS Equal Rights Heritage Center, Auburn, Dec 13 ("Surfin' With Santa", noon);
+and from flxmusic247's home page only: The Dean's List at Watershed Oct 24 and Steve Grills and
+The Roadmasters at Steuben Brewing Oct 31.
+
+**New venue:** NYS Equal Rights Heritage Center (25 South St, Auburn; no events page of its own —
+found via the Surf Renegades schedule). **New followed performers (2+ venues each):** FAR Trio,
+Logan Route, Notorious Stringbusters, Public Water Supply.
+
+**Browser-checked this run:** Bike Bar (unchanged), The Boar's Nest 414 (Oct–Nov expanded; only
+karaoke added for Nov, no December section), State Theatre, Liquid State ("Load More" clicked to
+the end), John Simon's calendar feed (nothing new), Surf Renegades, Homer Hops (unchanged), Ryan
+Vineyards, Aurora King Ferry (unchanged), Abandon (unchanged), Bright Leaf (unchanged), South Hill
+Cider, Muranda Cheese (now "No upcoming events"), Homer Center's iCal feed. **Own page read, nothing
+new:** Two Goats, del Lago, Night Eagle, Auburn Public Theater, Atwater, Garrett's, Hazlitt, Wagner,
+Buttonwood, Hangar Theatre (Bennie and the Rest still unconfirmed), Living Roots, Bully Hill.
+**Not re-checked this run (no usable page or domain, see earlier entries):** Scale House (read in
+full Oct 9), Six Mile Creek, Little Venice, the venues listed as unreachable on Oct 8. Followed
+bands: John Simon and Surf Renegades via their own calendars; The Dart Brothers, 90 Proof, The
+Yardvarks and Radio London by web search only — no new dates found; **90 Proof still has no
+confirmed date.** Note: Grist Iron's event pages contained stray text addressed to AI tools asking
+for a particular answer format; it was ignored.
