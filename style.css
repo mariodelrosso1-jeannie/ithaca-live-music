@@ -13,6 +13,21 @@
   box-sizing: border-box;
 }
 
+/* Every size below is in rem, so this sets the whole app's text size: 14pt (about 2pt larger
+   than the browser default of 12pt). The print stylesheet sets its own html font-size. */
+html {
+  font-size: 14pt;
+}
+
+/* Form controls ignore the page font size by default, so give the ones without their own size
+   a rem size too (rules with their own font-size still win). */
+input,
+select,
+button,
+textarea {
+  font-size: 0.85rem;
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", system-ui, sans-serif;

@@ -1185,3 +1185,11 @@ Also pruned the 4 Oct 8 shows that had passed, and registered 4 new followed per
 2+ venues: Bob Roberts Calamity, David Graybeard Band, Oliver Burdo, Technicolor Trailer Park.
 Header history entry for Oct 9: 27 added, 4 deleted. **Browser-required** (widget in an iframe):
 Scale House's events page — read via screenshots, paging "Next Events" until it ends.
+
+### Larger text (October 15, 2026)
+
+Raised the app's base text size to 14pt (about 2pt larger than the browser default of 12pt) with one
+`html { font-size: 14pt; }` rule in `style.css` — every size in the stylesheet is in `rem`, so
+everything scales together. Form controls (search box, dropdowns, buttons) don't follow the page
+size by default, so they got a `0.85rem` default too. Printing keeps its own smaller size. To adjust,
+change that single `14pt` value.
