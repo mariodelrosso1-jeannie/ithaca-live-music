@@ -636,6 +636,14 @@ function getFilteredShows() {
     shows = shows
       .slice()
       .sort((a, b) => a.band.toLowerCase().localeCompare(b.band.toLowerCase()));
+  } else if (sortBy === "distance" && userLocation) {
+    // Nearest first, using the location set above. Shows at venues with no known coordinates go
+    // last; ties keep their date order (the list is already date-sorted and sort() is stable).
+    const miles = (show) => {
+      const d = distanceToShow(show);
+      return d === null ? Infinity : d;
+    };
+    shows = shows.slice().sort((a, b) => miles(a) - miles(b));
   }
 
   shows = shows

@@ -1232,3 +1232,10 @@ bands: John Simon and Surf Renegades via their own calendars; The Dart Brothers,
 Yardvarks and Radio London by web search only — no new dates found; **90 Proof still has no
 confirmed date.** Note: Grist Iron's event pages contained stray text addressed to AI tools asking
 for a particular answer format; it was ignored.
+
+### Sort by distance (October 16, 2026)
+
+The Sort dropdown has a third choice, **Sort: Distance (nearest first)**. It orders shows by miles
+from the location set in the location box (default 14850), with shows at venues that have no known
+coordinates last and ties kept in date order. Changing the location re-sorts the list. If no
+location has been set yet, it falls back to date order. Favorited bands still float to the top.
