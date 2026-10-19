@@ -1252,3 +1252,26 @@ London" with no dates — so no dated show could be confirmed and **none was add
 names them. Also seen: the Antlers has catered the free "Music in the Hollow" summer series at
 Ellis Hollow Community Center, whose lineups included The Small Kings and The Notorious
 Stringbusters. Header history gets a 0/0 entry for Oct 18.
+
+### Refresh run from the "Check for new shows" request (October 18, 2026)
+
+Second full run (chat + browser pane). **Pruned 33 past shows**; **added 4**; header history for Oct
+18 is now 4 added / 33 deleted (the earlier 0/0 for the Antlers venue add was replaced since it was
+the same day).
+
+**New shows:** Oona & James Stringband Party at South Hill Cider (Nov 27, 6 PM — a new date on its
+events page); Gerard Burke at Solera Tap House (Dec 4, 6 PM — flxmusic247 home page only); Venissa
+Santi at Stone Bend (Nov 6, 6 PM, confirmed on its event page, which also says tickets aren't on
+sale); The Downtown Men (Billy Joel tribute) at Hangar Theatre (Dec 18, 7:30 PM, $30 — page gives
+no year, but Dec 18 is a Friday in 2026 and the page's listing sits among 2026 events).
+
+**Browser-checked, nothing new:** Bike Bar, State Theatre, Liquid State (Load More clicked; only
+classical/improv/jam added), Homer Hops, Ryan Vineyards, Aurora King Ferry, Abandon, Bright Leaf,
+South Hill Cider (otherwise unchanged), John Simon's feed, Surf Renegades, Muranda ("No upcoming
+events"), Homer Center's iCal feed. **Own page read, nothing new:** Two Goats, Hopshire, Grist Iron,
+Night Eagle, Auburn Public Theater, del Lago, Atwater, Garrett's, Hazlitt, Smith Opera House.
+**Not fully re-checked:** The Boar's Nest 414 (the month accordions didn't expand this time; last read
+Oct 15 with nothing new), Scale House (the 21+ prompt didn't clear after one click; the visible cards
+matched the Oct 9 read), Antlers (its site blocked the plain fetch; last read Oct 18 morning),
+Six Mile Creek, Little Venice and the venues listed as unreachable earlier. Followed bands: web
+search not repeated beyond calendars; **90 Proof still has no confirmed date.**
