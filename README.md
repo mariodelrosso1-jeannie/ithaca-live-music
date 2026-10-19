@@ -1239,3 +1239,16 @@ The Sort dropdown has a third choice, **Sort: Distance (nearest first)**. It ord
 from the location set in the location box (default 14850), with shows at venues that have no known
 coordinates last and ties kept in date order. Changing the location re-sorts the list. If no
 location has been set yet, it falls back to date order. Favorited bands still float to the top.
+
+### New venue: Antlers Restaurant (October 18, 2026)
+
+User asked to add the Antlers restaurant. It's a steakhouse and bourbon bar at **1159 Dryden Rd,
+Ithaca** (about 5 miles east of downtown); coordinates geocoded from the address. Its own site
+(antlersrestaurant.com) has event pages, but the only music one is a generic recurring **"Friday
+Night Live Music"** page (weekly Fridays, 4:30–9 PM) that says "tonight ... The Original Sounds of
+London" with no dates — so no dated show could be confirmed and **none was added**. The venue is in
+`venues.json`, so each refresh will re-check antlersrestaurant.com/events/friday-night-live-music
+(read in the browser: the home page's calendar is script-rendered) and add real dated shows when it
+names them. Also seen: the Antlers has catered the free "Music in the Hollow" summer series at
+Ellis Hollow Community Center, whose lineups included The Small Kings and The Notorious
+Stringbusters. Header history gets a 0/0 entry for Oct 18.
