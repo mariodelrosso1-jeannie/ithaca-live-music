@@ -1275,3 +1275,28 @@ Oct 15 with nothing new), Scale House (the 21+ prompt didn't clear after one cli
 matched the Oct 9 read), Antlers (its site blocked the plain fetch; last read Oct 18 morning),
 Six Mile Creek, Little Venice and the venues listed as unreachable earlier. Followed bands: web
 search not repeated beyond calendars; **90 Proof still has no confirmed date.**
+
+### Refresh run from the "Check for new shows" request (October 21, 2026)
+
+Third full run. **Pruned 7 past shows**, **added 3**, **removed 1 more**; header history for Oct 21
+is 3 added / 8 deleted (entries older than 14 days were dropped from the history list).
+
+**New shows:** JIMKATA at Liquid State (Nov 13, 8 PM, $20/$25 — its own event page; the brewery's
+last show of the year); the Stone Bend "Protest Show feat. Motherwort, Dart Bros, Janet Batch & more"
+(Nov 7, schedule starts 4 PM — the event page lists seven acts including the Dart Brothers trio at
+7 PM; tickets not on sale); CC-13 at Ithaca Beer Company (Halloween party, Oct 30, 6 PM —
+flxmusic247 home page only). **Changed/removed:** Grist Iron's JAY on Nov 28 is 5–8 PM (its page
+changed from 6 PM); Stone Bend's Dec 4 The Small Kings w/ Ded Ballz is marked **Postponed** with no
+new date on its event page, so the entry was removed. **New followed performer:** Motherwort (Hopshire
+Oct 30 + Stone Bend Nov 7).
+
+**Browser-checked:** Bike Bar (unchanged), State Theatre (unchanged), Liquid State (Load More; Nov 1
+classical night, improv and jams skipped), Homer Hops (Oct 31 now shows "+2 more" events beyond
+Trick-or-Treat that the calendar page won't expand — **unreadable, unconfirmed**), Ryan Vineyards,
+Aurora King Ferry (only October shown), Abandon (new Nov 21 Harvest Dinner, not music), Bright Leaf,
+South Hill Cider, John Simon's feed, Surf Renegades (unchanged). **Own page read:** Two Goats,
+Hopshire, Grist Iron, Night Eagle, Auburn Public Theater, del Lago, Atwater, Garrett's, Hangar
+(Bennie and the Rest still unconfirmed), Smith (also lists "A Taste of Ireland" music/dance Feb 12,
+2027 — skipped), Stone Bend. **Not re-checked:** The Boar's Nest 414, Scale House, Muranda, Antlers,
+Six Mile Creek, Little Venice and the unreachable venues listed earlier; followed bands by calendar
+only — no new searches. 90 Proof still has no confirmed date.

@@ -90,15 +90,6 @@
     "link": "https://www.ventosavineyards.com/events"
   },
   {
-    "band": "Kate Hinote Trio",
-    "venue": "Two Goats Brewing",
-    "date": "2026-10-18",
-    "time": "4:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://twogoatsbrewing.com/music-events"
-  },
-  {
     "band": "The Bard Brothers",
     "venue": "Two Goats Brewing",
     "date": "2026-10-23",
@@ -286,15 +277,6 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108886508n-river-lynch-scale-house-brewery-6pm-solo-show-"
-  },
-  {
-    "band": "Melvin Seals and JGB",
-    "venue": "Homer Center for the Arts",
-    "date": "2026-10-18",
-    "time": "8:00 PM",
-    "genre": "Jam Band",
-    "price": "Ticketed - see Details",
-    "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
   },
   {
     "band": "Coco Montoya",
@@ -648,24 +630,6 @@
     "link": "https://www.ventosavineyards.com/events"
   },
   {
-    "band": "Larry Campanelli & Mike Doyle (Sunday Jazz Brunch)",
-    "venue": "Geneva On The Lake",
-    "date": "2026-10-18",
-    "time": "10:00 AM",
-    "genre": "Jazz",
-    "price": "See Details",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Brad Ordway",
-    "venue": "Ryan Vineyards",
-    "date": "2026-10-18",
-    "time": "3:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
     "band": "Annie Ol' Thyme",
     "venue": "Trumansburg Farmers Market",
     "date": "2026-10-21",
@@ -855,15 +819,6 @@
     "link": "https://www.stonebend.com/about-3-1"
   },
   {
-    "band": "The Small Kings w/ Ded Ballz",
-    "venue": "Stone Bend Farm",
-    "date": "2026-12-04",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.stonebend.com/about-3-1"
-  },
-  {
     "band": "Louiston",
     "venue": "Stone Bend Farm",
     "date": "2026-12-11",
@@ -889,24 +844,6 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.stonebend.com/about-3-1"
-  },
-  {
-    "band": "TOiVO (Sock Hop Sunday)",
-    "venue": "Garrett's Brewing Company",
-    "date": "2026-10-18",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://garrettsbrewing.com/events"
-  },
-  {
-    "band": "Mark Doyle and the Maniacs (Stoned and Lonesome - A Celebration of The Rolling Stones)",
-    "venue": "Auburn Public Theater",
-    "date": "2026-10-18",
-    "time": "3:00 PM",
-    "genre": "Tribute/Rock",
-    "price": "Ticketed ($25)",
-    "link": "https://www.auburnpublictheater.org/events/stoned-and-lonesome--a-celebration-of-the-rolling-stones--the-early-years"
   },
   {
     "band": "Lake Affect (Rich Del Favero and Bob Foresman) (Sunday Music Series)",
@@ -2055,7 +1992,7 @@
     "band": "JAY",
     "venue": "Grist Iron Brewing Company",
     "date": "2026-11-28",
-    "time": "6:00 PM",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.gristironbrewing.com/events-live-music/x26swyat6c5k48awplpnsynr9m4ysz"
@@ -2068,15 +2005,6 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.gristironbrewing.com/events-live-music/cp2bjzzpdg4rpe2yy6n8ez6jd3srtc"
-  },
-  {
-    "band": "PLUCK, Comfy & Daryl Rahm",
-    "venue": "Stone Bend Farm",
-    "date": "2026-10-18",
-    "time": "See Schedule",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.stonebend.com/about-3-1"
   },
   {
     "band": "LOVEDAY & the SOIREE (with special guests)",
@@ -2158,5 +2086,32 @@
     "genre": "Tribute",
     "price": "$30",
     "link": "https://hangartheatre.org/event/the-downtown-men/"
+  },
+  {
+    "band": "JIMKATA",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-11-13",
+    "time": "8:00 PM",
+    "genre": "Rock/Jam",
+    "price": "$20 advance / $25 door",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/jimkata"
+  },
+  {
+    "band": "Protest Show feat. Motherwort, Dart Bros, Janet Batch & more",
+    "venue": "Stone Bend Farm",
+    "date": "2026-11-07",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.stonebend.com/event-details/protest-show-feat-motherwort-dart-bros-janet-batch-more"
+  },
+  {
+    "band": "CC-13 (Halloween Party)",
+    "venue": "Ithaca Beer Company",
+    "date": "2026-10-30",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/"
   }
 ]
