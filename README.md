@@ -1300,3 +1300,25 @@ Hopshire, Grist Iron, Night Eagle, Auburn Public Theater, del Lago, Atwater, Gar
 2027 — skipped), Stone Bend. **Not re-checked:** The Boar's Nest 414, Scale House, Muranda, Antlers,
 Six Mile Creek, Little Venice and the unreachable venues listed earlier; followed bands by calendar
 only — no new searches. 90 Proof still has no confirmed date.
+
+### Why Lucky Hare was missing, and the fix (October 23, 2026)
+
+User asked why Lucky Hare Brewing doesn't show up in venues. **It had simply never been added** —
+searching the README and data files for "Lucky Hare" turns up nothing, not even a note about
+skipping it. The refresh routine only re-checks venues already in `venues.json` (plus aggregators
+like flxmusic247, which don't list Lucky Hare), so a venue nobody named and no aggregator surfaced
+never got looked at. Same root cause as the earlier Boar's Nest and Little Venice gaps.
+
+Fixed: Lucky Hare has **two locations with separate calendars** (luckyharebrewing.com/hector and
+/watkins-glen), so both are registered and differentiated like Aurora's: **Lucky Hare Brewing
+Company (Hector)** (6085 Beckhorn Rd, Hector) and **Lucky Hare Bar & Grill (Watkins Glen)** (2 Seneca
+Harbor Dr, Watkins Glen — the street address didn't geocode, so it uses village-level coordinates).
+Both calendars are read with a plain page fetch; each event has its own page. Added **8 shows**:
+Hector — the 8th Annual Hare Roast (Rena Guinn & Joe Lule and Cast Iron Cowboys, Oct 24–25; the
+page doesn't say which act plays which day), Doc Robinson's Trivia & Blues (Oct 29), Tate Williams
+at the Holiday Market (Nov 7, time not given); Watkins Glen — Gray Beard (Oct 23), Mike Brown (Oct
+24), Metasequoia's Halloween Party (Oct 31), PapaMuse (Nov 7), Robin Burnett & Abby Lane's
+Thanksgiving Eve Party (Nov 25). Skipped trivia-only, football, open mic and Festivus listings. The
+calendar widget lists an end date one day after the start for every event; start dates were used.
+Also pruned 8 past shows today; header history for Oct 23 is 8 added / 8 deleted.
+Lucky Hare's own site is the events source for both locations.

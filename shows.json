@@ -1,14 +1,5 @@
 [
   {
-    "band": "The Ende Brothers",
-    "venue": "Ventosa Vineyards",
-    "date": "2026-10-21",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.ventosavineyards.com/events"
-  },
-  {
     "band": "The Other Side of Normal",
     "venue": "Ventosa Vineyards",
     "date": "2026-10-28",
@@ -277,15 +268,6 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108886508n-river-lynch-scale-house-brewery-6pm-solo-show-"
-  },
-  {
-    "band": "Coco Montoya",
-    "venue": "Homer Center for the Arts",
-    "date": "2026-10-21",
-    "time": "8:00 PM",
-    "genre": "Blues",
-    "price": "Ticketed - see Details",
-    "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
   },
   {
     "band": "Billy Sheehan (GCS)",
@@ -630,15 +612,6 @@
     "link": "https://www.ventosavineyards.com/events"
   },
   {
-    "band": "Annie Ol' Thyme",
-    "venue": "Trumansburg Farmers Market",
-    "date": "2026-10-21",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
     "band": "Chris Mahan",
     "venue": "Idol Ridge Winery & Alder Creek Distillery",
     "date": "2026-10-23",
@@ -754,15 +727,6 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.ryanvineyards.com/upcoming-events"
-  },
-  {
-    "band": "The Yardvarks",
-    "venue": "Kendal at Ithaca",
-    "date": "2026-10-22",
-    "time": "7:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://johnsimonmusic.com/calendar"
   },
   {
     "band": "John Simon & Der Walters",
@@ -1080,15 +1044,6 @@
     "link": "https://www.theboarsnest414.com/music-schedule"
   },
   {
-    "band": "Ruby",
-    "venue": "Liquid State Brewing Company",
-    "date": "2026-10-22",
-    "time": "6:30 PM",
-    "genre": "Americana",
-    "price": "$5 ADV/$10 DOS",
-    "link": "https://www.liquidstatebeer.com/event-details-registration/ruby"
-  },
-  {
     "band": "New Planets",
     "venue": "Liquid State Brewing Company",
     "date": "2026-10-23",
@@ -1168,15 +1123,6 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.brewaurora.com/events"
-  },
-  {
-    "band": "Linda Ruan (Midday Music)",
-    "venue": "Lincoln Hall (Cornell University)",
-    "date": "2026-10-22",
-    "time": "12:30 PM",
-    "genre": "Classical",
-    "price": "Free",
-    "link": "https://events.cornell.edu/music"
   },
   {
     "band": "The Soul Benders",
@@ -1366,15 +1312,6 @@
     "genre": "Soul/R&B",
     "price": "See Details",
     "link": "https://johnsimonmusic.com/calendar"
-  },
-  {
-    "band": "Small Kings (Ithaca Americana-Rock)",
-    "venue": "Bike Bar",
-    "date": "2026-10-22",
-    "time": "7:00 PM",
-    "genre": "Americana",
-    "price": "See Details",
-    "link": "https://bikebarithaca.com/"
   },
   {
     "band": "Joe Hayward, Richie Stearns & Friends (Old-Time Fiddle Tunes)",
@@ -1809,15 +1746,6 @@
     "link": "https://center4art.org/concerts-events-calendar/"
   },
   {
-    "band": "Rosie, Jake Blount, Ben Gould & Steve Selin (Community Concert Series)",
-    "venue": "South Hill Cider",
-    "date": "2026-10-22",
-    "time": "5:30 PM",
-    "genre": "Folk",
-    "price": "Donation suggested",
-    "link": "https://www.southhillcider.com/events"
-  },
-  {
     "band": "Kawaio1a",
     "venue": "South Hill Cider",
     "date": "2026-10-23",
@@ -2113,5 +2041,77 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://flxmusic247.com/"
+  },
+  {
+    "band": "Rena Guinn & Joe Lule and Cast Iron Cowboys (8th Annual Hare Roast, Oct 24-25)",
+    "venue": "Lucky Hare Brewing Company (Hector)",
+    "date": "2026-10-24",
+    "time": "2:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.luckyharebrewing.com/hector/8th-annual-hare-roast-live-music-w-rena-guinn-joe-lule-and-cast-iron-cowboys"
+  },
+  {
+    "band": "Doc Robinson (Trivia & Blues)",
+    "venue": "Lucky Hare Brewing Company (Hector)",
+    "date": "2026-10-29",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "See Details",
+    "link": "https://www.luckyharebrewing.com/hector/trivia-blues-w-doc-robinson-cfe7s-5az7n-n88d8-h9wex-kmrks"
+  },
+  {
+    "band": "Tate Williams (Holiday Market)",
+    "venue": "Lucky Hare Brewing Company (Hector)",
+    "date": "2026-11-07",
+    "time": "See Schedule",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.luckyharebrewing.com/hector/holiday-market-event"
+  },
+  {
+    "band": "Gray Beard",
+    "venue": "Lucky Hare Bar & Grill (Watkins Glen)",
+    "date": "2026-10-23",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.luckyharebrewing.com/watkins-glen/live-music-w-gray-beard"
+  },
+  {
+    "band": "Mike Brown",
+    "venue": "Lucky Hare Bar & Grill (Watkins Glen)",
+    "date": "2026-10-24",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.luckyharebrewing.com/watkins-glen/live-music-w-mike-brown"
+  },
+  {
+    "band": "Metasequoia (Halloween Party)",
+    "venue": "Lucky Hare Bar & Grill (Watkins Glen)",
+    "date": "2026-10-31",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.luckyharebrewing.com/watkins-glen/halloween-party-w-live-music-by-metasequioa"
+  },
+  {
+    "band": "PapaMuse",
+    "venue": "Lucky Hare Bar & Grill (Watkins Glen)",
+    "date": "2026-11-07",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.luckyharebrewing.com/watkins-glen/live-music-w-papamuse"
+  },
+  {
+    "band": "Robin Burnett & Abby Lane (Thanksgiving Eve Party)",
+    "venue": "Lucky Hare Bar & Grill (Watkins Glen)",
+    "date": "2026-11-25",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.luckyharebrewing.com/watkins-glen/annual-thanksgiving-eve-party-w-robin-burnett-abby-lane"
   }
 ]

@@ -474,6 +474,16 @@
     "lat": 42.9106062,
     "lng": -76.7985354
   },
+  "Lucky Hare Brewing Company (Hector)": {
+    "address": "6085 Beckhorn Rd, Hector, NY 14841",
+    "lat": 42.5284425,
+    "lng": -76.874644
+  },
+  "Lucky Hare Bar & Grill (Watkins Glen)": {
+    "address": "2 Seneca Harbor Dr, Watkins Glen, NY 14891 (village-level coordinates for Watkins Glen; the street address didn't geocode)",
+    "lat": 42.3810555,
+    "lng": -76.8705777
+  },
   "Antlers Restaurant": {
     "address": "1159 Dryden Rd, Ithaca, NY 14850",
     "lat": 42.4620626,
