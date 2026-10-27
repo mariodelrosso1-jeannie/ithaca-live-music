@@ -81,42 +81,6 @@
     "link": "https://www.ventosavineyards.com/events"
   },
   {
-    "band": "The Bard Brothers",
-    "venue": "Two Goats Brewing",
-    "date": "2026-10-23",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://twogoatsbrewing.com/music-events"
-  },
-  {
-    "band": "Miller's Garage",
-    "venue": "Grist Iron Brewing Company",
-    "date": "2026-10-24",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.gristironbrewing.com/events-live-music/hj6sf43bg44ed569dbt9rj34fern32-blfae"
-  },
-  {
-    "band": "Mystic Twangers",
-    "venue": "Two Goats Brewing",
-    "date": "2026-10-24",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://twogoatsbrewing.com/music-events"
-  },
-  {
-    "band": "Cisco PL Duo",
-    "venue": "Two Goats Brewing",
-    "date": "2026-10-25",
-    "time": "4:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://twogoatsbrewing.com/music-events"
-  },
-  {
     "band": "Barrel Aged Band",
     "venue": "Two Goats Brewing",
     "date": "2026-10-30",
@@ -241,24 +205,6 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
-  },
-  {
-    "band": "Jeremiah Craig",
-    "venue": "Bet the Farm Winery",
-    "date": "2026-10-23",
-    "time": "5:00 PM",
-    "genre": "Folk",
-    "price": "See Details",
-    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/108314801n-jeremiah-craig-live-at-bet-the-farm-winery"
-  },
-  {
-    "band": "Caleb Liber (Hosmer Winery's Haunted Wine Walk)",
-    "venue": "Hosmer Estate Winery",
-    "date": "2026-10-25",
-    "time": "11:00 AM",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.ithaca.com/local-events/?_evDiscoveryPath=/event/107953920n-caleb-liber-at-hosmer-winery-s-haunted-wine-walk"
   },
   {
     "band": "River Lynch (Solo Show)",
@@ -504,15 +450,6 @@
     "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
   },
   {
-    "band": "The Tarps",
-    "venue": "Hopshire Farm and Brewery",
-    "date": "2026-10-23",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://hopshire.com/hopshire-events/"
-  },
-  {
     "band": "Motherwort (Halloween Party)",
     "venue": "Hopshire Farm and Brewery",
     "date": "2026-10-30",
@@ -612,49 +549,58 @@
     "link": "https://www.ventosavineyards.com/events"
   },
   {
-    "band": "Chris Mahan",
-    "venue": "Idol Ridge Winery & Alder Creek Distillery",
-    "date": "2026-10-23",
+    "band": "Glenn Meyer (sax, Night Train)",
+    "venue": "Ventosa Vineyards",
+    "date": "2027-01-06",
     "time": "5:00 PM",
     "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://flxmusic247.com/"
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
   },
   {
-    "band": "Virgil Cain",
-    "venue": "Landon's Pub & Pizza",
-    "date": "2026-10-23",
-    "time": "8:00 PM",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Better Halves",
-    "venue": "Ryan Vineyards",
-    "date": "2026-10-24",
-    "time": "3:00 PM",
+    "band": "Nate Michaels",
+    "venue": "Ventosa Vineyards",
+    "date": "2027-01-13",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
-    "link": "https://flxmusic247.com/"
+    "link": "https://www.ventosavineyards.com/events"
   },
   {
-    "band": "Dave Richman Duo (Sunday Jazz Brunch)",
-    "venue": "Geneva On The Lake",
-    "date": "2026-10-25",
-    "time": "10:00 AM",
-    "genre": "Jazz",
-    "price": "See Details",
-    "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Evan Dillon Band",
-    "venue": "Ryan Vineyards",
-    "date": "2026-10-25",
-    "time": "3:00 PM",
+    "band": "Hunter Rumfola",
+    "venue": "Ventosa Vineyards",
+    "date": "2027-01-20",
+    "time": "5:00 PM",
     "genre": "Live Music",
     "price": "Free",
-    "link": "https://flxmusic247.com/"
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Just Joe",
+    "venue": "Ventosa Vineyards",
+    "date": "2027-02-03",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Nate Michaels",
+    "venue": "Ventosa Vineyards",
+    "date": "2027-03-10",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
+  },
+  {
+    "band": "Glenn Meyer (sax, Night Train)",
+    "venue": "Ventosa Vineyards",
+    "date": "2027-03-24",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.ventosavineyards.com/events"
   },
   {
     "band": "Nate Marshall",
@@ -810,15 +756,6 @@
     "link": "https://www.stonebend.com/about-3-1"
   },
   {
-    "band": "Lake Affect (Rich Del Favero and Bob Foresman) (Sunday Music Series)",
-    "venue": "Auburn Public Theater",
-    "date": "2026-10-25",
-    "time": "4:00 PM",
-    "genre": "Live Music",
-    "price": "Ticketed",
-    "link": "https://www.auburnpublictheater.org/events/sunday-music-series-lake-affect"
-  },
-  {
     "band": "Because Dinosaurs (Alex Forbes, Ted Williams, Carey Eidel) (Sunday Music Series)",
     "venue": "Auburn Public Theater",
     "date": "2026-11-22",
@@ -826,24 +763,6 @@
     "genre": "Live Music",
     "price": "Ticketed",
     "link": "https://www.auburnpublictheater.org/events/sunday-music-series-because-dinosaurs"
-  },
-  {
-    "band": "Emo Night with When We Were Thirty",
-    "venue": "del Lago Resort & Casino",
-    "date": "2026-10-23",
-    "time": "8:00 PM",
-    "genre": "Rock",
-    "price": "Ticketed",
-    "link": "https://dellagoresort.com/entertainment/"
-  },
-  {
-    "band": "2 Chainz",
-    "venue": "del Lago Resort & Casino",
-    "date": "2026-10-31",
-    "time": "8:00 PM",
-    "genre": "Hip Hop",
-    "price": "Ticketed",
-    "link": "https://dellagoresort.com/entertainment/"
   },
   {
     "band": "Night Ranger",
@@ -963,6 +882,51 @@
     "link": "https://dellagoresort.com/entertainment/"
   },
   {
+    "band": "Midland",
+    "venue": "del Lago Resort & Casino",
+    "date": "2026-12-18",
+    "time": "8:00 PM",
+    "genre": "Country",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Great White",
+    "venue": "del Lago Resort & Casino",
+    "date": "2027-01-22",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Fool House - The Ultimate 90's Party: Wow! That's What I Call 90's",
+    "venue": "del Lago Resort & Casino",
+    "date": "2027-01-30",
+    "time": "8:00 PM",
+    "genre": "Tribute",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "The Dave Matthews Tribute Band - Burnin' One Tour",
+    "venue": "del Lago Resort & Casino",
+    "date": "2027-02-06",
+    "time": "8:00 PM",
+    "genre": "Tribute",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "The Rascals: Groovin' Forever Tour",
+    "venue": "del Lago Resort & Casino",
+    "date": "2027-03-05",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed",
+    "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
     "band": "Mojo Combo (Spookeasy)",
     "venue": "Prison City Pub & Brewery",
     "date": "2026-10-30",
@@ -979,24 +943,6 @@
     "genre": "Live Music",
     "price": "See listing",
     "link": "https://flxmusic247.com/"
-  },
-  {
-    "band": "Bob Keefe and the Surf Renegades",
-    "venue": "K-House Karaoke and Arts Hub",
-    "date": "2026-10-24",
-    "time": "7:00 PM",
-    "genre": "Surf Rock",
-    "price": "Free",
-    "link": "https://www.surf-renegades.com/where-we-re-playing/"
-  },
-  {
-    "band": "Vance Gilbert",
-    "venue": "Night Eagle Cafe",
-    "date": "2026-10-23",
-    "time": "7:30 PM",
-    "genre": "Folk",
-    "price": "Ticketed - see Details",
-    "link": "https://www.nighteaglecafe.org/"
   },
   {
     "band": "The Refugees",
@@ -1042,24 +988,6 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.theboarsnest414.com/music-schedule"
-  },
-  {
-    "band": "New Planets",
-    "venue": "Liquid State Brewing Company",
-    "date": "2026-10-23",
-    "time": "8:00 PM",
-    "genre": "Live Music",
-    "price": "$15 ADV/$20 DOS",
-    "link": "https://www.liquidstatebeer.com/event-details-registration/new-planets-1"
-  },
-  {
-    "band": "Ragged Sole",
-    "venue": "Liquid State Brewing Company",
-    "date": "2026-10-24",
-    "time": "8:00 PM",
-    "genre": "Rock",
-    "price": "$5",
-    "link": "https://www.liquidstatebeer.com/event-details-registration/ragged-sole"
   },
   {
     "band": "The Amalgamators",
@@ -1116,24 +1044,6 @@
     "link": "https://www.liquidstatebeer.com/event-details-registration/metasequoias-4th-annual-community-food-drive"
   },
   {
-    "band": "Benny and the Mix",
-    "venue": "Aurora Brewing Co. (King Ferry)",
-    "date": "2026-10-24",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.brewaurora.com/events"
-  },
-  {
-    "band": "The Soul Benders",
-    "venue": "Grist Iron Brewing Company",
-    "date": "2026-10-23",
-    "time": "6:00 PM",
-    "genre": "Soul/R&B",
-    "price": "Free",
-    "link": "https://www.gristironbrewing.com/events-live-music/gdcscjbnzaenzld3a54ypslxca6aes"
-  },
-  {
     "band": "Empty V (Annual GIB Halloween Party)",
     "venue": "Grist Iron Brewing Company",
     "date": "2026-10-30",
@@ -1159,15 +1069,6 @@
     "genre": "Pop",
     "price": "Free",
     "link": "https://hazlitt1852.com/event/halloween-party-at-the-oasis-2026/"
-  },
-  {
-    "band": "Jeff Tweedy Solo",
-    "venue": "State Theatre of Ithaca",
-    "date": "2026-10-24",
-    "time": "7:30 PM",
-    "genre": "Folk",
-    "price": "Ticketed - see Details",
-    "link": "https://stateofithaca.org/events/"
   },
   {
     "band": "Sammy Rae & The Friends - The GET DOWN! (w/ Melt)",
@@ -1350,24 +1251,6 @@
     "link": "https://bikebarithaca.com/"
   },
   {
-    "band": "The Dirt Turtles (13th Anniversary Party)",
-    "venue": "Abandon Brewing Company",
-    "date": "2026-10-24",
-    "time": "12:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://abandonbrewing.com/events"
-  },
-  {
-    "band": "The John Payton Project (13th Anniversary Party)",
-    "venue": "Abandon Brewing Company",
-    "date": "2026-10-24",
-    "time": "4:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://abandonbrewing.com/events"
-  },
-  {
     "band": "Tinsley Ellis",
     "venue": "Homer Center for the Arts",
     "date": "2026-11-18",
@@ -1386,15 +1269,6 @@
     "link": "https://center4art.org/concerts-events-calendar/"
   },
   {
-    "band": "The Seven Wonders (Fleetwood Mac & Stevie Nicks Tribute)",
-    "venue": "Hangar Theatre",
-    "date": "2026-10-23",
-    "time": "7:00 PM",
-    "genre": "Tribute/Rock",
-    "price": "$35-$45",
-    "link": "https://hangartheatre.org/event/the-seven-wonders/"
-  },
-  {
     "band": "Charlie Sings Judy (Charlie High with Drew Wutke)",
     "venue": "Hangar Theatre",
     "date": "2026-11-07",
@@ -1404,15 +1278,6 @@
     "link": "https://hangartheatre.org/event/charlie-sings-judy/"
   },
   {
-    "band": "Cooper Scotti",
-    "venue": "Bright Leaf Vineyard",
-    "date": "2026-10-23",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.brightleafvineyard.com/food-music"
-  },
-  {
     "band": "River Lynch",
     "venue": "Bright Leaf Vineyard",
     "date": "2026-10-30",
@@ -1420,24 +1285,6 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.brightleafvineyard.com/food-music"
-  },
-  {
-    "band": "Frank and Julie Duo",
-    "venue": "Homer Hops",
-    "date": "2026-10-23",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.homerhops.com/calendar"
-  },
-  {
-    "band": "Like a Hurricane",
-    "venue": "Homer Hops",
-    "date": "2026-10-24",
-    "time": "6:00 PM",
-    "genre": "Rock",
-    "price": "Free",
-    "link": "https://www.homerhops.com/calendar"
   },
   {
     "band": "Cam Caruso",
@@ -1467,6 +1314,33 @@
     "link": "https://www.homerhops.com/calendar"
   },
   {
+    "band": "Rocco Rich & Aaron Craig (Halloween Bash)",
+    "venue": "Homer Hops",
+    "date": "2026-10-31",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "Stiv Morgan",
+    "venue": "Homer Hops",
+    "date": "2026-11-13",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
+    "band": "Patrick Young",
+    "venue": "Homer Hops",
+    "date": "2026-11-14",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.homerhops.com/calendar"
+  },
+  {
     "band": "Jim E Leggs Trio",
     "venue": "Ryan Vineyards",
     "date": "2026-12-05",
@@ -1474,15 +1348,6 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.ryanvineyards.com/upcoming-events"
-  },
-  {
-    "band": "Ruby - Mountain Soul Music",
-    "venue": "Scale House Brewery",
-    "date": "2026-10-23",
-    "time": "6:00 PM",
-    "genre": "Soul/R&B",
-    "price": "Free",
-    "link": "https://www.scalehousebrews.com/events"
   },
   {
     "band": "Oliver Burdo",
@@ -1746,13 +1611,58 @@
     "link": "https://center4art.org/concerts-events-calendar/"
   },
   {
-    "band": "Kawaio1a",
-    "venue": "South Hill Cider",
-    "date": "2026-10-23",
-    "time": "5:30 PM",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.southhillcider.com/events"
+    "band": "Nicholas Stark (Final Performance)",
+    "venue": "Homer Center for the Arts",
+    "date": "2026-11-07",
+    "time": "8:00 PM",
+    "genre": "Country/Roots",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/nicholas-stark-final-performance-211899"
+  },
+  {
+    "band": "Sue Foley Band w. GA-20",
+    "venue": "Homer Center for the Arts",
+    "date": "2026-12-10",
+    "time": "8:00 PM",
+    "genre": "Blues",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/sue-foley-ga-20-together-for-the-holidays-196586"
+  },
+  {
+    "band": "DakhaBrakha",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-02-06",
+    "time": "8:00 PM",
+    "genre": "World",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/dakhabrakha-211678"
+  },
+  {
+    "band": "Wishbone Ash",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-03-07",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/wishbone-ash-time-was-tour-2027-211685"
+  },
+  {
+    "band": "Spyro Gyra",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-03-13",
+    "time": "8:00 PM",
+    "genre": "Jazz",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/spyro-gyra-211018"
+  },
+  {
+    "band": "Clap Your Hands Say Yeah",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-05-12",
+    "time": "8:00 PM",
+    "genre": "Indie Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/clap-your-hands-say-yeah-211467"
   },
   {
     "band": "Tandem Mayhem with Eric Aceto",
@@ -1962,15 +1872,6 @@
     "link": "https://thesmith.org/event-calendar/"
   },
   {
-    "band": "The Dean's List",
-    "venue": "Watershed Brewing Company",
-    "date": "2026-10-24",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://flxmusic247.com/"
-  },
-  {
     "band": "Steve Grills and The Roadmasters",
     "venue": "Steuben Brewing Company",
     "date": "2026-10-31",
@@ -1985,6 +1886,24 @@
     "date": "2026-11-27",
     "time": "6:00 PM",
     "genre": "Folk",
+    "price": "See Details",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "Cielle (Cielle Trio)",
+    "venue": "South Hill Cider",
+    "date": "2026-12-11",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "Kristin Bigness & Friends",
+    "venue": "South Hill Cider",
+    "date": "2027-01-23",
+    "time": "6:00 PM",
+    "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.southhillcider.com/events"
   },
@@ -2025,6 +1944,24 @@
     "link": "https://www.liquidstatebeer.com/event-details-registration/jimkata"
   },
   {
+    "band": "Quartet Novalis (NYS Baroque Classical Night)",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-11-01",
+    "time": "6:00 PM",
+    "genre": "Classical",
+    "price": "Free",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/classical-night-nys-baroque-presents-quartet-novalis"
+  },
+  {
+    "band": "1-800-Bitch & Freeway Art w/ Overtired and Shodémon",
+    "venue": "Liquid State Brewing Company",
+    "date": "2026-11-06",
+    "time": "6:30 PM",
+    "genre": "Live Music",
+    "price": "$7 advance / $10 day of show",
+    "link": "https://www.liquidstatebeer.com/event-details-registration/1-800-bitch-freeway-art"
+  },
+  {
     "band": "Protest Show feat. Motherwort, Dart Bros, Janet Batch & more",
     "venue": "Stone Bend Farm",
     "date": "2026-11-07",
@@ -2043,15 +1980,6 @@
     "link": "https://flxmusic247.com/"
   },
   {
-    "band": "Rena Guinn & Joe Lule and Cast Iron Cowboys (8th Annual Hare Roast, Oct 24-25)",
-    "venue": "Lucky Hare Brewing Company (Hector)",
-    "date": "2026-10-24",
-    "time": "2:00 PM",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.luckyharebrewing.com/hector/8th-annual-hare-roast-live-music-w-rena-guinn-joe-lule-and-cast-iron-cowboys"
-  },
-  {
     "band": "Doc Robinson (Trivia & Blues)",
     "venue": "Lucky Hare Brewing Company (Hector)",
     "date": "2026-10-29",
@@ -2068,24 +1996,6 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.luckyharebrewing.com/hector/holiday-market-event"
-  },
-  {
-    "band": "Gray Beard",
-    "venue": "Lucky Hare Bar & Grill (Watkins Glen)",
-    "date": "2026-10-23",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.luckyharebrewing.com/watkins-glen/live-music-w-gray-beard"
-  },
-  {
-    "band": "Mike Brown",
-    "venue": "Lucky Hare Bar & Grill (Watkins Glen)",
-    "date": "2026-10-24",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "See Details",
-    "link": "https://www.luckyharebrewing.com/watkins-glen/live-music-w-mike-brown"
   },
   {
     "band": "Metasequoia (Halloween Party)",
@@ -2113,5 +2023,86 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.luckyharebrewing.com/watkins-glen/annual-thanksgiving-eve-party-w-robin-burnett-abby-lane"
+  },
+  {
+    "band": "Charlie Coughlin",
+    "venue": "Aurora Brewing Co. (King Ferry)",
+    "date": "2026-11-07",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brewaurora.com/events"
+  },
+  {
+    "band": "Jesse Collins Quartet",
+    "venue": "Aurora Brewing Co. (King Ferry)",
+    "date": "2026-11-14",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brewaurora.com/events"
+  },
+  {
+    "band": "Cisco Paler-Large",
+    "venue": "Aurora Brewing Co. (King Ferry)",
+    "date": "2026-11-21",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brewaurora.com/events"
+  },
+  {
+    "band": "Raedwald Howland-Bolton",
+    "venue": "Aurora Brewing Co. (King Ferry)",
+    "date": "2026-11-28",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brewaurora.com/events"
+  },
+  {
+    "band": "Micheal Lucey",
+    "venue": "Aurora Brewing Co. (King Ferry)",
+    "date": "2026-12-05",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brewaurora.com/events"
+  },
+  {
+    "band": "Dave Merkli (Dark Ascent release)",
+    "venue": "Aurora Brewing Co. (King Ferry)",
+    "date": "2026-12-19",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://www.brewaurora.com/events"
+  },
+  {
+    "band": "Hank Roberts with Michael Bates & Chad Lieberman",
+    "venue": "Argos Warehouse",
+    "date": "2026-11-08",
+    "time": "6:00 PM",
+    "genre": "Jazz",
+    "price": "$15 at the door",
+    "link": "https://www.argosinn.com/public-events"
+  },
+  {
+    "band": "Rain Tempos & Jennie Lowe Sterns with Kristin Bigness",
+    "venue": "Argos Warehouse",
+    "date": "2026-11-15",
+    "time": "6:00 PM",
+    "genre": "Folk/Singer-Songwriter",
+    "price": "$10 or pay what you can",
+    "link": "https://www.argosinn.com/public-events"
+  },
+  {
+    "band": "Max Childs & Louiston",
+    "venue": "Argos Warehouse",
+    "date": "2026-11-19",
+    "time": "7:30 PM",
+    "genre": "Live Music",
+    "price": "$10 advance / $15 door",
+    "link": "https://www.argosinn.com/public-events"
   }
 ]

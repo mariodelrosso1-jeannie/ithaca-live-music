@@ -1322,3 +1322,59 @@ Thanksgiving Eve Party (Nov 25). Skipped trivia-only, football, open mic and Fes
 calendar widget lists an end date one day after the start for every event; start dates were used.
 Also pruned 8 past shows today; header history for Oct 23 is 8 added / 8 deleted.
 Lucky Hare's own site is the events source for both locations.
+
+### Full refresh (October 27, 2026)
+
+User asked to restart and refresh everything after the Oct 26 scheduled run (started 9:19 PM) sat
+active for 11+ hours without saving anything beyond its prune of `shows.json`. That session was
+stopped at the user's request and the refresh was redone by hand. **Pruned 33 past shows** (Oct 23–25),
+**removed 1** (2 Chainz at del Lago, Oct 31 — the venue now marks it CANCELED), **added 33**. Header
+history for Oct 27 is 33 added / 34 deleted; the Oct 9 entry was dropped (older than 14 days).
+
+**New shows:** Homer Center for the Arts — Nicholas Stark's final performance (Nov 7), Sue Foley Band
+w. GA-20 (Dec 10; rescheduled from the canceled Oct 4 date), DakhaBrakha (Feb 6), Wishbone Ash
+(Mar 7), Spyro Gyra (Mar 13), Clap Your Hands Say Yeah (May 12) — all from the center's public iCal
+feed (UTC times converted to Eastern; the page's own calendar widget doesn't render without a
+browser). **Aurora King Ferry** (which had no shows in the data): Charlie Coughlin Nov 7, Jesse Collins
+Quartet Nov 14, Cisco Paler-Large Nov 21, Raedwald Howland-Bolton Nov 28, Micheal Lucey Dec 5, Dave
+Merkli's "Dark Ascent" release Dec 19 (month grid read by clicking Next through April 2027; nothing
+posted past Dec). **Ventosa** Wednesdays Jan 6–Mar 24, 2027 (6 named dates; the page leaves the other
+Wednesdays "TBD"). **del Lago:** Midland (Dec 18), Great White (Jan 22), Fool House 90's party (Jan 30),
+Dave Matthews Tribute Band (Feb 6), The Rascals (Mar 5); RuPaul's Drag Race tour skipped. **Argos
+Warehouse** (argosinn.com/public-events): Hank Roberts w/ Michael Bates & Chad Lieberman (Nov 8),
+Rain Tempos & Jennie Lowe Sterns w/ Kristin Bigness (Nov 15), Max Childs & Louiston (Nov 19); DJ night
+skipped. **Homer Hops:** the page's "+2 more" on Oct 31 is Rocco Rich & Aaron Craig's Halloween Bash
+(6 PM), plus Stiv Morgan Nov 13 and Patrick Young Nov 14 — all three were found by reading the Google
+Calendar links inside the Wix page source, which shows events the month grid hides. **Liquid State:**
+Quartet Novalis (NYS Baroque classical night, Nov 1, free) and 1-800-Bitch & Freeway Art w/ Overtired
+and Shodémon (Nov 6, $7/$10) — both confirmed on their own event pages; Trampoline storytelling, the
+monthly Bluegrass jam and Krampusnacht (DJ/burlesque fundraiser) skipped. **South Hill Cider:** Cielle
+Trio (Dec 11) and Kristin Bigness & Friends (Jan 23).
+
+**New followed performers:** Kristin Bigness (South Hill + Argos), Hank Roberts (South Hill + Argos),
+Chad Lieberman (South Hill + Argos).
+
+**Browser-checked (read this run):** Bike Bar (unchanged), Boar's Nest 414 (Oct–Nov accordions;
+only Bad Alibi Oct 31, karaoke skipped), State Theatre (unchanged; new Jessica Kirson comedy and
+Jinkx & DeLa drag show skipped), Liquid State (Load More), John Simon feed (unchanged), Surf Renegades
+(unchanged), Six Mile Creek (Google Calendar embed — nothing through Nov), Muranda ("No upcoming
+events"), Homer Hops, Ryan Vineyards (unchanged), Aurora King Ferry, Abandon (only an unnamed "live
+music in our Taproom" on Oct 31; no acts named), Bright Leaf (unchanged), South Hill Cider, Hangar
+(Whiskey Tango Sideshow burlesque, Battle of the Dad Bands with no named bands, and Jester & Kester
+musical all skipped), Scale House (all 4 pages read; all 23 music nights already present — "Rural
+Reflections: A Place Called Hector" Nov 2 isn't a named band and was skipped), Lucky Hare Hector and
+Watkins Glen (unchanged), Homer Center (iCal), Smith (thesmith.org/event-calendar — unchanged;
+orchestra concerts skipped), Argos Inn (Warehouse + Bar Argos), Donna the Buffalo's own tour page
+(Smith Nov 20 and Homer Jan 23 already present). **Own page read:** Grist Iron, Two Goats, Ventosa,
+Hazlitt, Buttonwood, Airy Acres, Atwater, Hopshire, Night Eagle, del Lago, Garrett's, Wagner,
+Sheldrake Point (nothing new beyond the above).
+
+**Could not be read / still unconfirmed:** flxmusic247.com (domain no longer resolves — the Ithaca
+Times and Bandsintown city pages also blocked, 403 / script-rendered), the Cayuga Lake Wine Trail
+events page (old URL now 404), Seneca Lake Wine Trail and Keuka Lake Wine Trail pages (403/404),
+Inn at Taughannock (old domain is parked; real site not found), Little Venice (Facebook only — Surf
+Renegades' own calendar still lists Dec 12), Antlers (its Friday page lists only a Halloween costume
+party, no named act), Ithaca Beer's old upcoming-events URL (404). Followed bands without their own
+calendar (Virgil Cain, Bluegrass Alley, Bob Roberts Calamity, Technicolor Trailer Park, The Soul
+Benders etc.) were checked by search only, which found no new authoritative dates; their shows come
+from the venue pages above. 90 Proof still has no confirmed date.
