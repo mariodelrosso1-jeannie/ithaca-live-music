@@ -201,7 +201,7 @@
     "band": "Stewart Copeland",
     "venue": "Homer Center for the Arts",
     "date": "2026-11-12",
-    "time": "7:30 PM",
+    "time": "8:00 PM",
     "genre": "Rock",
     "price": "Ticketed - see Details",
     "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
@@ -1605,7 +1605,7 @@
     "band": "Sim Redmond Trio",
     "venue": "South Hill Cider",
     "date": "2026-12-12",
-    "time": "6:00 PM",
+    "time": "5:30 PM",
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://www.southhillcider.com/events"
@@ -2059,5 +2059,50 @@
     "genre": "Live Music",
     "price": "See Details",
     "link": "https://garrettsbrewing.com/events"
+  },
+  {
+    "band": "KT Tunstall",
+    "venue": "Smith Opera House",
+    "date": "2027-04-24",
+    "time": "8:00 PM",
+    "genre": "Pop/Rock",
+    "price": "$50.83-$71.33",
+    "link": "https://thesmith.org/events-list/kt-tunstall-live/"
+  },
+  {
+    "band": "Steve Piotrowski",
+    "venue": "Solera Tap House",
+    "date": "2026-11-06",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.solerataphouse.com/events"
+  },
+  {
+    "band": "Underwood Drive",
+    "venue": "Solera Tap House",
+    "date": "2026-11-20",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.solerataphouse.com/events"
+  },
+  {
+    "band": "Pat Carlineo and Friends",
+    "venue": "Solera Tap House",
+    "date": "2026-11-27",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.solerataphouse.com/events"
+  },
+  {
+    "band": "Dan the Sax Man (Barrel Tree Lighting)",
+    "venue": "Montezuma Winery",
+    "date": "2026-11-28",
+    "time": "4:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://cayugawinetrail.com/events/winery-events/barrel-tree-lighting-ceremony"
   }
 ]

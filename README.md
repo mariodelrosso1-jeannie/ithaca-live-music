@@ -1430,3 +1430,33 @@ Surf Renegades' calendar still lists Dec 12), Ithaca Beer (events URL 404), Corn
 listings, none added), plus search-only checks of Atwater, Seneca Stag, Wagner, Iron Flamingo and
 Watershed, which found no authoritative November dates. Followed bands without their own calendar
 were not individually re-searched this run; their shows come from the venue pages above.
+
+### Scheduled refresh, follow-up (November 1, 2026)
+
+The 6:46 AM scheduled run wasn't actually stalled. It was slowly working through the browser-required
+list in parallel with the manual refresh above, and found that refresh's commit (cf98927) already
+pushed. It built on that commit instead of redoing it. Every show the manual run added was confirmed
+again here. **Added 5 more** that it missed: **KT Tunstall** at the Smith Opera House (Apr 24, 2027, 8 PM,
+$50.83–$71.33 — confirmed on thesmith.org/events-list/kt-tunstall-live/); **Solera Tap House**
+(solerataphouse.com/events): Steve Piotrowski (Nov 6), Underwood Drive (Nov 20), Pat Carlineo and
+Friends (Nov 27), all 6 PM; **Montezuma Winery:** Dan the Sax Man at the Barrel Tree Lighting (Nov 28,
+4–6 PM, free — cayugawinetrail.com/events/winery-events/barrel-tree-lighting-ceremony). **Fixed times** to
+match the venues' own pages: Sim Redmond Trio at South Hill Cider (Dec 12) starts at 5:30 PM, not 6;
+Stewart Copeland at the Homer Center (Nov 12) is 8 PM per the center's iCal feed (it's a spoken-word
+evening, but the center files it under CONCERT; kept). Header history for Nov 1 is now 35 added /
+35 deleted.
+
+**New followed performers:** Just Joe (Ventosa + Homer Hops), The Small Kings (Garrett's + Stone Bend),
+Gerard Burke (Garrett's + Solera). None has its own calendar site that turned up.
+
+**Worth checking:** Solera's own events page lists Gerard Burke on **Oct 2**, not on the Dec 4 date in
+the data (sourced from flxmusic247). Solera's page lists nothing past Nov 27, so the Dec 4 entry was
+kept, not removed. **Browser-checked here as well:** Bike Bar, Boar's Nest 414, State Theatre, Liquid
+State, John Simon feed, Surf Renegades, Six Mile Creek (the embed's public iCal feed,
+`f5fa52f2…@group.calendar.google.com`, has nothing after Oct 1), Muranda, Homer Hops (via the
+calendar's date picker), Ryan, Aurora King Ferry, Abandon, Bright Leaf, South Hill Cider, Hangar,
+Scale House (all 3 pages, unchanged), Grist Iron, Homer Center (iCal). **Not readable:** Little
+Venice (Facebook only), Bandsintown's Ithaca page (403), Antlers (403), Ithaca Beer and Atwater events
+URLs (404), and Wagner's and K-House's guessed domains (they didn't resolve). Followed-band web searches
+(90 Proof, Virgil Cain, Dart Brothers, Motherwort, Louiston, Betty's Ghost, Cam Caruso, Cooper Scotti)
+found no new authoritative dates.
