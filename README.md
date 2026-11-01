@@ -1378,3 +1378,55 @@ party, no named act), Ithaca Beer's old upcoming-events URL (404). Followed band
 calendar (Virgil Cain, Bluegrass Alley, Bob Roberts Calamity, Technicolor Trailer Park, The Soul
 Benders etc.) were checked by search only, which found no new authoritative dates; their shows come
 from the venue pages above. 90 Proof still has no confirmed date.
+
+### Refresh run from the "Check for new shows" request (November 1, 2026)
+
+The scheduled refresh that auto-started at 6:46 AM sat idle at its first Bash call (last activity 8
+seconds after starting, no file changes) and was stopped at the user's request; the refresh was then run
+by hand. **Pruned 35 past shows** (Oct 27–31), **removed 0**, **added 30**. Header history for Nov 1 is
+30 added / 35 deleted; the Oct 15 entry was dropped (older than 14 days).
+
+**New shows:** Homer Center for the Arts — Buena Vista Social Orchestra (Feb 16, 2027) and Big Big Train
+(Mar 25, 2027), both from the center's public iCal feed (UTC converted to Eastern; EST after Nov 1, EDT
+after Mar 14). **Bike Bar** ("Shows & Events" text block, read by screenshot): String Theory (Nov 4),
+High Horse (Nov 11), Drew Kiddoo & the Blackouts (Nov 19), TiTi Chickapea w/ Hank Roberts and Richie
+Stearns (Nov 21), Mark Maynard & Friends (Nov 25) — Traonach Irish session, Sea Shanties and DJ Gourd
+skipped. **Homer Hops** (month grid, Nov + Dec read via the calendar date picker; Jan empty): Crystal
+Vision (Nov 20), Tailor Made (Nov 21), Thanksgiving Eve with Cherry Holler (Nov 25), The Smoking Loons
+(Nov 27), Band by the River Unplugged (Nov 28), Mike Aiken and Pat Nadge (Dec 4), Clint Bush (Dec 5),
+Date Night Duo (Dec 11), Just Joe (Dec 12), Molly & The Ringwalds (Dec 18), Five at the Door (Dec 19).
+**Garrett's Brewing** (garrettsbrewing.com/events — it had no upcoming shows in the data): Sundays With
+Cisco (Nov 1), The Small Kings (Nov 6), Gerard Burke (Nov 8), Sock Hop Sunday With TOiVO (Nov 15),
+Cayuga Blue Notes (Nov 20); open mic and Halloween party skipped. **Hopshire**
+(hopshire.com/events/month/YYYY-MM/ — the /hopshire-events/ page itself was stuck on October): David
+Graybeard Band (Nov 27) and The Elderly Brothers (Dec 4); the monthly "Singer/Songwriter Night hosted by
+Dan Forsyth" (host-led open night), trivia, blues jam, Science & Suds and a closed burlesque night
+skipped. **Grist Iron:** Planet Jr. (Nov 7) and Frank Raponi (Dec 5). **Stone Bend Farm:** The Small
+Kings w/ Ded Ballz (Jan 16, 2027, 6 PM; the event page says tickets are not on sale yet). **Smith
+Opera House** (thesmith.org): Michael Mayo (Feb 7, 2027, 7:30 PM — confirmed on his own event page); A
+Taste of Ireland (Feb 12) skipped as a touring music-and-dance revue, matching the State Theatre's
+version being skipped. **del Lago:** M80s – The World's Largest 80s Party (Mar 19, 2027); RuPaul's Drag
+Race tour skipped.
+
+**Browser-checked (read this run):** Bike Bar, Boar's Nest 414 (November has only karaoke on Nov 13
+and 27), State Theatre (unchanged), Liquid State (Load More; Trampoline storytelling and Krampusnacht
+skipped), John Simon feed (unchanged), Surf Renegades (unchanged), Muranda ("No upcoming events"),
+Homer Hops, Ryan Vineyards (unchanged), Aurora King Ferry (Nov–Mar 2027; unchanged), South Hill Cider
+(Nov–Apr 2027; unchanged), Abandon (no named acts), Bright Leaf (only October listed), Hangar
+(Whiskey Tango Sideshow burlesque and Battle of the Dad Bands skipped), Scale House (all 3 pages, Nov 2
+– Dec 31, unchanged), Ventosa (unchanged), Lucky Hare Hector and Watkins Glen (unchanged), Homer Center
+(iCal), Smith, del Lago, Argos Inn, Stone Bend, Grist Iron, Two Goats (unchanged), Airy Acres (no
+events), Hopshire, Garrett's, flxmusic247 home + Find Your Scene calendar (loaded this time; its
+Nov 1 TOiVO set is at the Trumansburg Conservatory, not a tracked venue). Donna the Buffalo's own tour
+page (Smith Nov 20 and Homer Jan 23 already present).
+
+**Not re-added, but worth knowing:** Altan (Feb 23, 2027) and Martin Barre (Apr 14, 2027) at the Homer
+Center are in the data from Bandsintown and still sold by resellers, but the center's iCal feed doesn't
+list them — kept, since the feed didn't clearly cancel them. flxmusic247 also lists The Movers Blues
+Band (Nov 7, First Glass Wine Bar / Rose Bowl Lanes) and North 42 (Finger Lakes Gaming) — outside the
+tracked venues, skipped. **Could not be read / still unconfirmed:** Six Mile Creek (Google Calendar
+embed renders blank), Antlers (site denied/404 on the old Friday page), Little Venice (Facebook only —
+Surf Renegades' calendar still lists Dec 12), Ithaca Beer (events URL 404), Cornell music events (classical/campus
+listings, none added), plus search-only checks of Atwater, Seneca Stag, Wagner, Iron Flamingo and
+Watershed, which found no authoritative November dates. Followed bands without their own calendar
+were not individually re-searched this run; their shows come from the venue pages above.
