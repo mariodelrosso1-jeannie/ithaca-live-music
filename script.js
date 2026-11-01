@@ -345,16 +345,19 @@ async function loadData() {
     windowStart.setDate(windowStart.getDate() - 6);
     let added = 0;
     let removed = 0;
+    let performers = 0;
     for (const entry of lastUpdatedData.history) {
       if (new Date(entry.date + "T00:00:00") >= windowStart) {
         added += Number.isInteger(entry.added) ? entry.added : 0;
         removed += Number.isInteger(entry.removed) ? entry.removed : 0;
+        performers += Number.isInteger(entry.performers) ? entry.performers : 0;
       }
     }
     lastUpdatedChanges.textContent =
       `${totalEventsText}, ` +
       `${added} new ${added === 1 ? "event" : "events"} added, ` +
-      `${removed} ${removed === 1 ? "event" : "events"} deleted in the last 7 days`;
+      `${removed} ${removed === 1 ? "event" : "events"} deleted, ` +
+      `${performers} new ${performers === 1 ? "performer" : "performers"} added in the last 7 days`;
   } else if (
     lastUpdatedData &&
     Number.isInteger(lastUpdatedData.added) &&
