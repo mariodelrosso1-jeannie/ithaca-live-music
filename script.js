@@ -678,6 +678,9 @@ function renderList() {
       const linkHtml = show.link
         ? `<a href="${show.link}" target="_blank" rel="noopener">Details</a>`
         : "";
+      const performerLinkHtml = show.performerLink
+        ? `<a href="${show.performerLink}" target="_blank" rel="noopener">Artist Site</a>`
+        : "";
       const dist = distanceToShow(show);
       const distHtml = dist !== null ? `<span class="distance-badge">${dist.toFixed(1)} mi</span>` : "";
       const isFavorite = favoriteBands.has(show.band);
@@ -697,7 +700,7 @@ function renderList() {
               ${show.band}
             </h3>
             <div class="venue">${show.venue} ${distHtml}</div>
-            <div class="meta">${show.time} &middot; <span class="genre-badge genre-${getEffectiveGenreCategory(show)}">${getEffectiveGenreLabel(show)}</span> &middot; ${show.price} ${linkHtml ? "&middot; " + linkHtml : ""}</div>
+            <div class="meta">${show.time} &middot; <span class="genre-badge genre-${getEffectiveGenreCategory(show)}">${getEffectiveGenreLabel(show)}</span> &middot; ${show.price} ${linkHtml ? "&middot; " + linkHtml : ""} ${performerLinkHtml ? "&middot; " + performerLinkHtml : ""}</div>
           </div>
         </article>
       `;

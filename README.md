@@ -34,9 +34,15 @@ All show and venue data lives in [`shows.json`](shows.json). Each entry looks li
   "time": "8:00 PM",
   "genre": "Rock",
   "price": "$10",
-  "link": "https://venue-website.com"
+  "link": "https://venue-website.com",
+  "performerLink": "https://band-own-website.com"
 }
 ```
+
+`link` is usually wherever the show itself was found (the venue's event page, a ticket link, a
+concert calendar) and renders as a "Details" link. `performerLink` is optional — the band/artist's
+own website or social page, if known — and renders as a separate "Artist Site" link alongside it.
+Leave it out if you don't have one; most entries won't.
 
 Add, remove, or edit entries in that file and refresh the page — no code changes needed.
 
