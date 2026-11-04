@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Mario's Local Live Music</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="theme-color" content="#14121a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <header>
+    <h1>📡 Mario's Local Live Music</h1>
+    <p class="subtitle">Every show within reach, from every source</p>
+  </header>
+
+  <main>
+    <!-- Step 1: where and how far -->
+    <section class="card" id="locationCard">
+      <div class="row">
+        <input id="locationInput" type="text" placeholder="Zip code, town, or address" autocomplete="postal-code">
+        <button id="setLocationBtn">Set</button>
+        <button id="gpsBtn" title="Use this device's location">📍</button>
+      </div>
+      <div class="row">
+        <label>Within
+          <select id="radiusSelect">
+            <option value="10">10 mi</option>
+            <option value="25">25 mi</option>
+            <option value="50" selected>50 mi</option>
+            <option value="75">75 mi</option>
+            <option value="100">100 mi</option>
+          </select>
+        </label>
+        <label>Next
+          <select id="daysSelect">
+            <option value="7">7 days</option>
+            <option value="14">14 days</option>
+            <option value="30" selected>30 days</option>
+            <option value="60">60 days</option>
+            <option value="90">90 days</option>
+          </select>
+        </label>
+        <button id="scanBtn" class="primary">Scan</button>
+      </div>
+      <p id="locationStatus" class="status"></p>
+      <div id="sourceStatus" class="source-status"></div>
+    </section>
+
+    <nav class="tabs" role="tablist">
+      <button data-tab="shows" class="active">Shows</button>
+      <button data-tab="venues">Venues</button>
+      <button data-tab="artists">Artists</button>
+      <button data-tab="following">Following</button>
+      <button data-tab="settings">⚙</button>
+    </nav>
+
+    <section id="tab-shows" class="tab">
+      <div class="row">
+        <input id="showSearch" type="search" placeholder="Search artist or venue…">
+      </div>
+      <div class="row">
+        <label class="check"><input type="checkbox" id="onlyFollowing"> Only artists/venues I follow</label>
+        <select id="sortShows">
+          <option value="date">Sort: Date</option>
+          <option value="distance">Sort: Distance</option>
+        </select>
+      </div>
+      <p id="showCount" class="status"></p>
+      <div id="showList"></div>
+    </section>
+
+    <section id="tab-venues" class="tab hidden">
+      <input id="venueSearch" type="search" placeholder="Search venues…">
+      <p class="hint">Follow a venue and every scan also looks up that venue directly, so its shows aren't missed.</p>
+      <div id="venueList"></div>
+    </section>
+
+    <section id="tab-artists" class="tab hidden">
+      <input id="artistSearch" type="search" placeholder="Search artists…">
+      <p class="hint">Follow an artist and every scan also looks up their tour dates directly.</p>
+      <div id="artistList"></div>
+    </section>
+
+    <section id="tab-following" class="tab hidden">
+      <div class="row">
+        <input id="followInput" type="text" placeholder="Artist or venue name">
+        <button id="followArtistBtn">+ Artist</button>
+        <button id="followVenueBtn">+ Venue</button>
+      </div>
+      <h3>Artists</h3>
+      <div id="followedArtists"></div>
+      <h3>Venues</h3>
+      <div id="followedVenues"></div>
+    </section>
+
+    <section id="tab-settings" class="tab hidden">
+      <p class="hint">Each source needs its own free key. Keys are saved on this device only.
+        Leave a field blank to skip that source.</p>
+      <label class="field">Ticketmaster key
+        <input id="key-ticketmaster" type="text" autocomplete="off" spellcheck="false">
+        <small>Free at <a href="https://developer.ticketmaster.com/" target="_blank" rel="noopener">developer.ticketmaster.com</a> (the "Consumer Key"). Also covers Live Nation and TicketWeb.</small>
+      </label>
+      <label class="field">SeatGeek client ID
+        <input id="key-seatgeek" type="text" autocomplete="off" spellcheck="false">
+        <small>Free at <a href="https://seatgeek.com/account/develop" target="_blank" rel="noopener">seatgeek.com/account/develop</a>.</small>
+      </label>
+      <label class="field">JamBase API key
+        <input id="key-jambase" type="text" autocomplete="off" spellcheck="false">
+        <small>Free developer plan (1,000 calls/month) at <a href="https://data.jambase.com/" target="_blank" rel="noopener">data.jambase.com</a>. Strong on clubs and smaller rooms.</small>
+      </label>
+      <label class="field">Bandsintown app ID
+        <input id="key-bandsintown" type="text" autocomplete="off" spellcheck="false">
+        <small>By request from <a href="https://help.artists.bandsintown.com/en/articles/7053475-what-is-the-bandsintown-api" target="_blank" rel="noopener">Bandsintown</a>. Used only for artists you follow.</small>
+      </label>
+      <label class="check"><input type="checkbox" id="includeLocal" checked> Include my Ithaca Live Music calendar (hand-researched local shows)</label>
+      <div class="row">
+        <button id="saveSettingsBtn" class="primary">Save</button>
+        <button id="exportBtn">Export shows (JSON)</button>
+        <button id="clearCacheBtn">Clear saved results</button>
+      </div>
+      <p id="settingsStatus" class="status"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Sources: Ticketmaster, SeatGeek, JamBase, Bandsintown, and the Ithaca Live Music calendar.
+      Duplicate listings from different sources are merged into one show.</p>
+  </footer>
+
+  <script src="sources.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -6,6 +6,13 @@
       "runtimeExecutable": "powershell",
       "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ".claude/serve.ps1"],
       "port": 5500
+    },
+    {
+      "name": "live-radar",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ".claude/serve-radar.ps1"],
+      "port": 5600,
+      "autoPort": true
     }
   ]
 }

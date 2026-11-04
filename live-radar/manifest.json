@@ -1,0 +1,14 @@
+{
+  "name": "Mario's Local Live Music",
+  "short_name": "Mario's Music",
+  "description": "Every live music show within a set distance, merged from the major listing sites",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14121a",
+  "theme_color": "#14121a",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
