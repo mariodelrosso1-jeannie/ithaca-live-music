@@ -498,5 +498,30 @@
     "address": "4431 E Seneca Rd, Trumansburg, NY 14886",
     "lat": 42.5482,
     "lng": -76.6724135
+  },
+  "North Presbyterian Church (Elmira)": {
+    "address": "921 College Ave, Elmira, NY 14901",
+    "lat": 42.0995253,
+    "lng": -76.8163988
+  },
+  "Sun Dog Downtown Clubhouse": {
+    "address": "28 Main Street, Cortland, NY 13045",
+    "lat": 42.600324,
+    "lng": -76.1809824
+  },
+  "Fred & Harriett Taylor Memorial Library": {
+    "address": "21 William Street, Hammondsport, NY 14840",
+    "lat": 42.4102857,
+    "lng": -77.2206972
+  },
+  "Brewery Ardennes": {
+    "address": "570 Snell Road, Geneva, NY 14456",
+    "lat": 42.8285141,
+    "lng": -76.9994284
+  },
+  "Finger Lakes GrassRoots Festival (Trumansburg Fairgrounds)": {
+    "address": "2150 Trumansburg Road, Trumansburg, NY 14886",
+    "lat": 42.5444897,
+    "lng": -76.6277595
   }
 }

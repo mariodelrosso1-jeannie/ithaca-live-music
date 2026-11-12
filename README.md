@@ -1466,3 +1466,113 @@ Venice (Facebook only), Bandsintown's Ithaca page (403), Antlers (403), Ithaca B
 URLs (404), and Wagner's and K-House's guessed domains (they didn't resolve). Followed-band web searches
 (90 Proof, Virgil Cain, Dart Brothers, Motherwort, Louiston, Betty's Ghost, Cam Caruso, Cooper Scotti)
 found no new authoritative dates.
+
+### Refresh run from the "Check for new shows" request (November 8, 2026)
+
+**Pruned 33 past shows** (Nov 1–7), **removed 2**, **added 11**, fixed 1 start time, registered 1 new
+venue; header history for Nov 8 is 11 added / 35 deleted / 0 new performers. The Oct 18, 21 and 23
+history entries were dropped (older than 14 days).
+
+**Removed:** the Dec 19 First Unitarian holiday concert (John Simon, Dee Specker, Mark Rust & Russ
+Posegate) — John Simon's calendar now marks it "CANCELED. Next December!!!". Ventosa's Dec 23 act
+(Cami Clune) — Ventosa's lineup page now says "TBD" for that Wednesday. **Time fixed:** The Walsh
+Family & Friends Holiday Show at Hopshire (Dec 18) starts at 5 PM per Hopshire's event page, not 6.
+
+**New shows:** **John Simon & Mark Rust Holiday Show** (Dec 18, 7 PM, North Presbyterian Church,
+921 College Ave, Elmira — a benefit for the Family Reading Partnership of Chemung County) from
+johnsimonmusic.com's calendar; Elmira is just south of the Finger Lakes region but John Simon is a
+followed performer, so the venue was registered as **North Presbyterian Church (Elmira)**. **Two
+Goats:** Sing Trece (Dec 5, 5 PM) and the Notorious Stringbusters (Dec 19, 7–10 PM) from
+twogoatsbrewing.com/music-events. **Hopshire:** Louiston (Jan 29, 2027, 6 PM) from its event page.
+**Liquid State:** the Irish Sessions with Six Mile Craic gets a second date, Dec 13 at 4 PM. **F2T
+Kitchen & Bar** (41 Lake Front Dr, Geneva — it had no shows in the data; flxmusic247's
+"41 Lakefront - F2T Lounge" is the same address): Jon Lamanna Nov 14, Brent Bond Nov 21, Jon Lamanna
+Nov 28, all 7–10 PM acoustic solo, from flxmusic247 event pages. **5 & Dime:** London McDaniel & Lava's
+Jazz & Blues Night (Nov 12, Nov 19, Dec 3, 7 PM) from flxmusic247 event pages, which cite 5 & Dime's
+Facebook page. No new followed performers.
+
+**Browser-checked (read this run):** Bike Bar (unchanged), Boar's Nest 414 (November has only karaoke
+on the 13th and 27th), State Theatre (unchanged), Liquid State (Load More), John Simon feed, Surf
+Renegades (unchanged), Homer Hops (Nov + Dec grids; unchanged), Ryan Vineyards (unchanged), Aurora King
+Ferry (Nov–Feb; unchanged), South Hill Cider (Nov–Mar; unchanged), Muranda ("No upcoming events"),
+Abandon (no named acts), Bright Leaf (no music listed in November), Hangar (unchanged; the Glenn Miller
+Orchestra, Mar 11, skipped as an orchestra), Scale House (all 3 pages, through Dec 31; unchanged),
+Ventosa, Grist Iron, Garrett's (Nov 8's Gerard Burke is today and already past on the page), Hopshire
+(Nov–Mar via /events/month/YYYY-MM/), Lucky Hare Hector and Watkins Glen (Long Sleeve Pants Release Party
+on Nov 13 names no performer — skipped), Stone Bend, Homer Center (iCal; unchanged), Smith (Bindlestiff
+Family Cirkus skipped), del Lago, Argos Inn, flxmusic247 home and Find Your Scene calendar, and
+Donna the Buffalo's own tour page (Smith Nov 20 and Homer Jan 23 already present).
+
+**Could not be read / still unconfirmed:** Six Mile Creek (embed renders blank), Little Venice (Facebook
+only; Surf Renegades' own calendar still lists Dec 12), Antlers and Night Eagle were not re-opened this
+run. A Betty's Ghost web search found nothing. Other followed bands were not individually re-searched; their
+shows come from the venue pages above.
+
+### Scheduled refresh (November 11, 2026)
+
+**Pruned 7 past shows** (Nov 8–10), **removed 2**, **added 31**, fixed 3 start times, registered 4 new
+venues and 4 new followed performers; header history for Nov 11 is 31 added / 9 deleted / 4 new
+performers. The Oct 27 history entry was dropped (older than 14 days). This commit also carries the
+Nov 8 refresh, which had been left uncommitted in the working tree.
+
+**Removed:** The Refugees at Night Eagle (Nov 13) — nighteaglecafe.org now says "This show has been
+postponed." Two Goats' Nov 14 slot changed from Terrapin Station Acoustic to **Freight Duo** per
+twogoatsbrewing.com/music-events (Terrapin's Dec 12 date is still listed). **Times fixed:** Ryan
+Vineyards now posts times on its event pages — Backbeat Rewind (Nov 21) 3:00 PM and Jim E Leggs Trio
+(Dec 5) 3:30 PM; Stewart Copeland at Homer (Nov 12) is 7:30 PM per the Homer iCal feed and Tixr.
+
+**New shows:** **State Theatre:** Ani DiFranco (Feb 2, 2027). **Liquid State:** Nectar's Phestivus 6
+(Dec 11). **Steuben Brewing** (own calendar, steubenbrewingcompany.com/events — Squarespace behind a
+21+ prompt, **browser-required**): Daniel McMahon (Nov 13), Dylan Doyle Band (Nov 14), The Chris
+O'Leary Band with Owen Eichensehr (Nov 21), Tony Holiday featuring Laura Chavez & Jad Tariq (Dec 5).
+**Bright Leaf:** Travis Rocco (Nov 13). **Grist Iron:** Michael Francis McCarthy (Nov 14). **Stone
+Bend:** Home for the Honky Toni w/ Cast Iron Cowboys & Jackson Cavalier (Nov 28, no time posted).
+**Homer Center:** Lucinda Williams & Her Band (Feb 9, 2027, from the iCal feed). **Night Eagle**
+2027 season: Eloise and Company (Feb 20) and Old Blind Dogs (Mar 8) at the Lansing Performing Arts
+Center, plus Lunasa (Mar 2) and Solas (Mar 10) at the **Hangar Theatre**. **del Lago:** Travis Tritt
+(May 21, 2027). From flxmusic247's Find Your Scene agenda, each confirmed on its own event page:
+Keg & Barrel (Leah Brown & The Side Hustle Nov 13, Pat & Tony Nov 14), Lake Life (Jerry Martin
+Nov 11), Lucky Hare Watkins Glen (Jaimie Lee at the Long Sleeve Pants Release Party, Nov 13 — the
+brewery's own page has the event but no performer), F2T (Rocko Dorsey Nov 13, Ken Campbell Nov 20,
+Evan Dillon Nov 27), Geneva On The Lake (Lone Gonzo at the 5th Beaujolais Nouveau Fête, Nov 19).
+**Surf Renegades** (followed) 2027 dates: Jan 22 at Sun Dog Downtown Clubhouse (Cortland) and Jul 10
+at the Fred & Harriett Taylor Memorial Library (Hammondsport). **Donna the Buffalo** (followed): Finger
+Lakes GrassRoots Festival, Jul 22–25, 2027, from donnathebuffalo.com/tourdates/.
+
+**New venues:** **Sun Dog Downtown Clubhouse** (28 Main St, Cortland — Homer/Cortland precedent; no
+events page found, relies on performers' calendars). **Fred & Harriett Taylor Memorial Library** (21
+William St, Hammondsport; no music calendar, relies on Surf Renegades' calendar). **Brewery Ardennes**
+(570 Snell Rd, Geneva; its own site breweryardennes.com/happenings mentions Friday "live jazz and
+holiday tunes" from Nov 27 without naming acts — performers come from flxmusic247): Matt Herrmann
+(Nov 27), Lone Gonzo (Dec 4), Calya & Gonzo (Dec 11), Mark Nanni (Dec 18), all 5 PM Holiday Happy
+Hours. **Finger Lakes GrassRoots Festival (Trumansburg Fairgrounds)** (2150 Trumansburg Rd; lineup at
+the festival's own site once announced).
+
+**New followed performers** (2+ venues in the data): Lone Gonzo, Mark Nanni, Jaimie Lee, Dylan Doyle.
+
+**Browser-checked:** Bike Bar (unchanged; DJ Gourd Nov 14 skipped as a DJ night), Boar's Nest 414
+(karaoke only), State Theatre, Liquid State (Load More; TRAMPOLINE storytelling and Krampusnacht DJ
+party skipped), John Simon calendar + page-2 feed (unchanged), Surf Renegades, Muranda ("No upcoming
+events"), Homer Hops (November grid unchanged; December not re-opened), Ryan Vineyards, Aurora King
+Ferry (unchanged), Bright Leaf, South Hill Cider (Squarespace JSON through Feb; unchanged), Abandon (no
+named acts), Hangar (Whiskey Tango burlesque skipped), Steuben, Night Eagle, Donna the Buffalo's tour
+page, flxmusic247 home and Find Your Scene (agenda view). **Six Mile Creek:** its page embeds a public
+Google Calendar (`f5fa52f2...@group.calendar.google.com`) whose iCal feed has nothing after the weekly
+John Simon series that ended Oct 1. **Homer Center** iCal read; Altan (Feb 23) and Martin Barre
+(Apr 14) are not in the feed or the first page of Tixr but were left in (not clearly withdrawn).
+
+**Skipped:** Sam Nitsch at Bright Leaf (Nov 14), Kris Day at Solera (Nov 13) and Bleu & Brown at
+Steuben (Nov 28) — listed on flxmusic247 but absent from the venue's own complete list; Tony Serdula at
+Ryan (Nov 21; Ryan's own page says Backbeat Rewind); Bobby Henrie at Geneva On The Lake (Nov 26 — the
+flxmusic event page is a stale 2025 page); PJ Elliott at Maloney's Pub (Hammondsport) and Dave Richman
+at Geneva On The Lake (Dec 25) — no confirmable event page; Surf Renegades' Jul 31, 2027 "Quarry Springs
+Winery (Union Springs)" — no winery by that name exists (probably Quarry Ridge, but not confirmed);
+Rochester Philharmonic and Syracuse Orchestra at the Smith (orchestras); Taste of Ireland (dance).
+
+**Could not be read:** **Scale House** — scalehousebrews.com now shows a Cloudflare "Verify you are
+human" check, which wasn't bypassed; its existing entries were left as-is (flxmusic247 lists Tate
+Williams for Nov 11 where the data has River Lynch — unresolved). **Little Venice** (Facebook only;
+Surf Renegades still lists Dec 12). Keg & Barrel's own site returned an SSL error. Followed bands other
+than John Simon, Surf Renegades and Donna the Buffalo got only web searches (Jon Lamanna, Notorious
+Stringbusters, Public Water Supply, The Small Kings, Nate Michaels, Louiston, Gerard Burke, Logan Route),
+which found nothing new.
