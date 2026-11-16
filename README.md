@@ -1576,3 +1576,40 @@ Surf Renegades still lists Dec 12). Keg & Barrel's own site returned an SSL erro
 than John Simon, Surf Renegades and Donna the Buffalo got only web searches (Jon Lamanna, Notorious
 Stringbusters, Public Water Supply, The Small Kings, Nate Michaels, Louiston, Gerard Burke, Logan Route),
 which found nothing new.
+
+### Scheduled refresh (November 16, 2026)
+
+**Pruned:** 39 past shows (everything dated before Nov 16, counted against the last commit; a leftover
+uncommitted partial prune of 23 of them was already in the working copy).
+
+**Added (8):** Abel Bradshaw & Friends at South Hill Cider (Nov 21, during the Kate Rockefeller gallery
+opening); Freight the Band (Nov 21) and Ever Stokes (Jan 9) at Brookton's Market (Bandsintown venue page);
+Rev Ezra at Finger Lakes Cider House (Dec 11, Bandsintown venue page); Dead to the Core: An Acoustic
+Celebration of the Grateful Dead (Jeffrey Pepper Rodgers & band) at Auburn Public Theater (Jan 30, venue
+page + Bandsintown); The Byrne Brothers St. Patrick's show at the Smith (Mar 5,
+https://thesmith.org/event-category/live-performances/); The Glenn Miller Orchestra at the Hangar
+(Mar 11, its own event page confirms Thursday, March 11 @ 7pm); The Concert: A Tribute to ABBA at
+del Lago (Apr 16). No new venues; no new followed performers (only touring national acts or
+single-venue locals were found).
+
+**Browser-checked:** Bike Bar (screenshot; nothing past 11/25), Boar's Nest (November = karaoke only;
+no December section yet), State Theatre, Liquid State (TRAMPOLINE storytelling and Krampusnacht DJ party
+skipped), John Simon calendar + turbo-stream page 2 (Dec 19 Unitarian show marked CANCELED), Surf
+Renegades, Six Mile Creek (page renders empty), flxmusic247 home + Find Your Scene (agenda's "Look for
+more" wouldn't page past 3 items; month grid read), Muranda (no current list), Homer Hops (Nov + Dec via
+month picker), Ryan Vineyards, Aurora King Ferry (Squarespace GetItemsByMonth API, Nov-Jan), Abandon (no
+named acts), Bright Leaf (nothing after Nov 13), South Hill Cider, Hangar (Glenn Miller page opened),
+Homer Center (iCal via curl + Bandsintown venue list expanded - Altan Feb 23 and Martin Barre Apr 14
+still listed there, so kept). Also checked: Two Goats, Ventosa, Hopshire, del Lago, Smith, Night Eagle,
+Stone Bend (https://www.stonebend.com/about-3-1), Solera, Grist Iron, Steuben, Garrett's, Argos,
+Auburn Public Theater, Bandsintown Ithaca city page, Donna the Buffalo tour page - all unchanged.
+
+**Skipped:** Hopshire "Singer/Songwriter Night by Dan Forsyth" (open format); Steuben's John Bolger
+(club-member Friendsgiving); Homer "Christmas Live in CNY!" (Dec 6, not marked as a concert); Fred
+Tackett/Scott Sharrard time conflict (iCal 8 PM vs Bandsintown 7 PM) left at 7 PM; Surf Renegades'
+Crooked Mouth (Endicott, out of area) and "Quarry Springs Winery" (still unconfirmed).
+
+**Could not be read:** **Scale House** - https://www.scalehousebrews.com/events now returns 404 and the
+site is a Toast ordering page with no events link; existing entries left as-is. **Little Venice**
+(Facebook only; Surf Renegades still lists Dec 12). Followed bands beyond John Simon, Surf Renegades and
+Donna the Buffalo were covered only through the venue pass this run.
