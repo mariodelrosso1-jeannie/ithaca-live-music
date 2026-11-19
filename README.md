@@ -1668,3 +1668,13 @@ human" check, which wasn't bypassed; existing entries left as-is. **Little Venic
 Surf Renegades still lists Dec 12). Bandsintown (Ithaca city page) returned 403 to a plain fetch.
 Followed bands beyond John Simon, Surf Renegades and Donna the Buffalo got one combined web search
 (nothing new) plus the venue pass.
+
+### Pruned shows keep their artist (November 19, 2026)
+
+Pruning a past show no longer drops its artist from the "All bands/artists" list. New file
+**rtists.json** (flat array of names, like ollowed-bands.json) holds every artist whose shows have
+been pruned; script.js merges it into the band list alongside current shows and followed bands. It was
+seeded with 343 artists recovered from the git history of shows.json (trailing event labels such as
+"(Halloween Party)" stripped, and talks/series/festival titles left out). The scheduled refresh's prune
+step now adds each pruned show's artist here and never removes names. These artists aren't searched
+individually (only ollowed-bands.json is) and don't count as "new performers" in the header.

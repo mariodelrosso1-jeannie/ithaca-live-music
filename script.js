@@ -115,6 +115,7 @@ function renameCustomVenue(oldName, newName, venueData) {
 }
 
 let followedBands = [];
+let knownArtists = [];
 
 function loadFollowedBands() {
   try {
@@ -308,7 +309,7 @@ function renderGenreLegend() {
 }
 
 async function loadData() {
-  const [showsData, venuesData, sharedFollowedBands, lastUpdatedData] = await Promise.all([
+  const [showsData, venuesData, sharedFollowedBands, lastUpdatedData, knownArtistsData] = await Promise.all([
     fetch("shows.json", { cache: "no-store" }).then((res) => res.json()),
     fetch("venues.json", { cache: "no-store" }).then((res) => res.json()),
     fetch("followed-bands.json", { cache: "no-store" })
@@ -317,7 +318,12 @@ async function loadData() {
     fetch("last-updated.json", { cache: "no-store" })
       .then((res) => res.json())
       .catch(() => null),
+    // Artists whose shows have all been pruned - kept so they stay in the artist list.
+    fetch("artists.json", { cache: "no-store" })
+      .then((res) => res.json())
+      .catch(() => []),
   ]);
+  knownArtists = Array.isArray(knownArtistsData) ? knownArtistsData : [];
   allShows = showsData.sort((a, b) => new Date(a.date) - new Date(b.date));
   venueAddressOverrides = loadVenueAddressOverrides();
   venues = { ...venuesData, ...venueAddressOverrides, ...loadCustomVenues() };
@@ -526,7 +532,7 @@ function getAllVenueNames() {
 }
 
 function getAllBandNames() {
-  return [...new Set([...allShows.map((s) => s.band), ...followedBands])].sort();
+  return [...new Set([...allShows.map((s) => s.band), ...followedBands, ...knownArtists])].sort();
 }
 
 function populateSearchSuggestions() {
