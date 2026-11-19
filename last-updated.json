@@ -1,11 +1,12 @@
 {
-  "date": "2026-11-16",
-  "added": 8,
-  "removed": 39,
-  "performers": 0,
+  "date": "2026-11-19",
+  "added": 21,
+  "removed": 8,
+  "performers": 2,
   "history": [
     { "date": "2026-11-08", "added": 11, "removed": 35, "performers": 0 },
     { "date": "2026-11-11", "added": 31, "removed": 9, "performers": 4 },
-    { "date": "2026-11-16", "added": 8, "removed": 39, "performers": 0 }
+    { "date": "2026-11-16", "added": 8, "removed": 39, "performers": 0 },
+    { "date": "2026-11-19", "added": 21, "removed": 8, "performers": 2 }
   ]
 }

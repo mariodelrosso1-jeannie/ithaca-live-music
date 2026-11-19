@@ -523,5 +523,10 @@
     "address": "2150 Trumansburg Road, Trumansburg, NY 14886",
     "lat": 42.5444897,
     "lng": -76.6277595
+  },
+  "Myers Park (Lansing)": {
+    "address": "Myers Rd, Lansing, NY 14882",
+    "lat": 42.537572,
+    "lng": -76.5463311
   }
 }

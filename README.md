@@ -1613,3 +1613,58 @@ Crooked Mouth (Endicott, out of area) and "Quarry Springs Winery" (still unconfi
 site is a Toast ordering page with no events link; existing entries left as-is. **Little Venice**
 (Facebook only; Surf Renegades still lists Dec 12). Followed bands beyond John Simon, Surf Renegades and
 Donna the Buffalo were covered only through the venue pass this run.
+
+### Scheduled refresh (November 19, 2026)
+
+**Pruned:** 5 past shows (Nov 16-18). **Header history for Nov 19:** 21 added / 8 deleted / 2 new
+performers (the 8 deleted include the 5 pruned plus 3 corrections below, each re-added under the
+venue's own name, so they also count among the 21 added).
+
+**Corrections (per the venue's own page):** Solera Tap House Nov 20 is now **Scott Adams**, not
+Underwood Drive (Solera's Squarespace event list). Homer Center's Feb 3 "Lucy Kaplansky" is the
+**On A Winter's Night** tour (Cliff Eberhardt, John Gorka, Lucy Kaplansky, Patty Larkin) per the Homer
+iCal feed. South Hill Cider's Nov 27 bill is now **Rosie Newton, Oona & James Stringband Party**.
+
+**Added (18 new):** **Homer Center** (iCal feed): Deer Tick (Jan 6), The Secret Sisters (Mar 5), Iron &
+Wine Solo Acoustic (Mar 10), The Iguanas (Mar 20), Avi Kaplan with Jaguar Sun (Mar 22). **State
+Theatre:** Blackberry Smoke (Mar 18, 2027). **South Hill Cider** (Squarespace events JSON): The Rongo
+Band (Dec 3), MADD DADDY (Dec 10), Mariana, Myles, & Claire of Old Time Music! (Dec 17), Loveday & the
+Soiree (Jan 9), New Old Time with Judy, Joey, Steve & Jeff (Jan 28), Freight (Jan 30). **Solera:**
+Mystic Twangers (Dec 11), Steve Piotrowski (Dec 18). **WeBe Brewing:** JD Blues Band (Nov 21, from
+flxmusic247's event page https://flxmusic247.com/flx_event/live-music-webe-brewing-12/). **Hopshire:**
+Isaac Sharp at the Local First Fest holiday market (Nov 22, https://hopshire.com/events/). **Smith
+Opera House:** Live and Let Die: A Symphonic Tribute to Paul McCartney (Apr 9, 2027; own event page
+confirms Friday 8 PM). **Surf Renegades** (followed): Myers Park, Lansing (Thu Jul 8, 2027, 6-8 PM).
+
+**New venue:** **Myers Park (Lansing)** (Myers Rd, Lansing; town park, no events page of its own -
+relies on performers' calendars such as Surf Renegades').
+
+**New followed performers** (2+ venues in the data): **Loveday & the Soiree** (Stone Bend Farm, South
+Hill Cider) and **Freight the Band** (Brookton's Market, South Hill Cider; also billed as "Freight" and
+"Freight Duo"). No own calendar URLs found yet.
+
+**Browser-checked:** Bike Bar (unchanged through 11/25), Boar's Nest 414 (November = karaoke only; no
+December section yet), State Theatre, Liquid State (Load More; storytelling, trivia, comedy, jams
+skipped), John Simon calendar + turbo-stream page 2 (unchanged), Surf Renegades, Six Mile Creek (page
+empty; its Google Calendar iCal has nothing upcoming), Muranda (no current list), Homer Hops (Nov + Dec
+via the month picker; unchanged), Ryan Vineyards (unchanged), Aurora King Ferry (Squarespace
+GetItemsByMonth, collection `645b92f7e4be0c1d7c0244e6`; unchanged), Abandon (no named acts), Bright Leaf
+(nothing after Nov 13), South Hill Cider, Hangar (Hallmark improv musical and kids' show skipped),
+Solera, Donna the Buffalo's tour page (no new local dates). **Homer Center** iCal read via curl (Altan
+and Martin Barre still not in it - left in as before). Fetched: Two Goats, Ventosa, Hopshire, Night
+Eagle, del Lago, Smith, Steuben, Grist Iron (gristironbrewing.com/events-live-music), Garrett's, Argos,
+Auburn Public Theater, Stone Bend, Brewery Ardennes (no named acts), Lucky Hare - all otherwise
+unchanged. **flxmusic247** home page read via fetch (the browser pane refused the site; Find Your Scene
+returned "No events found").
+
+**Skipped:** Hopshire's Dan Forsyth singer/songwriter night; Steuben's John Bolger members-only
+Friendsgiving; Auburn Public Theater's DJ Swiftie dance party; Argos's DJ night; Liquid State's Old
+Time Jam and Bluegrass Night (no named act); State Theatre's All Things Equal (play), Tig Notaro and
+Alison Roman (talks/comedy); Smith's orchestras and Taste of Ireland; Surf Renegades' Manlius (out of
+area), Crooked Mouth (Endicott) and "Quarry Springs Winery" (still unconfirmed).
+
+**Could not be read:** **Scale House** - scalehousebrews.com/events shows a Cloudflare "Verify you are
+human" check, which wasn't bypassed; existing entries left as-is. **Little Venice** (Facebook only;
+Surf Renegades still lists Dec 12). Bandsintown (Ithaca city page) returned 403 to a plain fetch.
+Followed bands beyond John Simon, Surf Renegades and Donna the Buffalo got one combined web search
+(nothing new) plus the venue pass.

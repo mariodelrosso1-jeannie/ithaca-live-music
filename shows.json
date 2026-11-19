@@ -1,14 +1,5 @@
 [
   {
-    "band": "Eric Scott (of Dirt Road Ruckus)",
-    "venue": "Ventosa Vineyards",
-    "date": "2026-11-18",
-    "time": "5:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.ventosavineyards.com/events"
-  },
-  {
     "band": "Mark Nanni",
     "venue": "Ventosa Vineyards",
     "date": "2026-11-25",
@@ -106,24 +97,6 @@
     "genre": "Bluegrass",
     "price": "Free",
     "link": "https://twogoatsbrewing.com/music-events"
-  },
-  {
-    "band": "The James Hunter Six",
-    "venue": "Homer Center for the Arts",
-    "date": "2026-11-16",
-    "time": "8:00 PM",
-    "genre": "Soul/R&B",
-    "price": "Ticketed - see Details",
-    "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
-  },
-  {
-    "band": "Alejandro Escovedo",
-    "venue": "Homer Center for the Arts",
-    "date": "2026-11-17",
-    "time": "8:00 PM",
-    "genre": "Rock/Americana",
-    "price": "Ticketed - see Details",
-    "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
   },
   {
     "band": "The Weight Band",
@@ -234,13 +207,13 @@
     "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
   },
   {
-    "band": "Lucy Kaplansky",
+    "band": "On A Winter's Night: Cliff Eberhardt, John Gorka, Lucy Kaplansky, Patty Larkin",
     "venue": "Homer Center for the Arts",
     "date": "2027-02-03",
     "time": "8:00 PM",
     "genre": "Folk",
     "price": "Ticketed - see Details",
-    "link": "https://www.bandsintown.com/v/10018890-center-for-the-arts-of-homer"
+    "link": "https://www.tixr.com/groups/center4art/events/on-a-winter-s-night-188838"
   },
   {
     "band": "Altan",
@@ -756,15 +729,6 @@
     "link": "https://www.surf-renegades.com/where-we-re-playing/"
   },
   {
-    "band": "Tinsley Ellis",
-    "venue": "Homer Center for the Arts",
-    "date": "2026-11-18",
-    "time": "8:00 PM",
-    "genre": "Blues",
-    "price": "Ticketed - see Details",
-    "link": "https://www.tixr.com/groups/center4art/events/tinsley-ellis-207850"
-  },
-  {
     "band": "Sons of Cream",
     "venue": "Homer Center for the Arts",
     "date": "2027-04-15",
@@ -880,15 +844,6 @@
     "genre": "Live Music",
     "price": "Free",
     "link": "https://www.ryanvineyards.com/upcoming-events"
-  },
-  {
-    "band": "Little Baby Jerry Bond Junior",
-    "venue": "Scale House Brewery",
-    "date": "2026-11-18",
-    "time": "6:00 PM",
-    "genre": "Live Music",
-    "price": "Free",
-    "link": "https://www.scalehousebrews.com/events"
   },
   {
     "band": "Vinyl Roots",
@@ -1314,7 +1269,7 @@
     "link": "https://thesmith.org/events-list/michael-mayo/"
   },
   {
-    "band": "Oona & James Stringband Party",
+    "band": "Rosie Newton, Oona & James Stringband Party",
     "venue": "South Hill Cider",
     "date": "2026-11-27",
     "time": "6:00 PM",
@@ -1476,7 +1431,7 @@
     "link": "https://thesmith.org/events-list/kt-tunstall-live/"
   },
   {
-    "band": "Underwood Drive",
+    "band": "Scott Adams",
     "venue": "Solera Tap House",
     "date": "2026-11-20",
     "time": "6:00 PM",
@@ -1807,5 +1762,167 @@
     "genre": "Tribute",
     "price": "Ticketed",
     "link": "https://dellagoresort.com/entertainment/"
+  },
+  {
+    "band": "Blackberry Smoke: All Over The Road Tour 2027",
+    "venue": "State Theatre of Ithaca",
+    "date": "2027-03-18",
+    "time": "8:00 PM",
+    "genre": "Southern Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://stateofithaca.org/events/"
+  },
+  {
+    "band": "Bob Keefe and the Surf Renegades",
+    "venue": "Myers Park (Lansing)",
+    "date": "2027-07-08",
+    "time": "6:00 PM",
+    "genre": "Surf Rock",
+    "price": "See Details",
+    "link": "https://www.surf-renegades.com/where-we-re-playing/"
+  },
+  {
+    "band": "Deer Tick",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-01-06",
+    "time": "8:00 PM",
+    "genre": "Rock",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/deer-tick-214861"
+  },
+  {
+    "band": "The Secret Sisters",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-03-05",
+    "time": "8:00 PM",
+    "genre": "Americana",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/the-secret-sisters-214851"
+  },
+  {
+    "band": "Iron & Wine (Solo Acoustic)",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-03-10",
+    "time": "8:00 PM",
+    "genre": "Folk",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/iron-wine-solo-acoustic-2027-214870"
+  },
+  {
+    "band": "The Iguanas",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-03-20",
+    "time": "8:00 PM",
+    "genre": "Americana/Latin",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/the-iguanas-214542"
+  },
+  {
+    "band": "Avi Kaplan (of Pentatonix) with Jaguar Sun",
+    "venue": "Homer Center for the Arts",
+    "date": "2027-03-22",
+    "time": "8:00 PM",
+    "genre": "Folk",
+    "price": "Ticketed - see Details",
+    "link": "https://www.tixr.com/groups/center4art/events/avi-kaplan-down-the-divine-tour-with-special-guest-jaguar-sun-214675"
+  },
+  {
+    "band": "The Rongo Band (Community Concert Series)",
+    "venue": "South Hill Cider",
+    "date": "2026-12-03",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "MADD DADDY",
+    "venue": "South Hill Cider",
+    "date": "2026-12-10",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "Mariana, Myles, & Claire of Old Time Music!",
+    "venue": "South Hill Cider",
+    "date": "2026-12-17",
+    "time": "5:30 PM",
+    "genre": "Old Time",
+    "price": "See Details",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "Loveday & the Soiree",
+    "venue": "South Hill Cider",
+    "date": "2027-01-09",
+    "time": "5:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "New Old Time with Judy, Joey, Steve & Jeff",
+    "venue": "South Hill Cider",
+    "date": "2027-01-28",
+    "time": "5:30 PM",
+    "genre": "Old Time",
+    "price": "See Details",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "Freight (Community Concert Series)",
+    "venue": "South Hill Cider",
+    "date": "2027-01-30",
+    "time": "5:30 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.southhillcider.com/events"
+  },
+  {
+    "band": "Mystic Twangers",
+    "venue": "Solera Tap House",
+    "date": "2026-12-11",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.solerataphouse.com/events"
+  },
+  {
+    "band": "Steve Piotrowski",
+    "venue": "Solera Tap House",
+    "date": "2026-12-18",
+    "time": "6:00 PM",
+    "genre": "Live Music",
+    "price": "See Details",
+    "link": "https://www.solerataphouse.com/events"
+  },
+  {
+    "band": "JD Blues Band",
+    "venue": "WeBe Brewing Company",
+    "date": "2026-11-21",
+    "time": "6:00 PM",
+    "genre": "Blues",
+    "price": "See Details",
+    "link": "https://flxmusic247.com/flx_event/live-music-webe-brewing-12/"
+  },
+  {
+    "band": "Isaac Sharp (Local First Fest Holiday Shopping Market)",
+    "venue": "Hopshire Farm and Brewery",
+    "date": "2026-11-22",
+    "time": "1:00 PM",
+    "genre": "Live Music",
+    "price": "Free",
+    "link": "https://hopshire.com/events/"
+  },
+  {
+    "band": "Live and Let Die: A Symphonic Tribute to Paul McCartney",
+    "venue": "Smith Opera House",
+    "date": "2027-04-09",
+    "time": "8:00 PM",
+    "genre": "Rock/Tribute",
+    "price": "Ticketed - see Details",
+    "link": "https://thesmith.org/events-list/live-and-let-die-a-symphonic-tribute-to-paul-mccartney/"
   }
 ]
